@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  toevla:
+    restart: "no"
+  identifier:
+    restart: "no"
+    ports:
+      - "80:80"
+  dispatcher:
+    restart: "no"
+  db:
+    restart: "no"
+  resource:
+    restart: "no"
