@@ -24,6 +24,8 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
+    environment:
+      DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
   dispatcher:
     image: semtech/mu-dispatcher:1.1.2
     links:
@@ -56,3 +58,13 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
+  toevla-service:
+    image: semtech/mu-javascript-template:1.4.0-beta.5
+    ports:
+      - 9229:9229
+    environment:
+      NODE_ENV: "development"
+    links:
+      - db:database
+    volumes:
+      - ./config/toevla-service/:/app/
