@@ -1,5 +1,27 @@
 (in-package :mu-cl-resources)
 
+(define-resource tree ()
+  :class (s-prefix "skos:ConceptScheme")
+  :properties `((:title :string ,(s-prefix "dct:title")))
+  :has-many `((tree-node :via ,(s-prefix "skos:hasTopConcept")
+                         :as "top-level-nodes"))
+  :resource-base (s-url "http://data.toevla.org/concept-schemes/")
+  :on-path "trees")
+
+(define-resource tree-node ()
+  :class (s-prefix "skos:Concept")
+  :properties `((:title :string ,(s-prefix "skos:prefLabel"))
+                (:order :number ,(s-prefix "ext:order"))
+                (:htmlContent :string ,(s-prefix "ext:htmlContent")))
+  :has-many `((tree-node :via ,(s-prefix "skos:broader")
+                     :inverse t
+                     :as "children"))
+  :has-one `((tree-node :via ,(s-prefix "skos:broader")
+                        :as "parent"))
+  :resource-base (s-url "http://data.toevla.org/tree-nodes/")
+  :on-path "tree-nodes")
+
+
 ;;;;
 ;; NOTE
 ;; docker-compose stop; docker-compose rm; docker-compose up
