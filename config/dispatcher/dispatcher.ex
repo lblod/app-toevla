@@ -22,8 +22,12 @@ defmodule Dispatcher do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
 
-  match "/resource/*path" do
-    Proxy.forward conn, path, "http://resource/"
+  match "/trees/*path" do
+    Proxy.forward conn, path, "http://resource/trees/"
+  end
+
+  match "/tree-nodes/*path" do
+    Proxy.forward conn, path, "http://resource/tree-nodes/"
   end
 
   match _ do
