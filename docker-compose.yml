@@ -24,6 +24,12 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
+  migrations:
+    image: semtech/mu-migrations-service
+    links:
+      - db:database
+    volumes:
+      - ./config/migrations:/data/migrations
   dispatcher:
     image: semtech/mu-dispatcher:1.1.2
     links:

@@ -2,7 +2,7 @@
 
 (define-resource tree ()
   :class (s-prefix "skos:ConceptScheme")
-  :properties `((:title :string ,(s-prefix "dct:title")))
+  :properties `((:title :string ,(s-prefix "skos:prefLabel")))
   :has-many `((tree-node :via ,(s-prefix "skos:hasTopConcept")
                          :as "top-level-nodes"))
   :resource-base (s-url "http://data.toevla.org/concept-schemes/")
