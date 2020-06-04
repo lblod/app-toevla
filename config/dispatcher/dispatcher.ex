@@ -21,6 +21,18 @@ defmodule Dispatcher do
   # match "/themes/*path" do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
+  options "*path" do
+    conn =
+      conn
+      |> Plug.Conn.put_resp_header( "access-control-allow-headers", "content-type,accept" )
+      |> Plug.Conn.put_resp_header( "access-control-allow-methods", "*" )
+
+    send_resp( conn, 200, "{ \"message\": \"ok\" }" )
+  end
+  
+  match "/toevla-service/*path" do
+    Proxy.forward conn, path, "http://toevla-service/"
+  end
 
   match "/trees/*path" do
     Proxy.forward conn, path, "http://resource/trees/"
