@@ -29,10 +29,6 @@ defmodule Dispatcher do
 
     send_resp( conn, 200, "{ \"message\": \"ok\" }" )
   end
-  
-  match "/toevla-service/*path" do
-    Proxy.forward conn, path, "http://toevla-service/"
-  end
 
   match "/trees/*path" do
     Proxy.forward conn, path, "http://resource/trees/"
