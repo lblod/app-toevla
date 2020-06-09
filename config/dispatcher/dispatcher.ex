@@ -28,6 +28,14 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/points-of-interest/"
   end
 
+  match "/experiences/*path", %{ accept: %{ json: true } } do
+    Proxy.forward conn, path, "http://resource/experiences/"
+  end
+
+  match "/experiences/*path", %{ accept: %{ json: true } } do
+    Proxy.forward conn, path, "http://resource/experiences/"
+  end
+
   match "_*path", %{ last_call: true } do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )
   end

@@ -24,10 +24,21 @@
 (define-resource point-of-interest ()
   :class (s-url "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject")
   :properties `((:label :string ,(s-prefix "rdfs:label")))
-  ;; :has-many `(mu-resource-has-many)
+  :has-many `((experience :via ,(s-prefix "toevla:atLocation")
+                          :inverse t
+                          :as "experiences"))
   ;; :has-one `(mu-resource-has-one)
   :resource-base (s-url "http://data.toevla.org/points-of-interest/")
   :on-path "points-of-interest")
+
+(define-resource experience ()
+  :class (s-prefix "toevla:Experience")
+  :properties `((:title :string ,(s-prefix "dct:title")))
+  ;; :has-many `(mu-resource-has-many)
+  :has-one `((point-of-interest :via ,(s-prefix "toevla:atLocation")
+                                :as "point-of-interest"))
+  :resource-base (s-url "http://data.toevla.org/experiences/")
+  :on-path "experiences")
 
 
 ;;;;
