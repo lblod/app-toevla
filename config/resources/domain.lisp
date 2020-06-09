@@ -21,6 +21,14 @@
   :resource-base (s-url "http://data.toevla.org/tree-nodes/")
   :on-path "tree-nodes")
 
+(define-resource point-of-interest ()
+  :class (s-url "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject")
+  :properties `((:label :string ,(s-prefix "rdfs:label")))
+  ;; :has-many `(mu-resource-has-many)
+  ;; :has-one `(mu-resource-has-one)
+  :resource-base (s-url "http://data.toevla.org/points-of-interest/")
+  :on-path "points-of-interest")
+
 
 ;;;;
 ;; NOTE
