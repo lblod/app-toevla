@@ -39,8 +39,21 @@
   ;; :has-many `(mu-resource-has-many)
   :has-one `((point-of-interest :via ,(s-prefix "toevla:atLocation")
                                 :as "point-of-interest"))
+  :has-many `((experience-tree-node-score :via ,(s-prefix "toevla:scoreSubject")
+                     :inverse t
+                     :as "experience-tree-node-scores"))
   :resource-base (s-url "http://data.toevla.org/experiences/")
   :on-path "experiences")
+
+(define-resource experience-tree-node-score ()
+  :class (s-prefix "toevla:ExperienceTreeNodeScore")
+  :properties `((:score :string ,(s-prefix "dct:title")))
+  :has-one `((experience :via ,(s-prefix "toevla:scoreSubject")
+                         :as "experience")
+             (tree-node :via ,(s-prefix "toevla:scoreTopic")
+                        :as "tree-node"))
+  :resource-base (s-url "http://data.toevla.org/experience-tree-node-scores/")
+  :on-path "experience-tree-node-scores")
 
 
 ;;;;
