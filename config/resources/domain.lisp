@@ -5,6 +5,7 @@
   :properties `((:title :string ,(s-prefix "skos:prefLabel")))
   :has-many `((tree-node :via ,(s-prefix "skos:hasTopConcept")
                          :as "top-level-nodes"))
+  :features '(include-uri)
   :resource-base (s-url "http://data.toevla.org/concept-schemes/")
   :on-path "trees")
 
@@ -18,6 +19,7 @@
                      :as "children"))
   :has-one `((tree-node :via ,(s-prefix "skos:broader")
                         :as "parent"))
+  :features '(include-uri)
   :resource-base (s-url "http://data.toevla.org/tree-nodes/")
   :on-path "tree-nodes")
 
