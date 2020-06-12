@@ -33,7 +33,7 @@ services:
     volumes:
       - ./config/migrations:/data/migrations
   dispatcher:
-    image: semtech/mu-dispatcher:1.1.2
+    image: semtech/mu-dispatcher:latest
     links:
       - resource:resource
     volumes:

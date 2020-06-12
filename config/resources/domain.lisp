@@ -5,6 +5,7 @@
   :properties `((:title :string ,(s-prefix "skos:prefLabel")))
   :has-many `((tree-node :via ,(s-prefix "skos:hasTopConcept")
                          :as "top-level-nodes"))
+  :features '(include-uri)
   :resource-base (s-url "http://data.toevla.org/concept-schemes/")
   :on-path "trees")
 
@@ -18,8 +19,41 @@
                      :as "children"))
   :has-one `((tree-node :via ,(s-prefix "skos:broader")
                         :as "parent"))
+  :features '(include-uri)
   :resource-base (s-url "http://data.toevla.org/tree-nodes/")
   :on-path "tree-nodes")
+
+(define-resource point-of-interest ()
+  :class (s-url "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject")
+  :properties `((:label :string ,(s-prefix "rdfs:label")))
+  :has-many `((experience :via ,(s-prefix "toevla:atLocation")
+                          :inverse t
+                          :as "experiences"))
+  ;; :has-one `(mu-resource-has-one)
+  :resource-base (s-url "http://data.toevla.org/points-of-interest/")
+  :on-path "points-of-interest")
+
+(define-resource experience ()
+  :class (s-prefix "toevla:Experience")
+  :properties `((:title :string ,(s-prefix "dct:title")))
+  ;; :has-many `(mu-resource-has-many)
+  :has-one `((point-of-interest :via ,(s-prefix "toevla:atLocation")
+                                :as "point-of-interest"))
+  :has-many `((experience-tree-node-score :via ,(s-prefix "toevla:scoreSubject")
+                     :inverse t
+                     :as "experience-tree-node-scores"))
+  :resource-base (s-url "http://data.toevla.org/experiences/")
+  :on-path "experiences")
+
+(define-resource experience-tree-node-score ()
+  :class (s-prefix "toevla:ExperienceTreeNodeScore")
+  :properties `((:score :string ,(s-prefix "dct:title")))
+  :has-one `((experience :via ,(s-prefix "toevla:scoreSubject")
+                         :as "experience")
+             (tree-node :via ,(s-prefix "toevla:scoreTopic")
+                        :as "tree-node"))
+  :resource-base (s-url "http://data.toevla.org/experience-tree-node-scores/")
+  :on-path "experience-tree-node-scores")
 
 
 ;;;;
