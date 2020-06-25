@@ -25,7 +25,17 @@
 
 (define-resource point-of-interest ()
   :class (s-url "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject")
-  :properties `((:label :string ,(s-prefix "rdfs:label")))
+  :properties `((:label :string ,(s-prefix "rdfs:label"))
+                (:has-movable-electronic-payment-system :boolean ,(s-prefix "toevla:hasMovableElectronicPaymentSystem"))
+                (:wifi-always-available :boolean ,(s-prefix "toevla:wifiAlwaysAvailable"))
+                (:assistance-for-guide-dogs :boolean ,(s-prefix "toevla:assistanceForGuideDogs"))
+                (:website-has-screenreader :boolean ,(s-prefix "toevla:websiteHasScreenreader"))
+                (:website-supports-wcag2 :boolean ,(s-prefix "toevla:websiteSupportsWCAG2"))
+                (:website-allows-text-increase :boolean ,(s-prefix "toevla:websiteAllowsTextIncrease"))
+                (:public-transport-guidance-available :boolean ,(s-prefix "toevla:publicTransportGuidanceAvailable"))
+                (:wheelchair-available :boolean ,(s-prefix "toevla:wheelchairAvailable"))
+                (:website-has-accessible-contrast :boolean ,(s-prefix "toevla:websiteHasAccessibleContrast"))
+                (:website-has-sign-language :boolean ,(s-prefix "toevla:websiteHasSignLanguage")))
   :has-many `((experience :via ,(s-prefix "toevla:atLocation")
                           :inverse t
                           :as "experiences"))
@@ -40,8 +50,8 @@
   :has-one `((point-of-interest :via ,(s-prefix "toevla:atLocation")
                                 :as "point-of-interest"))
   :has-many `((experience-tree-node-score :via ,(s-prefix "toevla:scoreSubject")
-                     :inverse t
-                     :as "experience-tree-node-scores"))
+                                          :inverse t
+                                          :as "experience-tree-node-scores"))
   :resource-base (s-url "http://data.toevla.org/experiences/")
   :on-path "experiences")
 
@@ -54,6 +64,7 @@
                         :as "tree-node"))
   :resource-base (s-url "http://data.toevla.org/experience-tree-node-scores/")
   :on-path "experience-tree-node-scores")
+
 
 
 ;;;;
