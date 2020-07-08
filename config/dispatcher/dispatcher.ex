@@ -36,6 +36,10 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/experiences/"
   end
 
+  match "/entrances/*path", %{ accept: %{ json: true } } do
+    Proxy.forward conn, path, "http://resource/entrances/"
+  end
+
   match "/experience-tree-node-scores/*path", %{ accept: %{ json: true } } do
     Proxy.forward conn, path, "http://resource/experience-tree-node-scores/"
   end
