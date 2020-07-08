@@ -1032,12 +1032,6 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   ext:order 2;
   skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
   
-<https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d> a skos:Concept;
-  mu:uuid "85f5b583-b693-4bfb-a59d-390991b66e6d";
-  skos:prefLabel "Rolstoelvriendelijke Inkom";
-  ext:order 0;
-  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
-  
 <https://data.toevla.org/id/concepts/994e6c27-2449-4363-aa7e-cc6e899e4f55> a skos:Concept;
   mu:uuid "994e6c27-2449-4363-aa7e-cc6e899e4f55";
   skos:prefLabel "Via 'Alternatieve toegang'";

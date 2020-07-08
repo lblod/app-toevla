@@ -64,10 +64,10 @@
                 (:has-entrance-gutters :boolean ,(s-prefix "toevla:hasEntranceGutters"))
                 (:has-revolving-door :boolean ,(s-prefix "toevla:hasRevolvingDoor"))
                 (:door-width :number ,(s-prefix "toevla:doorWidth"))
-                (:has-entrance-check :boolean ,(s-prefix "toevla:hasEntranceCheck"))
+                (:has-entrance-check :number ,(s-prefix "toevla:hasEntranceCheck")) ; todo fix in semantic model
                 (:turning-radius-at-door :number ,(s-prefix "toevla:turningRadiusAtDoor"))
                 (:force-for-opening-door :number ,(s-prefix "toevla:forceForOpeningDoor"))
-                (:has-lowered-counter :boolean ,(s-prefix "toevla:hasLoweredCounter")))
+                (:has-lowered-counter :number ,(s-prefix "toevla:hasLoweredCounter"))) ; todo fix in semantic model
   :has-one `((point-of-interest :via ,(s-prefix "toevla:hasEntrance")
                                 :inverse t
                                 :as "point-of-interest"))
