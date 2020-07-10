@@ -14,8 +14,8 @@
   :properties `((:title :string ,(s-prefix "skos:prefLabel"))
                 (:order :number ,(s-prefix "ext:order"))
                 (:htmlContent :string ,(s-prefix "ext:htmlContent"))
-                (:positive-template-string :string ,(s-prefix "toevla:positiveTemplateString"))
-                (:negative-template-string :string ,(s-prefix "toevla:negativeTemplateString")))
+                (:positive-template-string :string ,(s-prefix "toevla:positiveTemplate"))
+                (:negative-template-string :string ,(s-prefix "toevla:negativeTemplate")))
   :has-many `((tree-node :via ,(s-prefix "skos:broader")
                      :inverse t
                      :as "children"))
