@@ -27,7 +27,7 @@ services:
   migrations:
     image: semtech/mu-migrations-service
     links:
-      - db:database
+      - triplestore:database
     volumes:
       - ./config/migrations:/data/migrations
   dispatcher:
