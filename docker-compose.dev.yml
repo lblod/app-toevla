@@ -9,7 +9,7 @@ services:
       - "80:80"
   dispatcher:
     restart: "no"
-  db:
+  triplestore:
     restart: "no"
     ports:
       - "8890:8890"
