@@ -1,3 +1,4 @@
+
 @prefix cms: <http://mu.semte.ch/vocabulary/cms/>.
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
@@ -13,13 +14,11 @@
 @prefix tvcs: <http://data.toevla.org/concept-schemes/>.
 @prefix toevla: <http://toevla.org/ns/generic/>.
 
-
 tvcs:musea a  skos:ConceptScheme;
   skos:prefLabel "Musea";
   mu:uuid "eed8f203-443b-424c-afa8-0c90bab621e2".
 
 tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f>.
-
 <https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f> a skos:Concept;
   mu:uuid "5ff3f900-bcdf-4639-b14b-409ac7bd592f";
   skos:prefLabel "Algemeen";
@@ -843,14 +842,8 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
 <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def> a skos:Concept;
   mu:uuid "a93ccd8e-cfa5-447b-855f-57f247b62def";
   skos:prefLabel "Rolstoelvriendelijke parkeerplaats";
-  ext:order 1;
+  ext:order 4;
   skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
-  
-<https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def> a skos:Concept;
-  mu:uuid "a93ccd8e-cfa5-447b-855f-57f247b62def";
-  skos:prefLabel "Rolstoelvriendelijke parkeerplaats";
-  ext:order 0;
-  skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
   
 <https://data.toevla.org/id/concepts/6a31ce16-1e0d-4d01-96b5-4a976c849bc8> a skos:Concept;
   mu:uuid "6a31ce16-1e0d-4d01-96b5-4a976c849bc8";
@@ -962,8 +955,8 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
 <https://data.toevla.org/id/concepts/2236d7d2-a50b-4045-a555-7ba9a2116ba1> a skos:Concept;
   mu:uuid "2236d7d2-a50b-4045-a555-7ba9a2116ba1";
   skos:prefLabel "Extra info:";
-  ext:order 1;
-  skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
+  ext:order 5;
+  skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
   
 tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765>.
 <https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765> a skos:Concept;
@@ -1029,7 +1022,7 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
 <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d> a skos:Concept;
   mu:uuid "85f5b583-b693-4bfb-a59d-390991b66e6d";
   skos:prefLabel "Rolstoelvriendelijke Inkom";
-  ext:order 2;
+  ext:order 7;
   skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
   
 <https://data.toevla.org/id/concepts/994e6c27-2449-4363-aa7e-cc6e899e4f55> a skos:Concept;
@@ -1126,8 +1119,8 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
 <https://data.toevla.org/id/concepts/30092095-b73a-4544-b651-9bf77affe38c> a skos:Concept;
   mu:uuid "30092095-b73a-4544-b651-9bf77affe38c";
   skos:prefLabel "Extra info:";
-  ext:order 1;
-  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  ext:order 8;
+  skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
   
 <https://data.toevla.org/id/concepts/e6acc74f-473a-47b6-8823-9d6a30b4c1b9> a skos:Concept;
   mu:uuid "e6acc74f-473a-47b6-8823-9d6a30b4c1b9";
@@ -1162,182 +1155,158 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
 <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095> a skos:Concept;
   mu:uuid "3962c53a-684a-4ba0-809a-5f984032f095";
   skos:prefLabel "Rolstoelvriendelijk Toilet";
-  ext:order 3;
+  ext:order 4;
   skos:broader <https://data.toevla.org/id/concepts/e6acc74f-473a-47b6-8823-9d6a30b4c1b9>.
   
-<https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095> a skos:Concept;
-  mu:uuid "3962c53a-684a-4ba0-809a-5f984032f095";
-  skos:prefLabel "Rolstoelvriendelijk Toilet";
-  ext:order 0;
-  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
-  
-<https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383> a skos:Concept;
-  mu:uuid "9da2a401-9d6c-4f1b-9020-7f7c21ed8383";
-  skos:prefLabel "Bereikbaarheid";
-  ext:order 1;
-  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
-  
 <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383> a skos:Concept;
   mu:uuid "9da2a401-9d6c-4f1b-9020-7f7c21ed8383";
   skos:prefLabel "Bereikbaarheid";
   ext:order 0;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/8c400682-6f97-410a-8791-996c498e212c> a skos:Concept;
   mu:uuid "8c400682-6f97-410a-8791-996c498e212c";
   skos:prefLabel "Afmeting lift (Breedte x Diepte)";
   ext:order 1;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/f32a0e76-853b-40bb-86c8-81894cdb70bb> a skos:Concept;
   mu:uuid "f32a0e76-853b-40bb-86c8-81894cdb70bb";
   skos:prefLabel "Smalste punt op de route";
   ext:order 2;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/bf1005f6-10f1-4afb-8bec-cd55e52fdba9> a skos:Concept;
   mu:uuid "bf1005f6-10f1-4afb-8bec-cd55e52fdba9";
   skos:prefLabel "Hoogste drempel";
   ext:order 3;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/a70ec038-cdc7-43eb-9a52-7e6083e81947> a skos:Concept;
   mu:uuid "a70ec038-cdc7-43eb-9a52-7e6083e81947";
   skos:prefLabel "Meerdere drempels - aantal";
   ext:order 4;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/b8b0ca23-c64e-4dfb-96be-3084b62b1e5d> a skos:Concept;
   mu:uuid "b8b0ca23-c64e-4dfb-96be-3084b62b1e5d";
   skos:prefLabel "Trap - aantal treden";
   ext:order 5;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/5dc312ae-d003-433b-b281-0cea6b125088> a skos:Concept;
   mu:uuid "5dc312ae-d003-433b-b281-0cea6b125088";
   skos:prefLabel "Hellende vlakken - aantal";
   ext:order 6;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/67ffba68-3154-49f6-9ee9-26ece1e05e17> a skos:Concept;
   mu:uuid "67ffba68-3154-49f6-9ee9-26ece1e05e17";
   skos:prefLabel "Afmeting hellend vlak";
   ext:order 7;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/56e5a90d-c67f-4fea-870a-6805e0f0d4d1> a skos:Concept;
   mu:uuid "56e5a90d-c67f-4fea-870a-6805e0f0d4d1";
   skos:prefLabel "Steil hellend vlak";
   ext:order 8;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/ed4e8a32-e7ef-42f8-9967-75d0ec8a9b26> a skos:Concept;
   mu:uuid "ed4e8a32-e7ef-42f8-9967-75d0ec8a9b26";
   skos:prefLabel "Lang hellend vlak";
   ext:order 9;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/8a171198-7826-4fe8-8e94-1bcae36277e8> a skos:Concept;
   mu:uuid "8a171198-7826-4fe8-8e94-1bcae36277e8";
   skos:prefLabel "Oprijgoten aanwezig";
   ext:order 10;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/8e15a179-2fb3-4c56-b81d-f82bdfe7b7f9> a skos:Concept;
   mu:uuid "8e15a179-2fb3-4c56-b81d-f82bdfe7b7f9";
   skos:prefLabel "Afmeting plateaulift (Breedte x Diepte)";
   ext:order 11;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/954d684f-bba6-4e64-90bb-1e1f712a3a07> a skos:Concept;
   mu:uuid "954d684f-bba6-4e64-90bb-1e1f712a3a07";
   skos:prefLabel "Meerdere plateauliften - aantal";
   ext:order 12;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/f1568429-0d10-41df-8fd5-a7579dc6be85> a skos:Concept;
   mu:uuid "f1568429-0d10-41df-8fd5-a7579dc6be85";
   skos:prefLabel "Type lift: (stoeltje)";
   ext:order 13;
-  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
-  
-<https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed> a skos:Concept;
-  mu:uuid "61642d46-03a8-457b-b0cf-fbfc8ae49bed";
-  skos:prefLabel "Toiletdeur";
-  ext:order 2;
   skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed> a skos:Concept;
   mu:uuid "61642d46-03a8-457b-b0cf-fbfc8ae49bed";
   skos:prefLabel "Toiletdeur";
-  ext:order 0;
-  skos:broader <https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed>.
+  ext:order 14;
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/e7d25ab8-8660-4e7f-a1d5-aede97aa6883> a skos:Concept;
   mu:uuid "e7d25ab8-8660-4e7f-a1d5-aede97aa6883";
   skos:prefLabel "Deurbreedte";
-  ext:order 1;
-  skos:broader <https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed>.
+  ext:order 15;
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/b3a5395a-3a3e-42cf-a140-c456f2a52237> a skos:Concept;
   mu:uuid "b3a5395a-3a3e-42cf-a140-c456f2a52237";
   skos:prefLabel "Draairuimte aan deur ";
-  ext:order 2;
-  skos:broader <https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed>.
-  
-<https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b> a skos:Concept;
-  mu:uuid "309d359b-7127-42e5-8ab0-e1ef7af27b7b";
-  skos:prefLabel "In het toilet";
-  ext:order 3;
+  ext:order 16;
   skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b> a skos:Concept;
   mu:uuid "309d359b-7127-42e5-8ab0-e1ef7af27b7b";
   skos:prefLabel "In het toilet";
-  ext:order 0;
-  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  ext:order 17;
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/1ba08c83-b8f3-4c64-9320-fd04ee30c183> a skos:Concept;
   mu:uuid "1ba08c83-b8f3-4c64-9320-fd04ee30c183";
   skos:prefLabel "Afmeting toiletruimte";
-  ext:order 1;
-  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  ext:order 18;
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/4a3cfa2c-ac2d-419e-a48e-a85c8bbb3c66> a skos:Concept;
   mu:uuid "4a3cfa2c-ac2d-419e-a48e-a85c8bbb3c66";
   skos:prefLabel "Ruimte voor toiletpot";
-  ext:order 2;
-  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  ext:order 19;
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/319b7eeb-5f07-4174-8342-4e2fdb601d9d> a skos:Concept;
   mu:uuid "319b7eeb-5f07-4174-8342-4e2fdb601d9d";
   skos:prefLabel "Ruimte naast toiletpot";
-  ext:order 3;
-  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  ext:order 20;
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/d02bbcf1-338d-4cc1-b2be-2c7af896b13a> a skos:Concept;
   mu:uuid "d02bbcf1-338d-4cc1-b2be-2c7af896b13a";
   skos:prefLabel "Draairuimte in het toilet";
-  ext:order 4;
-  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  ext:order 21;
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/4bcfc144-a0d8-4461-bacb-35831af7ee4c> a skos:Concept;
   mu:uuid "4bcfc144-a0d8-4461-bacb-35831af7ee4c";
   skos:prefLabel "Steunbeugels";
-  ext:order 5;
-  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  ext:order 22;
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0> a skos:Concept;
   mu:uuid "35f9c08e-0b4f-4a67-8d06-36dc37fb59f0";
   skos:prefLabel "Wastafel in toilet";
-  ext:order 6;
-  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  ext:order 23;
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/846960af-ba55-4b56-a92a-861a88160204> a skos:Concept;
   mu:uuid "846960af-ba55-4b56-a92a-861a88160204";
   skos:prefLabel "Wastafel onderrijdbaar";
-  ext:order 7;
-  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  ext:order 24;
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
 <https://data.toevla.org/id/concepts/36d9f853-4cb5-4021-9322-5d8f658f9b3a> a skos:Concept;
   mu:uuid "36d9f853-4cb5-4021-9322-5d8f658f9b3a";
@@ -1360,8 +1329,8 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
 <https://data.toevla.org/id/concepts/d05326d4-eed9-4c10-b916-d701838f28e3> a skos:Concept;
   mu:uuid "d05326d4-eed9-4c10-b916-d701838f28e3";
   skos:prefLabel "Extra info";
-  ext:order 1;
-  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
+  ext:order 5;
+  skos:broader <https://data.toevla.org/id/concepts/e6acc74f-473a-47b6-8823-9d6a30b4c1b9>.
   
 <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13> a skos:Concept;
   mu:uuid "02ab2a7a-128f-468f-9021-2174181b3e13";
@@ -1390,14 +1359,8 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
 <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a> a skos:Concept;
   mu:uuid "bc03b638-ef82-446d-988d-26f830b8d68a";
   skos:prefLabel "Rolstoelvriendelijke circulatie";
-  ext:order 4;
+  ext:order 3;
   skos:broader <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>.
-  
-<https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a> a skos:Concept;
-  mu:uuid "bc03b638-ef82-446d-988d-26f830b8d68a";
-  skos:prefLabel "Rolstoelvriendelijke circulatie";
-  ext:order 0;
-  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
 <https://data.toevla.org/id/concepts/3dfde9e0-724c-4728-8b16-ec50582038d3> a skos:Concept;
   mu:uuid "3dfde9e0-724c-4728-8b16-ec50582038d3";
@@ -1486,8 +1449,8 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
 <https://data.toevla.org/id/concepts/62360987-e5e8-48e0-a30c-8a678b7d8845> a skos:Concept;
   mu:uuid "62360987-e5e8-48e0-a30c-8a678b7d8845";
   skos:prefLabel "Extra info:";
-  ext:order 1;
-  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  ext:order 4;
+  skos:broader <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>.
   
 <https://data.toevla.org/id/concepts/f91d7bc9-0f25-40ce-adfd-993f36c6d724> a skos:Concept;
   mu:uuid "f91d7bc9-0f25-40ce-adfd-993f36c6d724";
@@ -1636,14 +1599,8 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
 <https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d> a skos:Concept;
   mu:uuid "5edf7676-cb4f-492c-aa24-0e5f9e29926d";
   skos:prefLabel "Rolstoelvriendelijke verbruiksruimte";
-  ext:order 5;
+  ext:order 9;
   skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
-  
-<https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d> a skos:Concept;
-  mu:uuid "5edf7676-cb4f-492c-aa24-0e5f9e29926d";
-  skos:prefLabel "Rolstoelvriendelijke verbruiksruimte";
-  ext:order 0;
-  skos:broader <https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d>.
   
 <https://data.toevla.org/id/concepts/15042426-81c4-4a47-a2d3-00fc78bb326c> a skos:Concept;
   mu:uuid "15042426-81c4-4a47-a2d3-00fc78bb326c";
@@ -1780,14 +1737,14 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
 <https://data.toevla.org/id/concepts/87b75ee2-730a-4801-999b-5c4c55af74af> a skos:Concept;
   mu:uuid "87b75ee2-730a-4801-999b-5c4c55af74af";
   skos:prefLabel "Extra info:";
-  ext:order 1;
-  skos:broader <https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d>.
+  ext:order 10;
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
   
 <https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650> a skos:Concept;
   mu:uuid "41b1f4a9-bfa7-43cb-a9d1-f96f28178650";
   skos:prefLabel "Rolstoelvriendelijk terras bij verbruiksruimte";
-  ext:order 2;
-  skos:broader <https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d>.
+  ext:order 11;
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
   
 <https://data.toevla.org/id/concepts/593c1199-c389-4f82-a454-97fa365acddc> a skos:Concept;
   mu:uuid "593c1199-c389-4f82-a454-97fa365acddc";
@@ -1912,8 +1869,8 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
 <https://data.toevla.org/id/concepts/a5467fe6-02cd-4732-b230-c0a73f643485> a skos:Concept;
   mu:uuid "a5467fe6-02cd-4732-b230-c0a73f643485";
   skos:prefLabel "Extra info:";
-  ext:order 3;
-  skos:broader <https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d>.
+  ext:order 12;
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
   
 <https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350> a skos:Concept;
   mu:uuid "64e1c63a-c63a-4a79-96b8-918bb5939350";
