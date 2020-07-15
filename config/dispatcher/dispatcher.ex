@@ -44,6 +44,14 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/experience-tree-node-scores/"
   end
 
+  match "/parkings/*path" do
+    Proxy.forward conn, path, "http://resource/parkings/"
+  end
+
+  match "/paths/*path" do
+    Proxy.forward conn, path, "http://resource/paths/"
+  end
+
 
   match "_*path", %{ last_call: true } do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )

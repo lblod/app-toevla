@@ -23,9 +23,11 @@ defmodule Acl.UserGroups.Config do
                         "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                         "http://www.w3.org/2004/02/skos/core#Concept",
                         "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject",
+                        "http://schema.org/Parking",
                         "http://toevla.org/ns/generic/Entrance",
                         "http://toevla.org/ns/generic/Experience",
-                        "http://toevla.org/ns/generic/ExperienceTreeNodeScore"
+                        "http://toevla.org/ns/generic/ExperienceTreeNodeScore",
+                        "http://toevla.org/ns/generic/Path"
                       ]
                     } }
                 ] },
