@@ -1,4 +1,4 @@
-.(in-package :mu-cl-resources)
+(in-package :mu-cl-resources)
 
 (define-resource tree ()
   :class (s-prefix "skos:ConceptScheme")
@@ -62,7 +62,7 @@
                 (:is-well-lit :boolean ,(s-prefix "toevla:isWellLit"))
                 (:has-detailed-route-description :boolean ,(s-prefix "toevla:hasDetailedRouteDescription"))
                 (:detailed-route-description-has-screen-reader :boolean ,(s-prefix "toevla:detailedRouteDescriptionHasScreenReader"))
-                (:detailed-route-description-available-in-flemish-sign-language :boolean ,(s-prefix "toevla:detailedRouteDescriptionIsAvailableInFlemishSignLanguage"))
+                (:detailed-route-description-is-available-in-flemish-sign-language :boolean ,(s-prefix "toevla:detailedRouteDescriptionIsAvailableInFlemishSignLanguage"))
                 (:number-of-wheelchair-friendly-spots :boolean ,(s-prefix "toevla:numberOfWheelchairFriendlySpots"))
                 (:on-public-domain :boolean ,(s-prefix "toevla:onPublicDomain"))
                 (:has-wheelchair-friendly-terrain :boolean ,(s-prefix "toevla:hasWheelchairFriendlyTerrain"))
