@@ -29,7 +29,7 @@ services:
   migrations:
     image: semtech/mu-migrations-service
     links:
-      - db:database
+      - triplestore:database
     volumes:
       - ./config/migrations:/data/migrations
   dispatcher:
@@ -43,6 +43,25 @@ services:
     restart: always
     logging: *default-logging
   db:
+    image: semtech/mu-authorization:0.6.0-beta.4
+    environment:
+      LOG_OUTGOING_SPARQL_QUERIES: "true"
+      # INSPECT_OUTGOING_SPARQL_QUERIES: "false"
+      # LOG_INCOMING_SPARQL_QUERIES: "true"
+      # INSPECT_INCOMING_SPARQL_QUERIES: "false"
+      # LOG_ACCESS_RIGHTS: "true"
+      # INSPECT_ACCESS_RIGHTS_PROCESSING: "true"
+      # LOG_DELTA_MESSAGES: "true"
+      # LOG_DELTA_CLIENT_COMMUNICATION: "true"
+      DATABASE_COMPATIBILITY: "Virtuoso"
+      DATABASE_OVERLOAD_RECOVERY: "on"
+    volumes:
+      - ./config/authorization:/config
+    links:
+      - triplestore:database
+    logging: *default-logging
+    restart: always
+  triplestore:
     image: tenforce/virtuoso:1.3.2-virtuoso7.2.2
     environment:
       SPARQL_UPDATE: "true"
