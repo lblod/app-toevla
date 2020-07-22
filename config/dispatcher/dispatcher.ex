@@ -52,14 +52,21 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/experience-tree-node-scores/"
   end
 
-  match "/parkings/*path" do
+  match "/toilets/*path", _ do
+    Proxy.forward conn, path, "http://resource/toilets/"
+  end
+
+  match "/areas/*path", _ do
+    Proxy.forward conn, path, "http://resource/areas/"
+  end
+
+  match "/parkings/*path", _ do
     Proxy.forward conn, path, "http://resource/parkings/"
   end
 
-  match "/paths/*path" do
+  match "/paths/*path", _ do
     Proxy.forward conn, path, "http://resource/paths/"
   end
-
 
   match "_*path", %{ last_call: true } do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )
