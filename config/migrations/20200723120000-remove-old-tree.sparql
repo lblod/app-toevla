@@ -1,0 +1,11 @@
+PREFIX toevla: <http://toevla.org/ns/generic/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+DELETE WHERE {
+   GRAPH ?g {
+     ?s a ?thing;
+     ?p ?o.
+
+     FILTER( ?thing IN (skos:Concept, skos:ConceptScheme, toevla:ExperienceTreeNodeScore) ).
+  }
+}
