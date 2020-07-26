@@ -24,6 +24,8 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
+    environment:
+      DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
   migrations:
     image: semtech/mu-migrations-service:0.7.0
     links:
