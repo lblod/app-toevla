@@ -8,8 +8,16 @@ x-logging:
     max-file: "3"
 
 services:
-  toevla:
-    image: lblod/frontend-toevla
+  frontend-standalone:
+    image: lblod/frontend-toevla:0.1.0-standalone
+    links:
+      - identifier:backend
+    labels:
+      - "logging=true"
+    restart: always
+    logging: *default-logging
+  frontend-entry:
+    image: lblod/frontend-toevla-data-entry:0.0.1-dev
     links:
       - identifier:backend
     labels:

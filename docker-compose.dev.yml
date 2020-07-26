@@ -1,7 +1,9 @@
 version: '3.4'
 
 services:
-  toevla:
+  frontend-standalone:
+    restart: "no"
+  frontend-entry:
     restart: "no"
   resource:
     restart: "no"

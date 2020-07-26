@@ -3,18 +3,10 @@ defmodule Dispatcher do
 
   define_accept_types [
     json: [ "application/json", "application/vnd.api+json" ],
+    html: [ "text/html", "application/xhtml+html" ],
     any: [ "*/*" ]
   ]
 
-  # In order to forward the 'themes' resource to the
-  # resource service, use the following forward rule.
-  #
-  # docker-compose stop; docker-compose rm; docker-compose up
-  # after altering this file.
-  #
-  # match "/themes/*path" do
-  #   Proxy.forward conn, path, "http://resource/themes/"
-  # end
   options "*path" do
     conn =
       conn
@@ -24,48 +16,69 @@ defmodule Dispatcher do
     send_resp( conn, 200, "{ \"message\": \"ok\" }" )
   end
 
-  match "/trees/*path", %{ accept: %{ json: true } } do
+  @json %{ accept: %{ json: true } }
+  @html %{ accept: %{ html: true } }
+
+  match "/trees/*path", @json do
     Proxy.forward conn, path, "http://resource/trees/"
   end
 
-  match "/tree-nodes/*path", %{ accept: %{ json: true } } do
+  match "/tree-nodes/*path", @json do
     Proxy.forward conn, path, "http://resource/tree-nodes/"
   end
 
-  match "/points-of-interest/*path", %{ accept: %{ json: true } } do
+  match "/points-of-interest/*path", @json do
     Proxy.forward conn, path, "http://resource/points-of-interest/"
   end
 
-  match "/experiences/*path", %{ accept: %{ json: true } } do
+  match "/experiences/*path", @json do
     Proxy.forward conn, path, "http://resource/experiences/"
   end
 
-  match "/experiences/*path", %{ accept: %{ json: true } } do
+  match "/experiences/*path", @json do
     Proxy.forward conn, path, "http://resource/experiences/"
   end
 
-  match "/entrances/*path", %{ accept: %{ json: true } } do
+  match "/entrances/*path", @json do
     Proxy.forward conn, path, "http://resource/entrances/"
   end
 
-  match "/experience-tree-node-scores/*path", %{ accept: %{ json: true } } do
+  match "/experience-tree-node-scores/*path", @json do
     Proxy.forward conn, path, "http://resource/experience-tree-node-scores/"
   end
 
-  match "/toilets/*path", _ do
+  match "/toilets/*path", @json do
     Proxy.forward conn, path, "http://resource/toilets/"
   end
 
-  match "/areas/*path", _ do
+  match "/areas/*path", @json do
     Proxy.forward conn, path, "http://resource/areas/"
   end
 
-  match "/parkings/*path", _ do
+  match "/parkings/*path", @json do
     Proxy.forward conn, path, "http://resource/parkings/"
   end
 
-  match "/paths/*path", _ do
+  match "/paths/*path", @json do
     Proxy.forward conn, path, "http://resource/paths/"
+  end
+
+  match "/favicon.ico/*path", _ do
+    send_resp( conn, 404, "No icon specified" )
+  end
+
+  match "/assets/*path", %{ host: full_host } do
+    case Enum.reverse( full_host ) do
+      ["standalone" | _ ] -> Proxy.forward conn, path, "http://frontend-standalone/assets/"
+      ["entry" | _ ] -> Proxy.forward conn, path, "http://frontend-entry/assets/"
+    end
+  end
+
+  match "/*path", %{ host: full_host, accept: %{ html: true } } do
+    case Enum.reverse( full_host ) do
+      ["standalone" | _ ] -> Proxy.forward conn, path, "http://frontend-standalone/index.html"
+      ["entry" | _ ] -> Proxy.forward conn, path, "http://frontend-entry/index.html"
+    end
   end
 
   match "_*path", %{ last_call: true } do
