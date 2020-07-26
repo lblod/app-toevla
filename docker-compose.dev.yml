@@ -3,6 +3,8 @@ version: '3.4'
 services:
   toevla:
     restart: "no"
+  resource:
+    restart: "no"
   identifier:
     restart: "no"
     ports:
