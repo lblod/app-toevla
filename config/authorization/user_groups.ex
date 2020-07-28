@@ -29,7 +29,11 @@ defmodule Acl.UserGroups.Config do
                         "http://toevla.org/ns/generic/Area",
                         "http://toevla.org/ns/generic/Experience",
                         "http://toevla.org/ns/generic/ExperienceTreeNodeScore",
-                        "http://toevla.org/ns/generic/Path"
+                        "http://toevla.org/ns/generic/Path",
+                        "http://toevla.org/ns/generic/RouteDescription",
+                        "http://toevla.org/ns/generic/TrainStop",
+                        "http://toevla.org/ns/generic/BusStop",
+                        "http://toevla.org/ns/generic/TramStop"
                       ]
                     } }
                 ] },
