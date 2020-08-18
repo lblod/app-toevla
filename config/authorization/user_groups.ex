@@ -28,6 +28,7 @@ defmodule Acl.UserGroups.Config do
                         "https://linkedgeodata.org/ontology/Toilets",
                         "http://toevla.org/ns/generic/Area",
                         "http://toevla.org/ns/generic/Experience",
+                        "http://toevla.org/ns/generic/Route",
                         "http://toevla.org/ns/generic/ExperienceTreeNodeScore",
                         "http://toevla.org/ns/generic/Path",
                         "http://toevla.org/ns/generic/RouteDescription",
