@@ -88,6 +88,13 @@ defmodule Dispatcher do
     end
   end
 
+  match "/@appuniversum/*path", %{ host: full_host } do
+    case Enum.reverse( full_host ) do
+      ["standalone" | _ ] -> Proxy.forward conn, path, "http://frontend-standalone/@appuniversum/"
+      ["entry" | _ ] -> Proxy.forward conn, path, "http://frontend-entry/@appuniversum/"
+    end
+  end
+
   match "/*path", %{ host: full_host, accept: %{ html: true } } do
     case Enum.reverse( full_host ) do
       ["standalone" | _ ] -> Proxy.forward conn, path, "http://frontend-standalone/index.html"
