@@ -77,6 +77,14 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/routes/"
   end
 
+  match "/guided-tours/*path", @json do
+    Proxy.forward conn, path, "http://resource/guided-tours/"
+  end
+
+  match "/auditoria/*path", @json do
+    Proxy.forward conn, path, "http://resource/auditoria/"
+  end
+
   match "/favicon.ico/*_path", _ do
     send_resp( conn, 404, "No icon specified" )
   end

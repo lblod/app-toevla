@@ -25,6 +25,8 @@ defmodule Acl.UserGroups.Config do
                         "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject",
                         "http://schema.org/Parking",
                         "http://toevla.org/ns/generic/Entrance",
+                        "http://toevla.org/ns/generic/GuidedTour",
+                        "http://toevla.org/ns/generic/Auditorium",
                         "https://linkedgeodata.org/ontology/Toilets",
                         "http://toevla.org/ns/generic/Area",
                         "http://toevla.org/ns/generic/Experience",
