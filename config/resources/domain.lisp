@@ -54,6 +54,8 @@
                           :as "experiences")
               (file :via ,(s-prefix "toevla:hasFile")
                         :as "files")
+              (file :via ,(s-prefix "toevla:hasImage")
+                        :as "images")
               (entrance :via ,(s-prefix "toevla:hasEntrance")
                         :as "entrances")
               (parking :via ,(s-prefix "toevla:hasParking")
