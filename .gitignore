@@ -4,5 +4,6 @@
 !/data/db/toLoad
 !/data/db/toLoad/*
 !/data/db/.gitkeep
+!/data/files/.gitkeep
 
 docker-compose.override.yml
