@@ -9,7 +9,7 @@ defmodule Dispatcher do
   ]
 
   @json %{ accept: %{ json: true } }
-  @image %{ accept: %{ image: true }}
+  @image %{ accept: %{ image: true } }
   # @html %{ accept: %{ html: true } }
 
   options "/*_path" do
@@ -91,8 +91,12 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/auditoria/"
   end
 
-   match "/images/*path", @image do
+  match "/images/*path", @image do
     Proxy.forward conn, path, "http://imageservice/image/"
+  end
+
+  match "/file-service/files/*path", _ do
+    Proxy.forward conn, path, "http://file/files/"
   end
 
   match "/favicon.ico/*_path", _ do
