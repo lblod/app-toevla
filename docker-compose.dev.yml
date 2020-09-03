@@ -3,19 +3,33 @@ version: '3.4'
 services:
   frontend-standalone:
     restart: "no"
+    labels:
+      - "logging=true"
   frontend-entry:
     restart: "no"
+    labels:
+      - "logging=true"
   resource:
     restart: "no"
+    labels:
+      - "logging=true"
   identifier:
     restart: "no"
     ports:
       - "80:80"
+    labels:
+      - "logging=true"
   dispatcher:
     restart: "no"
+    labels:
+      - "logging=true"
   triplestore:
     restart: "no"
     ports:
       - "8890:8890"
+    labels:
+      - "logging=true"
   resource:
     restart: "no"
+    labels:
+      - "logging=true"

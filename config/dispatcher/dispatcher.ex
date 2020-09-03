@@ -83,7 +83,15 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/files/"
   end
 
-  match "/images/*path", @image do
+  match "/guided-tours/*path", @json do
+    Proxy.forward conn, path, "http://resource/guided-tours/"
+  end
+
+  match "/auditoria/*path", @json do
+    Proxy.forward conn, path, "http://resource/auditoria/"
+  end
+
+   match "/images/*path", @image do
     Proxy.forward conn, path, "http://imageservice/image/"
   end
 
