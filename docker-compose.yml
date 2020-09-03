@@ -14,13 +14,16 @@ services:
       - db:database
     volumes:
       - ./data/files:/share
+    labels:
+      - "logging=true"
   file:
     image: semtech/mu-file-service:3.1.0
     links:
       - db:database
     volumes:
       - ./data/files:/share
-
+    labels:
+      - "logging=true"
   frontend-standalone:
     image: lblod/frontend-toevla:0.2.2-standalone
     links:
