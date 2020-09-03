@@ -34,7 +34,8 @@ defmodule Acl.UserGroups.Config do
                         "http://toevla.org/ns/generic/RouteDescription",
                         "http://toevla.org/ns/generic/TrainStop",
                         "http://toevla.org/ns/generic/BusStop",
-                        "http://toevla.org/ns/generic/TramStop"
+                        "http://toevla.org/ns/generic/TramStop",
+                        "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
                       ]
                     } }
                 ] },

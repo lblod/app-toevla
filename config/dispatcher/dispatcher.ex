@@ -4,10 +4,12 @@ defmodule Dispatcher do
   define_accept_types [
     json: [ "application/json", "application/vnd.api+json" ],
     html: [ "text/html", "application/xhtml+html" ],
+    image: ["image/*"],
     any: [ "*/*" ]
   ]
 
   @json %{ accept: %{ json: true } }
+  @image %{ accept: %{ image: true }}
   # @html %{ accept: %{ html: true } }
 
   options "/*_path" do
@@ -77,9 +79,17 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/routes/"
   end
 
+  match "/files/*path", @json do
+    Proxy.forward conn, path, "http://resource/files/"
+  end
+
+  match "/images/*path", @image do
+    Proxy.forward conn, path, "http://imageservice/image/"
+  end
+
   match "/favicon.ico/*_path", _ do
     send_resp( conn, 404, "No icon specified" )
-  end
+  end    
 
   match "/assets/*path", %{ host: full_host } do
     case Enum.reverse( full_host ) do
@@ -101,9 +111,7 @@ defmodule Dispatcher do
       ["entry" | _ ] -> Proxy.forward conn, path, "http://frontend-entry/index.html"
     end
   end
-
   match "/*_path", %{ last_call: true } do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )
   end
-
 end

@@ -8,6 +8,19 @@ x-logging:
     max-file: "3"
 
 services:
+  imageservice:
+    image: madnificent/mu-image-service:0.0.1
+    links:
+      - db:database
+    volumes:
+      - ./data/files:/share
+  file:
+    image: semtech/mu-file-service:3.1.0
+    links:
+      - db:database
+    volumes:
+      - ./data/files:/share
+
   frontend-standalone:
     image: lblod/frontend-toevla:0.2.2-standalone
     links:
@@ -25,7 +38,7 @@ services:
     restart: always
     logging: *default-logging
   identifier:
-    image: semtech/mu-identifier:1.7.0
+    image: semtech/mu-identifier:1.9.0
     links:
       - dispatcher:dispatcher
     labels:

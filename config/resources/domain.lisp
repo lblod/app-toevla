@@ -52,6 +52,8 @@
   :has-many `((experience :via ,(s-prefix "toevla:atLocation")
                           :inverse t
                           :as "experiences")
+              (file :via ,(s-prefix "toevla:hasFile")
+                        :as "files")
               (entrance :via ,(s-prefix "toevla:hasEntrance")
                         :as "entrances")
               (parking :via ,(s-prefix "toevla:hasParking")
@@ -68,6 +70,24 @@
                                 :as "public-transport-route-description"))
   :resource-base (s-url "http://data.toevla.org/points-of-interest/")
   :on-path "points-of-interest")
+
+(define-resource file ()
+  :class (s-prefix "nfo:FileDataObject")
+  :properties `((:name :string ,(s-prefix "nfo:fileName"))
+                (:label :string ,(s-prefix "rdfs:label"))
+                (:format :string ,(s-prefix "dct:format"))
+                (:size :number ,(s-prefix "nfo:fileSize"))
+                (:extension :string ,(s-prefix "dbpedia:fileExtension"))
+                (:created :datetime ,(s-prefix "nfo:fileCreated")))
+  :has-one `((file :via ,(s-prefix "nie:dataSource")
+                   :inverse t
+                   :as "download")
+             (point-of-interest :via ,(s-prefix "toevla:hasFile")
+                                :inverse t
+                                :as "point-of-interest"))
+  :resource-base (s-url "http://data.example.com/files/")
+  :features `(include-uri)
+  :on-path "files")
 
 (define-resource route-description ()
   :class (s-prefix "toevla:RouteDescription")
@@ -131,6 +151,8 @@
                    :as "size-of-toilet-room"))
   :resource-base (s-url "http://data.toevla.org/toilets/")
   :on-path "toilets")
+
+
 
 (define-resource area ()
   :class (s-prefix "toevla:Area")
