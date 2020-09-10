@@ -51,4 +51,4 @@ tvcs:musea skos:hasTopConcept <`+e.uri+`>.
   }
 });
 
-fs.writeFileSync('/data/app/scripts/project-scripts/output/generated.ttl', output);
+fs.writeFileSync('./generated.ttl', output);
