@@ -2,7 +2,6 @@
 const xlsx = require('xlsx');
 const { v4: uuid } = require('uuid');
 const fs = require("fs");
-const { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } = require('constants');
 
 const fileName = './toevla-latest.xlsx';
 var sheetName='Moederdoc_29-06-2020';
