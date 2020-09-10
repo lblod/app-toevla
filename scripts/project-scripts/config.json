@@ -3,14 +3,14 @@
   "scripts": [
     {
       "documentation": {
-        "command": "parse-data",
-        "description": "Parses an excel sheet. \nAssumes the sheet will be available at /toevla-latest.xlsx and the sheet to import is Moederdoc.\nOutput will be written to ./generated.ttl",
+        "command": "add-uris",
+        "description": "Adds URIs to the Excel sheet. \nAssumes the sheet will be available at /toevla-latest.xlsx and the sheet to update is Moederdoc.\nFile will be modified in place",
         "arguments": []
       },
       "environment": {
         "image": "semtech/mu-javascript-template",
         "interactive": true,
-        "script": "run.sh"
+        "script": "generate-ttl.sh"
       },
       "mounts": {
         "app": "/data/app/"

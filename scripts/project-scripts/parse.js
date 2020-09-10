@@ -45,7 +45,7 @@ for(var rowIndex=6; rowIndex<sheet.length; rowIndex++){
     
     for(var nodeColumnIndex=0; nodeColumnIndex<nodeColumns.length; nodeColumnIndex++){
       var columnIndex=nodeColumns[nodeColumnIndex].column;
-      cell=row['__EMPTY_'+columnIndex];
+      const cell=row['__EMPTY_'+columnIndex];
 
       if(cell){
         //init and get info columns
