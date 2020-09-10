@@ -20,75 +20,75 @@ defmodule Dispatcher do
   end
 
   match "/trees/*path", @json do
-    Proxy.forward conn, path, "http://resource/trees/"
+    Proxy.forward conn, path, "http://cache/trees/"
   end
 
   match "/tree-nodes/*path", @json do
-    Proxy.forward conn, path, "http://resource/tree-nodes/"
+    Proxy.forward conn, path, "http://cache/tree-nodes/"
   end
 
   match "/points-of-interest/*path", @json do
-    Proxy.forward conn, path, "http://resource/points-of-interest/"
+    Proxy.forward conn, path, "http://cache/points-of-interest/"
   end
 
   match "/experiences/*path", @json do
-    Proxy.forward conn, path, "http://resource/experiences/"
+    Proxy.forward conn, path, "http://cache/experiences/"
   end
 
   match "/entrances/*path", @json do
-    Proxy.forward conn, path, "http://resource/entrances/"
+    Proxy.forward conn, path, "http://cache/entrances/"
   end
 
   match "/experience-tree-node-scores/*path", @json do
-    Proxy.forward conn, path, "http://resource/experience-tree-node-scores/"
+    Proxy.forward conn, path, "http://cache/experience-tree-node-scores/"
   end
 
   match "/toilets/*path", @json do
-    Proxy.forward conn, path, "http://resource/toilets/"
+    Proxy.forward conn, path, "http://cache/toilets/"
   end
 
   match "/areas/*path", @json do
-    Proxy.forward conn, path, "http://resource/areas/"
+    Proxy.forward conn, path, "http://cache/areas/"
   end
 
   match "/parkings/*path", @json do
-    Proxy.forward conn, path, "http://resource/parkings/"
+    Proxy.forward conn, path, "http://cache/parkings/"
   end
 
   match "/paths/*path", @json do
-    Proxy.forward conn, path, "http://resource/paths/"
+    Proxy.forward conn, path, "http://cache/paths/"
   end
 
   match "/train-stops/*path", @json do
-    Proxy.forward conn, path, "http://resource/train-stops/"
+    Proxy.forward conn, path, "http://cache/train-stops/"
   end
 
   match "/bus-stops/*path", @json do
-    Proxy.forward conn, path, "http://resource/bus-stops/"
+    Proxy.forward conn, path, "http://cache/bus-stops/"
   end
 
   match "/tram-stops/*path", @json do
-    Proxy.forward conn, path, "http://resource/tram-stops/"
+    Proxy.forward conn, path, "http://cache/tram-stops/"
   end
 
   match "/route-descriptions/*path", @json do
-    Proxy.forward conn, path, "http://resource/route-descriptions/"
+    Proxy.forward conn, path, "http://cache/route-descriptions/"
   end
 
   match "/routes/*path", @json do
-    Proxy.forward conn, path, "http://resource/routes/"
+    Proxy.forward conn, path, "http://cache/routes/"
   end
 
   match "/files/*path", @json do
-    Proxy.forward conn, path, "http://resource/files/"
+    Proxy.forward conn, path, "http://cache/files/"
   end
 
   match "/guided-tours/*path", @json do
-    Proxy.forward conn, path, "http://resource/guided-tours/"
+    Proxy.forward conn, path, "http://cache/guided-tours/"
   end
 
   match "/auditoria/*path", @json do
-    Proxy.forward conn, path, "http://resource/auditoria/"
+    Proxy.forward conn, path, "http://cache/auditoria/"
   end
 
   match "/images/*path", @image do

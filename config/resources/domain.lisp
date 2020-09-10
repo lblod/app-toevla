@@ -1,5 +1,9 @@
 (in-package :mu-cl-resources)
 
+(setq *cache-model-properties-p* t)
+(setq *cache-count-queries-p* t)
+(setq *supply-cache-headers-p* t)
+
 (define-resource tree ()
   :class (s-prefix "skos:ConceptScheme")
   :properties `((:title :string ,(s-prefix "skos:prefLabel")))
