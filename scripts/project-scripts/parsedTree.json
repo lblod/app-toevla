@@ -1,0 +1,1890 @@
+[
+  {
+    "label": "Algemeen",
+    "parent": "root",
+    "uuid": "5ff3f900-bcdf-4639-b14b-409ac7bd592f",
+    "uri": "https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f",
+    "order": 0
+  },
+  {
+    "label": "Praktische info",
+    "parent": "https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f",
+    "uuid": "f1587316-6d71-406b-8bdf-379e3c1c5b55",
+    "uri": "https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55",
+    "order": 0
+  },
+  {
+    "label": "Begeleiding van aan het openbaar vervoer mogelijk",
+    "parent": "https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55",
+    "uuid": "172da2d4-4114-465b-a083-7b7644618838",
+    "uri": "https://data.toevla.org/id/concepts/172da2d4-4114-465b-a083-7b7644618838",
+    "order": 0,
+    "trueComment": "Begeleiding van aan het openbaar vervoer mogelijk"
+  },
+  {
+    "label": "Financiële tegemoetkoming toegangsprijs",
+    "parent": "https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55",
+    "uuid": "4b8a512e-3810-47f2-a253-a67e6420045b",
+    "uri": "https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b",
+    "order": 1
+  },
+  {
+    "label": "Begeleider gratis",
+    "parent": "https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b",
+    "uuid": "254027e0-9015-424b-a05f-60b0e33e5808",
+    "uri": "https://data.toevla.org/id/concepts/254027e0-9015-424b-a05f-60b0e33e5808",
+    "order": 0,
+    "trueComment": "Begeleider gratis"
+  },
+  {
+    "label": "Museumpas",
+    "parent": "https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b",
+    "uuid": "481f153a-d901-4edc-af87-fa35cbed1057",
+    "uri": "https://data.toevla.org/id/concepts/481f153a-d901-4edc-af87-fa35cbed1057",
+    "order": 1,
+    "trueComment": "Museumpas"
+  },
+  {
+    "label": "Uitpas (punten scannen)",
+    "parent": "https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b",
+    "uuid": "76329315-c2ba-4309-b4f1-0233e10eec7b",
+    "uri": "https://data.toevla.org/id/concepts/76329315-c2ba-4309-b4f1-0233e10eec7b",
+    "order": 2,
+    "trueComment": "Uitpas (punten scannen)"
+  },
+  {
+    "label": "City Pas",
+    "parent": "https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b",
+    "uuid": "fab3d846-a393-4c89-a2db-0ee075406f66",
+    "uri": "https://data.toevla.org/id/concepts/fab3d846-a393-4c89-a2db-0ee075406f66",
+    "order": 3,
+    "trueComment": "City Pas"
+  },
+  {
+    "label": "EDC (European Disability Card)",
+    "parent": "https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b",
+    "uuid": "b60c0fd6-61ce-4461-824d-efd6cb2055bd",
+    "uri": "https://data.toevla.org/id/concepts/b60c0fd6-61ce-4461-824d-efd6cb2055bd",
+    "order": 4,
+    "trueComment": "EDC (European Disability Card)"
+  },
+  {
+    "label": "Rolstoel ter beschikking",
+    "parent": "https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55",
+    "uuid": "fc8bb9f5-76f0-47a5-a628-858037dcc076",
+    "uri": "https://data.toevla.org/id/concepts/fc8bb9f5-76f0-47a5-a628-858037dcc076",
+    "order": 2,
+    "trueComment": "Rolstoel ter beschikking"
+  },
+  {
+    "label": "Wifi beschikbaar",
+    "parent": "https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55",
+    "uuid": "667821b8-d5c4-48b1-ae52-d1691ff239a9",
+    "uri": "https://data.toevla.org/id/concepts/667821b8-d5c4-48b1-ae52-d1691ff239a9",
+    "order": 3,
+    "trueComment": "Wifi beschikbaar",
+    "falseComment": "Wifi niet beschikbaar"
+  },
+  {
+    "label": "Assistentiehonden: er zijn voorzieningen aanwezig ",
+    "parent": "https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55",
+    "uuid": "0545c86a-5d54-463c-b161-c1b8946b13cd",
+    "uri": "https://data.toevla.org/id/concepts/0545c86a-5d54-463c-b161-c1b8946b13cd",
+    "order": 4,
+    "trueComment": "Voorzieningen voor assistentiehonden",
+    "falseComment": "Geen voorzieningen voor assistentiehonden"
+  },
+  {
+    "label": "Website",
+    "parent": "https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55",
+    "uuid": "65927850-0bfc-40ab-a3d9-3b308aecf83c",
+    "uri": "https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c",
+    "order": 5
+  },
+  {
+    "label": "WAI-WCAG 2.0 norm behaald",
+    "parent": "https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c",
+    "uuid": "9ae90bc9-2f2f-47b6-b7fc-a542172e6ac5",
+    "uri": "https://data.toevla.org/id/concepts/9ae90bc9-2f2f-47b6-b7fc-a542172e6ac5",
+    "order": 0,
+    "trueComment": "WAI-WCAG 2.0 norm behaald"
+  },
+  {
+    "label": "Tekstvergroting mogelijk",
+    "parent": "https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c",
+    "uuid": "0dd0cc1d-630d-445e-80a6-100d32ef460f",
+    "uri": "https://data.toevla.org/id/concepts/0dd0cc1d-630d-445e-80a6-100d32ef460f",
+    "order": 1,
+    "trueComment": "Tekstvergroting mogelijk"
+  },
+  {
+    "label": "Contrasten",
+    "parent": "https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c",
+    "uuid": "eea322d2-e0ec-40f2-8d11-5774435ca067",
+    "uri": "https://data.toevla.org/id/concepts/eea322d2-e0ec-40f2-8d11-5774435ca067",
+    "order": 2,
+    "trueComment": "Contrasten aanwezig"
+  },
+  {
+    "label": "Voorleesfunctie",
+    "parent": "https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c",
+    "uuid": "790d70c6-6fd3-4a7b-8536-0813f3e54888",
+    "uri": "https://data.toevla.org/id/concepts/790d70c6-6fd3-4a7b-8536-0813f3e54888",
+    "order": 3,
+    "trueComment": "Voorleesfunctie beschikbaar"
+  },
+  {
+    "label": "Gebarentaal",
+    "parent": "https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c",
+    "uuid": "1f169010-d9ab-40f9-89f9-4033b569dd0f",
+    "uri": "https://data.toevla.org/id/concepts/1f169010-d9ab-40f9-89f9-4033b569dd0f",
+    "order": 4,
+    "trueComment": "Gebarentaal voorzien"
+  },
+  {
+    "label": "Elektronische betaalmogelijkheid verplaatsbaar",
+    "parent": "https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55",
+    "uuid": "df0271fa-5a57-4133-84ca-52975031712e",
+    "uri": "https://data.toevla.org/id/concepts/df0271fa-5a57-4133-84ca-52975031712e",
+    "order": 6,
+    "trueComment": "Elektronische betaalmogelijkheid verplaatsbaar",
+    "falseComment": "Elektronische betaalmogelijkheid niet verplaatsbaar"
+  },
+  {
+    "label": "Extra info:",
+    "parent": "https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55",
+    "uuid": "aea52fef-c650-4519-ae36-783a7b8d2920",
+    "uri": "https://data.toevla.org/id/concepts/aea52fef-c650-4519-ae36-783a7b8d2920",
+    "order": 7
+  },
+  {
+    "label": "Museumbeleving - Vaste tentoonstelling",
+    "parent": "https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f",
+    "uuid": "38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uri": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "order": 1
+  },
+  {
+    "label": "Rondleidingen",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uri": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "order": 0
+  },
+  {
+    "label": "Voor personen met een visuele beperking",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "17351f8d-7d2f-44db-8522-d729ded6d1fb",
+    "uri": "https://data.toevla.org/id/concepts/17351f8d-7d2f-44db-8522-d729ded6d1fb",
+    "order": 0,
+    "trueComment": "Voor personen met een visuele beperking"
+  },
+  {
+    "label": "Voor personen met een auditieve beperking",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "08874e58-be7d-44e8-9b95-956680fd6558",
+    "uri": "https://data.toevla.org/id/concepts/08874e58-be7d-44e8-9b95-956680fd6558",
+    "order": 1,
+    "trueComment": "Voor personen met een auditieve beperking"
+  },
+  {
+    "label": "Voor personen met een mentale beperking",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "d0633bea-4776-4ddc-a29b-157fa1a66146",
+    "uri": "https://data.toevla.org/id/concepts/d0633bea-4776-4ddc-a29b-157fa1a66146",
+    "order": 2,
+    "trueComment": "Voor personen met een mentale beperking"
+  },
+  {
+    "label": "Dementievriendelijk",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "d1d5a75e-7490-4978-a665-a809f152579d",
+    "uri": "https://data.toevla.org/id/concepts/d1d5a75e-7490-4978-a665-a809f152579d",
+    "order": 3,
+    "trueComment": "Dementievriendelijk"
+  },
+  {
+    "label": "Autisme gericht",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "b74390d3-81b7-4b16-b64a-c7992ca17432",
+    "uri": "https://data.toevla.org/id/concepts/b74390d3-81b7-4b16-b64a-c7992ca17432",
+    "order": 4,
+    "trueComment": "Autisme gericht"
+  },
+  {
+    "label": "Leeftijdaangepast: ouderen",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "bf837efd-7353-4742-9821-fe67626857a2",
+    "uri": "https://data.toevla.org/id/concepts/bf837efd-7353-4742-9821-fe67626857a2",
+    "order": 5,
+    "trueComment": "Leeftijdaangepast: ouderen"
+  },
+  {
+    "label": "Leeftijdaangepast: kindvriendelijk",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "043d0943-d5de-488b-9471-83453ac02ce4",
+    "uri": "https://data.toevla.org/id/concepts/043d0943-d5de-488b-9471-83453ac02ce4",
+    "order": 6,
+    "trueComment": "Leeftijdaangepast: kindvriendelijk"
+  },
+  {
+    "label": "Met beeldentolk",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "51bfb01f-912a-4f19-83aa-6ff0afdb7be0",
+    "uri": "https://data.toevla.org/id/concepts/51bfb01f-912a-4f19-83aa-6ff0afdb7be0",
+    "order": 7,
+    "trueComment": "Met beeldentolk"
+  },
+  {
+    "label": "Met Tolk Vlaamse Gebarentaal (VGT)",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "ebfc1d01-807d-4f0b-8a79-a276ab2d760e",
+    "uri": "https://data.toevla.org/id/concepts/ebfc1d01-807d-4f0b-8a79-a276ab2d760e",
+    "order": 8,
+    "trueComment": "Met Tolk Vlaamse Gebarentaal (VGT)"
+  },
+  {
+    "label": "Op rustige momenten",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "9068439f-4c51-4695-8329-33edcff02bda",
+    "uri": "https://data.toevla.org/id/concepts/9068439f-4c51-4695-8329-33edcff02bda",
+    "order": 9,
+    "trueComment": "Op rustige momenten"
+  },
+  {
+    "label": "Bezoek op maat mogelijk",
+    "parent": "https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6",
+    "uuid": "eccda7cb-56cd-4072-8983-709be079723d",
+    "uri": "https://data.toevla.org/id/concepts/eccda7cb-56cd-4072-8983-709be079723d",
+    "order": 10,
+    "trueComment": "Bezoek op maat mogelijk"
+  },
+  {
+    "label": "Museum route en zalen",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "f35f5f6b-d7cf-4d24-a353-aad4786968af",
+    "uri": "https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af",
+    "order": 1
+  },
+  {
+    "label": "Duidelijke bewegwijzering op de route",
+    "parent": "https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af",
+    "uuid": "d8e7f89e-c8c4-48cb-871b-46f6eda7c529",
+    "uri": "https://data.toevla.org/id/concepts/d8e7f89e-c8c4-48cb-871b-46f6eda7c529",
+    "order": 0,
+    "trueComment": "Duidelijke bewegwijzering op de route"
+  },
+  {
+    "label": "Zalenplan beschikbaar",
+    "parent": "https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af",
+    "uuid": "2ab19f33-3edc-4e6c-9175-bb6d39e4efcc",
+    "uri": "https://data.toevla.org/id/concepts/2ab19f33-3edc-4e6c-9175-bb6d39e4efcc",
+    "order": 1,
+    "trueComment": "Zalenplan beschikbaar"
+  },
+  {
+    "label": "Schema met aanbevolen traject",
+    "parent": "https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af",
+    "uuid": "df6b875a-e8b4-4e0a-9690-79e78497eda6",
+    "uri": "https://data.toevla.org/id/concepts/df6b875a-e8b4-4e0a-9690-79e78497eda6",
+    "order": 2,
+    "trueComment": "Schema met aanbevolen traject"
+  },
+  {
+    "label": "Alternatief voor niet toegankelijke ruimten",
+    "parent": "https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af",
+    "uuid": "47517788-0fda-4a62-a4ac-9fdfb55ac149",
+    "uri": "https://data.toevla.org/id/concepts/47517788-0fda-4a62-a4ac-9fdfb55ac149",
+    "order": 3,
+    "trueComment": "Alternatief voor niet toegankelijke ruimten"
+  },
+  {
+    "label": "Meerdere rust- zitmogelijkheden",
+    "parent": "https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af",
+    "uuid": "e7d88100-aa67-4273-bfef-7d08f7ee456e",
+    "uri": "https://data.toevla.org/id/concepts/e7d88100-aa67-4273-bfef-7d08f7ee456e",
+    "order": 4,
+    "trueComment": "Rust- zitmogelijkheden"
+  },
+  {
+    "label": "Extra aandacht voor akoestiek",
+    "parent": "https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af",
+    "uuid": "deac4522-8cf5-4ebb-907a-5965cb8d1603",
+    "uri": "https://data.toevla.org/id/concepts/deac4522-8cf5-4ebb-907a-5965cb8d1603",
+    "order": 5,
+    "trueComment": "Extra aandacht voor akoestiek"
+  },
+  {
+    "label": "Vitrinetafels, computerschermen",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "ef0fc835-a152-49ec-8d3a-94557800388e",
+    "uri": "https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e",
+    "order": 2
+  },
+  {
+    "label": "Meerdere onderrijdbare elementen",
+    "parent": "https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e",
+    "uuid": "59c0ed54-9c98-4217-a687-695d1247f2ad",
+    "uri": "https://data.toevla.org/id/concepts/59c0ed54-9c98-4217-a687-695d1247f2ad",
+    "order": 0,
+    "trueComment": "Meerdere onderrijdbare elementen"
+  },
+  {
+    "label": "Goede verlichting",
+    "parent": "https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e",
+    "uuid": "82c2fd8c-3aef-4a45-af4a-2283a46fa2fd",
+    "uri": "https://data.toevla.org/id/concepts/82c2fd8c-3aef-4a45-af4a-2283a46fa2fd",
+    "order": 1,
+    "trueComment": "Goede verlichting"
+  },
+  {
+    "label": "Vergrootglas",
+    "parent": "https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e",
+    "uuid": "a8ab7895-3273-48b5-a3ca-f29ddbf7da6d",
+    "uri": "https://data.toevla.org/id/concepts/a8ab7895-3273-48b5-a3ca-f29ddbf7da6d",
+    "order": 2,
+    "trueComment": "Vergrootglas aanwezig"
+  },
+  {
+    "label": "Auditorium/filmzaal",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "47d2dfab-50f1-4acc-ae82-1e44325cc21c",
+    "uri": "https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c",
+    "order": 3
+  },
+  {
+    "label": "Zitplaatsen bereikbaar",
+    "parent": "https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c",
+    "uuid": "d4057a41-676e-4372-b1dd-62926ee927e4",
+    "uri": "https://data.toevla.org/id/concepts/d4057a41-676e-4372-b1dd-62926ee927e4",
+    "order": 0,
+    "trueComment": "Zitplaatsen bereikbaar"
+  },
+  {
+    "label": "Extra aandacht voor akoestiek",
+    "parent": "https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c",
+    "uuid": "7b9452db-d596-43d1-88a9-4aa26a945062",
+    "uri": "https://data.toevla.org/id/concepts/7b9452db-d596-43d1-88a9-4aa26a945062",
+    "order": 1,
+    "trueComment": "Extra aandacht voor akoestiek"
+  },
+  {
+    "label": "Ringleiding in de zaal",
+    "parent": "https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c",
+    "uuid": "c10fb641-ba9a-4f05-874c-5e4eec8e083c",
+    "uri": "https://data.toevla.org/id/concepts/c10fb641-ba9a-4f05-874c-5e4eec8e083c",
+    "order": 2,
+    "trueComment": "Ringleiding in de museumzalen"
+  },
+  {
+    "label": "Brochure",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "4eab756d-3e07-4f29-adde-47350bbf8212",
+    "uri": "https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212",
+    "order": 4
+  },
+  {
+    "label": "Contrast",
+    "parent": "https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212",
+    "uuid": "fd0b2bf4-e149-4d11-8910-7ea2cfaf7af5",
+    "uri": "https://data.toevla.org/id/concepts/fd0b2bf4-e149-4d11-8910-7ea2cfaf7af5",
+    "order": 0,
+    "trueComment": "Contrast aanwezig"
+  },
+  {
+    "label": "Braille",
+    "parent": "https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212",
+    "uuid": "884b5148-6c06-4528-9e5d-0300713a9e21",
+    "uri": "https://data.toevla.org/id/concepts/884b5148-6c06-4528-9e5d-0300713a9e21",
+    "order": 1,
+    "trueComment": "In braille beschikbaar"
+  },
+  {
+    "label": "Grootletterschrift",
+    "parent": "https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212",
+    "uuid": "003c24ce-d9a7-4ffa-bcc8-8ec1b574e81b",
+    "uri": "https://data.toevla.org/id/concepts/003c24ce-d9a7-4ffa-bcc8-8ec1b574e81b",
+    "order": 2,
+    "trueComment": "In grootletterschrift beschikbaar"
+  },
+  {
+    "label": "Teksten/borden/panelen",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "5223662c-b5cc-4673-9f6f-6dcf7d8ce94e",
+    "uri": "https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e",
+    "order": 5
+  },
+  {
+    "label": "Contrast",
+    "parent": "https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e",
+    "uuid": "6c58e8e4-f2a4-443a-af92-8619f387101d",
+    "uri": "https://data.toevla.org/id/concepts/6c58e8e4-f2a4-443a-af92-8619f387101d",
+    "order": 0,
+    "trueComment": "Contrast aanwezig"
+  },
+  {
+    "label": "Geen reflectie",
+    "parent": "https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e",
+    "uuid": "9fdf7a77-45aa-42c3-b5d1-37191fa60a69",
+    "uri": "https://data.toevla.org/id/concepts/9fdf7a77-45aa-42c3-b5d1-37191fa60a69",
+    "order": 1,
+    "trueComment": "Geen reflectie"
+  },
+  {
+    "label": "Braille",
+    "parent": "https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e",
+    "uuid": "3b01f301-5101-49b4-9917-773f41ef97b7",
+    "uri": "https://data.toevla.org/id/concepts/3b01f301-5101-49b4-9917-773f41ef97b7",
+    "order": 2,
+    "trueComment": "In braille beschikbaar"
+  },
+  {
+    "label": "Grootletterschrift",
+    "parent": "https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e",
+    "uuid": "8a6d1137-2d17-40cb-8936-844beaab6299",
+    "uri": "https://data.toevla.org/id/concepts/8a6d1137-2d17-40cb-8936-844beaab6299",
+    "order": 3,
+    "trueComment": "In grootletterschrift beschikbaar"
+  },
+  {
+    "label": "Audiogids beschikbaar",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "4e616bb9-7c7a-465e-ba19-7dd91a3db97c",
+    "uri": "https://data.toevla.org/id/concepts/4e616bb9-7c7a-465e-ba19-7dd91a3db97c",
+    "order": 6
+  },
+  {
+    "label": "Alleen in Nederlands",
+    "parent": "https://data.toevla.org/id/concepts/4e616bb9-7c7a-465e-ba19-7dd91a3db97c",
+    "uuid": "e0eb73b6-b995-4135-8773-b05dd108386e",
+    "uri": "https://data.toevla.org/id/concepts/e0eb73b6-b995-4135-8773-b05dd108386e",
+    "order": 0,
+    "trueComment": "In meerdere talen"
+  },
+  {
+    "label": "In meerdere talen",
+    "parent": "https://data.toevla.org/id/concepts/4e616bb9-7c7a-465e-ba19-7dd91a3db97c",
+    "uuid": "83c1f185-3444-464c-8f6e-9bf6bfa7b5e5",
+    "uri": "https://data.toevla.org/id/concepts/83c1f185-3444-464c-8f6e-9bf6bfa7b5e5",
+    "order": 1,
+    "trueComment": "In meerdere talen"
+  },
+  {
+    "label": "Movieguide",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "098995c7-d5e2-46c8-946a-bad2ce826310",
+    "uri": "https://data.toevla.org/id/concepts/098995c7-d5e2-46c8-946a-bad2ce826310",
+    "order": 7,
+    "trueComment": "Movieguide"
+  },
+  {
+    "label": "Virtuele technologie",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "ceaee1d5-0292-453a-93f5-bc7bedaa823d",
+    "uri": "https://data.toevla.org/id/concepts/ceaee1d5-0292-453a-93f5-bc7bedaa823d",
+    "order": 8,
+    "trueComment": "Virtuele technologie"
+  },
+  {
+    "label": "Multisensorieel - zintuigen",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "a94f2e02-c6bf-41de-927e-08b2966525f0",
+    "uri": "https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0",
+    "order": 9
+  },
+  {
+    "label": "Voel-elementen",
+    "parent": "https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0",
+    "uuid": "866f3b45-7f2c-4edb-8e49-bb3fdd3b9a4a",
+    "uri": "https://data.toevla.org/id/concepts/866f3b45-7f2c-4edb-8e49-bb3fdd3b9a4a",
+    "order": 0,
+    "trueComment": "Voel-elementen aanwezig"
+  },
+  {
+    "label": "Geur-elementen",
+    "parent": "https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0",
+    "uuid": "4635c64f-f28c-4ac1-ba40-45161d856903",
+    "uri": "https://data.toevla.org/id/concepts/4635c64f-f28c-4ac1-ba40-45161d856903",
+    "order": 1,
+    "trueComment": "Geur-elementen aanwezig"
+  },
+  {
+    "label": "Doe-elementen",
+    "parent": "https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0",
+    "uuid": "bb428539-e486-4f30-a6c9-ad5f673bb82d",
+    "uri": "https://data.toevla.org/id/concepts/bb428539-e486-4f30-a6c9-ad5f673bb82d",
+    "order": 2,
+    "trueComment": "Doe-elementen aanwezig"
+  },
+  {
+    "label": "Luister-elementen",
+    "parent": "https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0",
+    "uuid": "4f8c2535-4bdd-44b8-a55d-7e312d14a725",
+    "uri": "https://data.toevla.org/id/concepts/4f8c2535-4bdd-44b8-a55d-7e312d14a725",
+    "order": 3,
+    "trueComment": "Luister-elementen aanwezig"
+  },
+  {
+    "label": "Stilte plekken",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "7eaa513a-4179-477d-8852-44ec1e674bba",
+    "uri": "https://data.toevla.org/id/concepts/7eaa513a-4179-477d-8852-44ec1e674bba",
+    "order": 10,
+    "trueComment": "Stilteplekken aanwezig"
+  },
+  {
+    "label": "Andere belevingselementen",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "316287ec-83fd-4bd1-aeff-750486dd24ea",
+    "uri": "https://data.toevla.org/id/concepts/316287ec-83fd-4bd1-aeff-750486dd24ea",
+    "order": 11
+  },
+  {
+    "label": "Extra info:",
+    "parent": "https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c",
+    "uuid": "bf1ef7ef-05b8-41ab-af53-aeedd454327a",
+    "uri": "https://data.toevla.org/id/concepts/bf1ef7ef-05b8-41ab-af53-aeedd454327a",
+    "order": 12
+  },
+  {
+    "label": "Museumbeleving - Tijdelijke tentoonstelling",
+    "parent": "https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f",
+    "uuid": "8889d397-08f3-4171-b3b1-9db6d4203363",
+    "uri": "https://data.toevla.org/id/concepts/8889d397-08f3-4171-b3b1-9db6d4203363",
+    "order": 2
+  },
+  {
+    "label": "Bereikbaarheid",
+    "parent": "root",
+    "uuid": "9e971f13-1bc4-4e85-8f4d-272842683441",
+    "uri": "https://data.toevla.org/id/concepts/9e971f13-1bc4-4e85-8f4d-272842683441",
+    "order": 1
+  },
+  {
+    "label": "OpenbaarVervoer",
+    "parent": "https://data.toevla.org/id/concepts/9e971f13-1bc4-4e85-8f4d-272842683441",
+    "uuid": "e12d051d-ce43-4e65-ba5f-9affc4fbd6b9",
+    "uri": "https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9",
+    "order": 0
+  },
+  {
+    "label": "Bereikbaarheid met openbaar vervoer ",
+    "parent": "https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9",
+    "uuid": "2f2a0a17-b054-4143-a54f-7a79228bb721",
+    "uri": "https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721",
+    "order": 0
+  },
+  {
+    "label": "Gedetailleerde beschrijving beschikbaar",
+    "parent": "https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721",
+    "uuid": "f4fc7b9f-1c55-415a-96ff-28fbda94881e",
+    "uri": "https://data.toevla.org/id/concepts/f4fc7b9f-1c55-415a-96ff-28fbda94881e",
+    "order": 0,
+    "trueComment": "Gedetailleerde beschrijving beschikbaar"
+  },
+  {
+    "label": "Beschikbaar met voorleesfunctie",
+    "parent": "https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721",
+    "uuid": "0964f472-4c5a-43ff-a0c2-b89eee5f5650",
+    "uri": "https://data.toevla.org/id/concepts/0964f472-4c5a-43ff-a0c2-b89eee5f5650",
+    "order": 1,
+    "trueComment": "Beschikbaar met voorleesfunctie"
+  },
+  {
+    "label": "Beschikbaar in Vlaamse Gebarentaal (VGT)",
+    "parent": "https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721",
+    "uuid": "a44288c3-78d2-4896-a49c-c37ac215a9b3",
+    "uri": "https://data.toevla.org/id/concepts/a44288c3-78d2-4896-a49c-c37ac215a9b3",
+    "order": 2,
+    "trueComment": "Beschikbaar in Vlaamse Gebarentaal (VGT)"
+  },
+  {
+    "label": "Treinstation aanwezig op x km",
+    "parent": "https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9",
+    "uuid": "d0b9ea46-e065-4ee0-9cfa-2463ba4a3027",
+    "uri": "https://data.toevla.org/id/concepts/d0b9ea46-e065-4ee0-9cfa-2463ba4a3027",
+    "order": 1,
+    "trueComment": "Station aanwezig op x km"
+  },
+  {
+    "label": "Station:",
+    "parent": "https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9",
+    "uuid": "306fa11e-a804-4b27-9dcd-4bb7f20ba8d4",
+    "uri": "https://data.toevla.org/id/concepts/306fa11e-a804-4b27-9dcd-4bb7f20ba8d4",
+    "order": 2
+  },
+  {
+    "label": "Bushalte aanwezig op x m",
+    "parent": "https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9",
+    "uuid": "bf7e42d6-dda7-4de7-a82c-8f8d5b031b42",
+    "uri": "https://data.toevla.org/id/concepts/bf7e42d6-dda7-4de7-a82c-8f8d5b031b42",
+    "order": 3,
+    "trueComment": "Bushalte aanwezig op x m"
+  },
+  {
+    "label": "Halte:",
+    "parent": "https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9",
+    "uuid": "0273e136-173c-4a35-89c2-d07ac6ab22f7",
+    "uri": "https://data.toevla.org/id/concepts/0273e136-173c-4a35-89c2-d07ac6ab22f7",
+    "order": 4
+  },
+  {
+    "label": "Tramhalte aanwezig op x m",
+    "parent": "https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9",
+    "uuid": "a15c7289-8906-4b12-8f49-1d8bf7b3b0ac",
+    "uri": "https://data.toevla.org/id/concepts/a15c7289-8906-4b12-8f49-1d8bf7b3b0ac",
+    "order": 5,
+    "trueComment": "Tramhalte aanwezig op x m"
+  },
+  {
+    "label": "Halte:",
+    "parent": "https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9",
+    "uuid": "e2b6e01b-adb0-4dcd-b29d-e32366ec74bf",
+    "uri": "https://data.toevla.org/id/concepts/e2b6e01b-adb0-4dcd-b29d-e32366ec74bf",
+    "order": 6
+  },
+  {
+    "label": "Extra info:",
+    "parent": "https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9",
+    "uuid": "79a7ccdc-be9b-4493-af0e-41903bd1c39a",
+    "uri": "https://data.toevla.org/id/concepts/79a7ccdc-be9b-4493-af0e-41903bd1c39a",
+    "order": 7
+  },
+  {
+    "label": "Parkeren",
+    "parent": "https://data.toevla.org/id/concepts/9e971f13-1bc4-4e85-8f4d-272842683441",
+    "uuid": "d1b2da50-25b9-4539-80ad-13e83a483e00",
+    "uri": "https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00",
+    "order": 1
+  },
+  {
+    "label": "Eigen parkeerterrein",
+    "parent": "https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00",
+    "uuid": "1591a03f-4be5-4c2a-a192-7bd62d72fffb",
+    "uri": "https://data.toevla.org/id/concepts/1591a03f-4be5-4c2a-a192-7bd62d72fffb",
+    "order": 0,
+    "trueComment": "Eigen parkeerterrein aanwezig",
+    "falseComment": "Geen eigen parkeerterrein"
+  },
+  {
+    "label": "Voorrijdmogelijkheid",
+    "parent": "https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00",
+    "uuid": "078b35cc-81ce-420a-bb5b-18ba6b65caf1",
+    "uri": "https://data.toevla.org/id/concepts/078b35cc-81ce-420a-bb5b-18ba6b65caf1",
+    "order": 1,
+    "trueComment": "Voorrijdmogelijkheid aanwezig",
+    "falseComment": "Geen voorrijdmogelijkheid"
+  },
+  {
+    "label": "Goede verlichting op de route",
+    "parent": "https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00",
+    "uuid": "15e473f5-7d2f-4777-aeb9-9d551adce7eb",
+    "uri": "https://data.toevla.org/id/concepts/15e473f5-7d2f-4777-aeb9-9d551adce7eb",
+    "order": 2,
+    "trueComment": "Goede verlichting op de route"
+  },
+  {
+    "label": "Bereikbaarheid met de auto",
+    "parent": "https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00",
+    "uuid": "56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc",
+    "uri": "https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc",
+    "order": 3
+  },
+  {
+    "label": "Gedetailleerde beschrijving beschikbaar",
+    "parent": "https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc",
+    "uuid": "4c5a3e36-28b5-4ab2-b9d6-330bd2af67c4",
+    "uri": "https://data.toevla.org/id/concepts/4c5a3e36-28b5-4ab2-b9d6-330bd2af67c4",
+    "order": 0,
+    "trueComment": "Gedetailleerde beschrijving beschikbaar"
+  },
+  {
+    "label": "Beschikbaar met voorleesfunctie",
+    "parent": "https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc",
+    "uuid": "60031a1d-cee8-4d02-a745-930de16f7c5e",
+    "uri": "https://data.toevla.org/id/concepts/60031a1d-cee8-4d02-a745-930de16f7c5e",
+    "order": 1,
+    "trueComment": "Beschikbaar met voorleesfunctie"
+  },
+  {
+    "label": "Beschikbaar in Vlaamse Gebarentaal (VGT)",
+    "parent": "https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc",
+    "uuid": "1015eff1-2a00-4cc5-a0ac-59eee06602fa",
+    "uri": "https://data.toevla.org/id/concepts/1015eff1-2a00-4cc5-a0ac-59eee06602fa",
+    "order": 2,
+    "trueComment": "Beschikbaar in Vlaamse Gebarentaal (VGT)"
+  },
+  {
+    "label": "Rolstoelvriendelijke parkeerplaats",
+    "parent": "https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00",
+    "uuid": "a93ccd8e-cfa5-447b-855f-57f247b62def",
+    "uri": "https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def",
+    "order": 4
+  },
+  {
+    "label": "Aantal rolstoelvriendelijke plaatsen",
+    "parent": "https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def",
+    "uuid": "6a31ce16-1e0d-4d01-96b5-4a976c849bc8",
+    "uri": "https://data.toevla.org/id/concepts/6a31ce16-1e0d-4d01-96b5-4a976c849bc8",
+    "order": 0
+  },
+  {
+    "label": "Op publiek domein",
+    "parent": "https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def",
+    "uuid": "09eacace-66b4-41b6-959d-60316e83bf6a",
+    "uri": "https://data.toevla.org/id/concepts/09eacace-66b4-41b6-959d-60316e83bf6a",
+    "order": 1,
+    "trueComment": "Op publiek domein"
+  },
+  {
+    "label": "Rolstoelvriendelijke ondergrond",
+    "parent": "https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def",
+    "uuid": "9cf0259c-b038-4691-a113-0ae9c47ea407",
+    "uri": "https://data.toevla.org/id/concepts/9cf0259c-b038-4691-a113-0ae9c47ea407",
+    "order": 2,
+    "trueComment": "Rolstoelvriendelijke ondergrond ",
+    "falseComment": "Slechte ondergrond"
+  },
+  {
+    "label": "Naast elkaar parkeren: breedte",
+    "parent": "https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def",
+    "uuid": "2e2ce9ba-cc64-4e1c-8171-35f0915e4784",
+    "uri": "https://data.toevla.org/id/concepts/2e2ce9ba-cc64-4e1c-8171-35f0915e4784",
+    "order": 3
+  },
+  {
+    "label": "Achter elkaar parkeren: lengte ",
+    "parent": "https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def",
+    "uuid": "4cf4c693-4217-4e90-ac3c-81ac12c68c0b",
+    "uri": "https://data.toevla.org/id/concepts/4cf4c693-4217-4e90-ac3c-81ac12c68c0b",
+    "order": 4
+  },
+  {
+    "label": "Max voertuig-hoogte  ",
+    "parent": "https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def",
+    "uuid": "566b1966-811b-43a6-8c7b-7a5b628e8e21",
+    "uri": "https://data.toevla.org/id/concepts/566b1966-811b-43a6-8c7b-7a5b628e8e21",
+    "order": 5
+  },
+  {
+    "label": "Rolstoelvriendelijk pad naar de inkom",
+    "parent": "https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def",
+    "uuid": "0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51",
+    "uri": "https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51",
+    "order": 6
+  },
+  {
+    "label": "Rolstoelvriendelijke ondergrond ",
+    "parent": "https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51",
+    "uuid": "14e814b5-4e0f-4d29-b92f-4027bb844ee0",
+    "uri": "https://data.toevla.org/id/concepts/14e814b5-4e0f-4d29-b92f-4027bb844ee0",
+    "order": 0,
+    "trueComment": "Rolstoelvriendelijke ondergrond ",
+    "falseComment": "Slechte ondergrond"
+  },
+  {
+    "label": "Smalste punt op de route",
+    "parent": "https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51",
+    "uuid": "de9eb3bc-46fc-452d-bfb2-c53ef3d22e25",
+    "uri": "https://data.toevla.org/id/concepts/de9eb3bc-46fc-452d-bfb2-c53ef3d22e25",
+    "order": 1
+  },
+  {
+    "label": "Hoogste drempel",
+    "parent": "https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51",
+    "uuid": "5e3e1229-ba91-47ba-a672-fdfc11aa0a70",
+    "uri": "https://data.toevla.org/id/concepts/5e3e1229-ba91-47ba-a672-fdfc11aa0a70",
+    "order": 2
+  },
+  {
+    "label": "Meerdere drempels - aantal",
+    "parent": "https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51",
+    "uuid": "060a522e-bb22-4e31-9220-5f8c22e616c4",
+    "uri": "https://data.toevla.org/id/concepts/060a522e-bb22-4e31-9220-5f8c22e616c4",
+    "order": 3
+  },
+  {
+    "label": "Trap - aantal tredes",
+    "parent": "https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51",
+    "uuid": "e6a08853-59f4-4308-8211-9ba75f6404fc",
+    "uri": "https://data.toevla.org/id/concepts/e6a08853-59f4-4308-8211-9ba75f6404fc",
+    "order": 4
+  },
+  {
+    "label": "Hellende vlakken - aantal",
+    "parent": "https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51",
+    "uuid": "eb456081-cf65-4f5e-aaeb-92f3b91247a0",
+    "uri": "https://data.toevla.org/id/concepts/eb456081-cf65-4f5e-aaeb-92f3b91247a0",
+    "order": 5
+  },
+  {
+    "label": "Oprijgoten aanwezig",
+    "parent": "https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51",
+    "uuid": "ab2942e4-bfd2-4410-973a-a99d61bff979",
+    "uri": "https://data.toevla.org/id/concepts/ab2942e4-bfd2-4410-973a-a99d61bff979",
+    "order": 6
+  },
+  {
+    "label": "Extra info:",
+    "parent": "https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00",
+    "uuid": "2236d7d2-a50b-4045-a555-7ba9a2116ba1",
+    "uri": "https://data.toevla.org/id/concepts/2236d7d2-a50b-4045-a555-7ba9a2116ba1",
+    "order": 5
+  },
+  {
+    "label": "Gebouw",
+    "parent": "root",
+    "uuid": "152e1b64-432c-4c00-89aa-00bb7868c765",
+    "uri": "https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765",
+    "order": 2
+  },
+  {
+    "label": "Inkom",
+    "parent": "https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765",
+    "uuid": "ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "uri": "https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "order": 0
+  },
+  {
+    "label": "Gebouw duidelijk herkenbaar",
+    "parent": "https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "uuid": "74837ebc-fb5f-4333-81f5-bd92db6861f2",
+    "uri": "https://data.toevla.org/id/concepts/74837ebc-fb5f-4333-81f5-bd92db6861f2",
+    "order": 0,
+    "trueComment": "Gebouw duidelijk herkenbaar"
+  },
+  {
+    "label": "Toegang duidelijk herkenbaar",
+    "parent": "https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "uuid": "82e3201c-60d4-4eb6-88c1-90bcc5f87910",
+    "uri": "https://data.toevla.org/id/concepts/82e3201c-60d4-4eb6-88c1-90bcc5f87910",
+    "order": 1,
+    "trueComment": "Toegang duidelijk herkenbaar"
+  },
+  {
+    "label": "Gids- en/of geleidelijnen",
+    "parent": "https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "uuid": "3c06fec6-3a7c-483d-b53f-e3c0a5caf179",
+    "uri": "https://data.toevla.org/id/concepts/3c06fec6-3a7c-483d-b53f-e3c0a5caf179",
+    "order": 2,
+    "trueComment": "Gids- en/of geleidelijnen aanwezig"
+  },
+  {
+    "label": "Markering en contrasten op glazen deuren",
+    "parent": "https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "uuid": "dd04f96d-71c9-4686-bb9f-ecf91ff6a67f",
+    "uri": "https://data.toevla.org/id/concepts/dd04f96d-71c9-4686-bb9f-ecf91ff6a67f",
+    "order": 3
+  },
+  {
+    "label": "Extra aandacht voor akoestiek",
+    "parent": "https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "uuid": "3aa2c3d0-6635-40ae-bfd5-ad15b6553096",
+    "uri": "https://data.toevla.org/id/concepts/3aa2c3d0-6635-40ae-bfd5-ad15b6553096",
+    "order": 4,
+    "trueComment": "Extra aandacht voor akoestiek"
+  },
+  {
+    "label": "Bemande balie",
+    "parent": "https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "uuid": "ac946973-bfa8-446a-8066-05ee7185ebfb",
+    "uri": "https://data.toevla.org/id/concepts/ac946973-bfa8-446a-8066-05ee7185ebfb",
+    "order": 5,
+    "trueComment": "Bemande balie"
+  },
+  {
+    "label": "Ringleiding aan de balie",
+    "parent": "https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "uuid": "f0abf682-daae-4b49-bfa1-0a63da8b680b",
+    "uri": "https://data.toevla.org/id/concepts/f0abf682-daae-4b49-bfa1-0a63da8b680b",
+    "order": 6,
+    "trueComment": "Ringleiding aan de balie",
+    "falseComment": "Geen ringleiding aan de balie"
+  },
+  {
+    "label": "Rolstoelvriendelijke Inkom",
+    "parent": "https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "uuid": "85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uri": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "order": 7
+  },
+  {
+    "label": "Via 'Alternatieve toegang'",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "994e6c27-2449-4363-aa7e-cc6e899e4f55",
+    "uri": "https://data.toevla.org/id/concepts/994e6c27-2449-4363-aa7e-cc6e899e4f55",
+    "order": 0
+  },
+  {
+    "label": "Hoogste drempel",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "4db32cec-4315-4ce1-8c2f-c752652a7f40",
+    "uri": "https://data.toevla.org/id/concepts/4db32cec-4315-4ce1-8c2f-c752652a7f40",
+    "order": 1
+  },
+  {
+    "label": "Trap - aantal treden",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "0c43ed99-f7bb-4654-b1e0-a93a6d3af26f",
+    "uri": "https://data.toevla.org/id/concepts/0c43ed99-f7bb-4654-b1e0-a93a6d3af26f",
+    "order": 2
+  },
+  {
+    "label": "Hellende vlakken - aantal",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "6ce49390-b3d5-4b8e-9c56-d9fc193823a2",
+    "uri": "https://data.toevla.org/id/concepts/6ce49390-b3d5-4b8e-9c56-d9fc193823a2",
+    "order": 3
+  },
+  {
+    "label": "Oprijgoten aanwezig",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "e431f79f-21f9-4b1a-95a0-6200a743fea7",
+    "uri": "https://data.toevla.org/id/concepts/e431f79f-21f9-4b1a-95a0-6200a743fea7",
+    "order": 4
+  },
+  {
+    "label": "Tourniquetdeur aanwezig",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "6c49fb53-908d-4344-afe7-abaf86d3e461",
+    "uri": "https://data.toevla.org/id/concepts/6c49fb53-908d-4344-afe7-abaf86d3e461",
+    "order": 5,
+    "trueComment": "Tourniquetdeur"
+  },
+  {
+    "label": "Deurbreedte ",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "25e9674f-2222-4377-b115-9b4c25b67f67",
+    "uri": "https://data.toevla.org/id/concepts/25e9674f-2222-4377-b115-9b4c25b67f67",
+    "order": 6
+  },
+  {
+    "label": "Toegangscontrole",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "10764c3c-4142-4c6c-8c75-e3723c6fae23",
+    "uri": "https://data.toevla.org/id/concepts/10764c3c-4142-4c6c-8c75-e3723c6fae23",
+    "order": 7
+  },
+  {
+    "label": "Draairuimte aan deur",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "8a7b8177-59a8-417d-8dee-e5dcb3fedbf8",
+    "uri": "https://data.toevla.org/id/concepts/8a7b8177-59a8-417d-8dee-e5dcb3fedbf8",
+    "order": 8
+  },
+  {
+    "label": "Kracht van de deur",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "bba57566-133e-49e6-a151-303ae5f0ece8",
+    "uri": "https://data.toevla.org/id/concepts/bba57566-133e-49e6-a151-303ae5f0ece8",
+    "order": 9
+  },
+  {
+    "label": "Verlaagde balie",
+    "parent": "https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d",
+    "uuid": "c0a131bb-78a4-4b16-a2e9-f2fb252fc1c9",
+    "uri": "https://data.toevla.org/id/concepts/c0a131bb-78a4-4b16-a2e9-f2fb252fc1c9",
+    "order": 10
+  },
+  {
+    "label": "Extra info:",
+    "parent": "https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6",
+    "uuid": "30092095-b73a-4544-b651-9bf77affe38c",
+    "uri": "https://data.toevla.org/id/concepts/30092095-b73a-4544-b651-9bf77affe38c",
+    "order": 8
+  },
+  {
+    "label": "Toilet",
+    "parent": "https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765",
+    "uuid": "e6acc74f-473a-47b6-8823-9d6a30b4c1b9",
+    "uri": "https://data.toevla.org/id/concepts/e6acc74f-473a-47b6-8823-9d6a30b4c1b9",
+    "order": 1
+  },
+  {
+    "label": "De te volgen route is logisch en eenvoudig opgebouwd",
+    "parent": "https://data.toevla.org/id/concepts/e6acc74f-473a-47b6-8823-9d6a30b4c1b9",
+    "uuid": "79804c21-ba2d-4b3a-8633-447ffbc77fce",
+    "uri": "https://data.toevla.org/id/concepts/79804c21-ba2d-4b3a-8633-447ffbc77fce",
+    "order": 0
+  },
+  {
+    "label": "Spraaksynthese in de lift",
+    "parent": "https://data.toevla.org/id/concepts/e6acc74f-473a-47b6-8823-9d6a30b4c1b9",
+    "uuid": "fadff95d-20b7-422f-b402-3317bd747129",
+    "uri": "https://data.toevla.org/id/concepts/fadff95d-20b7-422f-b402-3317bd747129",
+    "order": 1
+  },
+  {
+    "label": "Duidelijke signalisatie in het gebouw",
+    "parent": "https://data.toevla.org/id/concepts/e6acc74f-473a-47b6-8823-9d6a30b4c1b9",
+    "uuid": "7a16f2ea-abbf-4367-9e2e-33af82336928",
+    "uri": "https://data.toevla.org/id/concepts/7a16f2ea-abbf-4367-9e2e-33af82336928",
+    "order": 2
+  },
+  {
+    "label": "Babyverzorgingstafel aanwezig",
+    "parent": "https://data.toevla.org/id/concepts/e6acc74f-473a-47b6-8823-9d6a30b4c1b9",
+    "uuid": "b3f68ed9-d415-4704-a3be-5f366077b80c",
+    "uri": "https://data.toevla.org/id/concepts/b3f68ed9-d415-4704-a3be-5f366077b80c",
+    "order": 3
+  },
+  {
+    "label": "Rolstoelvriendelijk Toilet",
+    "parent": "https://data.toevla.org/id/concepts/e6acc74f-473a-47b6-8823-9d6a30b4c1b9",
+    "uuid": "3962c53a-684a-4ba0-809a-5f984032f095",
+    "uri": "https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095",
+    "order": 4
+  },
+  {
+    "label": "Bereikbaarheid",
+    "parent": "https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095",
+    "uuid": "9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uri": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "order": 0
+  },
+  {
+    "label": "Afmeting lift (Breedte x Diepte)",
+    "parent": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uuid": "8c400682-6f97-410a-8791-996c498e212c",
+    "uri": "https://data.toevla.org/id/concepts/8c400682-6f97-410a-8791-996c498e212c",
+    "order": 0
+  },
+  {
+    "label": "Smalste punt op de route",
+    "parent": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uuid": "f32a0e76-853b-40bb-86c8-81894cdb70bb",
+    "uri": "https://data.toevla.org/id/concepts/f32a0e76-853b-40bb-86c8-81894cdb70bb",
+    "order": 1
+  },
+  {
+    "label": "Hoogste drempel",
+    "parent": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uuid": "bf1005f6-10f1-4afb-8bec-cd55e52fdba9",
+    "uri": "https://data.toevla.org/id/concepts/bf1005f6-10f1-4afb-8bec-cd55e52fdba9",
+    "order": 2
+  },
+  {
+    "label": "Meerdere drempels - aantal",
+    "parent": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uuid": "a70ec038-cdc7-43eb-9a52-7e6083e81947",
+    "uri": "https://data.toevla.org/id/concepts/a70ec038-cdc7-43eb-9a52-7e6083e81947",
+    "order": 3
+  },
+  {
+    "label": "Trap - aantal treden",
+    "parent": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uuid": "b8b0ca23-c64e-4dfb-96be-3084b62b1e5d",
+    "uri": "https://data.toevla.org/id/concepts/b8b0ca23-c64e-4dfb-96be-3084b62b1e5d",
+    "order": 4
+  },
+  {
+    "label": "Hellende vlakken - aantal",
+    "parent": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uuid": "5dc312ae-d003-433b-b281-0cea6b125088",
+    "uri": "https://data.toevla.org/id/concepts/5dc312ae-d003-433b-b281-0cea6b125088",
+    "order": 5
+  },
+  {
+    "label": "Oprijgoten aanwezig",
+    "parent": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uuid": "8a171198-7826-4fe8-8e94-1bcae36277e8",
+    "uri": "https://data.toevla.org/id/concepts/8a171198-7826-4fe8-8e94-1bcae36277e8",
+    "order": 6
+  },
+  {
+    "label": "Afmeting plateaulift (Breedte x Diepte)",
+    "parent": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uuid": "8e15a179-2fb3-4c56-b81d-f82bdfe7b7f9",
+    "uri": "https://data.toevla.org/id/concepts/8e15a179-2fb3-4c56-b81d-f82bdfe7b7f9",
+    "order": 7
+  },
+  {
+    "label": "Meerdere plateauliften - aantal",
+    "parent": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uuid": "954d684f-bba6-4e64-90bb-1e1f712a3a07",
+    "uri": "https://data.toevla.org/id/concepts/954d684f-bba6-4e64-90bb-1e1f712a3a07",
+    "order": 8
+  },
+  {
+    "label": "Type lift: (stoeltje)",
+    "parent": "https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383",
+    "uuid": "f1568429-0d10-41df-8fd5-a7579dc6be85",
+    "uri": "https://data.toevla.org/id/concepts/f1568429-0d10-41df-8fd5-a7579dc6be85",
+    "order": 9
+  },
+  {
+    "label": "Toiletdeur",
+    "parent": "https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095",
+    "uuid": "61642d46-03a8-457b-b0cf-fbfc8ae49bed",
+    "uri": "https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed",
+    "order": 1
+  },
+  {
+    "label": "Deurbreedte",
+    "parent": "https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed",
+    "uuid": "e7d25ab8-8660-4e7f-a1d5-aede97aa6883",
+    "uri": "https://data.toevla.org/id/concepts/e7d25ab8-8660-4e7f-a1d5-aede97aa6883",
+    "order": 0
+  },
+  {
+    "label": "Draairuimte aan deur ",
+    "parent": "https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed",
+    "uuid": "b3a5395a-3a3e-42cf-a140-c456f2a52237",
+    "uri": "https://data.toevla.org/id/concepts/b3a5395a-3a3e-42cf-a140-c456f2a52237",
+    "order": 1
+  },
+  {
+    "label": "In het toilet",
+    "parent": "https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095",
+    "uuid": "309d359b-7127-42e5-8ab0-e1ef7af27b7b",
+    "uri": "https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b",
+    "order": 2
+  },
+  {
+    "label": "Afmeting toiletruimte",
+    "parent": "https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b",
+    "uuid": "1ba08c83-b8f3-4c64-9320-fd04ee30c183",
+    "uri": "https://data.toevla.org/id/concepts/1ba08c83-b8f3-4c64-9320-fd04ee30c183",
+    "order": 0
+  },
+  {
+    "label": "Ruimte voor toiletpot",
+    "parent": "https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b",
+    "uuid": "4a3cfa2c-ac2d-419e-a48e-a85c8bbb3c66",
+    "uri": "https://data.toevla.org/id/concepts/4a3cfa2c-ac2d-419e-a48e-a85c8bbb3c66",
+    "order": 1
+  },
+  {
+    "label": "Ruimte naast toiletpot",
+    "parent": "https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b",
+    "uuid": "319b7eeb-5f07-4174-8342-4e2fdb601d9d",
+    "uri": "https://data.toevla.org/id/concepts/319b7eeb-5f07-4174-8342-4e2fdb601d9d",
+    "order": 2
+  },
+  {
+    "label": "Draairuimte in het toilet",
+    "parent": "https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b",
+    "uuid": "d02bbcf1-338d-4cc1-b2be-2c7af896b13a",
+    "uri": "https://data.toevla.org/id/concepts/d02bbcf1-338d-4cc1-b2be-2c7af896b13a",
+    "order": 3
+  },
+  {
+    "label": "Steunbeugels",
+    "parent": "https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b",
+    "uuid": "4bcfc144-a0d8-4461-bacb-35831af7ee4c",
+    "uri": "https://data.toevla.org/id/concepts/4bcfc144-a0d8-4461-bacb-35831af7ee4c",
+    "order": 4
+  },
+  {
+    "label": "Wastafel in toilet",
+    "parent": "https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b",
+    "uuid": "35f9c08e-0b4f-4a67-8d06-36dc37fb59f0",
+    "uri": "https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0",
+    "order": 5
+  },
+  {
+    "label": "Wastafel onderrijdbaar",
+    "parent": "https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0",
+    "uuid": "846960af-ba55-4b56-a92a-861a88160204",
+    "uri": "https://data.toevla.org/id/concepts/846960af-ba55-4b56-a92a-861a88160204",
+    "order": 0
+  },
+  {
+    "label": "Vrije hoogte onder wastafel",
+    "parent": "https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0",
+    "uuid": "36d9f853-4cb5-4021-9322-5d8f658f9b3a",
+    "uri": "https://data.toevla.org/id/concepts/36d9f853-4cb5-4021-9322-5d8f658f9b3a",
+    "order": 1
+  },
+  {
+    "label": "Vrije diepte onder wastafel",
+    "parent": "https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0",
+    "uuid": "eefaadc4-9732-48aa-b9da-7472f348990c",
+    "uri": "https://data.toevla.org/id/concepts/eefaadc4-9732-48aa-b9da-7472f348990c",
+    "order": 2
+  },
+  {
+    "label": "Vrije breedte onder wastafel",
+    "parent": "https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0",
+    "uuid": "972c27b2-c27b-4b25-9fc9-93a367c23f28",
+    "uri": "https://data.toevla.org/id/concepts/972c27b2-c27b-4b25-9fc9-93a367c23f28",
+    "order": 3
+  },
+  {
+    "label": "Extra info",
+    "parent": "https://data.toevla.org/id/concepts/e6acc74f-473a-47b6-8823-9d6a30b4c1b9",
+    "uuid": "d05326d4-eed9-4c10-b916-d701838f28e3",
+    "uri": "https://data.toevla.org/id/concepts/d05326d4-eed9-4c10-b916-d701838f28e3",
+    "order": 5
+  },
+  {
+    "label": "Circuleren - Vaste tentoonstelling",
+    "parent": "https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765",
+    "uuid": "02ab2a7a-128f-468f-9021-2174181b3e13",
+    "uri": "https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13",
+    "order": 2
+  },
+  {
+    "label": "De te volgen route is logisch en eenvoudig opgebouwd",
+    "parent": "https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13",
+    "uuid": "0139638d-8a35-4d51-b179-681984c055eb",
+    "uri": "https://data.toevla.org/id/concepts/0139638d-8a35-4d51-b179-681984c055eb",
+    "order": 0
+  },
+  {
+    "label": "Duidelijke signalisatie in het gebouw",
+    "parent": "https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13",
+    "uuid": "6baf48b5-924b-4a1d-ae13-b5925c3f7618",
+    "uri": "https://data.toevla.org/id/concepts/6baf48b5-924b-4a1d-ae13-b5925c3f7618",
+    "order": 1
+  },
+  {
+    "label": "Spraaksynthese in de lift",
+    "parent": "https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13",
+    "uuid": "e92a8c73-9740-4fec-b12c-470add4fc7b7",
+    "uri": "https://data.toevla.org/id/concepts/e92a8c73-9740-4fec-b12c-470add4fc7b7",
+    "order": 2
+  },
+  {
+    "label": "Rolstoelvriendelijke circulatie",
+    "parent": "https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13",
+    "uuid": "bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uri": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "order": 3
+  },
+  {
+    "label": "Alles op gelijkvloers",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "3dfde9e0-724c-4728-8b16-ec50582038d3",
+    "uri": "https://data.toevla.org/id/concepts/3dfde9e0-724c-4728-8b16-ec50582038d3",
+    "order": 0
+  },
+  {
+    "label": "Afmeting lift (Breedte x Diepte)",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "b858bc05-bef3-4abd-9fc9-0eeb389403be",
+    "uri": "https://data.toevla.org/id/concepts/b858bc05-bef3-4abd-9fc9-0eeb389403be",
+    "order": 1
+  },
+  {
+    "label": "Smalste punt op de route",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "d8f84769-3533-484f-8c7b-93a5ee5868cc",
+    "uri": "https://data.toevla.org/id/concepts/d8f84769-3533-484f-8c7b-93a5ee5868cc",
+    "order": 2
+  },
+  {
+    "label": "Hoogste drempel",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "1ba31d12-5a34-4224-876d-af8c87f834cc",
+    "uri": "https://data.toevla.org/id/concepts/1ba31d12-5a34-4224-876d-af8c87f834cc",
+    "order": 3
+  },
+  {
+    "label": "Meerdere drempels - aantal",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "3fdb7539-c5e1-4ba8-a54e-e0a813614af6",
+    "uri": "https://data.toevla.org/id/concepts/3fdb7539-c5e1-4ba8-a54e-e0a813614af6",
+    "order": 4
+  },
+  {
+    "label": "Trap - aantal treden",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "ff8a2110-dbc2-4c41-88c7-c6f16fc7baa0",
+    "uri": "https://data.toevla.org/id/concepts/ff8a2110-dbc2-4c41-88c7-c6f16fc7baa0",
+    "order": 5
+  },
+  {
+    "label": "Hellende vlakken - aantal",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "f0c27a68-f298-4b4b-ac7b-ca56b11d384b",
+    "uri": "https://data.toevla.org/id/concepts/f0c27a68-f298-4b4b-ac7b-ca56b11d384b",
+    "order": 6
+  },
+  {
+    "label": "Oprijgoten aanwezig",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "3a8e9b83-107e-4ceb-bacb-b3808d062e00",
+    "uri": "https://data.toevla.org/id/concepts/3a8e9b83-107e-4ceb-bacb-b3808d062e00",
+    "order": 7
+  },
+  {
+    "label": "Afmeting plateaulift (Breedte x Diepte)",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "7993ccd5-de76-4893-9b1f-110bb11912c4",
+    "uri": "https://data.toevla.org/id/concepts/7993ccd5-de76-4893-9b1f-110bb11912c4",
+    "order": 8
+  },
+  {
+    "label": "Meerdere plateauliften - aantal",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "8d2b6701-43be-4283-9c52-aadcc8324133",
+    "uri": "https://data.toevla.org/id/concepts/8d2b6701-43be-4283-9c52-aadcc8324133",
+    "order": 9
+  },
+  {
+    "label": "Type lift: (stoeltje)",
+    "parent": "https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a",
+    "uuid": "1c75758c-af92-467a-98c6-453d6bfdec29",
+    "uri": "https://data.toevla.org/id/concepts/1c75758c-af92-467a-98c6-453d6bfdec29",
+    "order": 10
+  },
+  {
+    "label": "Extra info:",
+    "parent": "https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13",
+    "uuid": "62360987-e5e8-48e0-a30c-8a678b7d8845",
+    "uri": "https://data.toevla.org/id/concepts/62360987-e5e8-48e0-a30c-8a678b7d8845",
+    "order": 4
+  },
+  {
+    "label": "Circuleren - Tijdelijke tentoonstelling",
+    "parent": "https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765",
+    "uuid": "f91d7bc9-0f25-40ce-adfd-993f36c6d724",
+    "uri": "https://data.toevla.org/id/concepts/f91d7bc9-0f25-40ce-adfd-993f36c6d724",
+    "order": 3
+  },
+  {
+    "label": "Extra",
+    "parent": "root",
+    "uuid": "622c883a-08ca-45a6-abbf-1564b1413388",
+    "uri": "https://data.toevla.org/id/concepts/622c883a-08ca-45a6-abbf-1564b1413388",
+    "order": 3
+  },
+  {
+    "label": "Eet- en drinkgelegenheid",
+    "parent": "https://data.toevla.org/id/concepts/622c883a-08ca-45a6-abbf-1564b1413388",
+    "uuid": "5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uri": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "order": 0
+  },
+  {
+    "label": "De te volgen route is logisch en eenvoudig opgebouwd",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "d88a799a-5830-456d-8d3b-62035849026c",
+    "uri": "https://data.toevla.org/id/concepts/d88a799a-5830-456d-8d3b-62035849026c",
+    "order": 0
+  },
+  {
+    "label": "Spraaksynthese in de lift",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "280a9c39-6464-4f3b-b0b6-7fdca4294ce1",
+    "uri": "https://data.toevla.org/id/concepts/280a9c39-6464-4f3b-b0b6-7fdca4294ce1",
+    "order": 1
+  },
+  {
+    "label": "Duidelijke signalisatie in het gebouw",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "81bf9b39-cc1b-4b0f-b1c2-9e23086eb7ef",
+    "uri": "https://data.toevla.org/id/concepts/81bf9b39-cc1b-4b0f-b1c2-9e23086eb7ef",
+    "order": 2
+  },
+  {
+    "label": "Extra aandacht voor akoestiek",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "cdce637f-0352-41cc-ba3b-0485e3e875a2",
+    "uri": "https://data.toevla.org/id/concepts/cdce637f-0352-41cc-ba3b-0485e3e875a2",
+    "order": 3
+  },
+  {
+    "label": "Goed verlichte zones",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "a27ef86f-2595-4284-90eb-9ac0f03425f5",
+    "uri": "https://data.toevla.org/id/concepts/a27ef86f-2595-4284-90eb-9ac0f03425f5",
+    "order": 4
+  },
+  {
+    "label": "Geschikt voor grote groepen (met mobiele beperking)",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "99c680a4-bc4a-4f86-b011-8fd5b94b8b7e",
+    "uri": "https://data.toevla.org/id/concepts/99c680a4-bc4a-4f86-b011-8fd5b94b8b7e",
+    "order": 5,
+    "trueComment": "Geschikt voor grote groepen (met mobiele beperking)",
+    "falseComment": "Niet geschikt voor grote groepen (met mobiele beperking)"
+  },
+  {
+    "label": "Menukaart ",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "e6d05aa7-57e1-4996-84a4-04a3d222084d",
+    "uri": "https://data.toevla.org/id/concepts/e6d05aa7-57e1-4996-84a4-04a3d222084d",
+    "order": 6
+  },
+  {
+    "label": "Duidelijk leesbaar (contrast, lettertype) ",
+    "parent": "https://data.toevla.org/id/concepts/e6d05aa7-57e1-4996-84a4-04a3d222084d",
+    "uuid": "8f1bfe56-2a13-48d4-b85c-85a88d959b4b",
+    "uri": "https://data.toevla.org/id/concepts/8f1bfe56-2a13-48d4-b85c-85a88d959b4b",
+    "order": 0,
+    "trueComment": "Duidelijk leesbaar (contrast, lettertype) "
+  },
+  {
+    "label": "In braille beschikbaar ",
+    "parent": "https://data.toevla.org/id/concepts/e6d05aa7-57e1-4996-84a4-04a3d222084d",
+    "uuid": "ea07f7b9-1baa-4fcd-930a-4a7575267bdf",
+    "uri": "https://data.toevla.org/id/concepts/ea07f7b9-1baa-4fcd-930a-4a7575267bdf",
+    "order": 1,
+    "trueComment": "In braille beschikbaar "
+  },
+  {
+    "label": "In grotere letter beschikbaar (punt 14)",
+    "parent": "https://data.toevla.org/id/concepts/e6d05aa7-57e1-4996-84a4-04a3d222084d",
+    "uuid": "35623d7d-fe5d-4e4f-a8a6-59f7b78e3ce8",
+    "uri": "https://data.toevla.org/id/concepts/35623d7d-fe5d-4e4f-a8a6-59f7b78e3ce8",
+    "order": 2,
+    "trueComment": "In grotere letter beschikbaar (punt 14)"
+  },
+  {
+    "label": "Digitaal beschikbaar ",
+    "parent": "https://data.toevla.org/id/concepts/e6d05aa7-57e1-4996-84a4-04a3d222084d",
+    "uuid": "b930cfd6-7ea5-42ef-a323-f17e7baa1bf0",
+    "uri": "https://data.toevla.org/id/concepts/b930cfd6-7ea5-42ef-a323-f17e7baa1bf0",
+    "order": 3,
+    "trueComment": "Digitaal beschikbaar "
+  },
+  {
+    "label": "Met afbeeldingen beschikbaar ",
+    "parent": "https://data.toevla.org/id/concepts/e6d05aa7-57e1-4996-84a4-04a3d222084d",
+    "uuid": "38ec82fa-7154-47eb-a58c-a82643ada9f1",
+    "uri": "https://data.toevla.org/id/concepts/38ec82fa-7154-47eb-a58c-a82643ada9f1",
+    "order": 4,
+    "trueComment": "Met afbeeldingen beschikbaar "
+  },
+  {
+    "label": "Aangepaste maaltijden ",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "d36da975-c9f0-4957-a8be-9f7fca0f81be",
+    "uri": "https://data.toevla.org/id/concepts/d36da975-c9f0-4957-a8be-9f7fca0f81be",
+    "order": 7
+  },
+  {
+    "label": "Informatie over ingrediënten en  allergenen beschikbaar ",
+    "parent": "https://data.toevla.org/id/concepts/d36da975-c9f0-4957-a8be-9f7fca0f81be",
+    "uuid": "736eb666-a08d-453c-b9e9-09f2ea1cabf2",
+    "uri": "https://data.toevla.org/id/concepts/736eb666-a08d-453c-b9e9-09f2ea1cabf2",
+    "order": 0,
+    "trueComment": "Informatie over ingrediënten en  allergenen beschikbaar "
+  },
+  {
+    "label": "Altijd beschikbaar",
+    "parent": "https://data.toevla.org/id/concepts/d36da975-c9f0-4957-a8be-9f7fca0f81be",
+    "uuid": "4cf21cf0-7c56-45e8-96d4-cb306320ff8f",
+    "uri": "https://data.toevla.org/id/concepts/4cf21cf0-7c56-45e8-96d4-cb306320ff8f",
+    "order": 1,
+    "trueComment": "Altijd beschikbaar"
+  },
+  {
+    "label": "Beschikbaar op vraag",
+    "parent": "https://data.toevla.org/id/concepts/d36da975-c9f0-4957-a8be-9f7fca0f81be",
+    "uuid": "d2ec4302-863d-4d7f-af03-d77a1ca5e800",
+    "uri": "https://data.toevla.org/id/concepts/d2ec4302-863d-4d7f-af03-d77a1ca5e800",
+    "order": 2,
+    "trueComment": "Beschikbaar op vraag"
+  },
+  {
+    "label": "Extra's voor kinderen",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "f576fdf1-6c32-430f-b377-22d5539b0073",
+    "uri": "https://data.toevla.org/id/concepts/f576fdf1-6c32-430f-b377-22d5539b0073",
+    "order": 8
+  },
+  {
+    "label": "Kinderstoel beschikbaar ",
+    "parent": "https://data.toevla.org/id/concepts/f576fdf1-6c32-430f-b377-22d5539b0073",
+    "uuid": "1ca9aa22-2699-4a54-908b-cf1eb304d25c",
+    "uri": "https://data.toevla.org/id/concepts/1ca9aa22-2699-4a54-908b-cf1eb304d25c",
+    "order": 0,
+    "trueComment": "Kinderstoel beschikbaar "
+  },
+  {
+    "label": "Gebruik van microgolfoven mogelijk",
+    "parent": "https://data.toevla.org/id/concepts/f576fdf1-6c32-430f-b377-22d5539b0073",
+    "uuid": "1f2c9c03-cba0-4874-89ab-453009b0a3f0",
+    "uri": "https://data.toevla.org/id/concepts/1f2c9c03-cba0-4874-89ab-453009b0a3f0",
+    "order": 1,
+    "trueComment": "Gebruik van microgolfoven mogelijk"
+  },
+  {
+    "label": "Rolstoelvriendelijke verbruiksruimte",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uri": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "order": 9
+  },
+  {
+    "label": "Alles op gelijkvloers",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "15042426-81c4-4a47-a2d3-00fc78bb326c",
+    "uri": "https://data.toevla.org/id/concepts/15042426-81c4-4a47-a2d3-00fc78bb326c",
+    "order": 0
+  },
+  {
+    "label": "Afmeting lift (Breedte x Diepte)",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "96789565-d0bb-4ada-93b5-2407e03a565d",
+    "uri": "https://data.toevla.org/id/concepts/96789565-d0bb-4ada-93b5-2407e03a565d",
+    "order": 1
+  },
+  {
+    "label": "Smalste punt op de route",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "92ead350-8b18-493d-a9ed-dfdf0ad74608",
+    "uri": "https://data.toevla.org/id/concepts/92ead350-8b18-493d-a9ed-dfdf0ad74608",
+    "order": 2
+  },
+  {
+    "label": "Hoogste drempel",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "de657184-94b8-4ff9-a2bd-a6ac977d4cee",
+    "uri": "https://data.toevla.org/id/concepts/de657184-94b8-4ff9-a2bd-a6ac977d4cee",
+    "order": 3
+  },
+  {
+    "label": "Meerdere drempels - aantal",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "2cdb79b2-d716-4376-bab1-5382e5b68fbb",
+    "uri": "https://data.toevla.org/id/concepts/2cdb79b2-d716-4376-bab1-5382e5b68fbb",
+    "order": 4
+  },
+  {
+    "label": "Trap - aantal treden",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "b2a167bc-e5f1-42eb-a463-cbb45e310854",
+    "uri": "https://data.toevla.org/id/concepts/b2a167bc-e5f1-42eb-a463-cbb45e310854",
+    "order": 5
+  },
+  {
+    "label": "Hellende vlakken - aantal",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "271bf254-ee23-43da-91d2-cadaf4bf5649",
+    "uri": "https://data.toevla.org/id/concepts/271bf254-ee23-43da-91d2-cadaf4bf5649",
+    "order": 6
+  },
+  {
+    "label": "Oprijgoten aanwezig",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "56eda837-f6b1-4748-a5b7-202837b0fe31",
+    "uri": "https://data.toevla.org/id/concepts/56eda837-f6b1-4748-a5b7-202837b0fe31",
+    "order": 7
+  },
+  {
+    "label": "Afmeting plateaulift (Breedte x Diepte)",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "6d5863c9-b221-4275-85ea-6dc8a2b8e47c",
+    "uri": "https://data.toevla.org/id/concepts/6d5863c9-b221-4275-85ea-6dc8a2b8e47c",
+    "order": 8
+  },
+  {
+    "label": "Meerdere plateauliften",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "cd2731fa-5119-4edf-8527-6aaba2e7fe2a",
+    "uri": "https://data.toevla.org/id/concepts/cd2731fa-5119-4edf-8527-6aaba2e7fe2a",
+    "order": 9
+  },
+  {
+    "label": "Type lift: (stoeltje)",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "0c34566d-2f09-4b11-acd6-aa35449a26c2",
+    "uri": "https://data.toevla.org/id/concepts/0c34566d-2f09-4b11-acd6-aa35449a26c2",
+    "order": 10
+  },
+  {
+    "label": "Bereikbaarheid beste tafel",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "c1b6c4e0-a87f-4e64-a6a5-994f012e1f16",
+    "uri": "https://data.toevla.org/id/concepts/c1b6c4e0-a87f-4e64-a6a5-994f012e1f16",
+    "order": 11
+  },
+  {
+    "label": "Smalste punt op de route",
+    "parent": "https://data.toevla.org/id/concepts/c1b6c4e0-a87f-4e64-a6a5-994f012e1f16",
+    "uuid": "170f7ec3-a5cd-4eed-857e-4a0ed192f8eb",
+    "uri": "https://data.toevla.org/id/concepts/170f7ec3-a5cd-4eed-857e-4a0ed192f8eb",
+    "order": 0
+  },
+  {
+    "label": "Hoogste drempel",
+    "parent": "https://data.toevla.org/id/concepts/c1b6c4e0-a87f-4e64-a6a5-994f012e1f16",
+    "uuid": "2859dad2-f2b5-4856-8396-6b5d2c07ced6",
+    "uri": "https://data.toevla.org/id/concepts/2859dad2-f2b5-4856-8396-6b5d2c07ced6",
+    "order": 1
+  },
+  {
+    "label": "Alle tafels gelijk",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "defbbfa1-9984-48ff-9f2e-8bc1b1534050",
+    "uri": "https://data.toevla.org/id/concepts/defbbfa1-9984-48ff-9f2e-8bc1b1534050",
+    "order": 12
+  },
+  {
+    "label": "Tafel: onderrijdbaar",
+    "parent": "https://data.toevla.org/id/concepts/5edf7676-cb4f-492c-aa24-0e5f9e29926d",
+    "uuid": "d8011ef7-a0fa-42ad-b263-fea867585a93",
+    "uri": "https://data.toevla.org/id/concepts/d8011ef7-a0fa-42ad-b263-fea867585a93",
+    "order": 13
+  },
+  {
+    "label": "vrije hoogte onder tafel",
+    "parent": "https://data.toevla.org/id/concepts/d8011ef7-a0fa-42ad-b263-fea867585a93",
+    "uuid": "7920223b-a649-4827-8735-1724776a0e65",
+    "uri": "https://data.toevla.org/id/concepts/7920223b-a649-4827-8735-1724776a0e65",
+    "order": 0
+  },
+  {
+    "label": "vrije diepte onder tafel",
+    "parent": "https://data.toevla.org/id/concepts/d8011ef7-a0fa-42ad-b263-fea867585a93",
+    "uuid": "6c1cf208-dedf-4a3c-8fe9-32aae0f34d4a",
+    "uri": "https://data.toevla.org/id/concepts/6c1cf208-dedf-4a3c-8fe9-32aae0f34d4a",
+    "order": 1
+  },
+  {
+    "label": "vrije breedte onder tafel",
+    "parent": "https://data.toevla.org/id/concepts/d8011ef7-a0fa-42ad-b263-fea867585a93",
+    "uuid": "f7d0a54d-2f1d-49ff-8046-9e6b79f05385",
+    "uri": "https://data.toevla.org/id/concepts/f7d0a54d-2f1d-49ff-8046-9e6b79f05385",
+    "order": 2
+  },
+  {
+    "label": "Extra info:",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "87b75ee2-730a-4801-999b-5c4c55af74af",
+    "uri": "https://data.toevla.org/id/concepts/87b75ee2-730a-4801-999b-5c4c55af74af",
+    "order": 10
+  },
+  {
+    "label": "Rolstoelvriendelijk terras bij verbruiksruimte",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uri": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "order": 11
+  },
+  {
+    "label": "Smalste punt op de route",
+    "parent": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uuid": "593c1199-c389-4f82-a454-97fa365acddc",
+    "uri": "https://data.toevla.org/id/concepts/593c1199-c389-4f82-a454-97fa365acddc",
+    "order": 0
+  },
+  {
+    "label": "Hoogste drempel",
+    "parent": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uuid": "56930959-5466-4950-b5f7-2187daa6d28f",
+    "uri": "https://data.toevla.org/id/concepts/56930959-5466-4950-b5f7-2187daa6d28f",
+    "order": 1
+  },
+  {
+    "label": "Meerdere drempels - aantal",
+    "parent": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uuid": "e3accb3a-a29d-4878-a582-d951706a3711",
+    "uri": "https://data.toevla.org/id/concepts/e3accb3a-a29d-4878-a582-d951706a3711",
+    "order": 2
+  },
+  {
+    "label": "Trap - aantal treden",
+    "parent": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uuid": "9d20ff31-408e-4914-b54a-2c9379eaefa5",
+    "uri": "https://data.toevla.org/id/concepts/9d20ff31-408e-4914-b54a-2c9379eaefa5",
+    "order": 3
+  },
+  {
+    "label": "Hellende vlakken - aantal",
+    "parent": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uuid": "aa4f802a-58f4-41e0-a319-624137b973dd",
+    "uri": "https://data.toevla.org/id/concepts/aa4f802a-58f4-41e0-a319-624137b973dd",
+    "order": 4
+  },
+  {
+    "label": "Oprijgoten aanwezig",
+    "parent": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uuid": "0370fd00-a63b-4922-be76-e6d4c8bb3dab",
+    "uri": "https://data.toevla.org/id/concepts/0370fd00-a63b-4922-be76-e6d4c8bb3dab",
+    "order": 5
+  },
+  {
+    "label": "Deurbreedte ",
+    "parent": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uuid": "5a3949d9-ec96-453c-96b0-a6e6945444df",
+    "uri": "https://data.toevla.org/id/concepts/5a3949d9-ec96-453c-96b0-a6e6945444df",
+    "order": 6
+  },
+  {
+    "label": "Draairuimte aan deur",
+    "parent": "https://data.toevla.org/id/concepts/5a3949d9-ec96-453c-96b0-a6e6945444df",
+    "uuid": "923bdd3d-20ea-44b4-8795-d1905d680291",
+    "uri": "https://data.toevla.org/id/concepts/923bdd3d-20ea-44b4-8795-d1905d680291",
+    "order": 0
+  },
+  {
+    "label": "Kracht van de deur",
+    "parent": "https://data.toevla.org/id/concepts/5a3949d9-ec96-453c-96b0-a6e6945444df",
+    "uuid": "c87a7ebc-a369-457c-a517-0d444d5e7d27",
+    "uri": "https://data.toevla.org/id/concepts/c87a7ebc-a369-457c-a517-0d444d5e7d27",
+    "order": 1
+  },
+  {
+    "label": "Bereikbaarheid beste tafel",
+    "parent": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uuid": "5dfa1017-5177-4c8d-b025-d42c59c1f165",
+    "uri": "https://data.toevla.org/id/concepts/5dfa1017-5177-4c8d-b025-d42c59c1f165",
+    "order": 7
+  },
+  {
+    "label": "Smalste punt op de route",
+    "parent": "https://data.toevla.org/id/concepts/5dfa1017-5177-4c8d-b025-d42c59c1f165",
+    "uuid": "e3c745d7-3260-4c19-ba63-8c6e817698c6",
+    "uri": "https://data.toevla.org/id/concepts/e3c745d7-3260-4c19-ba63-8c6e817698c6",
+    "order": 0
+  },
+  {
+    "label": " Hoogste drempel",
+    "parent": "https://data.toevla.org/id/concepts/5dfa1017-5177-4c8d-b025-d42c59c1f165",
+    "uuid": "a302d8a0-f78c-42b6-b53c-aca5f3b8e031",
+    "uri": "https://data.toevla.org/id/concepts/a302d8a0-f78c-42b6-b53c-aca5f3b8e031",
+    "order": 1
+  },
+  {
+    "label": "Alle tafels gelijk",
+    "parent": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uuid": "b026745a-0ba1-4a49-9119-a6133ed57f6d",
+    "uri": "https://data.toevla.org/id/concepts/b026745a-0ba1-4a49-9119-a6133ed57f6d",
+    "order": 8
+  },
+  {
+    "label": "Tafel: onderrijdbaar",
+    "parent": "https://data.toevla.org/id/concepts/41b1f4a9-bfa7-43cb-a9d1-f96f28178650",
+    "uuid": "b86ffdcf-715f-4937-a6b1-0fc595900d0a",
+    "uri": "https://data.toevla.org/id/concepts/b86ffdcf-715f-4937-a6b1-0fc595900d0a",
+    "order": 9
+  },
+  {
+    "label": "vrije hoogte onder tafel",
+    "parent": "https://data.toevla.org/id/concepts/b86ffdcf-715f-4937-a6b1-0fc595900d0a",
+    "uuid": "cbf79b09-46eb-48c3-8a11-70fc572a8794",
+    "uri": "https://data.toevla.org/id/concepts/cbf79b09-46eb-48c3-8a11-70fc572a8794",
+    "order": 0
+  },
+  {
+    "label": "vrije diepte onder tafel",
+    "parent": "https://data.toevla.org/id/concepts/b86ffdcf-715f-4937-a6b1-0fc595900d0a",
+    "uuid": "c3925805-0035-424d-ad19-a22d527e50a4",
+    "uri": "https://data.toevla.org/id/concepts/c3925805-0035-424d-ad19-a22d527e50a4",
+    "order": 1
+  },
+  {
+    "label": "vrije breedte onder tafel",
+    "parent": "https://data.toevla.org/id/concepts/b86ffdcf-715f-4937-a6b1-0fc595900d0a",
+    "uuid": "3c685c96-8fcf-4f9f-8d04-526ea770cef4",
+    "uri": "https://data.toevla.org/id/concepts/3c685c96-8fcf-4f9f-8d04-526ea770cef4",
+    "order": 2
+  },
+  {
+    "label": "Extra info:",
+    "parent": "https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523",
+    "uuid": "a5467fe6-02cd-4732-b230-c0a73f643485",
+    "uri": "https://data.toevla.org/id/concepts/a5467fe6-02cd-4732-b230-c0a73f643485",
+    "order": 12
+  },
+  {
+    "label": "Museumshop",
+    "parent": "https://data.toevla.org/id/concepts/622c883a-08ca-45a6-abbf-1564b1413388",
+    "uuid": "64e1c63a-c63a-4a79-96b8-918bb5939350",
+    "uri": "https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350",
+    "order": 1
+  },
+  {
+    "label": "Elektronische betaalmogelijkheid verplaatsbaar",
+    "parent": "https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350",
+    "uuid": "cbb6137f-18b2-490c-8143-30c23892cda5",
+    "uri": "https://data.toevla.org/id/concepts/cbb6137f-18b2-490c-8143-30c23892cda5",
+    "order": 0
+  },
+  {
+    "label": "webshop?",
+    "parent": "https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350",
+    "uuid": "272c1c32-ef02-43c2-831f-ba6c371ff903",
+    "uri": "https://data.toevla.org/id/concepts/272c1c32-ef02-43c2-831f-ba6c371ff903",
+    "order": 1
+  },
+  {
+    "label": "Rolstoelvriendelijke museumshop",
+    "parent": "https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350",
+    "uuid": "6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uri": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "order": 2
+  },
+  {
+    "label": "Circuleren",
+    "parent": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uuid": "491f4bda-06c2-449f-8b0c-03a7dd0d5a4b",
+    "uri": "https://data.toevla.org/id/concepts/491f4bda-06c2-449f-8b0c-03a7dd0d5a4b",
+    "order": 0
+  },
+  {
+    "label": "Smalste punt op de route",
+    "parent": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uuid": "8e3bd86b-2b46-47ca-9112-292e3ab3e971",
+    "uri": "https://data.toevla.org/id/concepts/8e3bd86b-2b46-47ca-9112-292e3ab3e971",
+    "order": 1
+  },
+  {
+    "label": "Hoogste drempel",
+    "parent": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uuid": "94c7a086-d489-442b-b9d4-cee7ab56d4cd",
+    "uri": "https://data.toevla.org/id/concepts/94c7a086-d489-442b-b9d4-cee7ab56d4cd",
+    "order": 2
+  },
+  {
+    "label": "Meerdere drempels - aantal",
+    "parent": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uuid": "96ebebce-3063-4d34-a8dc-51e8075298d1",
+    "uri": "https://data.toevla.org/id/concepts/96ebebce-3063-4d34-a8dc-51e8075298d1",
+    "order": 3
+  },
+  {
+    "label": "Trap - aantal treden",
+    "parent": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uuid": "b80ad6eb-3aa8-4766-ab5b-08a7145d21ee",
+    "uri": "https://data.toevla.org/id/concepts/b80ad6eb-3aa8-4766-ab5b-08a7145d21ee",
+    "order": 4
+  },
+  {
+    "label": "Hellende vlakken - aantal",
+    "parent": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uuid": "7c64229b-29e8-4f1e-a35a-7fec850f34e4",
+    "uri": "https://data.toevla.org/id/concepts/7c64229b-29e8-4f1e-a35a-7fec850f34e4",
+    "order": 5
+  },
+  {
+    "label": "Oprijgoten aanwezig",
+    "parent": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uuid": "6ae59fc7-6710-4157-b01d-27bcf7d7424f",
+    "uri": "https://data.toevla.org/id/concepts/6ae59fc7-6710-4157-b01d-27bcf7d7424f",
+    "order": 6
+  },
+  {
+    "label": "Aanvulling ifv handelszaak?",
+    "parent": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uuid": "ccc40741-d1c0-418f-83bc-5aaf94506023",
+    "uri": "https://data.toevla.org/id/concepts/ccc40741-d1c0-418f-83bc-5aaf94506023",
+    "order": 7
+  },
+  {
+    "label": "Ruimte tussen rekken = smalste punt",
+    "parent": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uuid": "4e9c02e4-9bfc-4e72-877b-96e4f889995c",
+    "uri": "https://data.toevla.org/id/concepts/4e9c02e4-9bfc-4e72-877b-96e4f889995c",
+    "order": 8
+  },
+  {
+    "label": "Balie voor afrekenen",
+    "parent": "https://data.toevla.org/id/concepts/6270d4bb-dfa4-48b5-a52a-85b52a3aa07f",
+    "uuid": "1d0b96f9-fa0a-4fe3-87ef-319d97006ea8",
+    "uri": "https://data.toevla.org/id/concepts/1d0b96f9-fa0a-4fe3-87ef-319d97006ea8",
+    "order": 9
+  },
+  {
+    "label": "Extra info:",
+    "parent": "https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350",
+    "uuid": "201449c1-93f7-46ec-81f7-2d9331c15a91",
+    "uri": "https://data.toevla.org/id/concepts/201449c1-93f7-46ec-81f7-2d9331c15a91",
+    "order": 3
+  }
+]
