@@ -10,6 +10,21 @@
       "environment": {
         "image": "semtech/mu-javascript-template",
         "interactive": true,
+        "script": "add-uris.sh"
+      },
+      "mounts": {
+        "app": "/data/app/"
+      }
+    },
+    {
+      "documentation": {
+        "command": "generate-ttl",
+        "description": "Generates a ttl from an excel sheet. \nAssumes the sheet will be available at /toevla-latest.xlsx and the sheet to import is Moederdoc.\nOutput will be written to ./generated.ttl",
+        "arguments": []
+      },
+      "environment": {
+        "image": "semtech/mu-javascript-template",
+        "interactive": true,
         "script": "generate-ttl.sh"
       },
       "mounts": {
