@@ -13,6 +13,7 @@ var sheet=xlsx.utils.sheet_to_json(excel.Sheets[sheetName]);
 var parsedTree=[
 ];
 
+//columns where the tree nodes are located fill out appropriately
 var nodeColumns=[
   {column:1, parent:'root', order: -1}, 
   {column:25, parent:'', order: 0}, 
@@ -24,10 +25,13 @@ var nodeColumns=[
   {column:31, parent:'', order: 0}
 ];
 
+//other columns that are relavant
 var infoColumns={type: 20, trueComment: 35, falseComment:37, uri: 48, relevant: 49};
+
 var prevColumnIndex=nodeColumns[0].column;
 var prevNode={};
 var order=0;
+
 //get uuid out of uri
 function parseUuid(uri){
   var match=uri.match(/https:\/\/data\.toevla\.org\/id\/concepts\/(.+)/);
@@ -36,7 +40,9 @@ function parseUuid(uri){
 //iterate over relevant columns
 for(var rowIndex=6; rowIndex<sheet.length; rowIndex++){
   var row=sheet[rowIndex];
+
   if(row['__EMPTY_'+infoColumns.relevant]=='V'){
+    
     for(var nodeColumnIndex=0; nodeColumnIndex<nodeColumns.length; nodeColumnIndex++){
       var columnIndex=nodeColumns[nodeColumnIndex].column;
       cell=row['__EMPTY_'+columnIndex];
@@ -53,13 +59,16 @@ for(var rowIndex=6; rowIndex<sheet.length; rowIndex++){
         if(row['__EMPTY_'+infoColumns.type]=="Ja/Nee"){
           var trueCell=row['__EMPTY_'+infoColumns.trueComment];
           var falseCell=row['__EMPTY_'+infoColumns.falseComment];
+          
           if(trueCell && trueCell!='' && trueCell!='geen weergave'){
             node.trueComment=trueCell;
           }
+          
           if(falseCell && falseCell!='' && falseCell!='geen weergave'){
             node.falseComment=falseCell;
           }
         }
+
         //parse tree structure
         if(columnIndex>prevColumnIndex){
           node.parent=prevNode.uri;
