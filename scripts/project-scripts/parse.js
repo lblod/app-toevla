@@ -28,6 +28,7 @@ var nodeColumns=[
 //other columns that are relavant
 var infoColumns={type: 20, trueComment: 35, falseComment:37, uri: 48, relevant: 49};
 
+//utility variables
 var prevColumnIndex=nodeColumns[0].column;
 var prevNode={};
 var order=0;
