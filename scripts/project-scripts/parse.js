@@ -4,8 +4,8 @@ const { v4: uuid } = require('uuid');
 const fs = require("fs");
 const { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } = require('constants');
 
-const fileName = './toevla-latest.xlsx';
-var sheetName='Moederdoc_29-06-2020';
+const fileName = '/data/app/toevla-latest.xlsx';
+var sheetName='Moederdoc';
 
 const excel = xlsx.readFile(fileName);
 var sheet=xlsx.utils.sheet_to_json(excel.Sheets[sheetName]);

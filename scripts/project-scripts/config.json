@@ -4,7 +4,7 @@
     {
       "documentation": {
         "command": "parse-data",
-        "description": "parses an excel sheet",
+        "description": "Parses an excel sheet. \nAssumes the sheet will be available at /toevla-latest.xlsx and the sheet to import is Moederdoc.\nOutput will be written to ./generated.ttl",
         "arguments": []
       },
       "environment": {
