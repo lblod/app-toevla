@@ -91,6 +91,14 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/auditoria/"
   end
 
+  match "/restaurants/*path", @json do
+    Proxy.forward conn, path, "http://resource/restaurants/"
+  end
+
+  match "/shops/*path", @json do
+    Proxy.forward conn, path, "http://resource/shops/"
+  end
+
   match "/images/*path", @image do
     Proxy.forward conn, path, "http://imageservice/image/"
   end
