@@ -1,0 +1,3628 @@
+
+@prefix cms: <http://mu.semte.ch/vocabulary/cms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix ext: <http://mu.semte.ch/vocabularies/ext/>.
+@prefix rm: <http://mu.semte.ch/vocabularies/logical-delete/>.
+@prefix typedLiterals: <http://mu.semte.ch/vocabularies/typed-literals/>.
+@prefix mu: <http://mu.semte.ch/vocabularies/core/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix app: <http://mu.semte.ch/app/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix tvcs: <http://data.toevla.org/concept-schemes/>.
+@prefix toevla: <http://toevla.org/ns/generic/>.
+
+tvcs:musea a  skos:ConceptScheme;
+  skos:prefLabel "Musea";
+  mu:uuid "eed8f203-443b-424c-afa8-0c90bab621e2".
+
+tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f>.
+<https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f> a skos:Concept;
+  mu:uuid "5ff3f900-bcdf-4639-b14b-409ac7bd592f";
+  skos:prefLabel "Algemeen";
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "NVT (titels)";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+
+  ext:order 0.    
+
+<https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55> a skos:Concept;
+  mu:uuid "f1587316-6d71-406b-8bdf-379e3c1c5b55";
+  skos:prefLabel "Praktische info";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Titel (GO)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f>.
+  
+<https://data.toevla.org/id/concepts/172da2d4-4114-465b-a083-7b7644618838> a skos:Concept;
+  mu:uuid "172da2d4-4114-465b-a083-7b7644618838";
+  skos:prefLabel "Begeleiding van aan het openbaar vervoer mogelijk";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Begeleiding van aan het openbaar vervoer mogelijk";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Begeleiding van aan het openbaar vervoer mogelijk";
+  skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
+  
+<https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b> a skos:Concept;
+  mu:uuid "4b8a512e-3810-47f2-a253-a67e6420045b";
+  skos:prefLabel "Financiële tegemoetkoming toegangsprijs";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Financiële tegemoetkoming toegangsprijs:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
+  
+<https://data.toevla.org/id/concepts/254027e0-9015-424b-a05f-60b0e33e5808> a skos:Concept;
+  mu:uuid "254027e0-9015-424b-a05f-60b0e33e5808";
+  skos:prefLabel "Begeleider gratis";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Begeleider gratis";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Begeleider gratis";
+  skos:broader <https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b>.
+  
+<https://data.toevla.org/id/concepts/481f153a-d901-4edc-af87-fa35cbed1057> a skos:Concept;
+  mu:uuid "481f153a-d901-4edc-af87-fa35cbed1057";
+  skos:prefLabel "Museumpas";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Museumpas";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Museumpas";
+  skos:broader <https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b>.
+  
+<https://data.toevla.org/id/concepts/76329315-c2ba-4309-b4f1-0233e10eec7b> a skos:Concept;
+  mu:uuid "76329315-c2ba-4309-b4f1-0233e10eec7b";
+  skos:prefLabel "Uitpas (punten scannen)";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Uitpas (punten scannen)";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Uitpas (punten scannen)";
+  skos:broader <https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b>.
+  
+<https://data.toevla.org/id/concepts/fab3d846-a393-4c89-a2db-0ee075406f66> a skos:Concept;
+  mu:uuid "fab3d846-a393-4c89-a2db-0ee075406f66";
+  skos:prefLabel "City Pas";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "City Pas";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "City Pas";
+  skos:broader <https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b>.
+  
+<https://data.toevla.org/id/concepts/b60c0fd6-61ce-4461-824d-efd6cb2055bd> a skos:Concept;
+  mu:uuid "b60c0fd6-61ce-4461-824d-efd6cb2055bd";
+  skos:prefLabel "EDC (European Disability Card)";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "EDC (European Disability Card)";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "EDC (European Disability Card)";
+  skos:broader <https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b>.
+  
+<https://data.toevla.org/id/concepts/fc8bb9f5-76f0-47a5-a628-858037dcc076> a skos:Concept;
+  mu:uuid "fc8bb9f5-76f0-47a5-a628-858037dcc076";
+  skos:prefLabel "Rolstoel ter beschikking";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Rolstoel ter beschikking";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Rolstoel ter beschikking";
+  skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
+  
+<https://data.toevla.org/id/concepts/4bd0372b-314b-43c1-8295-7114b6f08443> a skos:Concept;
+  mu:uuid "4bd0372b-314b-43c1-8295-7114b6f08443";
+  skos:prefLabel "Wifi ";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Keuzelijst";
+  toevla:trueCommentOriginal "Wifi: altijd vrij beschikbaar";
+  toevla:falseCommentOriginal "Wifi: niet beschikbaar";
+  
+  skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
+  
+<https://data.toevla.org/id/concepts/0545c86a-5d54-463c-b161-c1b8946b13cd> a skos:Concept;
+  mu:uuid "0545c86a-5d54-463c-b161-c1b8946b13cd";
+  skos:prefLabel "Assistentiehonden: er zijn voorzieningen aanwezig ";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Voorzieningen voor assistentiehonden";
+  toevla:falseCommentOriginal "Geen voorzieningen voor assistentiehonden";
+  
+  toevla:positiveTemplate "Voorzieningen voor assistentiehonden";
+  toevla:negativeTemplate "Geen voorzieningen voor assistentiehonden";
+  skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
+  
+<https://data.toevla.org/id/concepts/5d0ccee1-065d-4ce1-923f-d9c13b600d60> a skos:Concept;
+  mu:uuid "5d0ccee1-065d-4ce1-923f-d9c13b600d60";
+  skos:prefLabel "Visueel stappenpan om bezoek voor te bereiden";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Visueel stappenpan om bezoek voor te bereiden aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Visueel stappenpan om bezoek voor te bereiden aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
+  
+<https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c> a skos:Concept;
+  mu:uuid "65927850-0bfc-40ab-a3d9-3b308aecf83c";
+  skos:prefLabel "Website";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Website:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
+  
+<https://data.toevla.org/id/concepts/9ae90bc9-2f2f-47b6-b7fc-a542172e6ac5> a skos:Concept;
+  mu:uuid "9ae90bc9-2f2f-47b6-b7fc-a542172e6ac5";
+  skos:prefLabel "Toegankelijkheidslabel aanwezig";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Toegankelijkheidslabel aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Toegankelijkheidslabel aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c>.
+  
+<https://data.toevla.org/id/concepts/0dd0cc1d-630d-445e-80a6-100d32ef460f> a skos:Concept;
+  mu:uuid "0dd0cc1d-630d-445e-80a6-100d32ef460f";
+  skos:prefLabel "Tekstvergroting mogelijk";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Tekstvergroting mogelijk";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Tekstvergroting mogelijk";
+  skos:broader <https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c>.
+  
+<https://data.toevla.org/id/concepts/eea322d2-e0ec-40f2-8d11-5774435ca067> a skos:Concept;
+  mu:uuid "eea322d2-e0ec-40f2-8d11-5774435ca067";
+  skos:prefLabel "Contrasten aanwezig";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Contrasten aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Contrasten aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c>.
+  
+<https://data.toevla.org/id/concepts/790d70c6-6fd3-4a7b-8536-0813f3e54888> a skos:Concept;
+  mu:uuid "790d70c6-6fd3-4a7b-8536-0813f3e54888";
+  skos:prefLabel "Voorleesfunctie beschikbaar";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Voorleesfunctie beschikbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Voorleesfunctie beschikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c>.
+  
+<https://data.toevla.org/id/concepts/1f169010-d9ab-40f9-89f9-4033b569dd0f> a skos:Concept;
+  mu:uuid "1f169010-d9ab-40f9-89f9-4033b569dd0f";
+  skos:prefLabel "Gebarentaal voorzien";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Gebarentaal voorzien";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Gebarentaal voorzien";
+  skos:broader <https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c>.
+  
+<https://data.toevla.org/id/concepts/df0271fa-5a57-4133-84ca-52975031712e> a skos:Concept;
+  mu:uuid "df0271fa-5a57-4133-84ca-52975031712e";
+  skos:prefLabel "Betalen";
+  ext:order 7;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Betalen:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
+  
+<https://data.toevla.org/id/concepts/c104d695-8623-4015-b119-ce74be01cbd3> a skos:Concept;
+  mu:uuid "c104d695-8623-4015-b119-ce74be01cbd3";
+  skos:prefLabel "Cash";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Enkel cash";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Enkel cash";
+  skos:broader <https://data.toevla.org/id/concepts/df0271fa-5a57-4133-84ca-52975031712e>.
+  
+<https://data.toevla.org/id/concepts/07920816-de6e-4338-9e4e-9d112e7c740a> a skos:Concept;
+  mu:uuid "07920816-de6e-4338-9e4e-9d112e7c740a";
+  skos:prefLabel "Verplaatsbare kaartlezer";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Verplaatsbare kaartlezer";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Verplaatsbare kaartlezer";
+  skos:broader <https://data.toevla.org/id/concepts/df0271fa-5a57-4133-84ca-52975031712e>.
+  
+<https://data.toevla.org/id/concepts/7004c39e-5e7e-42f1-a945-8927343ad838> a skos:Concept;
+  mu:uuid "7004c39e-5e7e-42f1-a945-8927343ad838";
+  skos:prefLabel "Vaste kaartlezer";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Vaste kaartlezer";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Vaste kaartlezer";
+  skos:broader <https://data.toevla.org/id/concepts/df0271fa-5a57-4133-84ca-52975031712e>.
+  
+<https://data.toevla.org/id/concepts/aea52fef-c650-4519-ae36-783a7b8d2920> a skos:Concept;
+  mu:uuid "aea52fef-c650-4519-ae36-783a7b8d2920";
+  skos:prefLabel "Extra info:";
+  ext:order 8;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "Tekst";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
+  
+<https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c> a skos:Concept;
+  mu:uuid "38e68fe4-4a19-4fae-b4a8-309e8c74fb7c";
+  skos:prefLabel "Museumbeleving - (Tentoonstelling 1)";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Titel (GO)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f>.
+  
+<https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6> a skos:Concept;
+  mu:uuid "bd4a548f-547e-4a16-9836-b40549cc7ca6";
+  skos:prefLabel "Rondleidingen";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Rondleidingen:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/17351f8d-7d2f-44db-8522-d729ded6d1fb> a skos:Concept;
+  mu:uuid "17351f8d-7d2f-44db-8522-d729ded6d1fb";
+  skos:prefLabel "Voor personen met een visuele beperking";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Voor personen met een visuele beperking";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Voor personen met een visuele beperking";
+  skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
+  
+<https://data.toevla.org/id/concepts/08874e58-be7d-44e8-9b95-956680fd6558> a skos:Concept;
+  mu:uuid "08874e58-be7d-44e8-9b95-956680fd6558";
+  skos:prefLabel "Voor personen met een auditieve beperking";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Voor personen met een auditieve beperking";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Voor personen met een auditieve beperking";
+  skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
+  
+<https://data.toevla.org/id/concepts/d0633bea-4776-4ddc-a29b-157fa1a66146> a skos:Concept;
+  mu:uuid "d0633bea-4776-4ddc-a29b-157fa1a66146";
+  skos:prefLabel "Voor personen met een mentale beperking";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Voor personen met een mentale beperking";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Voor personen met een mentale beperking";
+  skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
+  
+<https://data.toevla.org/id/concepts/d1d5a75e-7490-4978-a665-a809f152579d> a skos:Concept;
+  mu:uuid "d1d5a75e-7490-4978-a665-a809f152579d";
+  skos:prefLabel "Dementievriendelijk";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Dementievriendelijk";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Dementievriendelijk";
+  skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
+  
+<https://data.toevla.org/id/concepts/b74390d3-81b7-4b16-b64a-c7992ca17432> a skos:Concept;
+  mu:uuid "b74390d3-81b7-4b16-b64a-c7992ca17432";
+  skos:prefLabel "Autisme gericht";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Autisme gericht";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Autisme gericht";
+  skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
+  
+<https://data.toevla.org/id/concepts/043d0943-d5de-488b-9471-83453ac02ce4> a skos:Concept;
+  mu:uuid "043d0943-d5de-488b-9471-83453ac02ce4";
+  skos:prefLabel "Leeftijdaangepast: kindvriendelijk";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Leeftijdaangepast: kindvriendelijk";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Leeftijdaangepast: kindvriendelijk";
+  skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
+  
+<https://data.toevla.org/id/concepts/51bfb01f-912a-4f19-83aa-6ff0afdb7be0> a skos:Concept;
+  mu:uuid "51bfb01f-912a-4f19-83aa-6ff0afdb7be0";
+  skos:prefLabel "Met beeldentolk";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Met beeldentolk";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Met beeldentolk";
+  skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
+  
+<https://data.toevla.org/id/concepts/ebfc1d01-807d-4f0b-8a79-a276ab2d760e> a skos:Concept;
+  mu:uuid "ebfc1d01-807d-4f0b-8a79-a276ab2d760e";
+  skos:prefLabel "Met Tolk Vlaamse Gebarentaal (VGT)";
+  ext:order 7;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Met Tolk Vlaamse Gebarentaal (VGT)";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Met Tolk Vlaamse Gebarentaal (VGT)";
+  skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
+  
+<https://data.toevla.org/id/concepts/9068439f-4c51-4695-8329-33edcff02bda> a skos:Concept;
+  mu:uuid "9068439f-4c51-4695-8329-33edcff02bda";
+  skos:prefLabel "Op rustige momenten";
+  ext:order 8;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Op rustige momenten";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Op rustige momenten";
+  skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
+  
+<https://data.toevla.org/id/concepts/eccda7cb-56cd-4072-8983-709be079723d> a skos:Concept;
+  mu:uuid "eccda7cb-56cd-4072-8983-709be079723d";
+  skos:prefLabel "Bezoek op maat mogelijk";
+  ext:order 9;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Bezoek op maat mogelijk";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Bezoek op maat mogelijk";
+  skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
+  
+<https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af> a skos:Concept;
+  mu:uuid "f35f5f6b-d7cf-4d24-a353-aad4786968af";
+  skos:prefLabel "Museum route en zalen";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Museum route en zalen:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/d8e7f89e-c8c4-48cb-871b-46f6eda7c529> a skos:Concept;
+  mu:uuid "d8e7f89e-c8c4-48cb-871b-46f6eda7c529";
+  skos:prefLabel "Duidelijke bewegwijzering op de route";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Duidelijke bewegwijzering op de route";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Duidelijke bewegwijzering op de route";
+  skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
+  
+<https://data.toevla.org/id/concepts/2ab19f33-3edc-4e6c-9175-bb6d39e4efcc> a skos:Concept;
+  mu:uuid "2ab19f33-3edc-4e6c-9175-bb6d39e4efcc";
+  skos:prefLabel "Zalenplan beschikbaar";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Zalenplan beschikbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Zalenplan beschikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
+  
+<https://data.toevla.org/id/concepts/df6b875a-e8b4-4e0a-9690-79e78497eda6> a skos:Concept;
+  mu:uuid "df6b875a-e8b4-4e0a-9690-79e78497eda6";
+  skos:prefLabel "Schema met aanbevolen traject";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Schema met aanbevolen traject";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Schema met aanbevolen traject";
+  skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
+  
+<https://data.toevla.org/id/concepts/47517788-0fda-4a62-a4ac-9fdfb55ac149> a skos:Concept;
+  mu:uuid "47517788-0fda-4a62-a4ac-9fdfb55ac149";
+  skos:prefLabel "Alternatief voor niet toegankelijke ruimten";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Alternatief voor niet toegankelijke ruimten";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Alternatief voor niet toegankelijke ruimten";
+  skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
+  
+<https://data.toevla.org/id/concepts/e7d88100-aa67-4273-bfef-7d08f7ee456e> a skos:Concept;
+  mu:uuid "e7d88100-aa67-4273-bfef-7d08f7ee456e";
+  skos:prefLabel "Meerdere rust- zitmogelijkheden";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Rust- zitmogelijkheden";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Rust- zitmogelijkheden";
+  skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
+  
+<https://data.toevla.org/id/concepts/deac4522-8cf5-4ebb-907a-5965cb8d1603> a skos:Concept;
+  mu:uuid "deac4522-8cf5-4ebb-907a-5965cb8d1603";
+  skos:prefLabel "Extra aandacht voor akoestiek";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Extra aandacht voor akoestiek";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Extra aandacht voor akoestiek";
+  skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
+  
+<https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e> a skos:Concept;
+  mu:uuid "ef0fc835-a152-49ec-8d3a-94557800388e";
+  skos:prefLabel "Vitrinetafels, computerschermen";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Vitrinetafels, computerschermen:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/59c0ed54-9c98-4217-a687-695d1247f2ad> a skos:Concept;
+  mu:uuid "59c0ed54-9c98-4217-a687-695d1247f2ad";
+  skos:prefLabel "Meerdere onderrijdbare elementen";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Meerdere onderrijdbare elementen";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Meerdere onderrijdbare elementen";
+  skos:broader <https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e>.
+  
+<https://data.toevla.org/id/concepts/82c2fd8c-3aef-4a45-af4a-2283a46fa2fd> a skos:Concept;
+  mu:uuid "82c2fd8c-3aef-4a45-af4a-2283a46fa2fd";
+  skos:prefLabel "Goede verlichting";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Goede verlichting";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Goede verlichting";
+  skos:broader <https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e>.
+  
+<https://data.toevla.org/id/concepts/a8ab7895-3273-48b5-a3ca-f29ddbf7da6d> a skos:Concept;
+  mu:uuid "a8ab7895-3273-48b5-a3ca-f29ddbf7da6d";
+  skos:prefLabel "Vergrootglas";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Vergrootglas aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Vergrootglas aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e>.
+  
+<https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c> a skos:Concept;
+  mu:uuid "47d2dfab-50f1-4acc-ae82-1e44325cc21c";
+  skos:prefLabel "Auditorium/filmzaal";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Auditorium/filmzaal:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/d4057a41-676e-4372-b1dd-62926ee927e4> a skos:Concept;
+  mu:uuid "d4057a41-676e-4372-b1dd-62926ee927e4";
+  skos:prefLabel "Zitplaatsen bereikbaar";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Zitplaatsen bereikbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Zitplaatsen bereikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c>.
+  
+<https://data.toevla.org/id/concepts/7b9452db-d596-43d1-88a9-4aa26a945062> a skos:Concept;
+  mu:uuid "7b9452db-d596-43d1-88a9-4aa26a945062";
+  skos:prefLabel "Extra aandacht voor akoestiek";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Extra aandacht voor akoestiek";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Extra aandacht voor akoestiek";
+  skos:broader <https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c>.
+  
+<https://data.toevla.org/id/concepts/c10fb641-ba9a-4f05-874c-5e4eec8e083c> a skos:Concept;
+  mu:uuid "c10fb641-ba9a-4f05-874c-5e4eec8e083c";
+  skos:prefLabel "Ringleiding in de zaal";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Ringleiding in de museumzalen";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Ringleiding in de museumzalen";
+  skos:broader <https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c>.
+  
+<https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212> a skos:Concept;
+  mu:uuid "4eab756d-3e07-4f29-adde-47350bbf8212";
+  skos:prefLabel "Brochure";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Brochure";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/fd0b2bf4-e149-4d11-8910-7ea2cfaf7af5> a skos:Concept;
+  mu:uuid "fd0b2bf4-e149-4d11-8910-7ea2cfaf7af5";
+  skos:prefLabel "Contrast";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Contrast aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Contrast aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212>.
+  
+<https://data.toevla.org/id/concepts/884b5148-6c06-4528-9e5d-0300713a9e21> a skos:Concept;
+  mu:uuid "884b5148-6c06-4528-9e5d-0300713a9e21";
+  skos:prefLabel "Braille";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "In braille beschikbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "In braille beschikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212>.
+  
+<https://data.toevla.org/id/concepts/003c24ce-d9a7-4ffa-bcc8-8ec1b574e81b> a skos:Concept;
+  mu:uuid "003c24ce-d9a7-4ffa-bcc8-8ec1b574e81b";
+  skos:prefLabel "Grootletterschrift";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "In grootletterschrift beschikbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "In grootletterschrift beschikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212>.
+  
+<https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e> a skos:Concept;
+  mu:uuid "5223662c-b5cc-4673-9f6f-6dcf7d8ce94e";
+  skos:prefLabel "Teksten/borden/panelen";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Teksten/borden/panelen:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/6c58e8e4-f2a4-443a-af92-8619f387101d> a skos:Concept;
+  mu:uuid "6c58e8e4-f2a4-443a-af92-8619f387101d";
+  skos:prefLabel "Contrast";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Contrast aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Contrast aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e>.
+  
+<https://data.toevla.org/id/concepts/9fdf7a77-45aa-42c3-b5d1-37191fa60a69> a skos:Concept;
+  mu:uuid "9fdf7a77-45aa-42c3-b5d1-37191fa60a69";
+  skos:prefLabel "Geen reflectie";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Geen reflectie";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Geen reflectie";
+  skos:broader <https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e>.
+  
+<https://data.toevla.org/id/concepts/3b01f301-5101-49b4-9917-773f41ef97b7> a skos:Concept;
+  mu:uuid "3b01f301-5101-49b4-9917-773f41ef97b7";
+  skos:prefLabel "Braille";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "In braille beschikbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "In braille beschikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e>.
+  
+<https://data.toevla.org/id/concepts/8a6d1137-2d17-40cb-8936-844beaab6299> a skos:Concept;
+  mu:uuid "8a6d1137-2d17-40cb-8936-844beaab6299";
+  skos:prefLabel "Grootletterschrift";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "In grootletterschrift beschikbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "In grootletterschrift beschikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e>.
+  
+<https://data.toevla.org/id/concepts/4e616bb9-7c7a-465e-ba19-7dd91a3db97c> a skos:Concept;
+  mu:uuid "4e616bb9-7c7a-465e-ba19-7dd91a3db97c";
+  skos:prefLabel "Audiogids beschikbaar";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Audiogids beschikbaar:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/e0eb73b6-b995-4135-8773-b05dd108386e> a skos:Concept;
+  mu:uuid "e0eb73b6-b995-4135-8773-b05dd108386e";
+  skos:prefLabel "Alleen in Nederlands";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "In meerdere talen";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "In meerdere talen";
+  skos:broader <https://data.toevla.org/id/concepts/4e616bb9-7c7a-465e-ba19-7dd91a3db97c>.
+  
+<https://data.toevla.org/id/concepts/83c1f185-3444-464c-8f6e-9bf6bfa7b5e5> a skos:Concept;
+  mu:uuid "83c1f185-3444-464c-8f6e-9bf6bfa7b5e5";
+  skos:prefLabel "In meerdere talen";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "In meerdere talen";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "In meerdere talen";
+  skos:broader <https://data.toevla.org/id/concepts/4e616bb9-7c7a-465e-ba19-7dd91a3db97c>.
+  
+<https://data.toevla.org/id/concepts/098995c7-d5e2-46c8-946a-bad2ce826310> a skos:Concept;
+  mu:uuid "098995c7-d5e2-46c8-946a-bad2ce826310";
+  skos:prefLabel "Movieguide";
+  ext:order 7;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Movieguide";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Movieguide";
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/ceaee1d5-0292-453a-93f5-bc7bedaa823d> a skos:Concept;
+  mu:uuid "ceaee1d5-0292-453a-93f5-bc7bedaa823d";
+  skos:prefLabel "Virtuele technologie";
+  ext:order 8;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Virtuele technologie";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Virtuele technologie";
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0> a skos:Concept;
+  mu:uuid "a94f2e02-c6bf-41de-927e-08b2966525f0";
+  skos:prefLabel "Zintuiglijke beleving";
+  ext:order 9;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Zintuiglijke beleving:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/866f3b45-7f2c-4edb-8e49-bb3fdd3b9a4a> a skos:Concept;
+  mu:uuid "866f3b45-7f2c-4edb-8e49-bb3fdd3b9a4a";
+  skos:prefLabel "Voel-elementen";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Voel-elementen aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Voel-elementen aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0>.
+  
+<https://data.toevla.org/id/concepts/4635c64f-f28c-4ac1-ba40-45161d856903> a skos:Concept;
+  mu:uuid "4635c64f-f28c-4ac1-ba40-45161d856903";
+  skos:prefLabel "Geur-elementen";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Geur-elementen aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Geur-elementen aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0>.
+  
+<https://data.toevla.org/id/concepts/bb428539-e486-4f30-a6c9-ad5f673bb82d> a skos:Concept;
+  mu:uuid "bb428539-e486-4f30-a6c9-ad5f673bb82d";
+  skos:prefLabel "Doe-elementen";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Doe-elementen aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Doe-elementen aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0>.
+  
+<https://data.toevla.org/id/concepts/4f8c2535-4bdd-44b8-a55d-7e312d14a725> a skos:Concept;
+  mu:uuid "4f8c2535-4bdd-44b8-a55d-7e312d14a725";
+  skos:prefLabel "Luister-elementen";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Luister-elementen aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Luister-elementen aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0>.
+  
+<https://data.toevla.org/id/concepts/7eaa513a-4179-477d-8852-44ec1e674bba> a skos:Concept;
+  mu:uuid "7eaa513a-4179-477d-8852-44ec1e674bba";
+  skos:prefLabel "Stilte plekken";
+  ext:order 10;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Stilteplekken aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Stilteplekken aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/316287ec-83fd-4bd1-aeff-750486dd24ea> a skos:Concept;
+  mu:uuid "316287ec-83fd-4bd1-aeff-750486dd24ea";
+  skos:prefLabel "Andere belevingselementen";
+  ext:order 11;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/bf1ef7ef-05b8-41ab-af53-aeedd454327a> a skos:Concept;
+  mu:uuid "bf1ef7ef-05b8-41ab-af53-aeedd454327a";
+  skos:prefLabel "Extra info:";
+  ext:order 12;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
+  
+<https://data.toevla.org/id/concepts/8889d397-08f3-4171-b3b1-9db6d4203363> a skos:Concept;
+  mu:uuid "8889d397-08f3-4171-b3b1-9db6d4203363";
+  skos:prefLabel "Museumbeleving - (Tentoonstelling ...)";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (GO)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f>.
+  
+tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4-4e85-8f4d-272842683441>.
+<https://data.toevla.org/id/concepts/9e971f13-1bc4-4e85-8f4d-272842683441> a skos:Concept;
+  mu:uuid "9e971f13-1bc4-4e85-8f4d-272842683441";
+  skos:prefLabel "Bereikbaarheid";
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "NVT (titels)";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+
+  ext:order 1.    
+
+<https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9> a skos:Concept;
+  mu:uuid "e12d051d-ce43-4e65-ba5f-9affc4fbd6b9";
+  skos:prefLabel "OpenbaarVervoer";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Titel (GO)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9e971f13-1bc4-4e85-8f4d-272842683441>.
+  
+<https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721> a skos:Concept;
+  mu:uuid "2f2a0a17-b054-4143-a54f-7a79228bb721";
+  skos:prefLabel "Beschrijving bereikbaarheid met openbaar vervoer (op website)";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Bereikbaarheid met openbaar vervoer:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
+  
+<https://data.toevla.org/id/concepts/f4fc7b9f-1c55-415a-96ff-28fbda94881e> a skos:Concept;
+  mu:uuid "f4fc7b9f-1c55-415a-96ff-28fbda94881e";
+  skos:prefLabel "Gedetailleerde beschrijving beschikbaar";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Gedetailleerde beschrijving beschikbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Gedetailleerde beschrijving beschikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721>.
+  
+<https://data.toevla.org/id/concepts/0964f472-4c5a-43ff-a0c2-b89eee5f5650> a skos:Concept;
+  mu:uuid "0964f472-4c5a-43ff-a0c2-b89eee5f5650";
+  skos:prefLabel "Beschikbaar met voorleesfunctie";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Beschikbaar met voorleesfunctie";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Beschikbaar met voorleesfunctie";
+  skos:broader <https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721>.
+  
+<https://data.toevla.org/id/concepts/a44288c3-78d2-4896-a49c-c37ac215a9b3> a skos:Concept;
+  mu:uuid "a44288c3-78d2-4896-a49c-c37ac215a9b3";
+  skos:prefLabel "Beschikbaar in Vlaamse Gebarentaal (VGT)";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Beschikbaar in Vlaamse Gebarentaal (VGT)";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Beschikbaar in Vlaamse Gebarentaal (VGT)";
+  skos:broader <https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721>.
+  
+<https://data.toevla.org/id/concepts/d0b9ea46-e065-4ee0-9cfa-2463ba4a3027> a skos:Concept;
+  mu:uuid "d0b9ea46-e065-4ee0-9cfa-2463ba4a3027";
+  skos:prefLabel "Treinstation aanwezig op x km";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (km)";
+  toevla:trueCommentOriginal "Station aanwezig op x km";
+  toevla:falseCommentOriginal "Station aanwezig op x km";
+  
+  skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
+  
+<https://data.toevla.org/id/concepts/306fa11e-a804-4b27-9dcd-4bb7f20ba8d4> a skos:Concept;
+  mu:uuid "306fa11e-a804-4b27-9dcd-4bb7f20ba8d4";
+  skos:prefLabel "Station:";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "Station: x, link";
+  toevla:falseCommentOriginal "Station: x, link";
+  
+  skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
+  
+<https://data.toevla.org/id/concepts/bf7e42d6-dda7-4de7-a82c-8f8d5b031b42> a skos:Concept;
+  mu:uuid "bf7e42d6-dda7-4de7-a82c-8f8d5b031b42";
+  skos:prefLabel "Bushalte aanwezig op x m";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (m)";
+  toevla:trueCommentOriginal "Bushalte aanwezig op x m";
+  toevla:falseCommentOriginal "Bushalte aanwezig op x m";
+  
+  skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
+  
+<https://data.toevla.org/id/concepts/0273e136-173c-4a35-89c2-d07ac6ab22f7> a skos:Concept;
+  mu:uuid "0273e136-173c-4a35-89c2-d07ac6ab22f7";
+  skos:prefLabel "Bushalte:";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "Halte x, link";
+  toevla:falseCommentOriginal "Halte x, link";
+  
+  skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
+  
+<https://data.toevla.org/id/concepts/a15c7289-8906-4b12-8f49-1d8bf7b3b0ac> a skos:Concept;
+  mu:uuid "a15c7289-8906-4b12-8f49-1d8bf7b3b0ac";
+  skos:prefLabel "Tramhalte aanwezig op x m";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (m)";
+  toevla:trueCommentOriginal "Tramhalte aanwezig op x m";
+  toevla:falseCommentOriginal "Tramhalte aanwezig op x m";
+  
+  skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
+  
+<https://data.toevla.org/id/concepts/e2b6e01b-adb0-4dcd-b29d-e32366ec74bf> a skos:Concept;
+  mu:uuid "e2b6e01b-adb0-4dcd-b29d-e32366ec74bf";
+  skos:prefLabel "Tramhalte:";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "Halte x, link";
+  toevla:falseCommentOriginal "Halte x, link";
+  
+  skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
+  
+<https://data.toevla.org/id/concepts/79a7ccdc-be9b-4493-af0e-41903bd1c39a> a skos:Concept;
+  mu:uuid "79a7ccdc-be9b-4493-af0e-41903bd1c39a";
+  skos:prefLabel "Extra info:";
+  ext:order 7;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
+  
+<https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00> a skos:Concept;
+  mu:uuid "d1b2da50-25b9-4539-80ad-13e83a483e00";
+  skos:prefLabel "Parkeren";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (GO)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9e971f13-1bc4-4e85-8f4d-272842683441>.
+  
+<https://data.toevla.org/id/concepts/1591a03f-4be5-4c2a-a192-7bd62d72fffb> a skos:Concept;
+  mu:uuid "1591a03f-4be5-4c2a-a192-7bd62d72fffb";
+  skos:prefLabel "Eigen parkeerterrein";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Eigen parkeerterrein aanwezig";
+  toevla:falseCommentOriginal "Geen eigen parkeerterrein aanwezig";
+  
+  toevla:positiveTemplate "Eigen parkeerterrein aanwezig";
+  toevla:negativeTemplate "Geen eigen parkeerterrein aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
+  
+<https://data.toevla.org/id/concepts/078b35cc-81ce-420a-bb5b-18ba6b65caf1> a skos:Concept;
+  mu:uuid "078b35cc-81ce-420a-bb5b-18ba6b65caf1";
+  skos:prefLabel "Voorrijdmogelijkheid";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Voorrijdmogelijkheid aanwezig";
+  toevla:falseCommentOriginal "Geen voorrijdmogelijkheid";
+  
+  toevla:positiveTemplate "Voorrijdmogelijkheid aanwezig";
+  toevla:negativeTemplate "Geen voorrijdmogelijkheid";
+  skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
+  
+<https://data.toevla.org/id/concepts/15e473f5-7d2f-4777-aeb9-9d551adce7eb> a skos:Concept;
+  mu:uuid "15e473f5-7d2f-4777-aeb9-9d551adce7eb";
+  skos:prefLabel "Goede verlichting op de route";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Goede verlichting op de route";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Goede verlichting op de route";
+  skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
+  
+<https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc> a skos:Concept;
+  mu:uuid "56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc";
+  skos:prefLabel "Beschrijving bereikbaarheid met de auto (op website)";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Bereikbaarheid met de auto:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
+  
+<https://data.toevla.org/id/concepts/4c5a3e36-28b5-4ab2-b9d6-330bd2af67c4> a skos:Concept;
+  mu:uuid "4c5a3e36-28b5-4ab2-b9d6-330bd2af67c4";
+  skos:prefLabel "Gedetailleerde beschrijving beschikbaar";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Gedetailleerde beschrijving beschikbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Gedetailleerde beschrijving beschikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc>.
+  
+<https://data.toevla.org/id/concepts/60031a1d-cee8-4d02-a745-930de16f7c5e> a skos:Concept;
+  mu:uuid "60031a1d-cee8-4d02-a745-930de16f7c5e";
+  skos:prefLabel "Beschikbaar met voorleesfunctie";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Beschikbaar met voorleesfunctie";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Beschikbaar met voorleesfunctie";
+  skos:broader <https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc>.
+  
+<https://data.toevla.org/id/concepts/1015eff1-2a00-4cc5-a0ac-59eee06602fa> a skos:Concept;
+  mu:uuid "1015eff1-2a00-4cc5-a0ac-59eee06602fa";
+  skos:prefLabel "Beschikbaar in Vlaamse Gebarentaal (VGT)";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Beschikbaar in Vlaamse Gebarentaal (VGT)";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Beschikbaar in Vlaamse Gebarentaal (VGT)";
+  skos:broader <https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc>.
+  
+<https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def> a skos:Concept;
+  mu:uuid "a93ccd8e-cfa5-447b-855f-57f247b62def";
+  skos:prefLabel "Rolstoelvriendelijke parkeerplaats";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
+  
+<https://data.toevla.org/id/concepts/6a31ce16-1e0d-4d01-96b5-4a976c849bc8> a skos:Concept;
+  mu:uuid "6a31ce16-1e0d-4d01-96b5-4a976c849bc8";
+  skos:prefLabel "Aantal rolstoelvriendelijke plaatsen";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (Aantal)";
+  toevla:trueCommentOriginal "Rolstoelvriendelijke parkeerplaats(en): x";
+  toevla:falseCommentOriginal "Geen rolstoelvriendelijke parkeerplaats aanwezig";
+  
+  skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
+  
+<https://data.toevla.org/id/concepts/09eacace-66b4-41b6-959d-60316e83bf6a> a skos:Concept;
+  mu:uuid "09eacace-66b4-41b6-959d-60316e83bf6a";
+  skos:prefLabel "Op publiek domein";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Op publiek domein";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Op publiek domein";
+  skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
+  
+<https://data.toevla.org/id/concepts/9cf0259c-b038-4691-a113-0ae9c47ea407> a skos:Concept;
+  mu:uuid "9cf0259c-b038-4691-a113-0ae9c47ea407";
+  skos:prefLabel "Rolstoelvriendelijke ondergrond";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Rolstoelvriendelijke ondergrond ";
+  toevla:falseCommentOriginal "Slechte ondergrond";
+  
+  toevla:positiveTemplate "Rolstoelvriendelijke ondergrond ";
+  toevla:negativeTemplate "Slechte ondergrond";
+  skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
+  
+<https://data.toevla.org/id/concepts/2e2ce9ba-cc64-4e1c-8171-35f0915e4784> a skos:Concept;
+  mu:uuid "2e2ce9ba-cc64-4e1c-8171-35f0915e4784";
+  skos:prefLabel "Naast elkaar parkeren: breedte";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Naast elkaar parkeren: breedte x cm";
+  toevla:falseCommentOriginal "Naast elkaar parkeren: smal, x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
+  
+<https://data.toevla.org/id/concepts/4cf4c693-4217-4e90-ac3c-81ac12c68c0b> a skos:Concept;
+  mu:uuid "4cf4c693-4217-4e90-ac3c-81ac12c68c0b";
+  skos:prefLabel "Achter elkaar parkeren: lengte ";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Achter elkaar parkeren: lengte x cm";
+  toevla:falseCommentOriginal "Achter elkaar parkeren: kort, x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
+  
+<https://data.toevla.org/id/concepts/566b1966-811b-43a6-8c7b-7a5b628e8e21> a skos:Concept;
+  mu:uuid "566b1966-811b-43a6-8c7b-7a5b628e8e21";
+  skos:prefLabel "Max voertuig-hoogte  ";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (m)";
+  toevla:trueCommentOriginal "Max voertuig-hoogte: x cm";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
+  
+<https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51> a skos:Concept;
+  mu:uuid "0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51";
+  skos:prefLabel "Rolstoelvriendelijk pad naar de inkom";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
+  
+<https://data.toevla.org/id/concepts/14e814b5-4e0f-4d29-b92f-4027bb844ee0> a skos:Concept;
+  mu:uuid "14e814b5-4e0f-4d29-b92f-4027bb844ee0";
+  skos:prefLabel "Rolstoelvriendelijke ondergrond ";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Rolstoelvriendelijke ondergrond ";
+  toevla:falseCommentOriginal "Slechte ondergrond";
+  
+  toevla:positiveTemplate "Rolstoelvriendelijke ondergrond ";
+  toevla:negativeTemplate "Slechte ondergrond";
+  skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
+  
+<https://data.toevla.org/id/concepts/de9eb3bc-46fc-452d-bfb2-c53ef3d22e25> a skos:Concept;
+  mu:uuid "de9eb3bc-46fc-452d-bfb2-c53ef3d22e25";
+  skos:prefLabel "Smalste punt op de route";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Smalste punt op de route: x cm";
+  toevla:falseCommentOriginal "Smalste punt op de route: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
+  
+<https://data.toevla.org/id/concepts/5e3e1229-ba91-47ba-a672-fdfc11aa0a70> a skos:Concept;
+  mu:uuid "5e3e1229-ba91-47ba-a672-fdfc11aa0a70";
+  skos:prefLabel "Hoogste drempel";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Drempel: geen";
+  toevla:falseCommentOriginal "Drempel van meer dan 2 cm: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
+  
+<https://data.toevla.org/id/concepts/060a522e-bb22-4e31-9220-5f8c22e616c4> a skos:Concept;
+  mu:uuid "060a522e-bb22-4e31-9220-5f8c22e616c4";
+  skos:prefLabel "Meerdere drempels - aantal";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (Aantal)";
+  toevla:trueCommentOriginal "Meerdere drempels: x";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
+  
+<https://data.toevla.org/id/concepts/e6a08853-59f4-4308-8211-9ba75f6404fc> a skos:Concept;
+  mu:uuid "e6a08853-59f4-4308-8211-9ba75f6404fc";
+  skos:prefLabel "Trap - aantal tredes";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (Aantal)";
+  toevla:trueCommentOriginal "Trap: x tredes";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
+  
+<https://data.toevla.org/id/concepts/eb456081-cf65-4f5e-aaeb-92f3b91247a0> a skos:Concept;
+  mu:uuid "eb456081-cf65-4f5e-aaeb-92f3b91247a0";
+  skos:prefLabel "Hellende vlakken - aantal";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (Aantal)";
+  toevla:trueCommentOriginal "Meerdere hellende vlakken: x";
+  toevla:falseCommentOriginal "Hellend vlak aanwezig";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
+  
+<https://data.toevla.org/id/concepts/ab2942e4-bfd2-4410-973a-a99d61bff979> a skos:Concept;
+  mu:uuid "ab2942e4-bfd2-4410-973a-a99d61bff979";
+  skos:prefLabel "Oprijgoten aanwezig";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee (invers)";
+  toevla:trueCommentOriginal "Oprijgoten aanwezig";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
+  
+<https://data.toevla.org/id/concepts/2236d7d2-a50b-4045-a555-7ba9a2116ba1> a skos:Concept;
+  mu:uuid "2236d7d2-a50b-4045-a555-7ba9a2116ba1";
+  skos:prefLabel "Extra info:";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
+  
+tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765>.
+<https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765> a skos:Concept;
+  mu:uuid "152e1b64-432c-4c00-89aa-00bb7868c765";
+  skos:prefLabel "Gebouw";
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "NVT (titels)";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+
+  ext:order 2.    
+
+<https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6> a skos:Concept;
+  mu:uuid "ed52e989-423a-42c1-81a3-e3ea2e4ea3d6";
+  skos:prefLabel "Inkom";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (GO)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765>.
+  
+<https://data.toevla.org/id/concepts/74837ebc-fb5f-4333-81f5-bd92db6861f2> a skos:Concept;
+  mu:uuid "74837ebc-fb5f-4333-81f5-bd92db6861f2";
+  skos:prefLabel "Gebouw duidelijk herkenbaar";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Gebouw duidelijk herkenbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Gebouw duidelijk herkenbaar";
+  skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
+  
+<https://data.toevla.org/id/concepts/82e3201c-60d4-4eb6-88c1-90bcc5f87910> a skos:Concept;
+  mu:uuid "82e3201c-60d4-4eb6-88c1-90bcc5f87910";
+  skos:prefLabel "Toegang duidelijk herkenbaar / zichtbaar";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Toegang duidelijk herkenbaar / zichtbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Toegang duidelijk herkenbaar / zichtbaar";
+  skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
+  
+<https://data.toevla.org/id/concepts/3c06fec6-3a7c-483d-b53f-e3c0a5caf179> a skos:Concept;
+  mu:uuid "3c06fec6-3a7c-483d-b53f-e3c0a5caf179";
+  skos:prefLabel "Gids- en/of geleidelijnen";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Gids- en/of geleidelijnen aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Gids- en/of geleidelijnen aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
+  
+<https://data.toevla.org/id/concepts/dd04f96d-71c9-4686-bb9f-ecf91ff6a67f> a skos:Concept;
+  mu:uuid "dd04f96d-71c9-4686-bb9f-ecf91ff6a67f";
+  skos:prefLabel "Markering en contrasten op glazen deuren";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Keuzelijst";
+  toevla:trueCommentOriginal "Markering en contrasten op glazen deuren";
+  toevla:falseCommentOriginal "Geen markering en contrasten op glazen deuren";
+  
+  skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
+  
+<https://data.toevla.org/id/concepts/3aa2c3d0-6635-40ae-bfd5-ad15b6553096> a skos:Concept;
+  mu:uuid "3aa2c3d0-6635-40ae-bfd5-ad15b6553096";
+  skos:prefLabel "Extra aandacht voor akoestiek";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Extra aandacht voor akoestiek";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Extra aandacht voor akoestiek";
+  skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
+  
+<https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d> a skos:Concept;
+  mu:uuid "85f5b583-b693-4bfb-a59d-390991b66e6d";
+  skos:prefLabel "Rolstoelvriendelijke Inkom";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "NVT (titels)";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
+  
+<https://data.toevla.org/id/concepts/994e6c27-2449-4363-aa7e-cc6e899e4f55> a skos:Concept;
+  mu:uuid "994e6c27-2449-4363-aa7e-cc6e899e4f55";
+  skos:prefLabel "Via 'Alternatieve toegang'";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "Via …";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/4db32cec-4315-4ce1-8c2f-c752652a7f40> a skos:Concept;
+  mu:uuid "4db32cec-4315-4ce1-8c2f-c752652a7f40";
+  skos:prefLabel "Hoogste drempel";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Drempel: geen";
+  toevla:falseCommentOriginal "Drempel van meer dan 2 cm: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/0c43ed99-f7bb-4654-b1e0-a93a6d3af26f> a skos:Concept;
+  mu:uuid "0c43ed99-f7bb-4654-b1e0-a93a6d3af26f";
+  skos:prefLabel "Trap - aantal treden";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (Aantal)";
+  toevla:trueCommentOriginal "Trap: x tredes";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/6ce49390-b3d5-4b8e-9c56-d9fc193823a2> a skos:Concept;
+  mu:uuid "6ce49390-b3d5-4b8e-9c56-d9fc193823a2";
+  skos:prefLabel "Hellende vlakken - aantal";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (Aantal)";
+  toevla:trueCommentOriginal "Meerdere hellende vlakken: x";
+  toevla:falseCommentOriginal "Hellend vlak aanwezig";
+  
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/e431f79f-21f9-4b1a-95a0-6200a743fea7> a skos:Concept;
+  mu:uuid "e431f79f-21f9-4b1a-95a0-6200a743fea7";
+  skos:prefLabel "Oprijgoten aanwezig";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee (invers)";
+  toevla:trueCommentOriginal "Oprijgoten aanwezig";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/6c49fb53-908d-4344-afe7-abaf86d3e461> a skos:Concept;
+  mu:uuid "6c49fb53-908d-4344-afe7-abaf86d3e461";
+  skos:prefLabel "Tourniquetdeur aanwezig";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Tourniquetdeur";
+  toevla:falseCommentOriginal "undefined";
+  
+  toevla:positiveTemplate "Tourniquetdeur";
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/25e9674f-2222-4377-b115-9b4c25b67f67> a skos:Concept;
+  mu:uuid "25e9674f-2222-4377-b115-9b4c25b67f67";
+  skos:prefLabel "Deurbreedte ";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Deurbreedte: x cm ";
+  toevla:falseCommentOriginal "Deurbreedte: smal, x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/10764c3c-4142-4c6c-8c75-e3723c6fae23> a skos:Concept;
+  mu:uuid "10764c3c-4142-4c6c-8c75-e3723c6fae23";
+  skos:prefLabel "Toegangscontrole";
+  ext:order 7;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Toegangscontrole: x cm";
+  toevla:falseCommentOriginal "Toegangscontrole: smal, x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/8a7b8177-59a8-417d-8dee-e5dcb3fedbf8> a skos:Concept;
+  mu:uuid "8a7b8177-59a8-417d-8dee-e5dcb3fedbf8";
+  skos:prefLabel "Draairuimte aan deur";
+  ext:order 8;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Draairuimte aan deur: x cm";
+  toevla:falseCommentOriginal "Draairuimte aan deur: klein, ф x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/bba57566-133e-49e6-a151-303ae5f0ece8> a skos:Concept;
+  mu:uuid "bba57566-133e-49e6-a151-303ae5f0ece8";
+  skos:prefLabel "Deur (bediening)";
+  ext:order 9;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Keuzelijst";
+  toevla:trueCommentOriginal "Deur: licht om te openen";
+  toevla:falseCommentOriginal "Deur: zwaar om te openen";
+  
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/c0a131bb-78a4-4b16-a2e9-f2fb252fc1c9> a skos:Concept;
+  mu:uuid "c0a131bb-78a4-4b16-a2e9-f2fb252fc1c9";
+  skos:prefLabel "Verlaagde balie";
+  ext:order 10;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Balie: laag deel aanwezig";
+  toevla:falseCommentOriginal "Balie: geen laag deel aanwezig";
+  
+  skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
+  
+<https://data.toevla.org/id/concepts/ac946973-bfa8-446a-8066-05ee7185ebfb> a skos:Concept;
+  mu:uuid "ac946973-bfa8-446a-8066-05ee7185ebfb";
+  skos:prefLabel "Bemande balie";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Bemande balie";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Bemande balie";
+  skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
+  
+<https://data.toevla.org/id/concepts/f0abf682-daae-4b49-bfa1-0a63da8b680b> a skos:Concept;
+  mu:uuid "f0abf682-daae-4b49-bfa1-0a63da8b680b";
+  skos:prefLabel "Ringleiding aan de balie";
+  ext:order 7;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Ringleiding aan de balie";
+  toevla:falseCommentOriginal "Geen ringleiding aan de balie";
+  
+  toevla:positiveTemplate "Ringleiding aan de balie";
+  toevla:negativeTemplate "Geen ringleiding aan de balie";
+  skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
+  
+<https://data.toevla.org/id/concepts/30092095-b73a-4544-b651-9bf77affe38c> a skos:Concept;
+  mu:uuid "30092095-b73a-4544-b651-9bf77affe38c";
+  skos:prefLabel "Extra info:";
+  ext:order 8;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
+  
+<https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13> a skos:Concept;
+  mu:uuid "02ab2a7a-128f-468f-9021-2174181b3e13";
+  skos:prefLabel "Circuleren - (Tentoonstelling 1)";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "NVT (titels)";
+  toevla:criteriaType "Titel (GO)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765>.
+  
+<https://data.toevla.org/id/concepts/6baf48b5-924b-4a1d-ae13-b5925c3f7618> a skos:Concept;
+  mu:uuid "6baf48b5-924b-4a1d-ae13-b5925c3f7618";
+  skos:prefLabel "Duidelijke signalisatie in het gebouw";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Duidelijke signalisatie in het gebouw";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Duidelijke signalisatie in het gebouw";
+  skos:broader <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>.
+  
+<https://data.toevla.org/id/concepts/e92a8c73-9740-4fec-b12c-470add4fc7b7> a skos:Concept;
+  mu:uuid "e92a8c73-9740-4fec-b12c-470add4fc7b7";
+  skos:prefLabel "Spraaksynthese in de lift";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Spraaksynthese in de lift";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Spraaksynthese in de lift";
+  skos:broader <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>.
+  
+<https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a> a skos:Concept;
+  mu:uuid "bc03b638-ef82-446d-988d-26f830b8d68a";
+  skos:prefLabel "Rolstoelvriendelijke circulatie";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>.
+  
+<https://data.toevla.org/id/concepts/3dfde9e0-724c-4728-8b16-ec50582038d3> a skos:Concept;
+  mu:uuid "3dfde9e0-724c-4728-8b16-ec50582038d3";
+  skos:prefLabel "Alles op gelijkvloers of ruimte lift";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Keuzelijst";
+  toevla:trueCommentOriginal "Alles op gelijkvloers";
+  toevla:falseCommentOriginal "Niet alles op gelijkvloers: geen lift aanwezig";
+  
+  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  
+<https://data.toevla.org/id/concepts/b858bc05-bef3-4abd-9fc9-0eeb389403be> a skos:Concept;
+  mu:uuid "b858bc05-bef3-4abd-9fc9-0eeb389403be";
+  skos:prefLabel "Afmeting lift (Breedte x Diepte)";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getallen (cm) x (cm)";
+  toevla:trueCommentOriginal "Lift: y cm (B) x z cm (D)";
+  toevla:falseCommentOriginal "Lift: klein, y cm (B) x z cm (D)";
+  
+  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  
+<https://data.toevla.org/id/concepts/d8f84769-3533-484f-8c7b-93a5ee5868cc> a skos:Concept;
+  mu:uuid "d8f84769-3533-484f-8c7b-93a5ee5868cc";
+  skos:prefLabel "Smalste punt op de route";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Smalste punt op de route: x cm";
+  toevla:falseCommentOriginal "Smalste punt op de route: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  
+<https://data.toevla.org/id/concepts/1ba31d12-5a34-4224-876d-af8c87f834cc> a skos:Concept;
+  mu:uuid "1ba31d12-5a34-4224-876d-af8c87f834cc";
+  skos:prefLabel "Hoogste drempel";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Drempel: geen";
+  toevla:falseCommentOriginal "Drempel van meer dan 2 cm: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  
+<https://data.toevla.org/id/concepts/3fdb7539-c5e1-4ba8-a54e-e0a813614af6> a skos:Concept;
+  mu:uuid "3fdb7539-c5e1-4ba8-a54e-e0a813614af6";
+  skos:prefLabel "Meerdere drempels - aantal";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (aantal)";
+  toevla:trueCommentOriginal "Meerdere drempels: x";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  
+<https://data.toevla.org/id/concepts/ff8a2110-dbc2-4c41-88c7-c6f16fc7baa0> a skos:Concept;
+  mu:uuid "ff8a2110-dbc2-4c41-88c7-c6f16fc7baa0";
+  skos:prefLabel "Trap - aantal treden";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (aantal)";
+  toevla:trueCommentOriginal "Trap: x tredes";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  
+<https://data.toevla.org/id/concepts/f0c27a68-f298-4b4b-ac7b-ca56b11d384b> a skos:Concept;
+  mu:uuid "f0c27a68-f298-4b4b-ac7b-ca56b11d384b";
+  skos:prefLabel "Hellende vlakken - aantal";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (aantal)";
+  toevla:trueCommentOriginal "Meerdere hellende vlakken: x";
+  toevla:falseCommentOriginal "Hellend vlak aanwezig";
+  
+  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  
+<https://data.toevla.org/id/concepts/3a8e9b83-107e-4ceb-bacb-b3808d062e00> a skos:Concept;
+  mu:uuid "3a8e9b83-107e-4ceb-bacb-b3808d062e00";
+  skos:prefLabel "Oprijgoten aanwezig";
+  ext:order 7;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee (invers)";
+  toevla:trueCommentOriginal "Oprijgoten aanwezig";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  
+<https://data.toevla.org/id/concepts/7993ccd5-de76-4893-9b1f-110bb11912c4> a skos:Concept;
+  mu:uuid "7993ccd5-de76-4893-9b1f-110bb11912c4";
+  skos:prefLabel "Afmeting plateaulift (Breedte x Diepte)";
+  ext:order 8;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getallen (cm) x (cm)";
+  toevla:trueCommentOriginal "Plateaulift: y cm (B) x z cm (D)";
+  toevla:falseCommentOriginal "Plateaulift: klein, y cm (B) x z cm (D)";
+  
+  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  
+<https://data.toevla.org/id/concepts/8d2b6701-43be-4283-9c52-aadcc8324133> a skos:Concept;
+  mu:uuid "8d2b6701-43be-4283-9c52-aadcc8324133";
+  skos:prefLabel "Meerdere plateauliften - aantal";
+  ext:order 9;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (aantal)";
+  toevla:trueCommentOriginal "Meerdere plateauliften: x";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
+  
+<https://data.toevla.org/id/concepts/62360987-e5e8-48e0-a30c-8a678b7d8845> a skos:Concept;
+  mu:uuid "62360987-e5e8-48e0-a30c-8a678b7d8845";
+  skos:prefLabel "Extra info:";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>.
+  
+<https://data.toevla.org/id/concepts/f91d7bc9-0f25-40ce-adfd-993f36c6d724> a skos:Concept;
+  mu:uuid "f91d7bc9-0f25-40ce-adfd-993f36c6d724";
+  skos:prefLabel "Circuleren - (Tentoonstelling ...)";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Titel (GO)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765>.
+  
+<https://data.toevla.org/id/concepts/fadff95d-20b7-422f-b402-3317bd747129> a skos:Concept;
+  mu:uuid "fadff95d-20b7-422f-b402-3317bd747129";
+  skos:prefLabel "Spraaksynthese in de lift";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Spraaksynthese in de lift aanwezig";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Spraaksynthese in de lift aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/f91d7bc9-0f25-40ce-adfd-993f36c6d724>.
+  
+<https://data.toevla.org/id/concepts/b3f68ed9-d415-4704-a3be-5f366077b80c> a skos:Concept;
+  mu:uuid "b3f68ed9-d415-4704-a3be-5f366077b80c";
+  skos:prefLabel "Babyverzorgingstafel aanwezig";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Babyverzorgingstafel aanwezig";
+  toevla:falseCommentOriginal "Geen babyverzorgingstafel";
+  
+  toevla:positiveTemplate "Babyverzorgingstafel aanwezig";
+  toevla:negativeTemplate "Geen babyverzorgingstafel";
+  skos:broader <https://data.toevla.org/id/concepts/f91d7bc9-0f25-40ce-adfd-993f36c6d724>.
+  
+<https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095> a skos:Concept;
+  mu:uuid "3962c53a-684a-4ba0-809a-5f984032f095";
+  skos:prefLabel "Rolstoelvriendelijk Toilet";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "geen weergave";
+  toevla:falseCommentOriginal "Geen rolstoelvriendelijk toilet aanwezig";
+  
+  skos:broader <https://data.toevla.org/id/concepts/f91d7bc9-0f25-40ce-adfd-993f36c6d724>.
+  
+<https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383> a skos:Concept;
+  mu:uuid "9da2a401-9d6c-4f1b-9020-7f7c21ed8383";
+  skos:prefLabel "Bereikbaarheid";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
+  
+<https://data.toevla.org/id/concepts/8c400682-6f97-410a-8791-996c498e212c> a skos:Concept;
+  mu:uuid "8c400682-6f97-410a-8791-996c498e212c";
+  skos:prefLabel "Afmeting lift (Breedte x Diepte)";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getallen (cm) x (cm)";
+  toevla:trueCommentOriginal "Lift: y cm (B) x z cm (D)";
+  toevla:falseCommentOriginal "Lift: klein, y cm (B) x z cm (D)";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  
+<https://data.toevla.org/id/concepts/f32a0e76-853b-40bb-86c8-81894cdb70bb> a skos:Concept;
+  mu:uuid "f32a0e76-853b-40bb-86c8-81894cdb70bb";
+  skos:prefLabel "Smalste punt op de route";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Smalste punt op de route: x cm";
+  toevla:falseCommentOriginal "Smalste punt op de route: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  
+<https://data.toevla.org/id/concepts/bf1005f6-10f1-4afb-8bec-cd55e52fdba9> a skos:Concept;
+  mu:uuid "bf1005f6-10f1-4afb-8bec-cd55e52fdba9";
+  skos:prefLabel "Hoogste drempel";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Drempel: geen";
+  toevla:falseCommentOriginal "Drempel van meer dan 2 cm: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  
+<https://data.toevla.org/id/concepts/a70ec038-cdc7-43eb-9a52-7e6083e81947> a skos:Concept;
+  mu:uuid "a70ec038-cdc7-43eb-9a52-7e6083e81947";
+  skos:prefLabel "Meerdere drempels - aantal";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (aantal)";
+  toevla:trueCommentOriginal "Meerdere drempels: x";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  
+<https://data.toevla.org/id/concepts/b8b0ca23-c64e-4dfb-96be-3084b62b1e5d> a skos:Concept;
+  mu:uuid "b8b0ca23-c64e-4dfb-96be-3084b62b1e5d";
+  skos:prefLabel "Trap - aantal treden";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (aantal)";
+  toevla:trueCommentOriginal "Trap: x tredes";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  
+<https://data.toevla.org/id/concepts/5dc312ae-d003-433b-b281-0cea6b125088> a skos:Concept;
+  mu:uuid "5dc312ae-d003-433b-b281-0cea6b125088";
+  skos:prefLabel "Hellende vlakken - aantal";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (aantal)";
+  toevla:trueCommentOriginal "Meerdere hellende vlakken: x";
+  toevla:falseCommentOriginal "Hellend vlak aanwezig";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  
+<https://data.toevla.org/id/concepts/8a171198-7826-4fe8-8e94-1bcae36277e8> a skos:Concept;
+  mu:uuid "8a171198-7826-4fe8-8e94-1bcae36277e8";
+  skos:prefLabel "Oprijgoten aanwezig";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee (invers)";
+  toevla:trueCommentOriginal "Oprijgoten aanwezig";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  
+<https://data.toevla.org/id/concepts/8e15a179-2fb3-4c56-b81d-f82bdfe7b7f9> a skos:Concept;
+  mu:uuid "8e15a179-2fb3-4c56-b81d-f82bdfe7b7f9";
+  skos:prefLabel "Afmeting plateaulift (Breedte x Diepte)";
+  ext:order 7;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getallen (cm) x (cm)";
+  toevla:trueCommentOriginal "Plateaulift: y cm (B) x z cm (D)";
+  toevla:falseCommentOriginal "Plateaulift: klein, y cm (B) x z cm (D)";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  
+<https://data.toevla.org/id/concepts/8e15a179-2fb3-4c56-b81d-f82bdfe7b7f9> a skos:Concept;
+  mu:uuid "8e15a179-2fb3-4c56-b81d-f82bdfe7b7f9";
+  skos:prefLabel "info?";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getallen (cm) x (cm)";
+  toevla:trueCommentOriginal "Plateaulift: y cm (B) x z cm (D)";
+  toevla:falseCommentOriginal "Plateaulift: klein, y cm (B) x z cm (D)";
+  
+  skos:broader <https://data.toevla.org/id/concepts/8e15a179-2fb3-4c56-b81d-f82bdfe7b7f9>.
+  
+<https://data.toevla.org/id/concepts/954d684f-bba6-4e64-90bb-1e1f712a3a07> a skos:Concept;
+  mu:uuid "954d684f-bba6-4e64-90bb-1e1f712a3a07";
+  skos:prefLabel "Meerdere plateauliften - aantal";
+  ext:order 8;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (aantal)";
+  toevla:trueCommentOriginal "Meerdere plateauliften: x";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
+  
+<https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed> a skos:Concept;
+  mu:uuid "61642d46-03a8-457b-b0cf-fbfc8ae49bed";
+  skos:prefLabel "Toiletdeur";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
+  
+<https://data.toevla.org/id/concepts/e7d25ab8-8660-4e7f-a1d5-aede97aa6883> a skos:Concept;
+  mu:uuid "e7d25ab8-8660-4e7f-a1d5-aede97aa6883";
+  skos:prefLabel "Deurbreedte";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Deurbreedte: x cm ";
+  toevla:falseCommentOriginal "Deurbreedte: smal x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed>.
+  
+<https://data.toevla.org/id/concepts/b3a5395a-3a3e-42cf-a140-c456f2a52237> a skos:Concept;
+  mu:uuid "b3a5395a-3a3e-42cf-a140-c456f2a52237";
+  skos:prefLabel "Draairuimte aan deur ";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Draairuimte aan deur: x cm";
+  toevla:falseCommentOriginal "Draairuimte aan deur: klein, ф x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed>.
+  
+<https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b> a skos:Concept;
+  mu:uuid "309d359b-7127-42e5-8ab0-e1ef7af27b7b";
+  skos:prefLabel "In het toilet";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
+  
+<https://data.toevla.org/id/concepts/1ba08c83-b8f3-4c64-9320-fd04ee30c183> a skos:Concept;
+  mu:uuid "1ba08c83-b8f3-4c64-9320-fd04ee30c183";
+  skos:prefLabel "Afmeting toiletruimte";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getallen (cm) x (cm)";
+  toevla:trueCommentOriginal "Toiletruimte: y cm (B) x z cm (D)";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  
+<https://data.toevla.org/id/concepts/4a3cfa2c-ac2d-419e-a48e-a85c8bbb3c66> a skos:Concept;
+  mu:uuid "4a3cfa2c-ac2d-419e-a48e-a85c8bbb3c66";
+  skos:prefLabel "Ruimte voor toiletpot";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Ruimte voor toiletpot: x cm";
+  toevla:falseCommentOriginal "Ruimte voor toiletpot: klein, x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  
+<https://data.toevla.org/id/concepts/319b7eeb-5f07-4174-8342-4e2fdb601d9d> a skos:Concept;
+  mu:uuid "319b7eeb-5f07-4174-8342-4e2fdb601d9d";
+  skos:prefLabel "Ruimte naast toiletpot";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Ruimte naast toiletpot: x cm";
+  toevla:falseCommentOriginal "Ruimte naast toiletpot: klein, x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  
+<https://data.toevla.org/id/concepts/d02bbcf1-338d-4cc1-b2be-2c7af896b13a> a skos:Concept;
+  mu:uuid "d02bbcf1-338d-4cc1-b2be-2c7af896b13a";
+  skos:prefLabel "Draairuimte in het toilet";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Draairuimte in het toilet: x cm";
+  toevla:falseCommentOriginal "Draairuimte in het toilet: klein, x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  
+<https://data.toevla.org/id/concepts/4bcfc144-a0d8-4461-bacb-35831af7ee4c> a skos:Concept;
+  mu:uuid "4bcfc144-a0d8-4461-bacb-35831af7ee4c";
+  skos:prefLabel "Steunbeugels";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (aantal)";
+  toevla:trueCommentOriginal "Steunbeugels: 2";
+  toevla:falseCommentOriginal "Steunbeugel: 1";
+  
+  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  
+<https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0> a skos:Concept;
+  mu:uuid "35f9c08e-0b4f-4a67-8d06-36dc37fb59f0";
+  skos:prefLabel "Wastafel in toilet";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Wastafel in toilet: aanwezig";
+  toevla:falseCommentOriginal "Wastafel in toilet: niet aanwezig";
+  
+  toevla:positiveTemplate "Wastafel in toilet: aanwezig";
+  toevla:negativeTemplate "Wastafel in toilet: niet aanwezig";
+  skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
+  
+<https://data.toevla.org/id/concepts/846960af-ba55-4b56-a92a-861a88160204> a skos:Concept;
+  mu:uuid "846960af-ba55-4b56-a92a-861a88160204";
+  skos:prefLabel "Wastafel onderrijdbaar";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "???";
+  toevla:trueCommentOriginal "Wastafel: onderrijdbaar";
+  toevla:falseCommentOriginal "Wastafel: niet onderrijdbaar";
+  
+  skos:broader <https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0>.
+  
+<https://data.toevla.org/id/concepts/36d9f853-4cb5-4021-9322-5d8f658f9b3a> a skos:Concept;
+  mu:uuid "36d9f853-4cb5-4021-9322-5d8f658f9b3a";
+  skos:prefLabel "Vrije hoogte onder wastafel";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "geen weergave";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0>.
+  
+<https://data.toevla.org/id/concepts/eefaadc4-9732-48aa-b9da-7472f348990c> a skos:Concept;
+  mu:uuid "eefaadc4-9732-48aa-b9da-7472f348990c";
+  skos:prefLabel "Vrije diepte onder wastafel";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Geen weergave";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0>.
+  
+<https://data.toevla.org/id/concepts/972c27b2-c27b-4b25-9fc9-93a367c23f28> a skos:Concept;
+  mu:uuid "972c27b2-c27b-4b25-9fc9-93a367c23f28";
+  skos:prefLabel "Vrije breedte onder wastafel";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X | INFO";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Geen weergave";
+  toevla:falseCommentOriginal "Geen weergave";
+  
+  skos:broader <https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0>.
+  
+<https://data.toevla.org/id/concepts/d05326d4-eed9-4c10-b916-d701838f28e3> a skos:Concept;
+  mu:uuid "d05326d4-eed9-4c10-b916-d701838f28e3";
+  skos:prefLabel "Extra info";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/f91d7bc9-0f25-40ce-adfd-993f36c6d724>.
+  
+tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca-45a6-abbf-1564b1413388>.
+<https://data.toevla.org/id/concepts/622c883a-08ca-45a6-abbf-1564b1413388> a skos:Concept;
+  mu:uuid "622c883a-08ca-45a6-abbf-1564b1413388";
+  skos:prefLabel "Extra";
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+
+  ext:order 3.    
+
+<https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523> a skos:Concept;
+  mu:uuid "5e3312f6-98d4-4340-a3c4-9ef108eaa523";
+  skos:prefLabel "Eten en drinken";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Titel (GO)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/622c883a-08ca-45a6-abbf-1564b1413388>.
+  
+<https://data.toevla.org/id/concepts/c2bf5853-9503-472b-bcfd-889f19f9cc41> a skos:Concept;
+  mu:uuid "c2bf5853-9503-472b-bcfd-889f19f9cc41";
+  skos:prefLabel "Betalen";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Betalen:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
+  
+<https://data.toevla.org/id/concepts/0a0bb258-18cb-4eca-8c10-925fb34236a5> a skos:Concept;
+  mu:uuid "0a0bb258-18cb-4eca-8c10-925fb34236a5";
+  skos:prefLabel "Cash";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Cash";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Cash";
+  skos:broader <https://data.toevla.org/id/concepts/c2bf5853-9503-472b-bcfd-889f19f9cc41>.
+  
+<https://data.toevla.org/id/concepts/92955e7c-ecb8-4a91-9981-04085d264f20> a skos:Concept;
+  mu:uuid "92955e7c-ecb8-4a91-9981-04085d264f20";
+  skos:prefLabel "Verplaatsbare kaartlezer";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Verplaatsbare kaartlezer";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Verplaatsbare kaartlezer";
+  skos:broader <https://data.toevla.org/id/concepts/c2bf5853-9503-472b-bcfd-889f19f9cc41>.
+  
+<https://data.toevla.org/id/concepts/09f40a74-67de-4ee0-8de1-4b338cc0cb91> a skos:Concept;
+  mu:uuid "09f40a74-67de-4ee0-8de1-4b338cc0cb91";
+  skos:prefLabel "Vaste kaartlezer";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Vaste kaartlezer";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Vaste kaartlezer";
+  skos:broader <https://data.toevla.org/id/concepts/c2bf5853-9503-472b-bcfd-889f19f9cc41>.
+  
+<https://data.toevla.org/id/concepts/25ea8a39-9e7b-401b-8618-e4143a53890b> a skos:Concept;
+  mu:uuid "25ea8a39-9e7b-401b-8618-e4143a53890b";
+  skos:prefLabel "Aantal zitplaatsen";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (aantal)";
+  toevla:trueCommentOriginal "Aantal zitplaatsen: x";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
+  
+<https://data.toevla.org/id/concepts/cfe3f887-9bec-4fdf-bde8-b2401f486b58> a skos:Concept;
+  mu:uuid "cfe3f887-9bec-4fdf-bde8-b2401f486b58";
+  skos:prefLabel "Ruimte geschikt voor groepen (met mobiele beperking)";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Geschikt voor groepen (met mobiele beperking)";
+  toevla:falseCommentOriginal "Niet geschikt voor groepen (met mobiele beperking)";
+  
+  toevla:positiveTemplate "Geschikt voor groepen (met mobiele beperking)";
+  toevla:negativeTemplate "Niet geschikt voor groepen (met mobiele beperking)";
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
+  
+<https://data.toevla.org/id/concepts/ff6fa7cd-81a3-429c-a095-732dc8140d7b> a skos:Concept;
+  mu:uuid "ff6fa7cd-81a3-429c-a095-732dc8140d7b";
+  skos:prefLabel "Menukaart ";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Menukaart:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
+  
+<https://data.toevla.org/id/concepts/6515cae2-20e3-4d79-8a8a-abbba38fd28b> a skos:Concept;
+  mu:uuid "6515cae2-20e3-4d79-8a8a-abbba38fd28b";
+  skos:prefLabel "Online beschikbaar ";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Online beschikbaar ";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Online beschikbaar ";
+  skos:broader <https://data.toevla.org/id/concepts/ff6fa7cd-81a3-429c-a095-732dc8140d7b>.
+  
+<https://data.toevla.org/id/concepts/05d2a6bc-676c-44a2-b635-73cf4a4f104e> a skos:Concept;
+  mu:uuid "05d2a6bc-676c-44a2-b635-73cf4a4f104e";
+  skos:prefLabel "Duidelijk leesbaar (contrast, lettertype) ";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Duidelijk leesbaar (contrast, lettertype) ";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Duidelijk leesbaar (contrast, lettertype) ";
+  skos:broader <https://data.toevla.org/id/concepts/ff6fa7cd-81a3-429c-a095-732dc8140d7b>.
+  
+<https://data.toevla.org/id/concepts/761e9cbe-3f82-4acc-bc8f-b84d871bd8c5> a skos:Concept;
+  mu:uuid "761e9cbe-3f82-4acc-bc8f-b84d871bd8c5";
+  skos:prefLabel "In braille beschikbaar ";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "In braille beschikbaar ";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "In braille beschikbaar ";
+  skos:broader <https://data.toevla.org/id/concepts/ff6fa7cd-81a3-429c-a095-732dc8140d7b>.
+  
+<https://data.toevla.org/id/concepts/4776282f-fade-4c36-8d34-e704b377a707> a skos:Concept;
+  mu:uuid "4776282f-fade-4c36-8d34-e704b377a707";
+  skos:prefLabel "Met afbeeldingen beschikbaar ";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Met afbeeldingen beschikbaar ";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Met afbeeldingen beschikbaar ";
+  skos:broader <https://data.toevla.org/id/concepts/ff6fa7cd-81a3-429c-a095-732dc8140d7b>.
+  
+<https://data.toevla.org/id/concepts/9b6ba4ed-9f08-4fa6-a3a0-418144ed2cae> a skos:Concept;
+  mu:uuid "9b6ba4ed-9f08-4fa6-a3a0-418144ed2cae";
+  skos:prefLabel "Maaltijden ";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Maaltijden:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
+  
+<https://data.toevla.org/id/concepts/abe7b28d-4e30-4207-8e90-3d10426b2058> a skos:Concept;
+  mu:uuid "abe7b28d-4e30-4207-8e90-3d10426b2058";
+  skos:prefLabel "Aanpassingen op basis van dieet mogelijk";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Aanpassingen op basis van dieet mogelijk";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Aanpassingen op basis van dieet mogelijk";
+  skos:broader <https://data.toevla.org/id/concepts/9b6ba4ed-9f08-4fa6-a3a0-418144ed2cae>.
+  
+<https://data.toevla.org/id/concepts/126d9a97-5894-4eb9-be75-899585ac605d> a skos:Concept;
+  mu:uuid "126d9a97-5894-4eb9-be75-899585ac605d";
+  skos:prefLabel "Vermelding allergenen ";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Vermelding allergenen ";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Vermelding allergenen ";
+  skos:broader <https://data.toevla.org/id/concepts/9b6ba4ed-9f08-4fa6-a3a0-418144ed2cae>.
+  
+<https://data.toevla.org/id/concepts/21a0ab4c-f6c1-4607-9a60-f0d0a34466cf> a skos:Concept;
+  mu:uuid "21a0ab4c-f6c1-4607-9a60-f0d0a34466cf";
+  skos:prefLabel "Kindermenu beschikbaar";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Kindermenu beschikbaar";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Kindermenu beschikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/9b6ba4ed-9f08-4fa6-a3a0-418144ed2cae>.
+  
+<https://data.toevla.org/id/concepts/5b2caa29-50e2-4f6a-bbce-59d0d5176e04> a skos:Concept;
+  mu:uuid "5b2caa29-50e2-4f6a-bbce-59d0d5176e04";
+  skos:prefLabel "Kinderstoel beschikbaar ";
+  ext:order 5;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Kinderstoel beschikbaar ";
+  toevla:falseCommentOriginal "Geen kinderstoel beschikbaar";
+  
+  toevla:positiveTemplate "Kinderstoel beschikbaar ";
+  toevla:negativeTemplate "Geen kinderstoel beschikbaar";
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
+  
+<https://data.toevla.org/id/concepts/20ef331e-60a5-43e2-b89c-9296f753f7cc> a skos:Concept;
+  mu:uuid "20ef331e-60a5-43e2-b89c-9296f753f7cc";
+  skos:prefLabel "Rolstoelvriendelijke verbruiksruimte";
+  ext:order 6;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
+  
+<https://data.toevla.org/id/concepts/2c166982-72cc-4e38-97cf-60fca6729f4d> a skos:Concept;
+  mu:uuid "2c166982-72cc-4e38-97cf-60fca6729f4d";
+  skos:prefLabel "Deurbreedte ";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Deurbreedte: x cm ";
+  toevla:falseCommentOriginal "Deurbreedte: smal x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/20ef331e-60a5-43e2-b89c-9296f753f7cc>.
+  
+<https://data.toevla.org/id/concepts/5f62b99c-511a-4b84-9627-f8f93827b605> a skos:Concept;
+  mu:uuid "5f62b99c-511a-4b84-9627-f8f93827b605";
+  skos:prefLabel "Smalste punt op de route";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Smalste punt op de route: x cm";
+  toevla:falseCommentOriginal "Smalste punt op de route: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/20ef331e-60a5-43e2-b89c-9296f753f7cc>.
+  
+<https://data.toevla.org/id/concepts/de657184-94b8-4ff9-a2bd-a6ac977d4cee> a skos:Concept;
+  mu:uuid "de657184-94b8-4ff9-a2bd-a6ac977d4cee";
+  skos:prefLabel "Hoogste drempel";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Drempel: geen";
+  toevla:falseCommentOriginal "Drempel van meer dan 2 cm: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/20ef331e-60a5-43e2-b89c-9296f753f7cc>.
+  
+<https://data.toevla.org/id/concepts/7b41bfb8-3061-43e3-9cc5-fbd5bbf9f708> a skos:Concept;
+  mu:uuid "7b41bfb8-3061-43e3-9cc5-fbd5bbf9f708";
+  skos:prefLabel "Hoogte onder rolstoelvriendelijke tafel";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Hoogte onder de tafel: x cm";
+  toevla:falseCommentOriginal "Hoogte onder de tafel: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/20ef331e-60a5-43e2-b89c-9296f753f7cc>.
+  
+<https://data.toevla.org/id/concepts/a528dea0-42cb-4f3f-a825-f87b7f98f2eb> a skos:Concept;
+  mu:uuid "a528dea0-42cb-4f3f-a825-f87b7f98f2eb";
+  skos:prefLabel "Bereikbaarheid tafels op het terras";
+  ext:order 7;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
+  
+<https://data.toevla.org/id/concepts/05d70577-2f6c-4646-b76e-e73905c70e2e> a skos:Concept;
+  mu:uuid "05d70577-2f6c-4646-b76e-e73905c70e2e";
+  skos:prefLabel "Deurbreedte ";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Deurbreedte: x cm ";
+  toevla:falseCommentOriginal "Deurbreedte: smal x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/a528dea0-42cb-4f3f-a825-f87b7f98f2eb>.
+  
+<https://data.toevla.org/id/concepts/de42f05b-0bd3-4e70-97d0-1662296b7253> a skos:Concept;
+  mu:uuid "de42f05b-0bd3-4e70-97d0-1662296b7253";
+  skos:prefLabel "Smalste punt op de route";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Smalste punt op de route: x cm";
+  toevla:falseCommentOriginal "Smalste punt op de route: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/a528dea0-42cb-4f3f-a825-f87b7f98f2eb>.
+  
+<https://data.toevla.org/id/concepts/b744373b-c6a1-4efd-adbc-e4055db9e5ef> a skos:Concept;
+  mu:uuid "b744373b-c6a1-4efd-adbc-e4055db9e5ef";
+  skos:prefLabel "Hoogste drempel";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Drempel: geen";
+  toevla:falseCommentOriginal "Drempel van meer dan 2 cm: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/a528dea0-42cb-4f3f-a825-f87b7f98f2eb>.
+  
+<https://data.toevla.org/id/concepts/f6f41d4e-ca21-4e0c-93eb-fc7383a72922> a skos:Concept;
+  mu:uuid "f6f41d4e-ca21-4e0c-93eb-fc7383a72922";
+  skos:prefLabel "Hoogte onder rolstoelvriendelijke tafel";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Hoogte onder de tafel: x cm";
+  toevla:falseCommentOriginal "Hoogte onder de tafel: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/a528dea0-42cb-4f3f-a825-f87b7f98f2eb>.
+  
+<https://data.toevla.org/id/concepts/b73f5b6c-caaa-4644-9f92-7872e2361ea0> a skos:Concept;
+  mu:uuid "b73f5b6c-caaa-4644-9f92-7872e2361ea0";
+  skos:prefLabel "Extra info:";
+  ext:order 8;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
+  
+<https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350> a skos:Concept;
+  mu:uuid "64e1c63a-c63a-4a79-96b8-918bb5939350";
+  skos:prefLabel "Museumshop";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Titel (GO)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/622c883a-08ca-45a6-abbf-1564b1413388>.
+  
+<https://data.toevla.org/id/concepts/c49414f8-7008-4d80-b8d6-4cca3e9ee53a> a skos:Concept;
+  mu:uuid "c49414f8-7008-4d80-b8d6-4cca3e9ee53a";
+  skos:prefLabel "Betalen";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "V/X";
+  toevla:criteriaType "Titel (CR)";
+  toevla:type "Meerkeuzelijst";
+  toevla:trueCommentOriginal "Betalen:";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350>.
+  
+<https://data.toevla.org/id/concepts/26908822-cdbc-4042-b9c0-b2d6ec4722de> a skos:Concept;
+  mu:uuid "26908822-cdbc-4042-b9c0-b2d6ec4722de";
+  skos:prefLabel "Cash";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Cash";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Cash";
+  skos:broader <https://data.toevla.org/id/concepts/c49414f8-7008-4d80-b8d6-4cca3e9ee53a>.
+  
+<https://data.toevla.org/id/concepts/9afe8957-784c-427f-b2c8-beab0e94e806> a skos:Concept;
+  mu:uuid "9afe8957-784c-427f-b2c8-beab0e94e806";
+  skos:prefLabel "Verplaatsbare kaartlezer";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Verplaatsbare kaartlezer";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Verplaatsbare kaartlezer";
+  skos:broader <https://data.toevla.org/id/concepts/c49414f8-7008-4d80-b8d6-4cca3e9ee53a>.
+  
+<https://data.toevla.org/id/concepts/1ae11b42-f51b-4fe6-903e-6f5212f5ecdb> a skos:Concept;
+  mu:uuid "1ae11b42-f51b-4fe6-903e-6f5212f5ecdb";
+  skos:prefLabel "Vaste kaartlezer";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Ja/Nee";
+  toevla:trueCommentOriginal "Vaste kaartlezer";
+  toevla:falseCommentOriginal "geen weergave";
+  
+  toevla:positiveTemplate "Vaste kaartlezer";
+  skos:broader <https://data.toevla.org/id/concepts/c49414f8-7008-4d80-b8d6-4cca3e9ee53a>.
+  
+<https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0> a skos:Concept;
+  mu:uuid "0c2f16d4-ba4c-41f2-9703-265b696ab7a0";
+  skos:prefLabel "Rolstoelvriendelijke verkoopsruimte";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "TEKST";
+  toevla:criteriaType "Titel (TT)";
+  toevla:type "NVT";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350>.
+  
+<https://data.toevla.org/id/concepts/6de525c0-d19e-4d64-82fa-d5943dc34c1b> a skos:Concept;
+  mu:uuid "6de525c0-d19e-4d64-82fa-d5943dc34c1b";
+  skos:prefLabel "Smalste punt op de route";
+  ext:order 0;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Smalste punt op de route: x cm";
+  toevla:falseCommentOriginal "Smalste punt op de route: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0>.
+  
+<https://data.toevla.org/id/concepts/5624ac20-cea6-4113-8505-15b90c2240e6> a skos:Concept;
+  mu:uuid "5624ac20-cea6-4113-8505-15b90c2240e6";
+  skos:prefLabel "Hoogste drempel";
+  ext:order 1;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Drempel: geen";
+  toevla:falseCommentOriginal "Drempel van meer dan 2 cm: x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0>.
+  
+<https://data.toevla.org/id/concepts/3fbe6052-1521-4062-8a5e-ed4f2f450206> a skos:Concept;
+  mu:uuid "3fbe6052-1521-4062-8a5e-ed4f2f450206";
+  skos:prefLabel "Deurbreedte ";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Deurbreedte: x cm ";
+  toevla:falseCommentOriginal "Deurbreedte: smal, x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0>.
+  
+<https://data.toevla.org/id/concepts/77880df0-09fb-4f45-9657-df3a187ba7f6> a skos:Concept;
+  mu:uuid "77880df0-09fb-4f45-9657-df3a187ba7f6";
+  skos:prefLabel "Toegangscontrole";
+  ext:order 3;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Toegangscontrole: x cm";
+  toevla:falseCommentOriginal "Toegangscontrole: smal, x cm";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0>.
+  
+<https://data.toevla.org/id/concepts/083e50eb-d479-4abe-9303-20b38a7ae14d> a skos:Concept;
+  mu:uuid "083e50eb-d479-4abe-9303-20b38a7ae14d";
+  skos:prefLabel "Verlaagde balie";
+  ext:order 4;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Getal (cm)";
+  toevla:trueCommentOriginal "Balie: laag deel aanwezig";
+  toevla:falseCommentOriginal "Balie: geen laag deel aanwezig";
+  
+  skos:broader <https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0>.
+  
+<https://data.toevla.org/id/concepts/e9606594-1b5d-4cb2-a11e-e4014caab6b0> a skos:Concept;
+  mu:uuid "e9606594-1b5d-4cb2-a11e-e4014caab6b0";
+  skos:prefLabel "Extra info:";
+  ext:order 2;
+  
+  toevla:relevant "Ja";
+  toevla:relevantForScore "Ja";
+  toevla:compulsoryCriteria "Ja - Basis";
+  toevla:displayType "INFO V/X";
+  toevla:criteriaType "Criterium";
+  toevla:type "Tekst";
+  toevla:trueCommentOriginal "undefined";
+  toevla:falseCommentOriginal "undefined";
+  
+  skos:broader <https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350>.
+  

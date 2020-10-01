@@ -32,6 +32,16 @@ tvcs:musea skos:hasTopConcept <`+e.uri+`>.
 <`+e.uri+`> a skos:Concept;
   mu:uuid "`+e.uuid+`";
   skos:prefLabel "`+e.label+`";
+  
+  toevla:relevant "`+e.relevant+`";
+  toevla:relevantForScore "`+e.relevantForScore+`";
+  toevla:compulsoryCriteria "`+e.compulsoryCriteria+`";
+  toevla:displayType "`+e.displayType+`";
+  toevla:criteriaType "`+e.criteriaType+`";
+  toevla:type "`+e.type+`";
+  toevla:trueCommentOriginal "`+e.trueCommentOriginal+`";
+  toevla:falseCommentOriginal "`+e.falseCommentOriginal+`";
+
   ext:order `+e.order+`.    
 `;
   }
@@ -40,7 +50,17 @@ tvcs:musea skos:hasTopConcept <`+e.uri+`>.
 <`+e.uri+`> a skos:Concept;
   mu:uuid "`+e.uuid+`";
   skos:prefLabel "`+e.label+`";
-  ext:order `+e.order+`;`;
+  ext:order `+e.order+`;
+  
+  toevla:relevant "`+e.relevant+`";
+  toevla:relevantForScore "`+e.relevantForScore+`";
+  toevla:compulsoryCriteria "`+e.compulsoryCriteria+`";
+  toevla:displayType "`+e.displayType+`";
+  toevla:criteriaType "`+e.criteriaType+`";
+  toevla:type "`+e.type+`";
+  toevla:trueCommentOriginal "`+e.trueCommentOriginal+`";
+  toevla:falseCommentOriginal "`+e.falseCommentOriginal+`";
+  `;
     e.trueComment?output+=`
   toevla:positiveTemplate "`+e.trueComment+`";`:false;
     e.falseComment?output+=`
