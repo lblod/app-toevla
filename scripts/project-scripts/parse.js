@@ -19,6 +19,20 @@ var sheet=xlsx.utils.sheet_to_json(excel.Sheets[sheetName], {"header":1});
 var parsedTree=[
 ];
 
+function sanitizeNode(node){
+  for (var prop in node) {
+    if (Object.prototype.hasOwnProperty.call(node, prop)) {
+        if(typeof node[prop]=="string"){
+          node[prop]=node[prop].replace(/"/g, '');
+        }
+        
+        // else if(!prop){
+        //   delete node[prop];
+        // }
+    }
+  }
+}
+
 //columns where the tree nodes are located fill out appropriately
 var nodeColumns=[
   {column:1, parent:'root', order: -1}, 
@@ -124,7 +138,7 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
           nodeColumns[nodeColumnIndex].order++;
           node.order=nodeColumns[nodeColumnIndex].order;
         }
-
+        sanitizeNode(node);
         parsedTree.push(node);
         
         prevNode=node;
@@ -133,6 +147,8 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
     }
   }
 }
+
+
 var toDisk=JSON.stringify(parsedTree, null, 2);
 
 fs.writeFileSync("./parsedTree.json", toDisk);

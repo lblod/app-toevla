@@ -2134,9 +2134,9 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit ""als geen eigen parkeerterrein"";
+  toevla:firstLimit "als geen eigen parkeerterrein";
   toevla:firstComment "Op publiek domein";
-  toevla:secondLimit ""als geen eigen parkeerterrein"";
+  toevla:secondLimit "als geen eigen parkeerterrein";
   toevla:secondComment "geen weergave";
   toevla:thirdLimit "undefined";
   toevla:thirdComment "undefined";
@@ -2156,9 +2156,9 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit ""Goede materialen"";
+  toevla:firstLimit "Goede materialen";
   toevla:firstComment "Rolstoelvriendelijke ondergrond ";
-  toevla:secondLimit ""Slechte materialen"";
+  toevla:secondLimit "Slechte materialen";
   toevla:secondComment "Slechte ondergrond";
   toevla:thirdLimit "undefined";
   toevla:thirdComment "undefined";
@@ -2263,9 +2263,9 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit ""Goede materialen"";
+  toevla:firstLimit "Goede materialen";
   toevla:firstComment "Rolstoelvriendelijke ondergrond ";
-  toevla:secondLimit ""Slechte materialen"";
+  toevla:secondLimit "Slechte materialen";
   toevla:secondComment "Slechte ondergrond";
   toevla:thirdLimit "undefined";
   toevla:thirdComment "undefined";
