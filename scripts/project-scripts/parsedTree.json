@@ -10,6 +10,8 @@
     "displayType": "NVT (titels)",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 0
   },
   {
@@ -23,6 +25,8 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Titel (GO)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 0
   },
   {
@@ -36,8 +40,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Begeleiding van aan het openbaar vervoer mogelijk",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Begeleiding van aan het openbaar vervoer mogelijk",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Begeleiding van aan het openbaar vervoer mogelijk"
   },
@@ -52,7 +58,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Financiële tegemoetkoming toegangsprijs:",
+    "firstLimit": "NVT",
+    "firstComment": "Financiële tegemoetkoming toegangsprijs:",
+    "secondLimit": "NVT",
     "order": 1
   },
   {
@@ -66,8 +74,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Begeleider gratis",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Begeleider gratis",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Begeleider gratis"
   },
@@ -82,8 +92,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Museumpas",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Museumpas",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Museumpas"
   },
@@ -98,8 +110,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Uitpas (punten scannen)",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Uitpas (punten scannen)",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Uitpas (punten scannen)"
   },
@@ -114,8 +128,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "City Pas",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "City Pas",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 3,
     "trueComment": "City Pas"
   },
@@ -130,8 +146,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "EDC (European Disability Card)",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "EDC (European Disability Card)",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 4,
     "trueComment": "EDC (European Disability Card)"
   },
@@ -146,8 +164,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Rolstoel ter beschikking",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Rolstoel ter beschikking",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Rolstoel ter beschikking"
   },
@@ -162,8 +182,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Keuzelijst",
-    "trueCommentOriginal": "Wifi: altijd vrij beschikbaar",
-    "falseCommentOriginal": "Wifi: niet beschikbaar",
+    "firstLimit": "Altijd vrij beschikbaar",
+    "firstComment": "Wifi: altijd vrij beschikbaar",
+    "secondLimit": "Niet beschikbaar",
+    "secondComment": "Wifi: niet beschikbaar",
+    "thirdLimit": "Vrij beschikbaar op aanvraag",
+    "thirdComment": "Wifi: vrij beschikbaar op aanvraag",
     "order": 3
   },
   {
@@ -177,8 +201,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Voorzieningen voor assistentiehonden",
-    "falseCommentOriginal": "Geen voorzieningen voor assistentiehonden",
+    "firstLimit": "NVT",
+    "firstComment": "Voorzieningen voor assistentiehonden",
+    "secondLimit": "NVT",
+    "secondComment": "Geen voorzieningen voor assistentiehonden",
     "order": 4,
     "trueComment": "Voorzieningen voor assistentiehonden",
     "falseComment": "Geen voorzieningen voor assistentiehonden"
@@ -194,8 +220,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Visueel stappenpan om bezoek voor te bereiden aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Visueel stappenpan om bezoek voor te bereiden aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 5,
     "trueComment": "Visueel stappenpan om bezoek voor te bereiden aanwezig"
   },
@@ -210,7 +238,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Website:",
+    "firstLimit": "NVT",
+    "firstComment": "Website:",
+    "secondLimit": "NVT",
     "order": 6
   },
   {
@@ -224,8 +254,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Toegankelijkheidslabel aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Toegankelijkheidslabel aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Toegankelijkheidslabel aanwezig"
   },
@@ -240,8 +272,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Tekstvergroting mogelijk",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Tekstvergroting mogelijk",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Tekstvergroting mogelijk"
   },
@@ -256,8 +290,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Contrasten aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Contrasten aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Contrasten aanwezig"
   },
@@ -272,8 +308,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Voorleesfunctie beschikbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Voorleesfunctie beschikbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 3,
     "trueComment": "Voorleesfunctie beschikbaar"
   },
@@ -288,8 +326,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Gebarentaal voorzien",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Gebarentaal voorzien",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 4,
     "trueComment": "Gebarentaal voorzien"
   },
@@ -304,7 +344,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Betalen:",
+    "firstLimit": "NVT",
+    "firstComment": "Betalen:",
+    "secondLimit": "NVT",
     "order": 7
   },
   {
@@ -318,8 +360,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Enkel cash",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Enkel cash",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Enkel cash"
   },
@@ -334,8 +378,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Verplaatsbare kaartlezer",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Verplaatsbare kaartlezer",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Verplaatsbare kaartlezer"
   },
@@ -350,8 +396,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Vaste kaartlezer",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Vaste kaartlezer",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Vaste kaartlezer"
   },
@@ -366,6 +414,8 @@
     "displayType": "Tekst",
     "criteriaType": "Criterium",
     "type": "Tekst",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 8
   },
   {
@@ -379,6 +429,8 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Titel (GO)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 1
   },
   {
@@ -392,7 +444,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Rondleidingen:",
+    "firstLimit": "NVT",
+    "firstComment": "Rondleidingen:",
+    "secondLimit": "NVT",
     "order": 0
   },
   {
@@ -406,8 +460,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Voor personen met een visuele beperking",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Voor personen met een visuele beperking",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Voor personen met een visuele beperking"
   },
@@ -422,8 +478,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Voor personen met een auditieve beperking",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Voor personen met een auditieve beperking",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Voor personen met een auditieve beperking"
   },
@@ -438,8 +496,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Voor personen met een mentale beperking",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Voor personen met een mentale beperking",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Voor personen met een mentale beperking"
   },
@@ -454,8 +514,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Dementievriendelijk",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Dementievriendelijk",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 3,
     "trueComment": "Dementievriendelijk"
   },
@@ -470,8 +532,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Autisme gericht",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Autisme gericht",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 4,
     "trueComment": "Autisme gericht"
   },
@@ -486,8 +550,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Leeftijdaangepast: kindvriendelijk",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Leeftijdaangepast: kindvriendelijk",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 5,
     "trueComment": "Leeftijdaangepast: kindvriendelijk"
   },
@@ -502,8 +568,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Met beeldentolk",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Met beeldentolk",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 6,
     "trueComment": "Met beeldentolk"
   },
@@ -518,8 +586,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Met Tolk Vlaamse Gebarentaal (VGT)",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Met Tolk Vlaamse Gebarentaal (VGT)",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 7,
     "trueComment": "Met Tolk Vlaamse Gebarentaal (VGT)"
   },
@@ -534,8 +604,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Op rustige momenten",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Op rustige momenten",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 8,
     "trueComment": "Op rustige momenten"
   },
@@ -550,8 +622,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Bezoek op maat mogelijk",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Bezoek op maat mogelijk",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 9,
     "trueComment": "Bezoek op maat mogelijk"
   },
@@ -566,7 +640,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Museum route en zalen:",
+    "firstLimit": "NVT",
+    "firstComment": "Museum route en zalen:",
+    "secondLimit": "NVT",
     "order": 1
   },
   {
@@ -580,8 +656,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Duidelijke bewegwijzering op de route",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Duidelijke bewegwijzering op de route",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Duidelijke bewegwijzering op de route"
   },
@@ -596,8 +674,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Zalenplan beschikbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Zalenplan beschikbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Zalenplan beschikbaar"
   },
@@ -612,8 +692,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Schema met aanbevolen traject",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Schema met aanbevolen traject",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Schema met aanbevolen traject"
   },
@@ -628,8 +710,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Alternatief voor niet toegankelijke ruimten",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Alternatief voor niet toegankelijke ruimten",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 3,
     "trueComment": "Alternatief voor niet toegankelijke ruimten"
   },
@@ -644,8 +728,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Rust- zitmogelijkheden",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Rust- zitmogelijkheden",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 4,
     "trueComment": "Rust- zitmogelijkheden"
   },
@@ -660,8 +746,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Extra aandacht voor akoestiek",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Extra aandacht voor akoestiek",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 5,
     "trueComment": "Extra aandacht voor akoestiek"
   },
@@ -676,7 +764,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Vitrinetafels, computerschermen:",
+    "firstLimit": "NVT",
+    "firstComment": "Vitrinetafels, computerschermen:",
+    "secondLimit": "NVT",
     "order": 2
   },
   {
@@ -690,8 +780,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Meerdere onderrijdbare elementen",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Meerdere onderrijdbare elementen",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Meerdere onderrijdbare elementen"
   },
@@ -706,8 +798,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Goede verlichting",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Goede verlichting",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Goede verlichting"
   },
@@ -722,8 +816,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Vergrootglas aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Vergrootglas aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Vergrootglas aanwezig"
   },
@@ -738,7 +834,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Auditorium/filmzaal:",
+    "firstLimit": "NVT",
+    "firstComment": "Auditorium/filmzaal:",
+    "secondLimit": "NVT",
     "order": 3
   },
   {
@@ -752,8 +850,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Zitplaatsen bereikbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Zitplaatsen bereikbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Zitplaatsen bereikbaar"
   },
@@ -768,8 +868,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Extra aandacht voor akoestiek",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Extra aandacht voor akoestiek",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Extra aandacht voor akoestiek"
   },
@@ -784,8 +886,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Ringleiding in de museumzalen",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Ringleiding in de museumzalen",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Ringleiding in de museumzalen"
   },
@@ -800,7 +904,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Brochure",
+    "firstLimit": "NVT",
+    "firstComment": "Brochure",
+    "secondLimit": "NVT",
     "order": 4
   },
   {
@@ -814,8 +920,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Contrast aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Contrast aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Contrast aanwezig"
   },
@@ -830,8 +938,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "In braille beschikbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "In braille beschikbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "In braille beschikbaar"
   },
@@ -846,8 +956,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "In grootletterschrift beschikbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "In grootletterschrift beschikbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "In grootletterschrift beschikbaar"
   },
@@ -862,7 +974,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Teksten/borden/panelen:",
+    "firstLimit": "NVT",
+    "firstComment": "Teksten/borden/panelen:",
+    "secondLimit": "NVT",
     "order": 5
   },
   {
@@ -876,8 +990,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Contrast aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Contrast aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Contrast aanwezig"
   },
@@ -892,8 +1008,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Geen reflectie",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Geen reflectie",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Geen reflectie"
   },
@@ -908,8 +1026,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "In braille beschikbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "In braille beschikbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "In braille beschikbaar"
   },
@@ -924,8 +1044,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "In grootletterschrift beschikbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "In grootletterschrift beschikbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 3,
     "trueComment": "In grootletterschrift beschikbaar"
   },
@@ -940,7 +1062,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Audiogids beschikbaar:",
+    "firstLimit": "NVT",
+    "firstComment": "Audiogids beschikbaar:",
+    "secondLimit": "NVT",
     "order": 6
   },
   {
@@ -954,8 +1078,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "In meerdere talen",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "In meerdere talen",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "In meerdere talen"
   },
@@ -970,8 +1096,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "In meerdere talen",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "In meerdere talen",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "In meerdere talen"
   },
@@ -986,8 +1114,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Movieguide",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Movieguide",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 7,
     "trueComment": "Movieguide"
   },
@@ -1002,8 +1132,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Virtuele technologie",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Virtuele technologie",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 8,
     "trueComment": "Virtuele technologie"
   },
@@ -1018,7 +1150,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Zintuiglijke beleving:",
+    "firstLimit": "NVT",
+    "firstComment": "Zintuiglijke beleving:",
+    "secondLimit": "NVT",
     "order": 9
   },
   {
@@ -1032,8 +1166,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Voel-elementen aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Voel-elementen aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Voel-elementen aanwezig"
   },
@@ -1048,8 +1184,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Geur-elementen aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Geur-elementen aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Geur-elementen aanwezig"
   },
@@ -1064,8 +1202,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Doe-elementen aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Doe-elementen aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Doe-elementen aanwezig"
   },
@@ -1080,8 +1220,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Luister-elementen aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Luister-elementen aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 3,
     "trueComment": "Luister-elementen aanwezig"
   },
@@ -1096,8 +1238,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Stilteplekken aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Stilteplekken aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 10,
     "trueComment": "Stilteplekken aanwezig"
   },
@@ -1112,6 +1256,8 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Tekst",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 11
   },
   {
@@ -1125,6 +1271,8 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Tekst",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 12
   },
   {
@@ -1138,6 +1286,8 @@
     "displayType": "V/X",
     "criteriaType": "Titel (GO)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 2
   },
   {
@@ -1151,6 +1301,8 @@
     "displayType": "NVT (titels)",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 1
   },
   {
@@ -1164,6 +1316,8 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Titel (GO)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 0
   },
   {
@@ -1177,7 +1331,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Bereikbaarheid met openbaar vervoer:",
+    "firstLimit": "NVT",
+    "firstComment": "Bereikbaarheid met openbaar vervoer:",
+    "secondLimit": "NVT",
     "order": 0
   },
   {
@@ -1191,8 +1347,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Gedetailleerde beschrijving beschikbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Gedetailleerde beschrijving beschikbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Gedetailleerde beschrijving beschikbaar"
   },
@@ -1207,8 +1365,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Beschikbaar met voorleesfunctie",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Beschikbaar met voorleesfunctie",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Beschikbaar met voorleesfunctie"
   },
@@ -1223,8 +1383,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Beschikbaar in Vlaamse Gebarentaal (VGT)",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Beschikbaar in Vlaamse Gebarentaal (VGT)",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Beschikbaar in Vlaamse Gebarentaal (VGT)"
   },
@@ -1239,8 +1401,10 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Getal (km)",
-    "trueCommentOriginal": "Station aanwezig op x km",
-    "falseCommentOriginal": "Station aanwezig op x km",
+    "firstLimit": "<= 0,5",
+    "firstComment": "Station aanwezig op x km",
+    "secondLimit": "> 0,5",
+    "secondComment": "Station aanwezig op x km",
     "order": 1
   },
   {
@@ -1254,8 +1418,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Tekst",
-    "trueCommentOriginal": "Station: x, link",
-    "falseCommentOriginal": "Station: x, link",
+    "firstLimit": "NVT",
+    "firstComment": "Station: x, link",
+    "secondLimit": "NVT",
+    "secondComment": "Station: x, link",
     "order": 2
   },
   {
@@ -1269,8 +1435,10 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Getal (m)",
-    "trueCommentOriginal": "Bushalte aanwezig op x m",
-    "falseCommentOriginal": "Bushalte aanwezig op x m",
+    "firstLimit": "<= 200",
+    "firstComment": "Bushalte aanwezig op x m",
+    "secondLimit": "> 200",
+    "secondComment": "Bushalte aanwezig op x m",
     "order": 3
   },
   {
@@ -1284,8 +1452,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Tekst",
-    "trueCommentOriginal": "Halte x, link",
-    "falseCommentOriginal": "Halte x, link",
+    "firstLimit": "NVT",
+    "firstComment": "Halte x, link",
+    "secondLimit": "NVT",
+    "secondComment": "Halte x, link",
     "order": 4
   },
   {
@@ -1299,8 +1469,10 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Getal (m)",
-    "trueCommentOriginal": "Tramhalte aanwezig op x m",
-    "falseCommentOriginal": "Tramhalte aanwezig op x m",
+    "firstLimit": "<= 200",
+    "firstComment": "Tramhalte aanwezig op x m",
+    "secondLimit": "> 200",
+    "secondComment": "Tramhalte aanwezig op x m",
     "order": 5
   },
   {
@@ -1314,8 +1486,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Tekst",
-    "trueCommentOriginal": "Halte x, link",
-    "falseCommentOriginal": "Halte x, link",
+    "firstLimit": "NVT",
+    "firstComment": "Halte x, link",
+    "secondLimit": "NVT",
+    "secondComment": "Halte x, link",
     "order": 6
   },
   {
@@ -1329,6 +1503,8 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Tekst",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 7
   },
   {
@@ -1342,6 +1518,8 @@
     "displayType": "V/X",
     "criteriaType": "Titel (GO)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 1
   },
   {
@@ -1355,8 +1533,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Eigen parkeerterrein aanwezig",
-    "falseCommentOriginal": "Geen eigen parkeerterrein aanwezig",
+    "firstLimit": "NVT",
+    "firstComment": "Eigen parkeerterrein aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "Geen eigen parkeerterrein aanwezig",
     "order": 0,
     "trueComment": "Eigen parkeerterrein aanwezig",
     "falseComment": "Geen eigen parkeerterrein aanwezig"
@@ -1372,8 +1552,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Voorrijdmogelijkheid aanwezig",
-    "falseCommentOriginal": "Geen voorrijdmogelijkheid",
+    "firstLimit": "NVT",
+    "firstComment": "Voorrijdmogelijkheid aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "Geen voorrijdmogelijkheid",
     "order": 1,
     "trueComment": "Voorrijdmogelijkheid aanwezig",
     "falseComment": "Geen voorrijdmogelijkheid"
@@ -1389,8 +1571,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Goede verlichting op de route",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Goede verlichting op de route",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Goede verlichting op de route"
   },
@@ -1405,7 +1589,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Bereikbaarheid met de auto:",
+    "firstLimit": "NVT",
+    "firstComment": "Bereikbaarheid met de auto:",
+    "secondLimit": "NVT",
     "order": 3
   },
   {
@@ -1419,8 +1605,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Gedetailleerde beschrijving beschikbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Gedetailleerde beschrijving beschikbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Gedetailleerde beschrijving beschikbaar"
   },
@@ -1435,8 +1623,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Beschikbaar met voorleesfunctie",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Beschikbaar met voorleesfunctie",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Beschikbaar met voorleesfunctie"
   },
@@ -1451,8 +1641,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Beschikbaar in Vlaamse Gebarentaal (VGT)",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Beschikbaar in Vlaamse Gebarentaal (VGT)",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Beschikbaar in Vlaamse Gebarentaal (VGT)"
   },
@@ -1467,6 +1659,8 @@
     "displayType": "V/X",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 4
   },
   {
@@ -1480,8 +1674,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (Aantal)",
-    "trueCommentOriginal": "Rolstoelvriendelijke parkeerplaats(en): x",
-    "falseCommentOriginal": "Geen rolstoelvriendelijke parkeerplaats aanwezig",
+    "firstLimit": ">= 1",
+    "firstComment": "Rolstoelvriendelijke parkeerplaats(en): x",
+    "secondLimit": "< 1",
+    "secondComment": "Geen rolstoelvriendelijke parkeerplaats aanwezig",
     "order": 0
   },
   {
@@ -1495,8 +1691,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Op publiek domein",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "\"als geen eigen parkeerterrein\"",
+    "firstComment": "Op publiek domein",
+    "secondLimit": "\"als geen eigen parkeerterrein\"",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Op publiek domein"
   },
@@ -1511,8 +1709,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Rolstoelvriendelijke ondergrond ",
-    "falseCommentOriginal": "Slechte ondergrond",
+    "firstLimit": "\"Goede materialen\"",
+    "firstComment": "Rolstoelvriendelijke ondergrond ",
+    "secondLimit": "\"Slechte materialen\"",
+    "secondComment": "Slechte ondergrond",
     "order": 2,
     "trueComment": "Rolstoelvriendelijke ondergrond ",
     "falseComment": "Slechte ondergrond"
@@ -1528,8 +1728,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Naast elkaar parkeren: breedte x cm",
-    "falseCommentOriginal": "Naast elkaar parkeren: smal, x cm",
+    "firstLimit": ">= 350",
+    "firstComment": "Naast elkaar parkeren: breedte x cm",
+    "secondLimit": "< 350",
+    "secondComment": "Naast elkaar parkeren: smal, x cm",
     "order": 3
   },
   {
@@ -1543,8 +1745,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Achter elkaar parkeren: lengte x cm",
-    "falseCommentOriginal": "Achter elkaar parkeren: kort, x cm",
+    "firstLimit": ">= 600",
+    "firstComment": "Achter elkaar parkeren: lengte x cm",
+    "secondLimit": "< 600",
+    "secondComment": "Achter elkaar parkeren: kort, x cm",
     "order": 4
   },
   {
@@ -1558,7 +1762,9 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (m)",
-    "trueCommentOriginal": "Max voertuig-hoogte: x cm",
+    "firstLimit": "NVT",
+    "firstComment": "Max voertuig-hoogte: x cm",
+    "secondLimit": "NVT",
     "order": 5
   },
   {
@@ -1572,6 +1778,8 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 6
   },
   {
@@ -1585,8 +1793,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Rolstoelvriendelijke ondergrond ",
-    "falseCommentOriginal": "Slechte ondergrond",
+    "firstLimit": "\"Goede materialen\"",
+    "firstComment": "Rolstoelvriendelijke ondergrond ",
+    "secondLimit": "\"Slechte materialen\"",
+    "secondComment": "Slechte ondergrond",
     "order": 0,
     "trueComment": "Rolstoelvriendelijke ondergrond ",
     "falseComment": "Slechte ondergrond"
@@ -1602,8 +1812,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Smalste punt op de route: x cm",
-    "falseCommentOriginal": "Smalste punt op de route: x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Smalste punt op de route: x cm",
+    "secondLimit": "< 77",
+    "secondComment": "Smalste punt op de route: x cm",
     "order": 1
   },
   {
@@ -1617,8 +1829,12 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Drempel: geen",
-    "falseCommentOriginal": "Drempel van meer dan 2 cm: x cm",
+    "firstLimit": "= 0",
+    "firstComment": "Drempel: geen",
+    "secondLimit": "> 2 cm",
+    "secondComment": "Drempel van meer dan 2 cm: x cm",
+    "thirdLimit": "0 < x <= 2",
+    "thirdComment": "Drempel van max 2 cm: x cm",
     "order": 2
   },
   {
@@ -1632,8 +1848,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (Aantal)",
-    "trueCommentOriginal": "Meerdere drempels: x",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": "> 1",
+    "firstComment": "Meerdere drempels: x",
+    "secondLimit": "< 1",
+    "secondComment": "Geen weergave",
     "order": 3
   },
   {
@@ -1647,7 +1865,8 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (Aantal)",
-    "trueCommentOriginal": "Trap: x tredes",
+    "firstLimit": "> 0",
+    "firstComment": "Trap: x tredes",
     "order": 4
   },
   {
@@ -1661,8 +1880,12 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (Aantal)",
-    "trueCommentOriginal": "Meerdere hellende vlakken: x",
-    "falseCommentOriginal": "Hellend vlak aanwezig",
+    "firstLimit": "> 1",
+    "firstComment": "Meerdere hellende vlakken: x",
+    "secondLimit": "= 1",
+    "secondComment": "Hellend vlak aanwezig",
+    "thirdLimit": 0,
+    "thirdComment": "geen weergave",
     "order": 5
   },
   {
@@ -1676,8 +1899,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee (invers)",
-    "trueCommentOriginal": "Oprijgoten aanwezig",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": "= Ja",
+    "firstComment": "Oprijgoten aanwezig",
+    "secondLimit": "= Nee",
+    "secondComment": "Geen weergave",
     "order": 6
   },
   {
@@ -1691,6 +1916,7 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Tekst",
+    "firstLimit": "NVT",
     "order": 5
   },
   {
@@ -1704,6 +1930,7 @@
     "displayType": "NVT (titels)",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
     "order": 2
   },
   {
@@ -1717,6 +1944,8 @@
     "displayType": "V/X",
     "criteriaType": "Titel (GO)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 0
   },
   {
@@ -1730,8 +1959,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Gebouw duidelijk herkenbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Gebouw duidelijk herkenbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Gebouw duidelijk herkenbaar"
   },
@@ -1746,8 +1977,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Toegang duidelijk herkenbaar / zichtbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Toegang duidelijk herkenbaar / zichtbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Toegang duidelijk herkenbaar / zichtbaar"
   },
@@ -1762,8 +1995,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Gids- en/of geleidelijnen aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Gids- en/of geleidelijnen aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Gids- en/of geleidelijnen aanwezig"
   },
@@ -1778,8 +2013,12 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Keuzelijst",
-    "trueCommentOriginal": "Markering en contrasten op glazen deuren",
-    "falseCommentOriginal": "Geen markering en contrasten op glazen deuren",
+    "firstLimit": "Aanwezig",
+    "firstComment": "Markering en contrasten op glazen deuren",
+    "secondLimit": "Niet aanwezig",
+    "secondComment": "Geen markering en contrasten op glazen deuren",
+    "thirdLimit": "Niet duidelijk aanwezig",
+    "thirdComment": "Geen duidelijke markering op glazen deuren",
     "order": 3
   },
   {
@@ -1793,8 +2032,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Extra aandacht voor akoestiek",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Extra aandacht voor akoestiek",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 4,
     "trueComment": "Extra aandacht voor akoestiek"
   },
@@ -1809,6 +2050,7 @@
     "displayType": "NVT (titels)",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
     "order": 5
   },
   {
@@ -1822,7 +2064,8 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Tekst",
-    "trueCommentOriginal": "Via …",
+    "firstLimit": "NVT",
+    "firstComment": "Via …",
     "order": 0
   },
   {
@@ -1836,8 +2079,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Drempel: geen",
-    "falseCommentOriginal": "Drempel van meer dan 2 cm: x cm",
+    "firstLimit": "= 0",
+    "firstComment": "Drempel: geen",
+    "secondLimit": "> 2 cm",
+    "secondComment": "Drempel van meer dan 2 cm: x cm",
+    "thirdLimit": "0 < x <= 2",
+    "thirdComment": "Drempel van max 2 cm: x cm",
     "order": 1
   },
   {
@@ -1851,7 +2098,8 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (Aantal)",
-    "trueCommentOriginal": "Trap: x tredes",
+    "firstLimit": "> 0",
+    "firstComment": "Trap: x tredes",
     "order": 2
   },
   {
@@ -1865,8 +2113,12 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Getal (Aantal)",
-    "trueCommentOriginal": "Meerdere hellende vlakken: x",
-    "falseCommentOriginal": "Hellend vlak aanwezig",
+    "firstLimit": "> 1",
+    "firstComment": "Meerdere hellende vlakken: x",
+    "secondLimit": "= 1",
+    "secondComment": "Hellend vlak aanwezig",
+    "thirdLimit": 0,
+    "thirdComment": "geen weergave",
     "order": 3
   },
   {
@@ -1880,8 +2132,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee (invers)",
-    "trueCommentOriginal": "Oprijgoten aanwezig",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": "= Ja",
+    "firstComment": "Oprijgoten aanwezig",
+    "secondLimit": "= Nee",
+    "secondComment": "Geen weergave",
     "order": 4
   },
   {
@@ -1895,7 +2149,8 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Tourniquetdeur",
+    "firstLimit": "NVT",
+    "firstComment": "Tourniquetdeur",
     "order": 5,
     "trueComment": "Tourniquetdeur"
   },
@@ -1910,8 +2165,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Deurbreedte: x cm ",
-    "falseCommentOriginal": "Deurbreedte: smal, x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Deurbreedte: x cm ",
+    "secondLimit": "< 77",
+    "secondComment": "Deurbreedte: smal, x cm",
     "order": 6
   },
   {
@@ -1925,8 +2182,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Toegangscontrole: x cm",
-    "falseCommentOriginal": "Toegangscontrole: smal, x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Toegangscontrole: x cm",
+    "secondLimit": "< 77",
+    "secondComment": "Toegangscontrole: smal, x cm",
     "order": 7
   },
   {
@@ -1940,8 +2199,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Draairuimte aan deur: x cm",
-    "falseCommentOriginal": "Draairuimte aan deur: klein, ф x cm",
+    "firstLimit": ">= ф 120",
+    "firstComment": "Draairuimte aan deur: x cm",
+    "secondLimit": "< ф 120",
+    "secondComment": "Draairuimte aan deur: klein, ф x cm",
+    "thirdLimit": "0 <= x < ф 40",
+    "thirdComment": "Draairuimte aan deur: geen",
     "order": 8
   },
   {
@@ -1955,8 +2218,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Keuzelijst",
-    "trueCommentOriginal": "Deur: licht om te openen",
-    "falseCommentOriginal": "Deur: zwaar om te openen",
+    "firstLimit": "Licht om te openen",
+    "firstComment": "Deur: licht om te openen",
+    "secondLimit": "Zwaar om te openen",
+    "secondComment": "Deur: zwaar om te openen",
+    "thirdLimit": "Automatisch",
+    "thirdComment": "Deur: automatisch",
     "order": 9
   },
   {
@@ -1970,8 +2237,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Balie: laag deel aanwezig",
-    "falseCommentOriginal": "Balie: geen laag deel aanwezig",
+    "firstLimit": "<= 90",
+    "firstComment": "Balie: laag deel aanwezig",
+    "secondLimit": "> 90",
+    "secondComment": "Balie: geen laag deel aanwezig",
     "order": 10
   },
   {
@@ -1985,8 +2254,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Bemande balie",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Bemande balie",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 6,
     "trueComment": "Bemande balie"
   },
@@ -2001,8 +2272,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Ringleiding aan de balie",
-    "falseCommentOriginal": "Geen ringleiding aan de balie",
+    "firstLimit": "NVT",
+    "firstComment": "Ringleiding aan de balie",
+    "secondLimit": "NVT",
+    "secondComment": "Geen ringleiding aan de balie",
     "order": 7,
     "trueComment": "Ringleiding aan de balie",
     "falseComment": "Geen ringleiding aan de balie"
@@ -2018,6 +2291,8 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Tekst",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 8
   },
   {
@@ -2031,6 +2306,8 @@
     "displayType": "NVT (titels)",
     "criteriaType": "Titel (GO)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 1
   },
   {
@@ -2044,8 +2321,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Duidelijke signalisatie in het gebouw",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Duidelijke signalisatie in het gebouw",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Duidelijke signalisatie in het gebouw"
   },
@@ -2060,8 +2339,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Spraaksynthese in de lift",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Spraaksynthese in de lift",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Spraaksynthese in de lift"
   },
@@ -2076,6 +2357,7 @@
     "displayType": "V/X",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
     "order": 2
   },
   {
@@ -2089,8 +2371,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Keuzelijst",
-    "trueCommentOriginal": "Alles op gelijkvloers",
-    "falseCommentOriginal": "Niet alles op gelijkvloers: geen lift aanwezig",
+    "firstLimit": "Alles op gelijkvloers",
+    "firstComment": "Alles op gelijkvloers",
+    "secondLimit": "Niet alles op gelijkvloers, geen lift",
+    "secondComment": "Niet alles op gelijkvloers: geen lift aanwezig",
+    "thirdLimit": "Niet alles op gelijkvloers, wel ruime lift",
+    "thirdComment": "Niet alles op gelijkvloers: ruime lift aanwezig",
     "order": 0
   },
   {
@@ -2104,8 +2390,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getallen (cm) x (cm)",
-    "trueCommentOriginal": "Lift: y cm (B) x z cm (D)",
-    "falseCommentOriginal": "Lift: klein, y cm (B) x z cm (D)",
+    "firstLimit": ">= 90 x 120",
+    "firstComment": "Lift: y cm (B) x z cm (D)",
+    "secondLimit": "< 90 x 120",
+    "secondComment": "Lift: klein, y cm (B) x z cm (D)",
     "order": 1
   },
   {
@@ -2119,8 +2407,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Smalste punt op de route: x cm",
-    "falseCommentOriginal": "Smalste punt op de route: x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Smalste punt op de route: x cm",
+    "secondLimit": "< 77",
+    "secondComment": "Smalste punt op de route: x cm",
     "order": 2
   },
   {
@@ -2134,8 +2424,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Drempel: geen",
-    "falseCommentOriginal": "Drempel van meer dan 2 cm: x cm",
+    "firstLimit": "= 0",
+    "firstComment": "Drempel: geen",
+    "secondLimit": "> 2 cm",
+    "secondComment": "Drempel van meer dan 2 cm: x cm",
+    "thirdLimit": "0 < x <= 2",
+    "thirdComment": "Drempel van max 2 cm: x cm",
     "order": 3
   },
   {
@@ -2149,8 +2443,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (aantal)",
-    "trueCommentOriginal": "Meerdere drempels: x",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": "> 1",
+    "firstComment": "Meerdere drempels: x",
+    "secondLimit": "< 1",
+    "secondComment": "Geen weergave",
     "order": 4
   },
   {
@@ -2164,7 +2460,8 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (aantal)",
-    "trueCommentOriginal": "Trap: x tredes",
+    "firstLimit": "> 0",
+    "firstComment": "Trap: x tredes",
     "order": 5
   },
   {
@@ -2178,8 +2475,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (aantal)",
-    "trueCommentOriginal": "Meerdere hellende vlakken: x",
-    "falseCommentOriginal": "Hellend vlak aanwezig",
+    "firstLimit": "> 1",
+    "firstComment": "Meerdere hellende vlakken: x",
+    "secondLimit": "= 1",
+    "secondComment": "Hellend vlak aanwezig",
+    "thirdLimit": 0,
+    "thirdComment": "geen weergave",
     "order": 6
   },
   {
@@ -2193,8 +2494,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee (invers)",
-    "trueCommentOriginal": "Oprijgoten aanwezig",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": "= Ja",
+    "firstComment": "Oprijgoten aanwezig",
+    "secondLimit": "= Nee",
+    "secondComment": "Geen weergave",
     "order": 7
   },
   {
@@ -2208,8 +2511,10 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Getallen (cm) x (cm)",
-    "trueCommentOriginal": "Plateaulift: y cm (B) x z cm (D)",
-    "falseCommentOriginal": "Plateaulift: klein, y cm (B) x z cm (D)",
+    "firstLimit": ">= 90 x 120",
+    "firstComment": "Plateaulift: y cm (B) x z cm (D)",
+    "secondLimit": "< 90 x 120",
+    "secondComment": "Plateaulift: klein, y cm (B) x z cm (D)",
     "order": 8
   },
   {
@@ -2223,8 +2528,10 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Getal (aantal)",
-    "trueCommentOriginal": "Meerdere plateauliften: x",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": "> 1",
+    "firstComment": "Meerdere plateauliften: x",
+    "secondLimit": "< 1",
+    "secondComment": "Geen weergave",
     "order": 9
   },
   {
@@ -2238,6 +2545,7 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Tekst",
+    "firstLimit": "NVT",
     "order": 3
   },
   {
@@ -2251,6 +2559,7 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Titel (GO)",
     "type": "NVT",
+    "firstLimit": "NVT",
     "order": 2
   },
   {
@@ -2264,8 +2573,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Spraaksynthese in de lift aanwezig",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Spraaksynthese in de lift aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Spraaksynthese in de lift aanwezig"
   },
@@ -2280,8 +2591,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Babyverzorgingstafel aanwezig",
-    "falseCommentOriginal": "Geen babyverzorgingstafel",
+    "firstLimit": "NVT",
+    "firstComment": "Babyverzorgingstafel aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "Geen babyverzorgingstafel",
     "order": 1,
     "trueComment": "Babyverzorgingstafel aanwezig",
     "falseComment": "Geen babyverzorgingstafel"
@@ -2297,8 +2610,10 @@
     "displayType": "V/X",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
-    "trueCommentOriginal": "geen weergave",
-    "falseCommentOriginal": "Geen rolstoelvriendelijk toilet aanwezig",
+    "firstLimit": "NVT",
+    "firstComment": "geen weergave",
+    "secondLimit": "NVT",
+    "secondComment": "Geen rolstoelvriendelijk toilet aanwezig",
     "order": 2
   },
   {
@@ -2312,6 +2627,7 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
     "order": 0
   },
   {
@@ -2325,8 +2641,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getallen (cm) x (cm)",
-    "trueCommentOriginal": "Lift: y cm (B) x z cm (D)",
-    "falseCommentOriginal": "Lift: klein, y cm (B) x z cm (D)",
+    "firstLimit": ">= 90 x 120",
+    "firstComment": "Lift: y cm (B) x z cm (D)",
+    "secondLimit": "< 90 x 120",
+    "secondComment": "Lift: klein, y cm (B) x z cm (D)",
     "order": 0
   },
   {
@@ -2340,8 +2658,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Smalste punt op de route: x cm",
-    "falseCommentOriginal": "Smalste punt op de route: x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Smalste punt op de route: x cm",
+    "secondLimit": "< 77",
+    "secondComment": "Smalste punt op de route: x cm",
     "order": 1
   },
   {
@@ -2355,8 +2675,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Drempel: geen",
-    "falseCommentOriginal": "Drempel van meer dan 2 cm: x cm",
+    "firstLimit": "= 0",
+    "firstComment": "Drempel: geen",
+    "secondLimit": "> 2 cm",
+    "secondComment": "Drempel van meer dan 2 cm: x cm",
+    "thirdLimit": "0 < x <= 2",
+    "thirdComment": "Drempel van max 2 cm: x cm",
     "order": 2
   },
   {
@@ -2370,8 +2694,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (aantal)",
-    "trueCommentOriginal": "Meerdere drempels: x",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": "> 1",
+    "firstComment": "Meerdere drempels: x",
+    "secondLimit": "< 1",
+    "secondComment": "Geen weergave",
     "order": 3
   },
   {
@@ -2385,7 +2711,8 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (aantal)",
-    "trueCommentOriginal": "Trap: x tredes",
+    "firstLimit": "> 0",
+    "firstComment": "Trap: x tredes",
     "order": 4
   },
   {
@@ -2399,8 +2726,12 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (aantal)",
-    "trueCommentOriginal": "Meerdere hellende vlakken: x",
-    "falseCommentOriginal": "Hellend vlak aanwezig",
+    "firstLimit": "> 1",
+    "firstComment": "Meerdere hellende vlakken: x",
+    "secondLimit": "= 1",
+    "secondComment": "Hellend vlak aanwezig",
+    "thirdLimit": 0,
+    "thirdComment": "geen weergave",
     "order": 5
   },
   {
@@ -2414,8 +2745,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee (invers)",
-    "trueCommentOriginal": "Oprijgoten aanwezig",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": "= Ja",
+    "firstComment": "Oprijgoten aanwezig",
+    "secondLimit": "= Nee",
+    "secondComment": "Geen weergave",
     "order": 6
   },
   {
@@ -2429,8 +2762,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getallen (cm) x (cm)",
-    "trueCommentOriginal": "Plateaulift: y cm (B) x z cm (D)",
-    "falseCommentOriginal": "Plateaulift: klein, y cm (B) x z cm (D)",
+    "firstLimit": ">= 90 x 120",
+    "firstComment": "Plateaulift: y cm (B) x z cm (D)",
+    "secondLimit": "< 90 x 120",
+    "secondComment": "Plateaulift: klein, y cm (B) x z cm (D)",
     "order": 7
   },
   {
@@ -2444,8 +2779,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getallen (cm) x (cm)",
-    "trueCommentOriginal": "Plateaulift: y cm (B) x z cm (D)",
-    "falseCommentOriginal": "Plateaulift: klein, y cm (B) x z cm (D)",
+    "firstLimit": ">= 90 x 120",
+    "firstComment": "Plateaulift: y cm (B) x z cm (D)",
+    "secondLimit": "< 90 x 120",
+    "secondComment": "Plateaulift: klein, y cm (B) x z cm (D)",
     "order": 0
   },
   {
@@ -2459,8 +2796,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (aantal)",
-    "trueCommentOriginal": "Meerdere plateauliften: x",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": "> 1",
+    "firstComment": "Meerdere plateauliften: x",
+    "secondLimit": "< 1",
+    "secondComment": "Geen weergave",
     "order": 8
   },
   {
@@ -2474,6 +2813,7 @@
     "displayType": "V/X",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
     "order": 1
   },
   {
@@ -2487,8 +2827,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Deurbreedte: x cm ",
-    "falseCommentOriginal": "Deurbreedte: smal x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Deurbreedte: x cm ",
+    "secondLimit": "< 77",
+    "secondComment": "Deurbreedte: smal x cm",
     "order": 0
   },
   {
@@ -2502,8 +2844,12 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Draairuimte aan deur: x cm",
-    "falseCommentOriginal": "Draairuimte aan deur: klein, ф x cm",
+    "firstLimit": ">= ф 120",
+    "firstComment": "Draairuimte aan deur: x cm",
+    "secondLimit": "< ф 120",
+    "secondComment": "Draairuimte aan deur: klein, ф x cm",
+    "thirdLimit": "0 <= x < ф 40",
+    "thirdComment": "Draairuimte aan deur: geen",
     "order": 1
   },
   {
@@ -2517,6 +2863,7 @@
     "displayType": "V/X",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
     "order": 2
   },
   {
@@ -2530,7 +2877,8 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getallen (cm) x (cm)",
-    "trueCommentOriginal": "Toiletruimte: y cm (B) x z cm (D)",
+    "firstLimit": "NVT",
+    "firstComment": "Toiletruimte: y cm (B) x z cm (D)",
     "order": 0
   },
   {
@@ -2544,8 +2892,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Ruimte voor toiletpot: x cm",
-    "falseCommentOriginal": "Ruimte voor toiletpot: klein, x cm",
+    "firstLimit": ">= 120",
+    "firstComment": "Ruimte voor toiletpot: x cm",
+    "secondLimit": "< 120",
+    "secondComment": "Ruimte voor toiletpot: klein, x cm",
     "order": 1
   },
   {
@@ -2559,8 +2909,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Ruimte naast toiletpot: x cm",
-    "falseCommentOriginal": "Ruimte naast toiletpot: klein, x cm",
+    "firstLimit": ">= 90",
+    "firstComment": "Ruimte naast toiletpot: x cm",
+    "secondLimit": "< 90",
+    "secondComment": "Ruimte naast toiletpot: klein, x cm",
     "order": 2
   },
   {
@@ -2574,8 +2926,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Draairuimte in het toilet: x cm",
-    "falseCommentOriginal": "Draairuimte in het toilet: klein, x cm",
+    "firstLimit": ">= ф 120",
+    "firstComment": "Draairuimte in het toilet: x cm",
+    "secondLimit": "< ф 120",
+    "secondComment": "Draairuimte in het toilet: klein, x cm",
     "order": 3
   },
   {
@@ -2589,8 +2943,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (aantal)",
-    "trueCommentOriginal": "Steunbeugels: 2",
-    "falseCommentOriginal": "Steunbeugel: 1",
+    "firstLimit": "= 2",
+    "firstComment": "Steunbeugels: 2",
+    "secondLimit": "= 1",
+    "secondComment": "Steunbeugel: 1",
+    "thirdLimit": "= 0",
+    "thirdComment": "Steunbeugels: geen",
     "order": 4
   },
   {
@@ -2604,8 +2962,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Wastafel in toilet: aanwezig",
-    "falseCommentOriginal": "Wastafel in toilet: niet aanwezig",
+    "firstLimit": "NVT",
+    "firstComment": "Wastafel in toilet: aanwezig",
+    "secondLimit": "NVT",
+    "secondComment": "Wastafel in toilet: niet aanwezig",
     "order": 5,
     "trueComment": "Wastafel in toilet: aanwezig",
     "falseComment": "Wastafel in toilet: niet aanwezig"
@@ -2621,8 +2981,12 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "???",
-    "trueCommentOriginal": "Wastafel: onderrijdbaar",
-    "falseCommentOriginal": "Wastafel: niet onderrijdbaar",
+    "firstLimit": "3 keer V",
+    "firstComment": "Wastafel: onderrijdbaar",
+    "secondLimit": "0 keer V",
+    "secondComment": "Wastafel: niet onderrijdbaar",
+    "thirdLimit": "1 of 2 keer V",
+    "thirdComment": "Wastafel: beperkt onderrijdbaar",
     "order": 0
   },
   {
@@ -2636,8 +3000,12 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "geen weergave",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "65 <= x <= 75",
+    "firstComment": "geen weergave",
+    "secondLimit": "< 65",
+    "secondComment": "geen weergave",
+    "thirdLimit": "> 75",
+    "thirdComment": "geen weergave",
     "order": 1
   },
   {
@@ -2651,8 +3019,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Geen weergave",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": ">= 60",
+    "firstComment": "Geen weergave",
+    "secondLimit": ">= 60",
+    "secondComment": "Geen weergave",
     "order": 2
   },
   {
@@ -2666,8 +3036,10 @@
     "displayType": "V/X | INFO",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Geen weergave",
-    "falseCommentOriginal": "Geen weergave",
+    "firstLimit": ">= 77",
+    "firstComment": "Geen weergave",
+    "secondLimit": ">= 77",
+    "secondComment": "Geen weergave",
     "order": 3
   },
   {
@@ -2681,6 +3053,7 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Tekst",
+    "firstLimit": "NVT",
     "order": 3
   },
   {
@@ -2694,6 +3067,7 @@
     "displayType": "TEKST",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
     "order": 3
   },
   {
@@ -2707,6 +3081,8 @@
     "displayType": "INFO V/X",
     "criteriaType": "Titel (GO)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 0
   },
   {
@@ -2720,7 +3096,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Betalen:",
+    "firstLimit": "NVT",
+    "firstComment": "Betalen:",
+    "secondLimit": "NVT",
     "order": 0
   },
   {
@@ -2734,8 +3112,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Cash",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Cash",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Cash"
   },
@@ -2750,8 +3130,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Verplaatsbare kaartlezer",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Verplaatsbare kaartlezer",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Verplaatsbare kaartlezer"
   },
@@ -2766,8 +3148,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Vaste kaartlezer",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Vaste kaartlezer",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Vaste kaartlezer"
   },
@@ -2782,7 +3166,8 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (aantal)",
-    "trueCommentOriginal": "Aantal zitplaatsen: x",
+    "firstLimit": "NVT",
+    "firstComment": "Aantal zitplaatsen: x",
     "order": 1
   },
   {
@@ -2796,8 +3181,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Geschikt voor groepen (met mobiele beperking)",
-    "falseCommentOriginal": "Niet geschikt voor groepen (met mobiele beperking)",
+    "firstLimit": "NVT",
+    "firstComment": "Geschikt voor groepen (met mobiele beperking)",
+    "secondLimit": "NVT",
+    "secondComment": "Niet geschikt voor groepen (met mobiele beperking)",
     "order": 2,
     "trueComment": "Geschikt voor groepen (met mobiele beperking)",
     "falseComment": "Niet geschikt voor groepen (met mobiele beperking)"
@@ -2813,7 +3200,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Menukaart:",
+    "firstLimit": "NVT",
+    "firstComment": "Menukaart:",
+    "secondLimit": "NVT",
     "order": 3
   },
   {
@@ -2827,8 +3216,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Online beschikbaar ",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Online beschikbaar ",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Online beschikbaar "
   },
@@ -2843,8 +3234,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Duidelijk leesbaar (contrast, lettertype) ",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Duidelijk leesbaar (contrast, lettertype) ",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Duidelijk leesbaar (contrast, lettertype) "
   },
@@ -2859,8 +3252,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "In braille beschikbaar ",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "In braille beschikbaar ",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "In braille beschikbaar "
   },
@@ -2875,8 +3270,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Met afbeeldingen beschikbaar ",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Met afbeeldingen beschikbaar ",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 3,
     "trueComment": "Met afbeeldingen beschikbaar "
   },
@@ -2891,7 +3288,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Maaltijden:",
+    "firstLimit": "NVT",
+    "firstComment": "Maaltijden:",
+    "secondLimit": "NVT",
     "order": 4
   },
   {
@@ -2905,8 +3304,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Aanpassingen op basis van dieet mogelijk",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Aanpassingen op basis van dieet mogelijk",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Aanpassingen op basis van dieet mogelijk"
   },
@@ -2921,8 +3322,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Vermelding allergenen ",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Vermelding allergenen ",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Vermelding allergenen "
   },
@@ -2937,8 +3340,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Kindermenu beschikbaar",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Kindermenu beschikbaar",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Kindermenu beschikbaar"
   },
@@ -2953,8 +3358,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Kinderstoel beschikbaar ",
-    "falseCommentOriginal": "Geen kinderstoel beschikbaar",
+    "firstLimit": "NVT",
+    "firstComment": "Kinderstoel beschikbaar ",
+    "secondLimit": "NVT",
+    "secondComment": "Geen kinderstoel beschikbaar",
     "order": 5,
     "trueComment": "Kinderstoel beschikbaar ",
     "falseComment": "Geen kinderstoel beschikbaar"
@@ -2970,6 +3377,8 @@
     "displayType": "V/X",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 6
   },
   {
@@ -2983,8 +3392,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Deurbreedte: x cm ",
-    "falseCommentOriginal": "Deurbreedte: smal x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Deurbreedte: x cm ",
+    "secondLimit": "< 77",
+    "secondComment": "Deurbreedte: smal x cm",
     "order": 0
   },
   {
@@ -2998,8 +3409,10 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Smalste punt op de route: x cm",
-    "falseCommentOriginal": "Smalste punt op de route: x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Smalste punt op de route: x cm",
+    "secondLimit": "< 77",
+    "secondComment": "Smalste punt op de route: x cm",
     "order": 1
   },
   {
@@ -3013,8 +3426,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Drempel: geen",
-    "falseCommentOriginal": "Drempel van meer dan 2 cm: x cm",
+    "firstLimit": "= 0",
+    "firstComment": "Drempel: geen",
+    "secondLimit": "> 2 cm",
+    "secondComment": "Drempel van meer dan 2 cm: x cm",
+    "thirdLimit": "0 < x <= 2",
+    "thirdComment": "Drempel van max 2 cm: x cm",
     "order": 2
   },
   {
@@ -3028,8 +3445,12 @@
     "displayType": "V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Hoogte onder de tafel: x cm",
-    "falseCommentOriginal": "Hoogte onder de tafel: x cm",
+    "firstLimit": "65 <= x <= 70",
+    "firstComment": "Hoogte onder de tafel: x cm",
+    "secondLimit": "< 65",
+    "secondComment": "Hoogte onder de tafel: x cm",
+    "thirdLimit": "> 70",
+    "thirdComment": "Hoogte onder de tafel: x cm",
     "order": 3
   },
   {
@@ -3043,6 +3464,7 @@
     "displayType": "TEKST",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
     "order": 7
   },
   {
@@ -3056,8 +3478,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Deurbreedte: x cm ",
-    "falseCommentOriginal": "Deurbreedte: smal x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Deurbreedte: x cm ",
+    "secondLimit": "< 77",
+    "secondComment": "Deurbreedte: smal x cm",
     "order": 0
   },
   {
@@ -3071,8 +3495,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Smalste punt op de route: x cm",
-    "falseCommentOriginal": "Smalste punt op de route: x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Smalste punt op de route: x cm",
+    "secondLimit": "< 77",
+    "secondComment": "Smalste punt op de route: x cm",
     "order": 1
   },
   {
@@ -3086,8 +3512,12 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Drempel: geen",
-    "falseCommentOriginal": "Drempel van meer dan 2 cm: x cm",
+    "firstLimit": "= 0",
+    "firstComment": "Drempel: geen",
+    "secondLimit": "> 2 cm",
+    "secondComment": "Drempel van meer dan 2 cm: x cm",
+    "thirdLimit": "0 < x <= 2",
+    "thirdComment": "Drempel van max 2 cm: x cm",
     "order": 2
   },
   {
@@ -3101,8 +3531,12 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Hoogte onder de tafel: x cm",
-    "falseCommentOriginal": "Hoogte onder de tafel: x cm",
+    "firstLimit": "65 <= x <= 70",
+    "firstComment": "Hoogte onder de tafel: x cm",
+    "secondLimit": "< 65",
+    "secondComment": "Hoogte onder de tafel: x cm",
+    "thirdLimit": "> 70",
+    "thirdComment": "Hoogte onder de tafel: x cm",
     "order": 3
   },
   {
@@ -3116,6 +3550,8 @@
     "displayType": "TEKST",
     "criteriaType": "Criterium",
     "type": "Tekst",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 8
   },
   {
@@ -3129,6 +3565,8 @@
     "displayType": "INFO V/X",
     "criteriaType": "Titel (GO)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 1
   },
   {
@@ -3142,7 +3580,9 @@
     "displayType": "V/X",
     "criteriaType": "Titel (CR)",
     "type": "Meerkeuzelijst",
-    "trueCommentOriginal": "Betalen:",
+    "firstLimit": "NVT",
+    "firstComment": "Betalen:",
+    "secondLimit": "NVT",
     "order": 0
   },
   {
@@ -3156,8 +3596,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Cash",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Cash",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 0,
     "trueComment": "Cash"
   },
@@ -3172,8 +3614,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Verplaatsbare kaartlezer",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Verplaatsbare kaartlezer",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 1,
     "trueComment": "Verplaatsbare kaartlezer"
   },
@@ -3188,8 +3632,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Ja/Nee",
-    "trueCommentOriginal": "Vaste kaartlezer",
-    "falseCommentOriginal": "geen weergave",
+    "firstLimit": "NVT",
+    "firstComment": "Vaste kaartlezer",
+    "secondLimit": "NVT",
+    "secondComment": "geen weergave",
     "order": 2,
     "trueComment": "Vaste kaartlezer"
   },
@@ -3204,6 +3650,8 @@
     "displayType": "TEKST",
     "criteriaType": "Titel (TT)",
     "type": "NVT",
+    "firstLimit": "NVT",
+    "secondLimit": "NVT",
     "order": 1
   },
   {
@@ -3217,8 +3665,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Smalste punt op de route: x cm",
-    "falseCommentOriginal": "Smalste punt op de route: x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Smalste punt op de route: x cm",
+    "secondLimit": "< 77",
+    "secondComment": "Smalste punt op de route: x cm",
     "order": 0
   },
   {
@@ -3232,8 +3682,12 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Drempel: geen",
-    "falseCommentOriginal": "Drempel van meer dan 2 cm: x cm",
+    "firstLimit": "= 0",
+    "firstComment": "Drempel: geen",
+    "secondLimit": "> 2 cm",
+    "secondComment": "Drempel van meer dan 2 cm: x cm",
+    "thirdLimit": "0 < x <= 2",
+    "thirdComment": "Drempel van max 2 cm: x cm",
     "order": 1
   },
   {
@@ -3247,8 +3701,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Deurbreedte: x cm ",
-    "falseCommentOriginal": "Deurbreedte: smal, x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Deurbreedte: x cm ",
+    "secondLimit": "< 77",
+    "secondComment": "Deurbreedte: smal, x cm",
     "order": 2
   },
   {
@@ -3262,8 +3718,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Toegangscontrole: x cm",
-    "falseCommentOriginal": "Toegangscontrole: smal, x cm",
+    "firstLimit": ">= 77",
+    "firstComment": "Toegangscontrole: x cm",
+    "secondLimit": "< 77",
+    "secondComment": "Toegangscontrole: smal, x cm",
     "order": 3
   },
   {
@@ -3277,8 +3735,10 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Getal (cm)",
-    "trueCommentOriginal": "Balie: laag deel aanwezig",
-    "falseCommentOriginal": "Balie: geen laag deel aanwezig",
+    "firstLimit": "<= 90",
+    "firstComment": "Balie: laag deel aanwezig",
+    "secondLimit": "> 90",
+    "secondComment": "Balie: geen laag deel aanwezig",
     "order": 4
   },
   {
@@ -3292,6 +3752,7 @@
     "displayType": "INFO V/X",
     "criteriaType": "Criterium",
     "type": "Tekst",
+    "firstLimit": "NVT",
     "order": 2
   }
 ]

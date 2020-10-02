@@ -9,7 +9,7 @@ const xlsx = require('xlsx');
 const { v4: uuid } = require('uuid');
 const fs = require("fs");
 
-const fileName = '/data/app/toevla-latest.xlsx';
+const fileName = '/home/sergey/Desktop/toevla-widget/app-toevla/toevla-latest.xlsx';
 var sheetName='Moederdoc_Aad_aanvInter25-09-20';
 
 const excel = xlsx.readFile(fileName);
@@ -36,8 +36,12 @@ var infoColumns={
   displayType: 18, //how things should be displayed
   criteriaType: 19, //title or criteria
   type: 20, //type of property bool/text... etc
-  trueComment: 46,  //true comment
-  falseComment:49,  //false comment
+  firstLimit: 45,
+  firstComment: 46,  //true comment
+  secondLimit: 48,
+  secondComment:49,  //false comment
+  thirdLimit: 51,
+  thirdComment: 52,
   uri: 61  //uri identifier 
 };
 
@@ -76,14 +80,18 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
           displayType: row[infoColumns.displayType], //how things should be displayed
           criteriaType: row[infoColumns.criteriaType], //title or criteria
           type: row[infoColumns.type], //type of property bool/text... etc
-          trueCommentOriginal: row[infoColumns.trueComment],  //true comment
-          falseCommentOriginal: row[infoColumns.falseComment],  //false comment
+          firstLimit: row[infoColumns.firstLimit],
+          firstComment: row[infoColumns.firstComment],  //true comment
+          secondLimit: row[infoColumns.secondLimit],
+          secondComment: row[infoColumns.secondComment],  //false comment
+          thirdLimit: row[infoColumns.thirdLimit],
+          thirdComment: row[infoColumns.thirdComment],
 
           order: 0
         };
         if(row[infoColumns.type]=="Ja/Nee"){
-          var trueCell=row[infoColumns.trueComment];
-          var falseCell=row[infoColumns.falseComment];
+          var trueCell=row[infoColumns.firstComment];
+          var falseCell=row[infoColumns.secondComment];
           
           if(trueCell && trueCell!='' && trueCell!='geen weergave'){
             node.trueComment=trueCell;
@@ -125,4 +133,4 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
 }
 var toDisk=JSON.stringify(parsedTree, null, 2);
 
-fs.writeFileSync("./parsedTree.json", toDisk);
+fs.writeFileSync("/home/sergey/Desktop/toevla-widget/app-toevla/scripts/project-scripts/parsedTree.json", toDisk);
