@@ -30,12 +30,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
 
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
 
   ext:order 0.    
 
@@ -51,12 +51,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (GO)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f>.
   
@@ -72,12 +72,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Begeleiding van aan het openbaar vervoer mogelijk";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Begeleiding van aan het openbaar vervoer mogelijk";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Begeleiding van aan het openbaar vervoer mogelijk";
   skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
@@ -94,12 +94,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Financiële tegemoetkoming toegangsprijs:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Financiële tegemoetkoming toegangsprijs:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
   
@@ -115,12 +115,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Begeleider gratis";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Begeleider gratis";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Begeleider gratis";
   skos:broader <https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b>.
@@ -137,12 +137,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Museumpas";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Museumpas";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Museumpas";
   skos:broader <https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b>.
@@ -159,12 +159,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Uitpas (punten scannen)";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Uitpas (punten scannen)";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Uitpas (punten scannen)";
   skos:broader <https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b>.
@@ -181,12 +181,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"City Pas";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "City Pas";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "City Pas";
   skos:broader <https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b>.
@@ -203,12 +203,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"EDC (European Disability Card)";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "EDC (European Disability Card)";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "EDC (European Disability Card)";
   skos:broader <https://data.toevla.org/id/concepts/4b8a512e-3810-47f2-a253-a67e6420045b>.
@@ -225,12 +225,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Rolstoel ter beschikking";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Rolstoel ter beschikking";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Rolstoel ter beschikking";
   skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
@@ -247,12 +247,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Keuzelijst";
   
-  toevla:firstLimit"Altijd vrij beschikbaar";
-  toevla:firstComment"Wifi: altijd vrij beschikbaar";
-  toevla:secondLimit"Niet beschikbaar";
-  toevla:secondComment"Wifi: niet beschikbaar";
-  toevla:thirdLimit"Vrij beschikbaar op aanvraag";
-  toevla:thirdComment"Wifi: vrij beschikbaar op aanvraag";
+  toevla:firstLimit "Altijd vrij beschikbaar";
+  toevla:firstComment "Wifi: altijd vrij beschikbaar";
+  toevla:secondLimit "Niet beschikbaar";
+  toevla:secondComment "Wifi: niet beschikbaar";
+  toevla:thirdLimit "Vrij beschikbaar op aanvraag";
+  toevla:thirdComment "Wifi: vrij beschikbaar op aanvraag";
   
   skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
   
@@ -268,12 +268,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Voorzieningen voor assistentiehonden";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Geen voorzieningen voor assistentiehonden";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Voorzieningen voor assistentiehonden";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Geen voorzieningen voor assistentiehonden";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Voorzieningen voor assistentiehonden";
   toevla:negativeTemplate "Geen voorzieningen voor assistentiehonden";
@@ -291,12 +291,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Visueel stappenpan om bezoek voor te bereiden aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Visueel stappenpan om bezoek voor te bereiden aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Visueel stappenpan om bezoek voor te bereiden aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
@@ -313,12 +313,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Website:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Website:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
   
@@ -334,12 +334,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Toegankelijkheidslabel aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Toegankelijkheidslabel aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Toegankelijkheidslabel aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c>.
@@ -356,12 +356,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Tekstvergroting mogelijk";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Tekstvergroting mogelijk";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Tekstvergroting mogelijk";
   skos:broader <https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c>.
@@ -378,12 +378,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Contrasten aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Contrasten aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Contrasten aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c>.
@@ -400,12 +400,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Voorleesfunctie beschikbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Voorleesfunctie beschikbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Voorleesfunctie beschikbaar";
   skos:broader <https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c>.
@@ -422,12 +422,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Gebarentaal voorzien";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Gebarentaal voorzien";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Gebarentaal voorzien";
   skos:broader <https://data.toevla.org/id/concepts/65927850-0bfc-40ab-a3d9-3b308aecf83c>.
@@ -444,12 +444,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Betalen:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Betalen:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
   
@@ -465,12 +465,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Enkel cash";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Enkel cash";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Enkel cash";
   skos:broader <https://data.toevla.org/id/concepts/df0271fa-5a57-4133-84ca-52975031712e>.
@@ -487,12 +487,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Verplaatsbare kaartlezer";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Verplaatsbare kaartlezer";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Verplaatsbare kaartlezer";
   skos:broader <https://data.toevla.org/id/concepts/df0271fa-5a57-4133-84ca-52975031712e>.
@@ -509,12 +509,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Vaste kaartlezer";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Vaste kaartlezer";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Vaste kaartlezer";
   skos:broader <https://data.toevla.org/id/concepts/df0271fa-5a57-4133-84ca-52975031712e>.
@@ -531,12 +531,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/f1587316-6d71-406b-8bdf-379e3c1c5b55>.
   
@@ -552,12 +552,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (GO)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f>.
   
@@ -573,12 +573,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Rondleidingen:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Rondleidingen:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
   
@@ -594,12 +594,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Voor personen met een visuele beperking";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Voor personen met een visuele beperking";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Voor personen met een visuele beperking";
   skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
@@ -616,12 +616,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Voor personen met een auditieve beperking";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Voor personen met een auditieve beperking";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Voor personen met een auditieve beperking";
   skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
@@ -638,12 +638,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Voor personen met een mentale beperking";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Voor personen met een mentale beperking";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Voor personen met een mentale beperking";
   skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
@@ -660,12 +660,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Dementievriendelijk";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Dementievriendelijk";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Dementievriendelijk";
   skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
@@ -682,12 +682,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Autisme gericht";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Autisme gericht";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Autisme gericht";
   skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
@@ -704,12 +704,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Leeftijdaangepast: kindvriendelijk";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Leeftijdaangepast: kindvriendelijk";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Leeftijdaangepast: kindvriendelijk";
   skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
@@ -726,12 +726,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Met beeldentolk";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Met beeldentolk";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Met beeldentolk";
   skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
@@ -748,12 +748,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Met Tolk Vlaamse Gebarentaal (VGT)";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Met Tolk Vlaamse Gebarentaal (VGT)";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Met Tolk Vlaamse Gebarentaal (VGT)";
   skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
@@ -770,12 +770,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Op rustige momenten";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Op rustige momenten";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Op rustige momenten";
   skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
@@ -792,12 +792,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Bezoek op maat mogelijk";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Bezoek op maat mogelijk";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Bezoek op maat mogelijk";
   skos:broader <https://data.toevla.org/id/concepts/bd4a548f-547e-4a16-9836-b40549cc7ca6>.
@@ -814,12 +814,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Museum route en zalen:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Museum route en zalen:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
   
@@ -835,12 +835,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Duidelijke bewegwijzering op de route";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Duidelijke bewegwijzering op de route";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Duidelijke bewegwijzering op de route";
   skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
@@ -857,12 +857,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Zalenplan beschikbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Zalenplan beschikbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Zalenplan beschikbaar";
   skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
@@ -879,12 +879,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Schema met aanbevolen traject";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Schema met aanbevolen traject";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Schema met aanbevolen traject";
   skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
@@ -901,12 +901,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Alternatief voor niet toegankelijke ruimten";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Alternatief voor niet toegankelijke ruimten";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Alternatief voor niet toegankelijke ruimten";
   skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
@@ -923,12 +923,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Rust- zitmogelijkheden";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Rust- zitmogelijkheden";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Rust- zitmogelijkheden";
   skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
@@ -945,12 +945,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Extra aandacht voor akoestiek";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Extra aandacht voor akoestiek";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Extra aandacht voor akoestiek";
   skos:broader <https://data.toevla.org/id/concepts/f35f5f6b-d7cf-4d24-a353-aad4786968af>.
@@ -967,12 +967,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Vitrinetafels, computerschermen:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Vitrinetafels, computerschermen:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
   
@@ -988,12 +988,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Meerdere onderrijdbare elementen";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Meerdere onderrijdbare elementen";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Meerdere onderrijdbare elementen";
   skos:broader <https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e>.
@@ -1010,12 +1010,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Goede verlichting";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Goede verlichting";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Goede verlichting";
   skos:broader <https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e>.
@@ -1032,12 +1032,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Vergrootglas aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Vergrootglas aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Vergrootglas aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/ef0fc835-a152-49ec-8d3a-94557800388e>.
@@ -1054,12 +1054,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Auditorium/filmzaal:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Auditorium/filmzaal:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
   
@@ -1075,12 +1075,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Zitplaatsen bereikbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Zitplaatsen bereikbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Zitplaatsen bereikbaar";
   skos:broader <https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c>.
@@ -1097,12 +1097,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Extra aandacht voor akoestiek";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Extra aandacht voor akoestiek";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Extra aandacht voor akoestiek";
   skos:broader <https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c>.
@@ -1119,12 +1119,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Ringleiding in de museumzalen";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Ringleiding in de museumzalen";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Ringleiding in de museumzalen";
   skos:broader <https://data.toevla.org/id/concepts/47d2dfab-50f1-4acc-ae82-1e44325cc21c>.
@@ -1141,12 +1141,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Brochure";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Brochure";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
   
@@ -1162,12 +1162,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Contrast aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Contrast aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Contrast aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212>.
@@ -1184,12 +1184,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"In braille beschikbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "In braille beschikbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "In braille beschikbaar";
   skos:broader <https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212>.
@@ -1206,12 +1206,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"In grootletterschrift beschikbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "In grootletterschrift beschikbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "In grootletterschrift beschikbaar";
   skos:broader <https://data.toevla.org/id/concepts/4eab756d-3e07-4f29-adde-47350bbf8212>.
@@ -1228,12 +1228,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Teksten/borden/panelen:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Teksten/borden/panelen:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
   
@@ -1249,12 +1249,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Contrast aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Contrast aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Contrast aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e>.
@@ -1271,12 +1271,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Geen reflectie";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Geen reflectie";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Geen reflectie";
   skos:broader <https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e>.
@@ -1293,12 +1293,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"In braille beschikbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "In braille beschikbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "In braille beschikbaar";
   skos:broader <https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e>.
@@ -1315,12 +1315,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"In grootletterschrift beschikbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "In grootletterschrift beschikbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "In grootletterschrift beschikbaar";
   skos:broader <https://data.toevla.org/id/concepts/5223662c-b5cc-4673-9f6f-6dcf7d8ce94e>.
@@ -1337,12 +1337,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Audiogids beschikbaar:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Audiogids beschikbaar:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
   
@@ -1358,12 +1358,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"In meerdere talen";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "In meerdere talen";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "In meerdere talen";
   skos:broader <https://data.toevla.org/id/concepts/4e616bb9-7c7a-465e-ba19-7dd91a3db97c>.
@@ -1380,12 +1380,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"In meerdere talen";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "In meerdere talen";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "In meerdere talen";
   skos:broader <https://data.toevla.org/id/concepts/4e616bb9-7c7a-465e-ba19-7dd91a3db97c>.
@@ -1402,12 +1402,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Movieguide";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Movieguide";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Movieguide";
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
@@ -1424,12 +1424,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Virtuele technologie";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Virtuele technologie";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Virtuele technologie";
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
@@ -1446,12 +1446,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Zintuiglijke beleving:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Zintuiglijke beleving:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
   
@@ -1467,12 +1467,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Voel-elementen aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Voel-elementen aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Voel-elementen aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0>.
@@ -1489,12 +1489,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Geur-elementen aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Geur-elementen aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Geur-elementen aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0>.
@@ -1511,12 +1511,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Doe-elementen aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Doe-elementen aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Doe-elementen aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0>.
@@ -1533,12 +1533,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Luister-elementen aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Luister-elementen aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Luister-elementen aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/a94f2e02-c6bf-41de-927e-08b2966525f0>.
@@ -1555,12 +1555,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Stilteplekken aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Stilteplekken aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Stilteplekken aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
@@ -1577,12 +1577,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
   
@@ -1598,12 +1598,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>.
   
@@ -1619,12 +1619,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/5ff3f900-bcdf
   toevla:criteriaType "Titel (GO)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/5ff3f900-bcdf-4639-b14b-409ac7bd592f>.
   
@@ -1640,12 +1640,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
 
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
 
   ext:order 1.    
 
@@ -1661,12 +1661,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Titel (GO)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/9e971f13-1bc4-4e85-8f4d-272842683441>.
   
@@ -1682,12 +1682,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Bereikbaarheid met openbaar vervoer:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Bereikbaarheid met openbaar vervoer:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
   
@@ -1703,12 +1703,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Gedetailleerde beschrijving beschikbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Gedetailleerde beschrijving beschikbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Gedetailleerde beschrijving beschikbaar";
   skos:broader <https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721>.
@@ -1725,12 +1725,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Beschikbaar met voorleesfunctie";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Beschikbaar met voorleesfunctie";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Beschikbaar met voorleesfunctie";
   skos:broader <https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721>.
@@ -1747,12 +1747,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Beschikbaar in Vlaamse Gebarentaal (VGT)";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Beschikbaar in Vlaamse Gebarentaal (VGT)";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Beschikbaar in Vlaamse Gebarentaal (VGT)";
   skos:broader <https://data.toevla.org/id/concepts/2f2a0a17-b054-4143-a54f-7a79228bb721>.
@@ -1769,12 +1769,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (km)";
   
-  toevla:firstLimit"<= 0,5";
-  toevla:firstComment"Station aanwezig op x km";
-  toevla:secondLimit"> 0,5";
-  toevla:secondComment"Station aanwezig op x km";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "<= 0,5";
+  toevla:firstComment "Station aanwezig op x km";
+  toevla:secondLimit "> 0,5";
+  toevla:secondComment "Station aanwezig op x km";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
   
@@ -1790,12 +1790,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Station: x, link";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Station: x, link";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Station: x, link";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Station: x, link";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
   
@@ -1811,12 +1811,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (m)";
   
-  toevla:firstLimit"<= 200";
-  toevla:firstComment"Bushalte aanwezig op x m";
-  toevla:secondLimit"> 200";
-  toevla:secondComment"Bushalte aanwezig op x m";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "<= 200";
+  toevla:firstComment "Bushalte aanwezig op x m";
+  toevla:secondLimit "> 200";
+  toevla:secondComment "Bushalte aanwezig op x m";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
   
@@ -1832,12 +1832,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Halte x, link";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Halte x, link";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Halte x, link";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Halte x, link";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
   
@@ -1853,12 +1853,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (m)";
   
-  toevla:firstLimit"<= 200";
-  toevla:firstComment"Tramhalte aanwezig op x m";
-  toevla:secondLimit"> 200";
-  toevla:secondComment"Tramhalte aanwezig op x m";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "<= 200";
+  toevla:firstComment "Tramhalte aanwezig op x m";
+  toevla:secondLimit "> 200";
+  toevla:secondComment "Tramhalte aanwezig op x m";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
   
@@ -1874,12 +1874,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Halte x, link";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Halte x, link";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Halte x, link";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Halte x, link";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
   
@@ -1895,12 +1895,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/e12d051d-ce43-4e65-ba5f-9affc4fbd6b9>.
   
@@ -1916,12 +1916,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Titel (GO)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/9e971f13-1bc4-4e85-8f4d-272842683441>.
   
@@ -1937,12 +1937,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Eigen parkeerterrein aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Geen eigen parkeerterrein aanwezig";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Eigen parkeerterrein aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Geen eigen parkeerterrein aanwezig";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Eigen parkeerterrein aanwezig";
   toevla:negativeTemplate "Geen eigen parkeerterrein aanwezig";
@@ -1960,12 +1960,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Voorrijdmogelijkheid aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Geen voorrijdmogelijkheid";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Voorrijdmogelijkheid aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Geen voorrijdmogelijkheid";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Voorrijdmogelijkheid aanwezig";
   toevla:negativeTemplate "Geen voorrijdmogelijkheid";
@@ -1983,12 +1983,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Goede verlichting op de route";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Goede verlichting op de route";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Goede verlichting op de route";
   skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
@@ -2005,12 +2005,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Bereikbaarheid met de auto:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Bereikbaarheid met de auto:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
   
@@ -2026,12 +2026,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Gedetailleerde beschrijving beschikbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Gedetailleerde beschrijving beschikbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Gedetailleerde beschrijving beschikbaar";
   skos:broader <https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc>.
@@ -2048,12 +2048,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Beschikbaar met voorleesfunctie";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Beschikbaar met voorleesfunctie";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Beschikbaar met voorleesfunctie";
   skos:broader <https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc>.
@@ -2070,12 +2070,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Beschikbaar in Vlaamse Gebarentaal (VGT)";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Beschikbaar in Vlaamse Gebarentaal (VGT)";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Beschikbaar in Vlaamse Gebarentaal (VGT)";
   skos:broader <https://data.toevla.org/id/concepts/56dcfb52-d30b-42f2-b6ec-2f4bb5b04fbc>.
@@ -2092,12 +2092,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
   
@@ -2113,12 +2113,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (Aantal)";
   
-  toevla:firstLimit">= 1";
-  toevla:firstComment"Rolstoelvriendelijke parkeerplaats(en): x";
-  toevla:secondLimit"< 1";
-  toevla:secondComment"Geen rolstoelvriendelijke parkeerplaats aanwezig";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 1";
+  toevla:firstComment "Rolstoelvriendelijke parkeerplaats(en): x";
+  toevla:secondLimit "< 1";
+  toevla:secondComment "Geen rolstoelvriendelijke parkeerplaats aanwezig";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
   
@@ -2134,12 +2134,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit""als geen eigen parkeerterrein"";
-  toevla:firstComment"Op publiek domein";
-  toevla:secondLimit""als geen eigen parkeerterrein"";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ""als geen eigen parkeerterrein"";
+  toevla:firstComment "Op publiek domein";
+  toevla:secondLimit ""als geen eigen parkeerterrein"";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Op publiek domein";
   skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
@@ -2156,12 +2156,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit""Goede materialen"";
-  toevla:firstComment"Rolstoelvriendelijke ondergrond ";
-  toevla:secondLimit""Slechte materialen"";
-  toevla:secondComment"Slechte ondergrond";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ""Goede materialen"";
+  toevla:firstComment "Rolstoelvriendelijke ondergrond ";
+  toevla:secondLimit ""Slechte materialen"";
+  toevla:secondComment "Slechte ondergrond";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Rolstoelvriendelijke ondergrond ";
   toevla:negativeTemplate "Slechte ondergrond";
@@ -2179,12 +2179,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 350";
-  toevla:firstComment"Naast elkaar parkeren: breedte x cm";
-  toevla:secondLimit"< 350";
-  toevla:secondComment"Naast elkaar parkeren: smal, x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 350";
+  toevla:firstComment "Naast elkaar parkeren: breedte x cm";
+  toevla:secondLimit "< 350";
+  toevla:secondComment "Naast elkaar parkeren: smal, x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
   
@@ -2200,12 +2200,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 600";
-  toevla:firstComment"Achter elkaar parkeren: lengte x cm";
-  toevla:secondLimit"< 600";
-  toevla:secondComment"Achter elkaar parkeren: kort, x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 600";
+  toevla:firstComment "Achter elkaar parkeren: lengte x cm";
+  toevla:secondLimit "< 600";
+  toevla:secondComment "Achter elkaar parkeren: kort, x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
   
@@ -2221,12 +2221,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (m)";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Max voertuig-hoogte: x cm";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Max voertuig-hoogte: x cm";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
   
@@ -2242,12 +2242,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/a93ccd8e-cfa5-447b-855f-57f247b62def>.
   
@@ -2263,12 +2263,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit""Goede materialen"";
-  toevla:firstComment"Rolstoelvriendelijke ondergrond ";
-  toevla:secondLimit""Slechte materialen"";
-  toevla:secondComment"Slechte ondergrond";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ""Goede materialen"";
+  toevla:firstComment "Rolstoelvriendelijke ondergrond ";
+  toevla:secondLimit ""Slechte materialen"";
+  toevla:secondComment "Slechte ondergrond";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Rolstoelvriendelijke ondergrond ";
   toevla:negativeTemplate "Slechte ondergrond";
@@ -2286,12 +2286,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Smalste punt op de route: x cm";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Smalste punt op de route: x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Smalste punt op de route: x cm";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Smalste punt op de route: x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
   
@@ -2307,12 +2307,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"= 0";
-  toevla:firstComment"Drempel: geen";
-  toevla:secondLimit"> 2 cm";
-  toevla:secondComment"Drempel van meer dan 2 cm: x cm";
-  toevla:thirdLimit"0 < x <= 2";
-  toevla:thirdComment"Drempel van max 2 cm: x cm";
+  toevla:firstLimit "= 0";
+  toevla:firstComment "Drempel: geen";
+  toevla:secondLimit "> 2 cm";
+  toevla:secondComment "Drempel van meer dan 2 cm: x cm";
+  toevla:thirdLimit "0 < x <= 2";
+  toevla:thirdComment "Drempel van max 2 cm: x cm";
   
   skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
   
@@ -2328,12 +2328,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (Aantal)";
   
-  toevla:firstLimit"> 1";
-  toevla:firstComment"Meerdere drempels: x";
-  toevla:secondLimit"< 1";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "> 1";
+  toevla:firstComment "Meerdere drempels: x";
+  toevla:secondLimit "< 1";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
   
@@ -2349,12 +2349,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (Aantal)";
   
-  toevla:firstLimit"> 0";
-  toevla:firstComment"Trap: x tredes";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "> 0";
+  toevla:firstComment "Trap: x tredes";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
   
@@ -2370,12 +2370,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Getal (Aantal)";
   
-  toevla:firstLimit"> 1";
-  toevla:firstComment"Meerdere hellende vlakken: x";
-  toevla:secondLimit"= 1";
-  toevla:secondComment"Hellend vlak aanwezig";
-  toevla:thirdLimit"0";
-  toevla:thirdComment"geen weergave";
+  toevla:firstLimit "> 1";
+  toevla:firstComment "Meerdere hellende vlakken: x";
+  toevla:secondLimit "= 1";
+  toevla:secondComment "Hellend vlak aanwezig";
+  toevla:thirdLimit "0";
+  toevla:thirdComment "geen weergave";
   
   skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
   
@@ -2391,12 +2391,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee (invers)";
   
-  toevla:firstLimit"= Ja";
-  toevla:firstComment"Oprijgoten aanwezig";
-  toevla:secondLimit"= Nee";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "= Ja";
+  toevla:firstComment "Oprijgoten aanwezig";
+  toevla:secondLimit "= Nee";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/0cfe1333-f6ee-46a9-8ead-bc8b3a2c8d51>.
   
@@ -2412,12 +2412,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/9e971f13-1bc4
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/d1b2da50-25b9-4539-80ad-13e83a483e00>.
   
@@ -2433,12 +2433,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
 
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
 
   ext:order 2.    
 
@@ -2454,12 +2454,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Titel (GO)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765>.
   
@@ -2475,12 +2475,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Gebouw duidelijk herkenbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Gebouw duidelijk herkenbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Gebouw duidelijk herkenbaar";
   skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
@@ -2497,12 +2497,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Toegang duidelijk herkenbaar / zichtbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Toegang duidelijk herkenbaar / zichtbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Toegang duidelijk herkenbaar / zichtbaar";
   skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
@@ -2519,12 +2519,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Gids- en/of geleidelijnen aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Gids- en/of geleidelijnen aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Gids- en/of geleidelijnen aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
@@ -2541,12 +2541,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Keuzelijst";
   
-  toevla:firstLimit"Aanwezig";
-  toevla:firstComment"Markering en contrasten op glazen deuren";
-  toevla:secondLimit"Niet aanwezig";
-  toevla:secondComment"Geen markering en contrasten op glazen deuren";
-  toevla:thirdLimit"Niet duidelijk aanwezig";
-  toevla:thirdComment"Geen duidelijke markering op glazen deuren";
+  toevla:firstLimit "Aanwezig";
+  toevla:firstComment "Markering en contrasten op glazen deuren";
+  toevla:secondLimit "Niet aanwezig";
+  toevla:secondComment "Geen markering en contrasten op glazen deuren";
+  toevla:thirdLimit "Niet duidelijk aanwezig";
+  toevla:thirdComment "Geen duidelijke markering op glazen deuren";
   
   skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
   
@@ -2562,12 +2562,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Extra aandacht voor akoestiek";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Extra aandacht voor akoestiek";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Extra aandacht voor akoestiek";
   skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
@@ -2584,12 +2584,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
   
@@ -2605,12 +2605,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Via …";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Via …";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
   
@@ -2626,12 +2626,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"= 0";
-  toevla:firstComment"Drempel: geen";
-  toevla:secondLimit"> 2 cm";
-  toevla:secondComment"Drempel van meer dan 2 cm: x cm";
-  toevla:thirdLimit"0 < x <= 2";
-  toevla:thirdComment"Drempel van max 2 cm: x cm";
+  toevla:firstLimit "= 0";
+  toevla:firstComment "Drempel: geen";
+  toevla:secondLimit "> 2 cm";
+  toevla:secondComment "Drempel van meer dan 2 cm: x cm";
+  toevla:thirdLimit "0 < x <= 2";
+  toevla:thirdComment "Drempel van max 2 cm: x cm";
   
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
   
@@ -2647,12 +2647,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (Aantal)";
   
-  toevla:firstLimit"> 0";
-  toevla:firstComment"Trap: x tredes";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "> 0";
+  toevla:firstComment "Trap: x tredes";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
   
@@ -2668,12 +2668,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (Aantal)";
   
-  toevla:firstLimit"> 1";
-  toevla:firstComment"Meerdere hellende vlakken: x";
-  toevla:secondLimit"= 1";
-  toevla:secondComment"Hellend vlak aanwezig";
-  toevla:thirdLimit"0";
-  toevla:thirdComment"geen weergave";
+  toevla:firstLimit "> 1";
+  toevla:firstComment "Meerdere hellende vlakken: x";
+  toevla:secondLimit "= 1";
+  toevla:secondComment "Hellend vlak aanwezig";
+  toevla:thirdLimit "0";
+  toevla:thirdComment "geen weergave";
   
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
   
@@ -2689,12 +2689,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee (invers)";
   
-  toevla:firstLimit"= Ja";
-  toevla:firstComment"Oprijgoten aanwezig";
-  toevla:secondLimit"= Nee";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "= Ja";
+  toevla:firstComment "Oprijgoten aanwezig";
+  toevla:secondLimit "= Nee";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
   
@@ -2710,12 +2710,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Tourniquetdeur";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Tourniquetdeur";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Tourniquetdeur";
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
@@ -2732,12 +2732,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Deurbreedte: x cm ";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Deurbreedte: smal, x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Deurbreedte: x cm ";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Deurbreedte: smal, x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
   
@@ -2753,12 +2753,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Toegangscontrole: x cm";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Toegangscontrole: smal, x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Toegangscontrole: x cm";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Toegangscontrole: smal, x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
   
@@ -2774,12 +2774,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= ф 120";
-  toevla:firstComment"Draairuimte aan deur: x cm";
-  toevla:secondLimit"< ф 120";
-  toevla:secondComment"Draairuimte aan deur: klein, ф x cm";
-  toevla:thirdLimit"0 <= x < ф 40";
-  toevla:thirdComment"Draairuimte aan deur: geen";
+  toevla:firstLimit ">= ф 120";
+  toevla:firstComment "Draairuimte aan deur: x cm";
+  toevla:secondLimit "< ф 120";
+  toevla:secondComment "Draairuimte aan deur: klein, ф x cm";
+  toevla:thirdLimit "0 <= x < ф 40";
+  toevla:thirdComment "Draairuimte aan deur: geen";
   
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
   
@@ -2795,12 +2795,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Keuzelijst";
   
-  toevla:firstLimit"Licht om te openen";
-  toevla:firstComment"Deur: licht om te openen";
-  toevla:secondLimit"Zwaar om te openen";
-  toevla:secondComment"Deur: zwaar om te openen";
-  toevla:thirdLimit"Automatisch";
-  toevla:thirdComment"Deur: automatisch";
+  toevla:firstLimit "Licht om te openen";
+  toevla:firstComment "Deur: licht om te openen";
+  toevla:secondLimit "Zwaar om te openen";
+  toevla:secondComment "Deur: zwaar om te openen";
+  toevla:thirdLimit "Automatisch";
+  toevla:thirdComment "Deur: automatisch";
   
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
   
@@ -2816,12 +2816,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"<= 90";
-  toevla:firstComment"Balie: laag deel aanwezig";
-  toevla:secondLimit"> 90";
-  toevla:secondComment"Balie: geen laag deel aanwezig";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "<= 90";
+  toevla:firstComment "Balie: laag deel aanwezig";
+  toevla:secondLimit "> 90";
+  toevla:secondComment "Balie: geen laag deel aanwezig";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/85f5b583-b693-4bfb-a59d-390991b66e6d>.
   
@@ -2837,12 +2837,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Bemande balie";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Bemande balie";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Bemande balie";
   skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
@@ -2859,12 +2859,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Ringleiding aan de balie";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Geen ringleiding aan de balie";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Ringleiding aan de balie";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Geen ringleiding aan de balie";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Ringleiding aan de balie";
   toevla:negativeTemplate "Geen ringleiding aan de balie";
@@ -2882,12 +2882,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/ed52e989-423a-42c1-81a3-e3ea2e4ea3d6>.
   
@@ -2903,12 +2903,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Titel (GO)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765>.
   
@@ -2924,12 +2924,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Duidelijke signalisatie in het gebouw";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Duidelijke signalisatie in het gebouw";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Duidelijke signalisatie in het gebouw";
   skos:broader <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>.
@@ -2946,12 +2946,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Spraaksynthese in de lift";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Spraaksynthese in de lift";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Spraaksynthese in de lift";
   skos:broader <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>.
@@ -2968,12 +2968,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>.
   
@@ -2989,12 +2989,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Keuzelijst";
   
-  toevla:firstLimit"Alles op gelijkvloers";
-  toevla:firstComment"Alles op gelijkvloers";
-  toevla:secondLimit"Niet alles op gelijkvloers, geen lift";
-  toevla:secondComment"Niet alles op gelijkvloers: geen lift aanwezig";
-  toevla:thirdLimit"Niet alles op gelijkvloers, wel ruime lift";
-  toevla:thirdComment"Niet alles op gelijkvloers: ruime lift aanwezig";
+  toevla:firstLimit "Alles op gelijkvloers";
+  toevla:firstComment "Alles op gelijkvloers";
+  toevla:secondLimit "Niet alles op gelijkvloers, geen lift";
+  toevla:secondComment "Niet alles op gelijkvloers: geen lift aanwezig";
+  toevla:thirdLimit "Niet alles op gelijkvloers, wel ruime lift";
+  toevla:thirdComment "Niet alles op gelijkvloers: ruime lift aanwezig";
   
   skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
@@ -3010,12 +3010,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getallen (cm) x (cm)";
   
-  toevla:firstLimit">= 90 x 120";
-  toevla:firstComment"Lift: y cm (B) x z cm (D)";
-  toevla:secondLimit"< 90 x 120";
-  toevla:secondComment"Lift: klein, y cm (B) x z cm (D)";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 90 x 120";
+  toevla:firstComment "Lift: y cm (B) x z cm (D)";
+  toevla:secondLimit "< 90 x 120";
+  toevla:secondComment "Lift: klein, y cm (B) x z cm (D)";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
@@ -3031,12 +3031,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Smalste punt op de route: x cm";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Smalste punt op de route: x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Smalste punt op de route: x cm";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Smalste punt op de route: x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
@@ -3052,12 +3052,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"= 0";
-  toevla:firstComment"Drempel: geen";
-  toevla:secondLimit"> 2 cm";
-  toevla:secondComment"Drempel van meer dan 2 cm: x cm";
-  toevla:thirdLimit"0 < x <= 2";
-  toevla:thirdComment"Drempel van max 2 cm: x cm";
+  toevla:firstLimit "= 0";
+  toevla:firstComment "Drempel: geen";
+  toevla:secondLimit "> 2 cm";
+  toevla:secondComment "Drempel van meer dan 2 cm: x cm";
+  toevla:thirdLimit "0 < x <= 2";
+  toevla:thirdComment "Drempel van max 2 cm: x cm";
   
   skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
@@ -3073,12 +3073,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (aantal)";
   
-  toevla:firstLimit"> 1";
-  toevla:firstComment"Meerdere drempels: x";
-  toevla:secondLimit"< 1";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "> 1";
+  toevla:firstComment "Meerdere drempels: x";
+  toevla:secondLimit "< 1";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
@@ -3094,12 +3094,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (aantal)";
   
-  toevla:firstLimit"> 0";
-  toevla:firstComment"Trap: x tredes";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "> 0";
+  toevla:firstComment "Trap: x tredes";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
@@ -3115,12 +3115,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (aantal)";
   
-  toevla:firstLimit"> 1";
-  toevla:firstComment"Meerdere hellende vlakken: x";
-  toevla:secondLimit"= 1";
-  toevla:secondComment"Hellend vlak aanwezig";
-  toevla:thirdLimit"0";
-  toevla:thirdComment"geen weergave";
+  toevla:firstLimit "> 1";
+  toevla:firstComment "Meerdere hellende vlakken: x";
+  toevla:secondLimit "= 1";
+  toevla:secondComment "Hellend vlak aanwezig";
+  toevla:thirdLimit "0";
+  toevla:thirdComment "geen weergave";
   
   skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
@@ -3136,12 +3136,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee (invers)";
   
-  toevla:firstLimit"= Ja";
-  toevla:firstComment"Oprijgoten aanwezig";
-  toevla:secondLimit"= Nee";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "= Ja";
+  toevla:firstComment "Oprijgoten aanwezig";
+  toevla:secondLimit "= Nee";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
@@ -3157,12 +3157,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getallen (cm) x (cm)";
   
-  toevla:firstLimit">= 90 x 120";
-  toevla:firstComment"Plateaulift: y cm (B) x z cm (D)";
-  toevla:secondLimit"< 90 x 120";
-  toevla:secondComment"Plateaulift: klein, y cm (B) x z cm (D)";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 90 x 120";
+  toevla:firstComment "Plateaulift: y cm (B) x z cm (D)";
+  toevla:secondLimit "< 90 x 120";
+  toevla:secondComment "Plateaulift: klein, y cm (B) x z cm (D)";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
@@ -3178,12 +3178,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (aantal)";
   
-  toevla:firstLimit"> 1";
-  toevla:firstComment"Meerdere plateauliften: x";
-  toevla:secondLimit"< 1";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "> 1";
+  toevla:firstComment "Meerdere plateauliften: x";
+  toevla:secondLimit "< 1";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/bc03b638-ef82-446d-988d-26f830b8d68a>.
   
@@ -3199,12 +3199,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>.
   
@@ -3220,12 +3220,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Titel (GO)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/152e1b64-432c-4c00-89aa-00bb7868c765>.
   
@@ -3241,12 +3241,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Spraaksynthese in de lift aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Spraaksynthese in de lift aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Spraaksynthese in de lift aanwezig";
   skos:broader <https://data.toevla.org/id/concepts/f91d7bc9-0f25-40ce-adfd-993f36c6d724>.
@@ -3263,12 +3263,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Babyverzorgingstafel aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Geen babyverzorgingstafel";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Babyverzorgingstafel aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Geen babyverzorgingstafel";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Babyverzorgingstafel aanwezig";
   toevla:negativeTemplate "Geen babyverzorgingstafel";
@@ -3286,12 +3286,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"geen weergave";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Geen rolstoelvriendelijk toilet aanwezig";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "geen weergave";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Geen rolstoelvriendelijk toilet aanwezig";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/f91d7bc9-0f25-40ce-adfd-993f36c6d724>.
   
@@ -3307,12 +3307,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
@@ -3328,12 +3328,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getallen (cm) x (cm)";
   
-  toevla:firstLimit">= 90 x 120";
-  toevla:firstComment"Lift: y cm (B) x z cm (D)";
-  toevla:secondLimit"< 90 x 120";
-  toevla:secondComment"Lift: klein, y cm (B) x z cm (D)";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 90 x 120";
+  toevla:firstComment "Lift: y cm (B) x z cm (D)";
+  toevla:secondLimit "< 90 x 120";
+  toevla:secondComment "Lift: klein, y cm (B) x z cm (D)";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
   
@@ -3349,12 +3349,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Smalste punt op de route: x cm";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Smalste punt op de route: x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Smalste punt op de route: x cm";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Smalste punt op de route: x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
   
@@ -3370,12 +3370,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"= 0";
-  toevla:firstComment"Drempel: geen";
-  toevla:secondLimit"> 2 cm";
-  toevla:secondComment"Drempel van meer dan 2 cm: x cm";
-  toevla:thirdLimit"0 < x <= 2";
-  toevla:thirdComment"Drempel van max 2 cm: x cm";
+  toevla:firstLimit "= 0";
+  toevla:firstComment "Drempel: geen";
+  toevla:secondLimit "> 2 cm";
+  toevla:secondComment "Drempel van meer dan 2 cm: x cm";
+  toevla:thirdLimit "0 < x <= 2";
+  toevla:thirdComment "Drempel van max 2 cm: x cm";
   
   skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
   
@@ -3391,12 +3391,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (aantal)";
   
-  toevla:firstLimit"> 1";
-  toevla:firstComment"Meerdere drempels: x";
-  toevla:secondLimit"< 1";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "> 1";
+  toevla:firstComment "Meerdere drempels: x";
+  toevla:secondLimit "< 1";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
   
@@ -3412,12 +3412,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (aantal)";
   
-  toevla:firstLimit"> 0";
-  toevla:firstComment"Trap: x tredes";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "> 0";
+  toevla:firstComment "Trap: x tredes";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
   
@@ -3433,12 +3433,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (aantal)";
   
-  toevla:firstLimit"> 1";
-  toevla:firstComment"Meerdere hellende vlakken: x";
-  toevla:secondLimit"= 1";
-  toevla:secondComment"Hellend vlak aanwezig";
-  toevla:thirdLimit"0";
-  toevla:thirdComment"geen weergave";
+  toevla:firstLimit "> 1";
+  toevla:firstComment "Meerdere hellende vlakken: x";
+  toevla:secondLimit "= 1";
+  toevla:secondComment "Hellend vlak aanwezig";
+  toevla:thirdLimit "0";
+  toevla:thirdComment "geen weergave";
   
   skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
   
@@ -3454,12 +3454,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee (invers)";
   
-  toevla:firstLimit"= Ja";
-  toevla:firstComment"Oprijgoten aanwezig";
-  toevla:secondLimit"= Nee";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "= Ja";
+  toevla:firstComment "Oprijgoten aanwezig";
+  toevla:secondLimit "= Nee";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
   
@@ -3475,12 +3475,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getallen (cm) x (cm)";
   
-  toevla:firstLimit">= 90 x 120";
-  toevla:firstComment"Plateaulift: y cm (B) x z cm (D)";
-  toevla:secondLimit"< 90 x 120";
-  toevla:secondComment"Plateaulift: klein, y cm (B) x z cm (D)";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 90 x 120";
+  toevla:firstComment "Plateaulift: y cm (B) x z cm (D)";
+  toevla:secondLimit "< 90 x 120";
+  toevla:secondComment "Plateaulift: klein, y cm (B) x z cm (D)";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
   
@@ -3496,12 +3496,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getallen (cm) x (cm)";
   
-  toevla:firstLimit">= 90 x 120";
-  toevla:firstComment"Plateaulift: y cm (B) x z cm (D)";
-  toevla:secondLimit"< 90 x 120";
-  toevla:secondComment"Plateaulift: klein, y cm (B) x z cm (D)";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 90 x 120";
+  toevla:firstComment "Plateaulift: y cm (B) x z cm (D)";
+  toevla:secondLimit "< 90 x 120";
+  toevla:secondComment "Plateaulift: klein, y cm (B) x z cm (D)";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/8e15a179-2fb3-4c56-b81d-f82bdfe7b7f9>.
   
@@ -3517,12 +3517,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (aantal)";
   
-  toevla:firstLimit"> 1";
-  toevla:firstComment"Meerdere plateauliften: x";
-  toevla:secondLimit"< 1";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "> 1";
+  toevla:firstComment "Meerdere plateauliften: x";
+  toevla:secondLimit "< 1";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/9da2a401-9d6c-4f1b-9020-7f7c21ed8383>.
   
@@ -3538,12 +3538,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
@@ -3559,12 +3559,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Deurbreedte: x cm ";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Deurbreedte: smal x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Deurbreedte: x cm ";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Deurbreedte: smal x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed>.
   
@@ -3580,12 +3580,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= ф 120";
-  toevla:firstComment"Draairuimte aan deur: x cm";
-  toevla:secondLimit"< ф 120";
-  toevla:secondComment"Draairuimte aan deur: klein, ф x cm";
-  toevla:thirdLimit"0 <= x < ф 40";
-  toevla:thirdComment"Draairuimte aan deur: geen";
+  toevla:firstLimit ">= ф 120";
+  toevla:firstComment "Draairuimte aan deur: x cm";
+  toevla:secondLimit "< ф 120";
+  toevla:secondComment "Draairuimte aan deur: klein, ф x cm";
+  toevla:thirdLimit "0 <= x < ф 40";
+  toevla:thirdComment "Draairuimte aan deur: geen";
   
   skos:broader <https://data.toevla.org/id/concepts/61642d46-03a8-457b-b0cf-fbfc8ae49bed>.
   
@@ -3601,12 +3601,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/3962c53a-684a-4ba0-809a-5f984032f095>.
   
@@ -3622,12 +3622,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getallen (cm) x (cm)";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Toiletruimte: y cm (B) x z cm (D)";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Toiletruimte: y cm (B) x z cm (D)";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
   
@@ -3643,12 +3643,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 120";
-  toevla:firstComment"Ruimte voor toiletpot: x cm";
-  toevla:secondLimit"< 120";
-  toevla:secondComment"Ruimte voor toiletpot: klein, x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 120";
+  toevla:firstComment "Ruimte voor toiletpot: x cm";
+  toevla:secondLimit "< 120";
+  toevla:secondComment "Ruimte voor toiletpot: klein, x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
   
@@ -3664,12 +3664,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 90";
-  toevla:firstComment"Ruimte naast toiletpot: x cm";
-  toevla:secondLimit"< 90";
-  toevla:secondComment"Ruimte naast toiletpot: klein, x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 90";
+  toevla:firstComment "Ruimte naast toiletpot: x cm";
+  toevla:secondLimit "< 90";
+  toevla:secondComment "Ruimte naast toiletpot: klein, x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
   
@@ -3685,12 +3685,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= ф 120";
-  toevla:firstComment"Draairuimte in het toilet: x cm";
-  toevla:secondLimit"< ф 120";
-  toevla:secondComment"Draairuimte in het toilet: klein, x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= ф 120";
+  toevla:firstComment "Draairuimte in het toilet: x cm";
+  toevla:secondLimit "< ф 120";
+  toevla:secondComment "Draairuimte in het toilet: klein, x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
   
@@ -3706,12 +3706,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (aantal)";
   
-  toevla:firstLimit"= 2";
-  toevla:firstComment"Steunbeugels: 2";
-  toevla:secondLimit"= 1";
-  toevla:secondComment"Steunbeugel: 1";
-  toevla:thirdLimit"= 0";
-  toevla:thirdComment"Steunbeugels: geen";
+  toevla:firstLimit "= 2";
+  toevla:firstComment "Steunbeugels: 2";
+  toevla:secondLimit "= 1";
+  toevla:secondComment "Steunbeugel: 1";
+  toevla:thirdLimit "= 0";
+  toevla:thirdComment "Steunbeugels: geen";
   
   skos:broader <https://data.toevla.org/id/concepts/309d359b-7127-42e5-8ab0-e1ef7af27b7b>.
   
@@ -3727,12 +3727,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Wastafel in toilet: aanwezig";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Wastafel in toilet: niet aanwezig";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Wastafel in toilet: aanwezig";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Wastafel in toilet: niet aanwezig";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Wastafel in toilet: aanwezig";
   toevla:negativeTemplate "Wastafel in toilet: niet aanwezig";
@@ -3750,12 +3750,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "???";
   
-  toevla:firstLimit"3 keer V";
-  toevla:firstComment"Wastafel: onderrijdbaar";
-  toevla:secondLimit"0 keer V";
-  toevla:secondComment"Wastafel: niet onderrijdbaar";
-  toevla:thirdLimit"1 of 2 keer V";
-  toevla:thirdComment"Wastafel: beperkt onderrijdbaar";
+  toevla:firstLimit "3 keer V";
+  toevla:firstComment "Wastafel: onderrijdbaar";
+  toevla:secondLimit "0 keer V";
+  toevla:secondComment "Wastafel: niet onderrijdbaar";
+  toevla:thirdLimit "1 of 2 keer V";
+  toevla:thirdComment "Wastafel: beperkt onderrijdbaar";
   
   skos:broader <https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0>.
   
@@ -3771,12 +3771,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"65 <= x <= 75";
-  toevla:firstComment"geen weergave";
-  toevla:secondLimit"< 65";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"> 75";
-  toevla:thirdComment"geen weergave";
+  toevla:firstLimit "65 <= x <= 75";
+  toevla:firstComment "geen weergave";
+  toevla:secondLimit "< 65";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "> 75";
+  toevla:thirdComment "geen weergave";
   
   skos:broader <https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0>.
   
@@ -3792,12 +3792,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 60";
-  toevla:firstComment"Geen weergave";
-  toevla:secondLimit">= 60";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 60";
+  toevla:firstComment "Geen weergave";
+  toevla:secondLimit ">= 60";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0>.
   
@@ -3813,12 +3813,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Geen weergave";
-  toevla:secondLimit">= 77";
-  toevla:secondComment"Geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Geen weergave";
+  toevla:secondLimit ">= 77";
+  toevla:secondComment "Geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/35f9c08e-0b4f-4a67-8d06-36dc37fb59f0>.
   
@@ -3834,12 +3834,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/152e1b64-432c
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/f91d7bc9-0f25-40ce-adfd-993f36c6d724>.
   
@@ -3855,12 +3855,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
 
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
 
   ext:order 3.    
 
@@ -3876,12 +3876,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Titel (GO)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/622c883a-08ca-45a6-abbf-1564b1413388>.
   
@@ -3897,12 +3897,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Betalen:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Betalen:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
   
@@ -3918,12 +3918,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Cash";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Cash";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Cash";
   skos:broader <https://data.toevla.org/id/concepts/c2bf5853-9503-472b-bcfd-889f19f9cc41>.
@@ -3940,12 +3940,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Verplaatsbare kaartlezer";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Verplaatsbare kaartlezer";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Verplaatsbare kaartlezer";
   skos:broader <https://data.toevla.org/id/concepts/c2bf5853-9503-472b-bcfd-889f19f9cc41>.
@@ -3962,12 +3962,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Vaste kaartlezer";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Vaste kaartlezer";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Vaste kaartlezer";
   skos:broader <https://data.toevla.org/id/concepts/c2bf5853-9503-472b-bcfd-889f19f9cc41>.
@@ -3984,12 +3984,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (aantal)";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Aantal zitplaatsen: x";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Aantal zitplaatsen: x";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
   
@@ -4005,12 +4005,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Geschikt voor groepen (met mobiele beperking)";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Niet geschikt voor groepen (met mobiele beperking)";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Geschikt voor groepen (met mobiele beperking)";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Niet geschikt voor groepen (met mobiele beperking)";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Geschikt voor groepen (met mobiele beperking)";
   toevla:negativeTemplate "Niet geschikt voor groepen (met mobiele beperking)";
@@ -4028,12 +4028,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Menukaart:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Menukaart:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
   
@@ -4049,12 +4049,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Online beschikbaar ";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Online beschikbaar ";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Online beschikbaar ";
   skos:broader <https://data.toevla.org/id/concepts/ff6fa7cd-81a3-429c-a095-732dc8140d7b>.
@@ -4071,12 +4071,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Duidelijk leesbaar (contrast, lettertype) ";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Duidelijk leesbaar (contrast, lettertype) ";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Duidelijk leesbaar (contrast, lettertype) ";
   skos:broader <https://data.toevla.org/id/concepts/ff6fa7cd-81a3-429c-a095-732dc8140d7b>.
@@ -4093,12 +4093,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"In braille beschikbaar ";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "In braille beschikbaar ";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "In braille beschikbaar ";
   skos:broader <https://data.toevla.org/id/concepts/ff6fa7cd-81a3-429c-a095-732dc8140d7b>.
@@ -4115,12 +4115,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Met afbeeldingen beschikbaar ";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Met afbeeldingen beschikbaar ";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Met afbeeldingen beschikbaar ";
   skos:broader <https://data.toevla.org/id/concepts/ff6fa7cd-81a3-429c-a095-732dc8140d7b>.
@@ -4137,12 +4137,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Maaltijden:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Maaltijden:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
   
@@ -4158,12 +4158,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Aanpassingen op basis van dieet mogelijk";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Aanpassingen op basis van dieet mogelijk";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Aanpassingen op basis van dieet mogelijk";
   skos:broader <https://data.toevla.org/id/concepts/9b6ba4ed-9f08-4fa6-a3a0-418144ed2cae>.
@@ -4180,12 +4180,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Vermelding allergenen ";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Vermelding allergenen ";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Vermelding allergenen ";
   skos:broader <https://data.toevla.org/id/concepts/9b6ba4ed-9f08-4fa6-a3a0-418144ed2cae>.
@@ -4202,12 +4202,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Kindermenu beschikbaar";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Kindermenu beschikbaar";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Kindermenu beschikbaar";
   skos:broader <https://data.toevla.org/id/concepts/9b6ba4ed-9f08-4fa6-a3a0-418144ed2cae>.
@@ -4224,12 +4224,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Kinderstoel beschikbaar ";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"Geen kinderstoel beschikbaar";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Kinderstoel beschikbaar ";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "Geen kinderstoel beschikbaar";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Kinderstoel beschikbaar ";
   toevla:negativeTemplate "Geen kinderstoel beschikbaar";
@@ -4247,12 +4247,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
   
@@ -4268,12 +4268,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Deurbreedte: x cm ";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Deurbreedte: smal x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Deurbreedte: x cm ";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Deurbreedte: smal x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/20ef331e-60a5-43e2-b89c-9296f753f7cc>.
   
@@ -4289,12 +4289,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Smalste punt op de route: x cm";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Smalste punt op de route: x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Smalste punt op de route: x cm";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Smalste punt op de route: x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/20ef331e-60a5-43e2-b89c-9296f753f7cc>.
   
@@ -4310,12 +4310,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"= 0";
-  toevla:firstComment"Drempel: geen";
-  toevla:secondLimit"> 2 cm";
-  toevla:secondComment"Drempel van meer dan 2 cm: x cm";
-  toevla:thirdLimit"0 < x <= 2";
-  toevla:thirdComment"Drempel van max 2 cm: x cm";
+  toevla:firstLimit "= 0";
+  toevla:firstComment "Drempel: geen";
+  toevla:secondLimit "> 2 cm";
+  toevla:secondComment "Drempel van meer dan 2 cm: x cm";
+  toevla:thirdLimit "0 < x <= 2";
+  toevla:thirdComment "Drempel van max 2 cm: x cm";
   
   skos:broader <https://data.toevla.org/id/concepts/20ef331e-60a5-43e2-b89c-9296f753f7cc>.
   
@@ -4331,12 +4331,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"65 <= x <= 70";
-  toevla:firstComment"Hoogte onder de tafel: x cm";
-  toevla:secondLimit"< 65";
-  toevla:secondComment"Hoogte onder de tafel: x cm";
-  toevla:thirdLimit"> 70";
-  toevla:thirdComment"Hoogte onder de tafel: x cm";
+  toevla:firstLimit "65 <= x <= 70";
+  toevla:firstComment "Hoogte onder de tafel: x cm";
+  toevla:secondLimit "< 65";
+  toevla:secondComment "Hoogte onder de tafel: x cm";
+  toevla:thirdLimit "> 70";
+  toevla:thirdComment "Hoogte onder de tafel: x cm";
   
   skos:broader <https://data.toevla.org/id/concepts/20ef331e-60a5-43e2-b89c-9296f753f7cc>.
   
@@ -4352,12 +4352,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
   
@@ -4373,12 +4373,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Deurbreedte: x cm ";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Deurbreedte: smal x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Deurbreedte: x cm ";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Deurbreedte: smal x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/a528dea0-42cb-4f3f-a825-f87b7f98f2eb>.
   
@@ -4394,12 +4394,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Smalste punt op de route: x cm";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Smalste punt op de route: x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Smalste punt op de route: x cm";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Smalste punt op de route: x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/a528dea0-42cb-4f3f-a825-f87b7f98f2eb>.
   
@@ -4415,12 +4415,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"= 0";
-  toevla:firstComment"Drempel: geen";
-  toevla:secondLimit"> 2 cm";
-  toevla:secondComment"Drempel van meer dan 2 cm: x cm";
-  toevla:thirdLimit"0 < x <= 2";
-  toevla:thirdComment"Drempel van max 2 cm: x cm";
+  toevla:firstLimit "= 0";
+  toevla:firstComment "Drempel: geen";
+  toevla:secondLimit "> 2 cm";
+  toevla:secondComment "Drempel van meer dan 2 cm: x cm";
+  toevla:thirdLimit "0 < x <= 2";
+  toevla:thirdComment "Drempel van max 2 cm: x cm";
   
   skos:broader <https://data.toevla.org/id/concepts/a528dea0-42cb-4f3f-a825-f87b7f98f2eb>.
   
@@ -4436,12 +4436,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"65 <= x <= 70";
-  toevla:firstComment"Hoogte onder de tafel: x cm";
-  toevla:secondLimit"< 65";
-  toevla:secondComment"Hoogte onder de tafel: x cm";
-  toevla:thirdLimit"> 70";
-  toevla:thirdComment"Hoogte onder de tafel: x cm";
+  toevla:firstLimit "65 <= x <= 70";
+  toevla:firstComment "Hoogte onder de tafel: x cm";
+  toevla:secondLimit "< 65";
+  toevla:secondComment "Hoogte onder de tafel: x cm";
+  toevla:thirdLimit "> 70";
+  toevla:thirdComment "Hoogte onder de tafel: x cm";
   
   skos:broader <https://data.toevla.org/id/concepts/a528dea0-42cb-4f3f-a825-f87b7f98f2eb>.
   
@@ -4457,12 +4457,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/5e3312f6-98d4-4340-a3c4-9ef108eaa523>.
   
@@ -4478,12 +4478,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Titel (GO)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/622c883a-08ca-45a6-abbf-1564b1413388>.
   
@@ -4499,12 +4499,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Betalen:";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Betalen:";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350>.
   
@@ -4520,12 +4520,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Cash";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Cash";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Cash";
   skos:broader <https://data.toevla.org/id/concepts/c49414f8-7008-4d80-b8d6-4cca3e9ee53a>.
@@ -4542,12 +4542,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Verplaatsbare kaartlezer";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Verplaatsbare kaartlezer";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Verplaatsbare kaartlezer";
   skos:broader <https://data.toevla.org/id/concepts/c49414f8-7008-4d80-b8d6-4cca3e9ee53a>.
@@ -4564,12 +4564,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"Vaste kaartlezer";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"geen weergave";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "Vaste kaartlezer";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "geen weergave";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   toevla:positiveTemplate "Vaste kaartlezer";
   skos:broader <https://data.toevla.org/id/concepts/c49414f8-7008-4d80-b8d6-4cca3e9ee53a>.
@@ -4586,12 +4586,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Titel (TT)";
   toevla:type "NVT";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"NVT";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "NVT";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350>.
   
@@ -4607,12 +4607,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Smalste punt op de route: x cm";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Smalste punt op de route: x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Smalste punt op de route: x cm";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Smalste punt op de route: x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0>.
   
@@ -4628,12 +4628,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"= 0";
-  toevla:firstComment"Drempel: geen";
-  toevla:secondLimit"> 2 cm";
-  toevla:secondComment"Drempel van meer dan 2 cm: x cm";
-  toevla:thirdLimit"0 < x <= 2";
-  toevla:thirdComment"Drempel van max 2 cm: x cm";
+  toevla:firstLimit "= 0";
+  toevla:firstComment "Drempel: geen";
+  toevla:secondLimit "> 2 cm";
+  toevla:secondComment "Drempel van meer dan 2 cm: x cm";
+  toevla:thirdLimit "0 < x <= 2";
+  toevla:thirdComment "Drempel van max 2 cm: x cm";
   
   skos:broader <https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0>.
   
@@ -4649,12 +4649,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Deurbreedte: x cm ";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Deurbreedte: smal, x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Deurbreedte: x cm ";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Deurbreedte: smal, x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0>.
   
@@ -4670,12 +4670,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit">= 77";
-  toevla:firstComment"Toegangscontrole: x cm";
-  toevla:secondLimit"< 77";
-  toevla:secondComment"Toegangscontrole: smal, x cm";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit ">= 77";
+  toevla:firstComment "Toegangscontrole: x cm";
+  toevla:secondLimit "< 77";
+  toevla:secondComment "Toegangscontrole: smal, x cm";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0>.
   
@@ -4691,12 +4691,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Getal (cm)";
   
-  toevla:firstLimit"<= 90";
-  toevla:firstComment"Balie: laag deel aanwezig";
-  toevla:secondLimit"> 90";
-  toevla:secondComment"Balie: geen laag deel aanwezig";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "<= 90";
+  toevla:firstComment "Balie: laag deel aanwezig";
+  toevla:secondLimit "> 90";
+  toevla:secondComment "Balie: geen laag deel aanwezig";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/0c2f16d4-ba4c-41f2-9703-265b696ab7a0>.
   
@@ -4712,12 +4712,12 @@ tvcs:musea skos:hasTopConcept <https://data.toevla.org/id/concepts/622c883a-08ca
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   
-  toevla:firstLimit"NVT";
-  toevla:firstComment"undefined";
-  toevla:secondLimit"undefined";
-  toevla:secondComment"undefined";
-  toevla:thirdLimit"undefined";
-  toevla:thirdComment"undefined";
+  toevla:firstLimit "NVT";
+  toevla:firstComment "undefined";
+  toevla:secondLimit "undefined";
+  toevla:secondComment "undefined";
+  toevla:thirdLimit "undefined";
+  toevla:thirdComment "undefined";
   
   skos:broader <https://data.toevla.org/id/concepts/64e1c63a-c63a-4a79-96b8-918bb5939350>.
   

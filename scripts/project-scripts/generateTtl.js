@@ -40,12 +40,12 @@ tvcs:musea skos:hasTopConcept <`+e.uri+`>.
   toevla:criteriaType "`+e.criteriaType+`";
   toevla:type "`+e.type+`";
 
-  toevla:firstLimit"`+e.firstLimit+`";
-  toevla:firstComment"`+e.firstComment+`";
-  toevla:secondLimit"`+e.secondLimit+`";
-  toevla:secondComment"`+e.secondComment+`";
-  toevla:thirdLimit"`+e.thirdLimit+`";
-  toevla:thirdComment"`+e.thirdComment+`";
+  toevla:firstLimit "`+e.firstLimit+`";
+  toevla:firstComment "`+e.firstComment+`";
+  toevla:secondLimit "`+e.secondLimit+`";
+  toevla:secondComment "`+e.secondComment+`";
+  toevla:thirdLimit "`+e.thirdLimit+`";
+  toevla:thirdComment "`+e.thirdComment+`";
 
   ext:order `+e.order+`.    
 `;
@@ -64,12 +64,12 @@ tvcs:musea skos:hasTopConcept <`+e.uri+`>.
   toevla:criteriaType "`+e.criteriaType+`";
   toevla:type "`+e.type+`";
   
-  toevla:firstLimit"`+e.firstLimit+`";
-  toevla:firstComment"`+e.firstComment+`";
-  toevla:secondLimit"`+e.secondLimit+`";
-  toevla:secondComment"`+e.secondComment+`";
-  toevla:thirdLimit"`+e.thirdLimit+`";
-  toevla:thirdComment"`+e.thirdComment+`";
+  toevla:firstLimit "`+e.firstLimit+`";
+  toevla:firstComment "`+e.firstComment+`";
+  toevla:secondLimit "`+e.secondLimit+`";
+  toevla:secondComment "`+e.secondComment+`";
+  toevla:thirdLimit "`+e.thirdLimit+`";
+  toevla:thirdComment "`+e.thirdComment+`";
   `;
     e.trueComment?output+=`
   toevla:positiveTemplate "`+e.trueComment+`";`:false;

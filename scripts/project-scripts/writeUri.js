@@ -4,7 +4,8 @@ const fs = require('fs');
 
 async function main(){
   var fileName='/data/app/toevla-latest.xlsx';
-  var sheetName='Moederdoc';
+  var sheetName='Moederdoc_Aad_aanvInter25-09-20';
+
   
   var workbook = new ExcelJS.Workbook();
   await workbook.xlsx.readFile(fileName);

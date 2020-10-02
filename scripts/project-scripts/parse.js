@@ -9,8 +9,9 @@ const xlsx = require('xlsx');
 const { v4: uuid } = require('uuid');
 const fs = require("fs");
 
-const fileName = '/home/sergey/Desktop/toevla-widget/app-toevla/toevla-latest.xlsx';
+const fileName = '/data/app/toevla-latest.xlsx';
 var sheetName='Moederdoc_Aad_aanvInter25-09-20';
+
 
 const excel = xlsx.readFile(fileName);
 var sheet=xlsx.utils.sheet_to_json(excel.Sheets[sheetName], {"header":1});
@@ -89,6 +90,7 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
 
           order: 0
         };
+
         if(row[infoColumns.type]=="Ja/Nee"){
           var trueCell=row[infoColumns.firstComment];
           var falseCell=row[infoColumns.secondComment];
@@ -133,4 +135,4 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
 }
 var toDisk=JSON.stringify(parsedTree, null, 2);
 
-fs.writeFileSync("/home/sergey/Desktop/toevla-widget/app-toevla/scripts/project-scripts/parsedTree.json", toDisk);
+fs.writeFileSync("./parsedTree.json", toDisk);
