@@ -18,6 +18,14 @@
   :properties `((:title :string ,(s-prefix "skos:prefLabel"))
                 (:order :number ,(s-prefix "ext:order"))
                 (:htmlContent :string ,(s-prefix "ext:htmlContent"))
+
+                (:first-limit :string ,(s-prefix "toevla:firstLimit"))
+                (:first-label :string ,(s-prefix "toevla:firstComment"))
+                (:second-limit :string ,(s-prefix "toevla:secondLimit"))
+                (:second-label :string ,(s-prefix "toevla:secondComment"))
+                (:third-limit :string ,(s-prefix "toevla:thirdLimit"))
+                (:third-label :string ,(s-prefix "toevla:thirdComment"))
+
                 (:positive-template-string :string ,(s-prefix "toevla:positiveTemplate"))
                 (:negative-template-string :string ,(s-prefix "toevla:negativeTemplate")))
   :has-many `((tree-node :via ,(s-prefix "skos:broader")
@@ -78,6 +86,7 @@
                          :as "restaurant")
              (shop :via ,(s-prefix "toevla:hasShop")
                    :as "shop"))
+  :features '(include-uri)
   :resource-base (s-url "http://data.toevla.org/points-of-interest/")
   :on-path "points-of-interest")
 
