@@ -94,11 +94,11 @@ defmodule Dispatcher do
   end
 
   match "/restaurants/*path", @json_service do
-    Proxy.forward conn, path, "http://resource/restaurants/"
+    Proxy.forward conn, path, "http://cache/restaurants/"
   end
 
   match "/shops/*path", @json_service do
-    Proxy.forward conn, path, "http://resource/shops/"
+    Proxy.forward conn, path, "http://cache/shops/"
   end
 
   match "/images/*path", %{ layer: :static } do
