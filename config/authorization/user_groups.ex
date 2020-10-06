@@ -39,6 +39,7 @@ defmodule Acl.UserGroups.Config do
                         "http://toevla.org/ns/generic/TramStop",
                         "http://toevla.org/ns/generic/Restaurant",
                         "http://toevla.org/ns/generic/Shop",
+                        "http://toevla.org/ns/generic/Widget",
                         "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
                       ]
                     } }

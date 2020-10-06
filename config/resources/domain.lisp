@@ -4,6 +4,14 @@
 (setq *cache-count-queries-p* t)
 (setq *supply-cache-headers-p* t)
 
+(define-resource widget ()
+  :class (s-prefix "toevla:Widget")
+  :has-one `((point-of-interest :via ,(s-prefix "toevla:rendersPoi")
+                                :as "point-of-interest"))
+  :features '(include-uri)
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/widgets/")
+  :on-path "widgets")
+
 (define-resource tree ()
   :class (s-prefix "skos:ConceptScheme")
   :properties `((:title :string ,(s-prefix "skos:prefLabel")))
