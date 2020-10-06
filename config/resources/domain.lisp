@@ -10,7 +10,7 @@
   :has-many `((tree-node :via ,(s-prefix "skos:hasTopConcept")
                          :as "top-level-nodes"))
   :features '(include-uri)
-  :resource-base (s-url "http://data.toevla.org/concept-schemes/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/concept-schemes/")
   :on-path "trees")
 
 (define-resource tree-node ()
@@ -34,7 +34,7 @@
   :has-one `((tree-node :via ,(s-prefix "skos:broader")
                         :as "parent"))
   :features '(include-uri)
-  :resource-base (s-url "http://data.toevla.org/tree-nodes/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/tree-nodes/")
   :on-path "tree-nodes")
 
 (define-resource point-of-interest ()
@@ -87,7 +87,7 @@
              (shop :via ,(s-prefix "toevla:hasShop")
                    :as "shop"))
   :features '(include-uri)
-  :resource-base (s-url "http://data.toevla.org/points-of-interest/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/points-of-interest/")
   :on-path "points-of-interest")
 
 (define-resource restaurant ()
@@ -114,7 +114,7 @@
                 (:smallest-point-on-route-for-tarrace :number ,(s-prefix "toevla:smallestPointOnRouteForTarrace"))
                 (:highest-threshold-for-terrace :number ,(s-prefix "toevla:highestThresholdForTerrace"))
                 (:height-under-tarrace-table-for-wheelchair-in-consumption-space :number ,(s-prefix "toevla:heightUnderTarraceTableForWheelchairInConsumptionSpace")))
-  :resource-base (s-url "http://data.toevla.org/restaurants/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/restaurants/")
   :on-path "restaurants")
 
 (define-resource shop ()
@@ -127,7 +127,7 @@
                 (:most-narrow-doorwidth :number ,(s-prefix "toevla:mostNarrowDoorwidth"))
                 (:has-access-control :boolean ,(s-prefix "toevla:hasAccessControl"))
                 (:has-lowered-counter :boolean ,(s-prefix "toevla:hasLoweredCounter")))
-  :resource-base (s-url "http://data.toevla.org/shops/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/shops/")
   :on-path "shops")
 
 (define-resource file ()
@@ -154,28 +154,28 @@
   :properties `((:has-flemish-sign-language :boolean ,(s-prefix "toevla:hasFlemishSignLanguage"))
                 (:has-detailed-description :boolean ,(s-prefix "toevla:hasDetailedDescription"))
                 (:has-screenreader :boolean ,(s-prefix "toevla:hasScreenreader")))
-  :resource-base (s-url "http://data.toevla.org/route-descriptions/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/route-descriptions/")
   :on-path "route-descriptions")
 
 (define-resource train-stop ()
   :class (s-prefix "toevla:TrainStop")
   :properties `((:distance-from-location :number ,(s-prefix "toevla:distanceFromLocation"))
                 (:stop-name :string ,(s-prefix "toevla:stopName")))
-  :resource-base (s-url "http://data.toevla.org/train-stops/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/train-stops/")
   :on-path "train-stops")
 
 (define-resource tram-stop ()
   :class (s-prefix "toevla:TramStop")
   :properties `((:distance-from-location :number ,(s-prefix "toevla:distanceFromLocation"))
                 (:stop-name :string ,(s-prefix "toevla:stopName")))
-  :resource-base (s-url "http://data.toevla.org/tram-stops/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/tram-stops/")
   :on-path "tram-stops")
 
 (define-resource bus-stop ()
   :class (s-prefix "toevla:BusStop")
   :properties `((:distance-from-location :number ,(s-prefix "toevla:distanceFromLocation"))
                 (:stop-name :string ,(s-prefix "toevla:stopName")))
-  :resource-base (s-url "http://data.toevla.org/bus-stops/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/bus-stops/")
   :on-path "bus-stops")
 
 (define-resource toilet ()
@@ -209,7 +209,7 @@
                    :as "size-of-plateau-elevator")
              (area :via ,(s-prefix "toevla:sizeOfToiletRoom")
                    :as "size-of-toilet-room"))
-  :resource-base (s-url "http://data.toevla.org/toilets/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/toilets/")
   :on-path "toilets")
 
 
@@ -218,7 +218,7 @@
   :class (s-prefix "toevla:Area")
   :properties `((:width :number ,(s-prefix "toevla:widthInCm"))
                 (:height :number ,(s-prefix "toevla:heightInCm")))
-  :resource-base (s-url "http://data.toevla.org/area-sizes/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/area-sizes/")
   :on-path "areas")
 
 (define-resource parking ()
@@ -238,7 +238,7 @@
   ;; :has-many `(mu-resource-has-many)
   :has-one `((path :via ,(s-prefix "toevla:pathToEntrance")
                    :as "path-to-entrance"))
-  :resource-base (s-url "http://data.toevla.org/parkings/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/parkings/")
   :on-path "parkings")
 
 (define-resource path ()
@@ -251,7 +251,7 @@
                 (:amount-of-slopes :number ,(s-prefix "toevla:amountOfSlopes"))
                 (:has-ramp :boolean ,(s-prefix "toevla:hasRamp")))
   ;; :has-one `(mu-resource-has-one)
-  :resource-base (s-url "http://data.toevla.org/paths/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/paths/")
   :on-path "paths")
 
 (define-resource entrance ()
@@ -272,7 +272,7 @@
   :has-one `((point-of-interest :via ,(s-prefix "toevla:hasEntrance")
                                 :inverse t
                                 :as "point-of-interest"))
-  :resource-base (s-url "http://data.toevla.org/entrances/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/entrances/")
   :on-path "entrances")
 
 (define-resource experience ()
@@ -310,7 +310,7 @@
   :has-many `((experience-tree-node-score :via ,(s-prefix "toevla:scoreSubject")
                                           :inverse t
                                           :as "experience-tree-node-scores"))
-  :resource-base (s-url "http://data.toevla.org/experiences/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/experiences/")
   :on-path "experiences")
 
 (define-resource auditorium ()
@@ -318,7 +318,7 @@
   :properties `((:has-accessible-seating :boolean ,(s-prefix "toevla:hasAccessibleSeating"))
                 (:extra-attention-given-to-acoustics :boolean ,(s-prefix "toevla:extraAttentionGivenToAcoustics"))
                 (:has-teleloop :boolean ,(s-prefix "toevla:hasTeleloop")))
-  :resource-base (s-url "http://data.toevla.org/auditoria/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/auditoria/")
   :on-path "auditoria")
 
 (define-resource guided-tour ()
@@ -334,7 +334,7 @@
                 (:has-flemish-sign-language-interpreter :boolean ,(s-prefix "toevla:hasFlemishSignLanguageInterpreter"))
                 (:is-available-on-quiet-moments :boolean ,(s-prefix "toevla:isAvailableOnQuietMoments"))
                 (:is-available-tailor-made :boolean ,(s-prefix "toevla:isAvailableTailorMade")))
-  :resource-base (s-url "http://data.toevla.org/guided-tours/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/guided-tours/")
   :on-path "guided-tours")
 
 (define-resource route ()
@@ -361,7 +361,7 @@
                    :as "size-of-elevator")
              (area :via ,(s-prefix "toevla:sizeOfPlateauElevator")
                    :as "size-of-plateau-elevator"))
-  :resource-base (s-url "http://data.toevla.org/routes/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/routes/")
   :on-path "routes")
 
 
@@ -373,7 +373,7 @@
                          :as "experience")
              (tree-node :via ,(s-prefix "toevla:scoreTopic")
                         :as "tree-node"))
-  :resource-base (s-url "http://data.toevla.org/experience-tree-node-scores/")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/experience-tree-node-scores/")
   :on-path "experience-tree-node-scores")
 
 
