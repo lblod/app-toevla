@@ -8,7 +8,7 @@ defmodule Dispatcher do
     any: [ "*/*" ]
   ]
 
-  define_layers [ :cors, :static, :api, :frontend_fallback, :not_found ]
+  define_layers [ :cors, :static_with_host, :static, :api, :frontend_fallback_with_host, :frontend_fallback, :not_found ]
 
   @json_service %{ accept: [:json], layer: :api }
   @image %{ accept: [:image] }
@@ -117,27 +117,39 @@ defmodule Dispatcher do
     send_resp( conn, 404, "No icon specified" )
   end    
 
-  match "/assets/*path", %{ reverse_host: ["standalone" | _rest ], layer: :static } do
+  match "/assets/*path", %{ reverse_host: ["standalone" | _rest ], layer: :static_with_host } do
     Proxy.forward conn, path, "http://frontend-standalone/assets/"
   end
 
-  match "/assets/*path", %{ reverse_host: ["entry" | _rest ], layer: :static } do
+  match "/assets/*path", %{ reverse_host: ["entry" | _rest ], layer: :static_with_host } do
     Proxy.forward conn, path, "http://frontend-entry/assets/"
   end
 
-  match "/@appuniversum/*path", %{ reverse_host: ["standalone" | _rest ], layer: :static } do
+  match "/widget.js", %{ layer: :static } do
+    Proxy.forward conn, [], "http://frontend-standalone/assets/js/widget.js"
+  end
+
+  match "/assets/widget/initialize-widget.js", %{ layer: :static } do
+    Proxy.forward conn, [], "http://frontend-standalone/assets/js/initialize-widget.js"
+  end
+
+  match "/assets/widget/*path", %{ layer: :static } do
+    Proxy.forward conn, path, "http://frontend-standalone/assets/"
+  end
+
+  match "/@appuniversum/*path", %{ reverse_host: ["standalone" | _rest ], layer: :static_with_host } do
     Proxy.forward conn, path, "http://frontend-standalone/@appuniversum/"
   end
 
-  match "/@appuniversum/*path", %{ reverse_host: ["entry" | _rest ], layer: :static } do
+  match "/@appuniversum/*path", %{ reverse_host: ["entry" | _rest ], layer: :static_with_host } do
     Proxy.forward conn, path, "http://frontend-entry/@appuniversum/"
   end
 
-  match "/*path", %{ reverse_host: ["standalone" | _rest], layer: :frontend_fallback } do
+  match "/*path", %{ reverse_host: ["standalone" | _rest], layer: :frontend_fallback_with_host } do
     Proxy.forward conn, path, "http://frontend-standalone/index.html"
   end
 
-  match "/*path", %{ reverse_host: ["entry" | _rest], layer: :frontend_fallback } do
+  match "/*path", %{ reverse_host: ["entry" | _rest], layer: :frontend_fallback_with_host } do
     Proxy.forward conn, path, "http://frontend-entry/index.html"
   end
 
