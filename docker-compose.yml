@@ -33,7 +33,7 @@ services:
     restart: always
     logging: *default-logging
   frontend-standalone:
-    image: lblod/frontend-toevla:0.3.1-standalone
+    image: lblod/frontend-toevla:0.4.1-standalone
     links:
       - identifier:backend
     labels:
@@ -41,7 +41,7 @@ services:
     restart: always
     logging: *default-logging
   frontend-entry:
-    image: lblod/frontend-toevla-data-entry:0.3.1
+    image: lblod/frontend-toevla-data-entry:0.5.0
     links:
       - identifier:backend
     labels:
