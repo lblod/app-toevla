@@ -24,6 +24,14 @@ services:
       - ./data/files:/share
     labels:
       - "logging=true"
+  frontend-embed:
+    image: lblod/frontend-toevla:0.4.1
+    links:
+      - identifier:backend
+    labels:
+      - "logging=true"
+    restart: always
+    logging: *default-logging
   frontend-standalone:
     image: lblod/frontend-toevla:0.3.1-standalone
     links:

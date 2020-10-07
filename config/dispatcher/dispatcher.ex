@@ -126,15 +126,15 @@ defmodule Dispatcher do
   end
 
   match "/widget.js", %{ layer: :static } do
-    Proxy.forward conn, [], "http://frontend-standalone/assets/js/widget.js"
+    Proxy.forward conn, [], "http://frontend-embed/assets/js/widget.js"
   end
 
   match "/assets/widget/initialize-widget.js", %{ layer: :static } do
-    Proxy.forward conn, [], "http://frontend-standalone/assets/js/initialize-widget.js"
+    Proxy.forward conn, [], "http://frontend-embed/assets/js/initialize-widget.js"
   end
 
   match "/assets/widget/*path", %{ layer: :static } do
-    Proxy.forward conn, path, "http://frontend-standalone/assets/"
+    Proxy.forward conn, path, "http://frontend-embed/assets/"
   end
 
   match "/assets/*path", %{ layer: :static } do
