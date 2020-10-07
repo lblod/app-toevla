@@ -137,6 +137,14 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://frontend-standalone/assets/"
   end
 
+  match "/assets/*path", %{ layer: :static } do
+    Proxy.forward conn, path, "http://frontend-entry/assets/"
+  end
+
+  match "/@appuniversum/*path", %{ layer: :static } do
+    Proxy.forward conn, path, "http://frontend-entry/@appuniversum/"
+  end
+
   match "/@appuniversum/*path", %{ reverse_host: ["standalone" | _rest ], layer: :static_with_host } do
     Proxy.forward conn, path, "http://frontend-standalone/@appuniversum/"
   end
@@ -150,6 +158,10 @@ defmodule Dispatcher do
   end
 
   match "/*path", %{ reverse_host: ["entry" | _rest], layer: :frontend_fallback_with_host } do
+    Proxy.forward conn, path, "http://frontend-entry/index.html"
+  end
+
+  match "/*path", %{ layer: :frontend_fallback } do
     Proxy.forward conn, path, "http://frontend-entry/index.html"
   end
 
