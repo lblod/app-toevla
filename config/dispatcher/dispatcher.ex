@@ -34,7 +34,7 @@ defmodule Dispatcher do
   end
 
   match "/widgets/*path", @json_service do
-    Proxy.forward conn, path, "http://resource/widgets/"
+    Proxy.forward conn, path, "http://cache/widgets/"
   end
 
   match "/experiences/*path", @json_service do
