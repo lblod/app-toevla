@@ -92,6 +92,9 @@
                                 :as "public-transport-route-description")
              (restaurant :via ,(s-prefix "toevla:hasRestaurant")
                          :as "restaurant")
+             (widget :via ,(s-prefix "toevla:rendersPoi")
+                     :inverse t
+                     :as "widget")
              (shop :via ,(s-prefix "toevla:hasShop")
                    :as "shop"))
   :features '(include-uri)
