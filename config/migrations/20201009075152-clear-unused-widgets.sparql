@@ -1,0 +1,15 @@
+PREFIX toevla: <http://toevla.org/ns/generic/>
+
+DELETE {
+  GRAPH ?g {
+    ?widget a toevla:Widget.
+  }
+} WHERE {
+  GRAPH ?g {
+    ?widget a toevla:Widget.
+    FILTER NOT EXISTS {
+      ?widget toevla:rendersPoi ?poi.
+      ?poi a <https://data.vlaanderen.be/ns/adres#AdresseerbaarObject>.
+    }
+  }
+}
