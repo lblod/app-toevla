@@ -4,9 +4,8 @@ const fs = require('fs');
 
 async function main(){
   var fileName='/data/app/toevla-latest.xlsx';
-  var sheetName='Moederdoc_Aad_aanvInter25-09-20';
+  var sheetName='IMPORT';
 
-  
   var workbook = new ExcelJS.Workbook();
   await workbook.xlsx.readFile(fileName);
   var worksheet=workbook.getWorksheet(sheetName);
@@ -28,6 +27,15 @@ async function main(){
       };
     }
   }
-  await workbook.xlsx.writeFile(fileName);
+
+  try {
+    await workbook.xlsx.writeFile(fileName);
+  } catch(e) {
+    console.log(e);
+  }
 }
-main();
+try {
+  main();
+} catch(e) {
+  console.log(e);
+}

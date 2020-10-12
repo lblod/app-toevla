@@ -10,7 +10,7 @@ const { v4: uuid } = require('uuid');
 const fs = require("fs");
 
 const fileName = '/data/app/toevla-latest.xlsx';
-var sheetName='Moederdoc_Aad_aanvInter25-09-20';
+var sheetName='IMPORT';
 
 
 const excel = xlsx.readFile(fileName);

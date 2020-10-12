@@ -4,7 +4,7 @@
     {
       "documentation": {
         "command": "add-uris",
-        "description": "Adds URIs to the Excel sheet. \nAssumes the sheet will be available at /toevla-latest.xlsx and the sheet to update is Moederdoc.\nFile will be modified in place",
+        "description": "Adds URIs to the Excel sheet. \nAssumes the sheet will be available at /toevla-latest.xlsx and the sheet to update is named IMPORT.\nFile will be modified in place.",
         "arguments": []
       },
       "environment": {
@@ -19,7 +19,7 @@
     {
       "documentation": {
         "command": "generate-ttl",
-        "description": "Generates a ttl from an excel sheet. \nAssumes the sheet will be available at /toevla-latest.xlsx and the sheet to import is Moederdoc.\nOutput will be written to ./generated.ttl",
+        "description": "Generates a ttl from an excel sheet. \nAssumes the sheet will be available at /toevla-latest.xlsx and the sheet to import is named IMPORT.\nOutput will be written to ./generated.ttl",
         "arguments": []
       },
       "environment": {
