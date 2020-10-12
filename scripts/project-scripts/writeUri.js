@@ -17,7 +17,7 @@ async function main(){
   var cell;
   
   for(var i=range.start; i<range.end; i++){
-    cell=worksheet.getCell('AW'+i);
+    cell=worksheet.getCell('BJ'+i);
     var id=uuid();
     
     if(cell.text==''){
