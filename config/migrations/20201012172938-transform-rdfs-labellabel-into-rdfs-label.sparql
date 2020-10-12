@@ -1,0 +1,13 @@
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?s <http://www.w3.org/2000/01/rdf-schema#labellabel> ?o.
+  }
+} INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?s <http://www.w3.org/2000/01/rdf-schema#label> ?o.
+  }
+} WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?s <http://www.w3.org/2000/01/rdf-schema#labellabel> ?o.
+  }
+}
