@@ -29,10 +29,13 @@
 
                 (:first-limit :string ,(s-prefix "toevla:firstLimit"))
                 (:first-label :string ,(s-prefix "toevla:firstComment"))
+                (:first-score :string ,(s-prefix "toevla:firstScore"))
                 (:second-limit :string ,(s-prefix "toevla:secondLimit"))
                 (:second-label :string ,(s-prefix "toevla:secondComment"))
+                (:second-score :string ,(s-prefix "toevla:secondScore"))
                 (:third-limit :string ,(s-prefix "toevla:thirdLimit"))
                 (:third-label :string ,(s-prefix "toevla:thirdComment"))
+                (:third-score :string ,(s-prefix "toevla:thirdScore"))
 
                 (:positive-template-string :string ,(s-prefix "toevla:positiveTemplate"))
                 (:negative-template-string :string ,(s-prefix "toevla:negativeTemplate")))

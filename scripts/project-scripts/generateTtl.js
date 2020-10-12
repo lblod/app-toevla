@@ -26,6 +26,7 @@ tvcs:musea a  skos:ConceptScheme;
 `;
 
 tree.forEach(e => {
+  // console.log(`Processing row ${e.row}`);
   if(e.parent=='root'){
     output+=`
 tvcs:musea skos:hasTopConcept <`+e.uri+`>.
@@ -66,10 +67,13 @@ tvcs:musea skos:hasTopConcept <`+e.uri+`>.
   
   toevla:firstLimit "`+e.firstLimit+`";
   toevla:firstComment "`+e.firstComment+`";
+  toevla:firstScore "`+e.firstScore+`";
   toevla:secondLimit "`+e.secondLimit+`";
   toevla:secondComment "`+e.secondComment+`";
+  toevla:secondScore "`+e.secondScore+`";
   toevla:thirdLimit "`+e.thirdLimit+`";
   toevla:thirdComment "`+e.thirdComment+`";
+  toevla:thirdScore "`+e.thirdScore+`";
   `;
     e.trueComment?output+=`
   toevla:positiveTemplate "`+e.trueComment+`";`:false;

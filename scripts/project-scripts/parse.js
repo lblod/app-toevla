@@ -51,10 +51,13 @@ var infoColumns={
   displayType: 18, //how things should be displayed
   criteriaType: 19, //title or criteria
   type: 20, //type of property bool/text... etc
+  firstScore: 44,
   firstLimit: 45,
   firstComment: 46,  //true comment
+  secondScore: 47,
   secondLimit: 48,
   secondComment:49,  //false comment
+  thirdScore: 50,
   thirdLimit: 51,
   thirdComment: 52,
   uri: 61  //uri identifier 
@@ -89,16 +92,21 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
           uuid: parseUuid(row[infoColumns.uri]),
           uri: row[infoColumns.uri],
 
+          row: rowIndex,
+
           relevant: row[infoColumns.relevant], //relevant for parser
           relevantForScore: row[infoColumns.relevantForScore], //relevant for scoring
           compulsoryCriteria: row[infoColumns.compulsoryCriteria],  //compulsory for scoring
           displayType: row[infoColumns.displayType], //how things should be displayed
           criteriaType: row[infoColumns.criteriaType], //title or criteria
           type: row[infoColumns.type], //type of property bool/text... etc
+          firstScore: row[infoColumns.firstScore] || "Info", //Whether this is positive(V)/negative(X)/information(Info)
           firstLimit: row[infoColumns.firstLimit],
           firstComment: row[infoColumns.firstComment],  //true comment
+          secondScore: row[infoColumns.secondScore] || "Info", //Whether this is positive(V)/negative(X)/information(Info)
           secondLimit: row[infoColumns.secondLimit],
           secondComment: row[infoColumns.secondComment],  //false comment
+          thirdScore: row[infoColumns.thirdScore] || "Info", //Whether this is positive(V)/negative(X)/information(Info)
           thirdLimit: row[infoColumns.thirdLimit],
           thirdComment: row[infoColumns.thirdComment],
 
