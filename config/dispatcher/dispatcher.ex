@@ -8,7 +8,7 @@ defmodule Dispatcher do
     any: [ "*/*" ]
   ]
 
-  define_layers [ :cors, :static_with_host, :static, :api, :frontend_fallback_with_host, :frontend_fallback, :not_found ]
+  define_layers [ :cors, :widget_embedding, :static_with_host, :static, :api, :frontend_fallback_with_host, :frontend_fallback, :not_found ]
 
   @json_service %{ accept: [:json], layer: :api }
   @image %{ accept: [:image] }
@@ -125,15 +125,15 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://frontend-entry/assets/"
   end
 
-  match "/widget.js", %{ layer: :static } do
+  match "/widget.js", %{ layer: :widget_embedding } do
     Proxy.forward conn, [], "http://frontend-embed/assets/js/widget.js"
   end
 
-  match "/assets/widget/initialize-widget.js", %{ layer: :static } do
+  match "/assets/widget/initialize-widget.js", %{ layer: :widget_embedding } do
     Proxy.forward conn, [], "http://frontend-embed/assets/js/initialize-widget.js"
   end
 
-  match "/assets/widget/*path", %{ layer: :static } do
+  match "/assets/widget/*path", %{ layer: :widget_embedding } do
     Proxy.forward conn, path, "http://frontend-embed/assets/"
   end
 
