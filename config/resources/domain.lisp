@@ -381,7 +381,8 @@
 
 (define-resource experience-tree-node-score ()
   :class (s-prefix "toevla:ExperienceTreeNodeScore")
-  :properties `((:score :string ,(s-prefix "dct:title"))
+  :properties `((:score :url ,(s-prefix "toevla:score"))
+                (:comment :string ,(s-prefix "rdfs:comment"))
                 (:entry-visited :boolean ,(s-prefix "ext:entryWasVisited")))
   :has-one `((experience :via ,(s-prefix "toevla:scoreSubject")
                          :as "experience")
