@@ -1,8 +1,8 @@
 #! /bin/bash
 CLEAR_TREE_TIMESTAMP=`date +%Y%m%d%H%M%S`;
 npm install;
-node ./parse.js;
-node ./generateTtl.js;
+node ./parse.js || exit 1;
+node ./generateTtl.js || exit 1;
 echo "script generated ./generated.ttl"
 NEW_TREE_TIMESTAMP=`date +%Y%m%d%H%M%S`;
 echo "Creating clear migrations";
