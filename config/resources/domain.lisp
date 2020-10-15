@@ -211,7 +211,7 @@
                 (:space-in-front-of-toilet :number ,(s-prefix "toevla:spaceInFrontOfToilet"))
                 (:space-next-to-toilet :number ,(s-prefix "toevla:spaceNextToToilet"))
                 (:turning-radius :number ,(s-prefix "toevla:turningRadius"))
-                (:has-support-braces :boolean ,(s-prefix "toevla:hasSupportBraces"))
+                (:amount-of-support-braces :boolean ,(s-prefix "toevla:amountOfSupportBraces"))
                 (:has-washbasin :boolean ,(s-prefix "toevla:hasWashbasin"))
                 (:can-ride-under-washbasin :boolean ,(s-prefix "toevla:canRideUnderWashbasin"))
                 (:free-height-under-washbasin :number ,(s-prefix "toevla:freeHeightUnderWashbasin"))
