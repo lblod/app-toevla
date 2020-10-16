@@ -8,7 +8,7 @@ defmodule Dispatcher do
     any: [ "*/*" ]
   ]
 
-  define_layers [ :cors, :widget_embedding, :static_with_host, :static, :api, :frontend_fallback_with_host, :frontend_fallback, :not_found ]
+  define_layers [ :cors, :widget_embedding, :static_with_host, :static, :frontend_and_api_routes, :api, :frontend_fallback_with_host, :frontend_fallback, :not_found ]
 
   @json_service %{ accept: [:json], layer: :api }
   @image %{ accept: [:image] }
@@ -31,10 +31,6 @@ defmodule Dispatcher do
 
   match "/points-of-interest/*path", @json_service do
     Proxy.forward conn, path, "http://cache/points-of-interest/"
-  end
-
-  match "/widgets/*path", @json_service do
-    Proxy.forward conn, path, "http://cache/widgets/"
   end
 
   match "/experiences/*path", @json_service do
@@ -125,8 +121,12 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://frontend-entry/assets/"
   end
 
-  match "/widget.js", %{ layer: :widget_embedding } do
-    Proxy.forward conn, [], "http://frontend-embed/assets/js/widget.js"
+  match "/widgets/*_path", %{ layer: :frontend_and_api_routes, accept: %{ html: true } } do
+    Proxy.forward conn, [], "http://frontend-standalone/index.html"
+  end
+
+  match "/widgets/*path", %{ layer: :frontend_and_api_routes, accept: %{ json: true } } do
+    Proxy.forward conn, path, "http://cache/widgets/"
   end
 
   match "/assets/widget/initialize-widget.js", %{ layer: :widget_embedding } do
