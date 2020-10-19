@@ -42,7 +42,10 @@
                 (:negative-template-string :string ,(s-prefix "toevla:negativeTemplate")))
   :has-many `((tree-node :via ,(s-prefix "skos:broader")
                      :inverse t
-                     :as "children"))
+                     :as "children")
+              (file :via ,(s-prefix "toevla:belongsToTreeNode")
+                    :inverse t
+                    :as "images"))
   :has-one `((tree-node :via ,(s-prefix "skos:broader")
                         :as "parent"))
   :features '(include-uri)
@@ -158,6 +161,8 @@
   :has-one `((file :via ,(s-prefix "nie:dataSource")
                    :inverse t
                    :as "download")
+             (tree-node :via ,(s-prefix "toevla:belongsToTreeNode")
+                        :as "tree-node")
              (point-of-interest :via ,(s-prefix "toevla:hasFile")
                                 :inverse t
                                 :as "point-of-interest"))
