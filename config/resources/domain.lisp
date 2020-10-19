@@ -52,6 +52,7 @@
 (define-resource point-of-interest ()
   :class (s-url "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject")
   :properties `((:label :string ,(s-prefix "rdfs:label"))
+                (:location-string :string ,(s-prefix "ext:locationString"))
                 (:has-movable-electronic-payment-system :boolean ,(s-prefix "toevla:hasMovableElectronicPaymentSystem"))
                 (:wifi-always-available :boolean ,(s-prefix "toevla:wifiAlwaysAvailable"))
                 (:assistance-for-guide-dogs :boolean ,(s-prefix "toevla:assistanceForGuideDogs"))
