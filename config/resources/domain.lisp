@@ -163,8 +163,8 @@
   :has-one `((file :via ,(s-prefix "nie:dataSource")
                    :inverse t
                    :as "download")
-             (tree-node :via ,(s-prefix "toevla:belongsToTreeNode")
-                        :as "tree-node")
+             (experience-tree-node-score :via ,(s-prefix "toevla:belongsToExperienceTreeNodeScore")
+                                         :as "experience-tree-node-score")
              (point-of-interest :via ,(s-prefix "toevla:hasFile")
                                 :inverse t
                                 :as "point-of-interest"))
@@ -397,6 +397,9 @@
                          :as "experience")
              (tree-node :via ,(s-prefix "toevla:scoreTopic")
                         :as "tree-node"))
+  :has-many `((file :via ,(s-prefix "toevla:belongsToExperienceTreeNodeScore")
+                    :inverse t
+                    :as "images"))
   :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/experience-tree-node-scores/")
   :on-path "experience-tree-node-scores")
 
