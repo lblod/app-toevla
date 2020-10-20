@@ -70,6 +70,7 @@
                 (:wheelchair-available :boolean ,(s-prefix "toevla:wheelchairAvailable"))
                 (:has-clearly-recognizable-building :boolean ,(s-prefix "toevla:hasClearlyRecognizableBuilding"))
                 (:has-visible-guidelines :boolean ,(s-prefix "toevla:hasVisibleGuidelines"))
+                (:has-visual-visit-preparation-plan :boolean ,(s-prefix "toevla:hasVisualVisitPreparationPlan"))
                 (:has-markings-or-contrasts-on-glass-doors :boolean ,(s-prefix "toevla:hasMarkingsOrContrastsOnGlassDoors"))
                 (:extra-attention-given-to-acoustics :boolean ,(s-prefix "toevla:extraAttentionGivenToAcoustics"))
                 (:has-clearly-recognizable-entrance :boolean ,(s-prefix "toevla:hasClearlyRecognizableEntrance"))
@@ -145,8 +146,8 @@
                 (:smallest-point-on-route :number ,(s-prefix "toevla:smallestPointOnRoute"))
                 (:highest-threshold :number ,(s-prefix "toevla:highestThreshold"))
                 (:most-narrow-doorwidth :number ,(s-prefix "toevla:mostNarrowDoorwidth"))
-                (:has-access-control :boolean ,(s-prefix "toevla:hasAccessControl"))
-                (:has-lowered-counter :boolean ,(s-prefix "toevla:hasLoweredCounter")))
+                (:access-control-width :number ,(s-prefix "toevla:accessControlWidth"))
+                (:height-of-lowered-counter :number ,(s-prefix "toevla:heightOfLoweredCounter")))
   :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/shops/")
   :on-path "shops")
 
@@ -290,7 +291,7 @@
                 (:has-entrance-check :number ,(s-prefix "toevla:hasEntranceCheck")) ; todo fix in semantic model
                 (:turning-radius-at-door :number ,(s-prefix "toevla:turningRadiusAtDoor"))
                 (:force-for-opening-door :number ,(s-prefix "toevla:forceForOpeningDoor"))
-                (:has-lowered-counter :number ,(s-prefix "toevla:hasLoweredCounter"))) ; todo fix in semantic model
+                (:height-of-lowered-counter :number ,(s-prefix "toevla:hasLoweredCounter"))) ; todo fix in semantic model
   :has-one `((point-of-interest :via ,(s-prefix "toevla:hasEntrance")
                                 :inverse t
                                 :as "point-of-interest"))
