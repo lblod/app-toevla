@@ -12,18 +12,20 @@
   :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/widgets/")
   :on-path "widgets")
 
-(define-resource tree ()
+(define-resource concept-scheme ()
   :class (s-prefix "skos:ConceptScheme")
   :properties `((:title :string ,(s-prefix "skos:prefLabel")))
-  :has-many `((tree-node :via ,(s-prefix "skos:hasTopConcept")
+  :has-many `((concept :via ,(s-prefix "skos:hasTopConcept")
                          :as "top-level-nodes"))
   :features '(include-uri)
   :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/concept-schemes/")
-  :on-path "trees")
+  :on-path "concept-schemes")
 
-(define-resource tree-node ()
+(define-resource concept ()
   :class (s-prefix "skos:Concept")
   :properties `((:title :string ,(s-prefix "skos:prefLabel"))
+                (:selectable-label :string ,(s-prefix "toevla:selectableLabel"))
+
                 (:order :number ,(s-prefix "ext:order"))
                 (:htmlContent :string ,(s-prefix "ext:htmlContent"))
                 (:criterion-type :string ,(s-prefix "toevla:type"))
@@ -36,21 +38,18 @@
                 (:second-score :string ,(s-prefix "toevla:secondScore"))
                 (:third-limit :string ,(s-prefix "toevla:thirdLimit"))
                 (:third-label :string ,(s-prefix "toevla:thirdComment"))
-                (:third-score :string ,(s-prefix "toevla:thirdScore"))
-
-                (:positive-template-string :string ,(s-prefix "toevla:positiveTemplate"))
-                (:negative-template-string :string ,(s-prefix "toevla:negativeTemplate")))
-  :has-many `((tree-node :via ,(s-prefix "skos:broader")
+                (:third-score :string ,(s-prefix "toevla:thirdScore")))
+  :has-many `((concept :via ,(s-prefix "skos:broader")
                      :inverse t
                      :as "children")
               (file :via ,(s-prefix "toevla:belongsToTreeNode")
                     :inverse t
                     :as "images"))
-  :has-one `((tree-node :via ,(s-prefix "skos:broader")
+  :has-one `((concept :via ,(s-prefix "skos:broader")
                         :as "parent"))
   :features '(include-uri)
-  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/tree-nodes/")
-  :on-path "tree-nodes")
+  :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/concepts/")
+  :on-path "concepts")
 
 (define-resource point-of-interest ()
   :class (s-url "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject")
@@ -395,14 +394,15 @@
                 (:entry-visited :boolean ,(s-prefix "ext:entryWasVisited")))
   :has-one `((experience :via ,(s-prefix "toevla:scoreSubject")
                          :as "experience")
-             (tree-node :via ,(s-prefix "toevla:scoreTopic")
-                        :as "tree-node"))
+             (concept :via ,(s-prefix "toevla:scoreTopic")
+                      :as "tree-node")
+             (concept :via ,(s-prefix "toevla:selectedConcept")
+                      :as "selected-concept"))
   :has-many `((file :via ,(s-prefix "toevla:belongsToExperienceTreeNodeScore")
                     :inverse t
                     :as "images"))
   :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/experience-tree-node-scores/")
   :on-path "experience-tree-node-scores")
-
 
 
 ;;;;

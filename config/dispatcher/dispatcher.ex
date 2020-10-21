@@ -21,12 +21,12 @@ defmodule Dispatcher do
     |> send_resp( 200, "{ \"message\": \"ok\" }" )
   end
 
-  match "/trees/*path", @json_service do
-    Proxy.forward conn, path, "http://cache/trees/"
+  match "/concept-schemes/*path", @json_service do
+    Proxy.forward conn, path, "http://cache/concept-schemes/"
   end
 
-  match "/tree-nodes/*path", @json_service do
-    Proxy.forward conn, path, "http://cache/tree-nodes/"
+  match "/concepts/*path", @json_service do
+    Proxy.forward conn, path, "http://cache/concepts/"
   end
 
   match "/points-of-interest/*path", @json_service do
