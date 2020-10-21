@@ -60,7 +60,11 @@ var infoColumns={
   thirdScore: 50,
   thirdLimit: 51,
   thirdComment: 52,
-  uri: 61  //uri identifier 
+  uri: 61,  //uri identifier
+  tag1URI: 71,
+  tag2URI: 72,
+  tag3URI: 73,
+  conceptSchemeURI: 74
 };
 
 //utility variables
@@ -69,8 +73,8 @@ var prevNode={};
 var order=0;
 
 //get uuid out of uri
-function parseUuid(uri){
-  var match=uri.match(/https:\/\/data\.toevla\.org\/id\/concepts\/(.+)/);
+function extractUuid(uri){
+  var match=uri.match(/.*\/([^/]+)$/);
   return match[1];
 }
 //iterate over relevant rows
@@ -89,7 +93,7 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
         var node={
           label: cell,
           parent: 'root',
-          uuid: parseUuid(row[infoColumns.uri]),
+          uuid: extractUuid(row[infoColumns.uri]),
           uri: row[infoColumns.uri],
 
           row: rowIndex,
@@ -113,6 +117,29 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
           order: 0
         };
 
+        // Capture multiple choice concept schemes
+        // TODO: why is this embedded in some sort of column index searching mechanism?
+        if(row[infoColumns.conceptSchemeURI]) {
+          // assume everything or nothing is defined for now
+          node.tag1 = {
+            uri: row[infoColumns.tag1URI],
+            uuid: extractUuid( row[infoColumns.tag1URI] )
+          };
+          node.tag2 = {
+            uri: row[infoColumns.tag2URI],
+            uuid: extractUuid( row[infoColumns.tag2URI] )
+          };
+          node.tag3 = {
+            uri: row[infoColumns.tag3URI],
+            uuid: extractUuid( row[infoColumns.tag3URI] )
+          };
+          node.conceptScheme = {
+            uri: row[infoColumns.conceptSchemeURI],
+            uuid: extractUuid( row[infoColumns.conceptSchemeURI] )
+          };
+        }
+
+        // Capture Yes/No values
         if(row[infoColumns.type]=="Ja/Nee"){
           var trueCell=row[infoColumns.firstComment];
           var falseCell=row[infoColumns.secondComment];
@@ -126,7 +153,7 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
           }
         }
 
-        //parse tree structure
+        // Parse tree structure
         if(columnIndex>prevColumnIndex){
           node.parent=prevNode.uri;
           nodeColumns[nodeColumnIndex].parent=prevNode.uri;

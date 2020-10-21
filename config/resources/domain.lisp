@@ -24,7 +24,9 @@
 (define-resource concept ()
   :class (s-prefix "skos:Concept")
   :properties `((:title :string ,(s-prefix "skos:prefLabel"))
+
                 (:selectable-label :string ,(s-prefix "toevla:selectableLabel"))
+                (:score :string ,(s-prefix "toevla:score"))
 
                 (:order :number ,(s-prefix "ext:order"))
                 (:htmlContent :string ,(s-prefix "ext:htmlContent"))
@@ -58,7 +60,7 @@
                 (:has-cash-payment :boolean ,(s-prefix "toevla:hasCashPayment"))
                 (:has-payment-with-movable-electronic-payment-system :boolean ,(s-prefix "toevla:hasPaymentWithMovableElectronicPaymentSystem"))
                 (:has-payment-with-fixed-electronic-payment-system :boolean ,(s-prefix "toevla:hasPaymentWithFixedElectronicPaymentSystem"))
-                (:wifi-always-available :boolean ,(s-prefix "toevla:wifiAlwaysAvailable"))
+                ;; (:wifi-always-available :boolean ,(s-prefix "toevla:wifiAlwaysAvailable"))
                 (:assistance-for-guide-dogs :boolean ,(s-prefix "toevla:assistanceForGuideDogs"))
                 (:website-has-screenreader :boolean ,(s-prefix "toevla:websiteHasScreenreader"))
                 (:website-supports-wcag2 :boolean ,(s-prefix "toevla:websiteSupportsWCAG2"))
@@ -106,7 +108,9 @@
                      :inverse t
                      :as "widget")
              (shop :via ,(s-prefix "toevla:hasShop")
-                   :as "shop"))
+                   :as "shop")
+             (concept :via ,(s-prefix "toevla:wifiAvailability")
+                      :as "wifi-availability"))
   :features '(include-uri)
   :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/points-of-interest/")
   :on-path "points-of-interest")
