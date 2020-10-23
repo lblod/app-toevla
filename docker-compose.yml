@@ -9,7 +9,7 @@ x-logging:
 
 services:
   imageservice:
-    image: madnificent/mu-image-service:0.0.1
+    image: madnificent/mu-image-service:0.0.2
     links:
       - db:database
     volumes:
