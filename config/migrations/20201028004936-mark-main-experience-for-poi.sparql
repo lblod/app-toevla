@@ -1,0 +1,23 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX toevla: <http://toevla.org/ns/generic/>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+
+INSERT {
+  GRAPH ?g {
+    ?experience ext:isMainExperience "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>
+  }
+} WHERE {
+  GRAPH ?g {
+    ?poi a <https://data.vlaanderen.be/ns/adres#AdresseerbaarObject>;
+         ^toevla:atLocation ?experience.
+    FILTER NOT EXISTS {
+      ?poi ^toevla:atLocation/ext:isMainExperience "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>.
+    }
+
+    FILTER NOT EXISTS {
+      ?poi ^toevla:atLocation/mu:uuid ?otherExperienceUuid.
+      ?experience mu:uuid ?experienceUuid.
+      FILTER( ?otherExperienceUuid > ?experienceUuid )
+    }
+  }
+}

@@ -307,6 +307,8 @@
 (define-resource experience ()
   :class (s-prefix "toevla:Experience")
   :properties `((:title :string ,(s-prefix "dct:title"))
+                (:is-main-experience :boolean ,(s-prefix "ext:isMainExperience"))
+
                 (:has-multiple-elements-to-drive-under :boolean ,(s-prefix "toevla:hasMultipleElementsToDriveUnder"))
                 (:has-good-lighting :boolean ,(s-prefix "toevla:hasGoodLighting"))
                 (:has-magnifying-glass :boolean ,(s-prefix "toevla:hasMagnifyingGlass"))
