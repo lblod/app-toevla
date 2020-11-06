@@ -56,6 +56,9 @@
 (define-resource point-of-interest ()
   :class (s-url "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject")
   :properties `((:label :string ,(s-prefix "rdfs:label"))
+                (:comment :string ,(s-prefix "toevla:comment"))
+                (:comment-on-public-transport :string ,(s-prefix "toevla:commentOnPublicTransport"))
+                (:comment-on-entrance :string ,(s-prefix "toevla:commentOnEntrance"))
                 (:location-string :string ,(s-prefix "ext:locationString"))
                 (:has-cash-payment :boolean ,(s-prefix "toevla:hasCashPayment"))
                 (:has-payment-with-movable-electronic-payment-system :boolean ,(s-prefix "toevla:hasPaymentWithMovableElectronicPaymentSystem"))
@@ -118,7 +121,8 @@
 
 (define-resource restaurant ()
   :class (s-prefix "toevla:Restaurant")
-  :properties `((:has-cash-payment :boolean ,(s-prefix "toevla:hasCashPayment"))
+  :properties `((:comment :string ,(s-prefix "toevla:comment"))
+                (:has-cash-payment :boolean ,(s-prefix "toevla:hasCashPayment"))
                 (:has-payment-with-movable-electronic-payment-system :boolean ,(s-prefix "toevla:hasPaymentWithMovableElectronicPaymentSystem"))
                 (:has-payment-with-fixed-electronic-payment-system :boolean ,(s-prefix "toevla:hasPaymentWithFixedElectronicPaymentSystem"))
                 (:amount-of-seating-places :number ,(s-prefix "toevla:amountOfSeatingPlaces"))
@@ -144,7 +148,8 @@
 
 (define-resource shop ()
   :class (s-prefix "toevla:Shop")
-  :properties `((:has-cash-payment :boolean ,(s-prefix "toevla:hasCashPayment"))
+  :properties `((:comment :string ,(s-prefix "toevla:comment"))
+                (:has-cash-payment :boolean ,(s-prefix "toevla:hasCashPayment"))
                 (:has-payment-with-movable-electronic-payment-system :boolean ,(s-prefix "toevla:hasPaymentWithMovableElectronicPaymentSystem"))
                 (:has-payment-with-fixed-electronic-payment-system :boolean ,(s-prefix "toevla:hasPaymentWithFixedElectronicPaymentSystem"))
                 (:smallest-point-on-route :number ,(s-prefix "toevla:smallestPointOnRoute"))
@@ -207,7 +212,8 @@
 
 (define-resource toilet ()
   :class (s-url "https://linkedgeodata.org/ontology/Toilets")
-  :properties `((:has-simple-and-logical-route :boolean ,(s-prefix "toevla:hasSimpleAndLogicalRoute"))
+  :properties `((:comment :string ,(s-prefix "toevla:comment"))
+                (:has-simple-and-logical-route :boolean ,(s-prefix "toevla:hasSimpleAndLogicalRoute"))
                 (:has-synthetic-speech-in-elevator :boolean ,(s-prefix "toevla:hasSyntheticSpeechInElevator"))
                 (:has-clear-signalization-in-building :boolean ,(s-prefix "toevla:hasClearSignalizationInBuilding"))
                 (:has-baby-nurturing-table :boolean ,(s-prefix "toevla:hasBabyNurturingTable"))
@@ -251,7 +257,8 @@
 
 (define-resource parking ()
   :class (s-prefix "schema:Parking")
-  :properties `((:is-part-of-location :boolean ,(s-prefix "toevla:isPartOfLocation"))
+  :properties `((:comment :string ,(s-prefix "toevla:comment"))
+                (:is-part-of-location :boolean ,(s-prefix "toevla:isPartOfLocation"))
                 (:has-drive-on-possibility :boolean ,(s-prefix "toevla:hasDriveOnPossibility"))
                 (:is-well-lit :boolean ,(s-prefix "toevla:isWellLit"))
                 (:has-detailed-route-description :boolean ,(s-prefix "toevla:hasDetailedRouteDescription"))
@@ -307,6 +314,7 @@
 (define-resource experience ()
   :class (s-prefix "toevla:Experience")
   :properties `((:title :string ,(s-prefix "dct:title"))
+                (:comment :string ,(s-prefix "toevla:comment"))
                 (:is-main-experience :boolean ,(s-prefix "ext:isMainExperience"))
 
                 (:has-multiple-elements-to-drive-under :boolean ,(s-prefix "toevla:hasMultipleElementsToDriveUnder"))
@@ -370,7 +378,8 @@
 
 (define-resource route ()
   :class (s-prefix "toevla:Route")
-  :properties `((:is-simple-and-logical :boolean ,(s-prefix "toevla:isSimpleAndLogical"))
+  :properties `((:comment :string ,(s-prefix "toevla:comment"))
+                (:is-simple-and-logical :boolean ,(s-prefix "toevla:isSimpleAndLogical"))
                 (:has-clear-signalization-in-building :boolean ,(s-prefix "toevla:hasClearSignalizationInBuilding"))
                 (:has-synthetic-speech-in-elevator :boolean ,(s-prefix "toevla:hasSyntheticSpeechInElevator"))
                 (:smallest-point-on-route :number ,(s-prefix "toevla:smallestPointOnRoute"))
