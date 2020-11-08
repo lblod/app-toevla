@@ -410,6 +410,8 @@
   :class (s-prefix "toevla:ExperienceTreeNodeScore")
   :properties `((:score :url ,(s-prefix "toevla:score"))
                 (:comment :string ,(s-prefix "rdfs:comment"))
+                (:comment-link-text :string ,(s-prefix "toevla:commentLinkText"))
+                (:comment-link-url :string ,(s-prefix "toevla:commentLinkUrl"))
                 (:entry-visited :boolean ,(s-prefix "ext:entryWasVisited")))
   :has-one `((experience :via ,(s-prefix "toevla:scoreSubject")
                          :as "experience")
