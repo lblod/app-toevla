@@ -8,3 +8,4 @@
 /scripts/project-scripts/node_modules
 /toevla-latest.xlsx
 docker-compose.override.yml
+*toevla-latest*
