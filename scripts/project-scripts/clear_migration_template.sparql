@@ -1,4 +1,5 @@
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tvcs: <http://data.toevla.org/concept-schemes/>
 
 DELETE {
   GRAPH <http://mu.semte.ch/graphs/public> {
@@ -6,6 +7,10 @@ DELETE {
   }
 } WHERE {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    ?concept a skos:Concept; ?p ?o.
+    tvcs:musea skos:hasTopConcept ?topLevelConcept.
+    ?concept
+      a skos:Concept;
+      skos:broader* ?topLevelConcept.
+    ?concept ?p ?o.
   }
 }
