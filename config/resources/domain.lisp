@@ -165,6 +165,7 @@
   :properties `((:name :string ,(s-prefix "nfo:fileName"))
                 (:order :number ,(s-prefix "ext:order"))
                 (:label :string ,(s-prefix "rdfs:label"))
+                (:description :string ,(s-prefix "dct:description"))
                 (:format :string ,(s-prefix "dct:format"))
                 (:size :number ,(s-prefix "nfo:fileSize"))
                 (:extension :string ,(s-prefix "dbpedia:fileExtension"))
