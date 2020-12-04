@@ -60,6 +60,7 @@ services:
     logging: *default-logging
     environment:
       DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
+      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"public\"},{\"variables\":[],\"name\":\"clean\"}]"
   migrations:
     image: semtech/mu-migrations-service:0.7.0
     links:
