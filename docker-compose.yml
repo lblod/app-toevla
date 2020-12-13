@@ -43,7 +43,7 @@ services:
     restart: always
     logging: *default-logging
   frontend-entry:
-    image: lblod/frontend-toevla-data-entry:0.7.6
+    image: lblod/frontend-toevla-data-entry:0.7.7
     links:
       - identifier:backend
     labels:
@@ -136,3 +136,14 @@ services:
     volumes:
       - ./scripts/project-scripts/:/app/scripts/
     restart: "no"
+  toevlaacmidmloginservice:
+    image: lblod/toevla-acmidm-login-service:0.0.2
+    links:
+      - db:database
+    environment:
+      MU_APPLICATION_AUTH_DISCOVERY_URL: "https://authenticatie-ti.vlaanderen.be/op"
+      MU_APPLICATION_AUTH_CLIENT_ID: "4a28155a-802e-469b-87df-3b2b84f82a9e"
+      MU_APPLICATION_AUTH_REDIRECT_URI: "https://qa.toegankelijk.vlaanderen.be/authorization/callback"
+      DEBUG_LOG_TOKENSETS: "true"
+      MU_APPLICATION_RESOURCE_BASE_URI: "http://data.toegankelijk.vlaanderen.be/"
+      REQUEST_TIMEOUT: 5000

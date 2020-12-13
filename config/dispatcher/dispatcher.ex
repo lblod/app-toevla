@@ -109,6 +109,10 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://file/files/"
   end
 
+  match "/sessions/*path", %{ layer: :api } do
+    Proxy.forward conn, path, "http://toevlaacmidmloginservice/sessions/"
+  end
+
   match "/favicon.ico/*_path", _ do
     send_resp( conn, 404, "No icon specified" )
   end    
@@ -119,6 +123,10 @@ defmodule Dispatcher do
 
   match "/assets/*path", %{ reverse_host: ["entry" | _rest ], layer: :static_with_host } do
     Proxy.forward conn, path, "http://frontend-entry/assets/"
+  end
+
+  match "/authorization/callback/*_rest", %{ host: "*.toegankelijk.vlaanderen.be", layer: :static_with_host } do
+    Proxy.forward conn, [], "http://frontend-entry/torii/redirect.html"
   end
 
   match "/widgets/*_path", %{ layer: :frontend_and_api_routes, accept: %{ html: true } } do
@@ -162,7 +170,7 @@ defmodule Dispatcher do
   end
 
   match "/*path", %{ layer: :frontend_fallback } do
-    Proxy.forward conn, path, "http://frontend-entry/index.html"
+    Proxy.forward conn, [], "http://frontend-entry/index.html"
   end
 
   match "/*_path", %{ last_call: true } do
