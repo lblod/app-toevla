@@ -4,6 +4,9 @@
 (setq *cache-count-queries-p* t)
 (setq *supply-cache-headers-p* t)
 
+(define-resource scorable ()
+  :on-path "scorables")
+
 (define-resource widget ()
   :class (s-prefix "toevla:Widget")
   :has-one `((point-of-interest :via ,(s-prefix "toevla:rendersPoi")
@@ -53,7 +56,7 @@
   :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/concepts/")
   :on-path "concepts")
 
-(define-resource point-of-interest ()
+(define-resource point-of-interest (scorable)
   :class (s-url "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject")
   :properties `((:label :string ,(s-prefix "rdfs:label"))
                 (:comment :string ,(s-prefix "toevla:comment"))
@@ -314,7 +317,7 @@
   :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/entrances/")
   :on-path "entrances")
 
-(define-resource experience ()
+(define-resource experience (scorable)
   :class (s-prefix "toevla:Experience")
   :properties `((:title :string ,(s-prefix "dct:title"))
                 (:comment :string ,(s-prefix "toevla:comment"))
@@ -410,14 +413,14 @@
 
 
 (define-resource experience-tree-node-score ()
-  :class (s-prefix "toevla:ExperienceTreeNodeScore")
+  :class (s-prefix "toevla:TreeNodeScore")
   :properties `((:score :url ,(s-prefix "toevla:score"))
                 (:comment :string ,(s-prefix "rdfs:comment"))
                 (:comment-link-text :string ,(s-prefix "toevla:commentLinkText"))
                 (:comment-link-url :string ,(s-prefix "toevla:commentLinkUrl"))
                 (:entry-visited :boolean ,(s-prefix "ext:entryWasVisited")))
-  :has-one `((experience :via ,(s-prefix "toevla:scoreSubject")
-                         :as "experience")
+  :has-one `((scorable :via ,(s-prefix "toevla:scoreSubject")
+                       :as "subject")
              (concept :via ,(s-prefix "toevla:scoreTopic")
                       :as "tree-node")
              (concept :via ,(s-prefix "toevla:selectedConcept")

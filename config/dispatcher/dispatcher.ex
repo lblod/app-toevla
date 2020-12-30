@@ -33,6 +33,10 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/points-of-interest/"
   end
 
+  match "/scorables/*path", @json_service do
+    Proxy.forward conn, path, "http://cache/scorables/"
+  end
+
   match "/experiences/*path", @json_service do
     Proxy.forward conn, path, "http://cache/experiences/"
   end
@@ -160,7 +164,6 @@ defmodule Dispatcher do
   match "/@appuniversum/*path", %{ reverse_host: ["entry" | _rest ], layer: :static_with_host } do
     Proxy.forward conn, path, "http://frontend-entry/@appuniversum/"
   end
-
   match "/*path", %{ reverse_host: ["standalone" | _rest], layer: :frontend_fallback_with_host } do
     Proxy.forward conn, path, "http://frontend-standalone/index.html"
   end
