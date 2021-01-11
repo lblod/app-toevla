@@ -1,0 +1,35 @@
+PREFIX toevla: <http://toevla.org/ns/generic/>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?s toevla:scoreSubject ?experience.
+    ?s a toevla:ExperienceTreeNodeScore.
+  }
+} INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?s a toevla:TreeNodeScore;
+       toevla:scoreSubject ?poi.
+  }
+} WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?s a toevla:ExperienceTreeNodeScore.
+    FILTER NOT EXISTS {
+      ?s toevla:scoreTopic ?topic.
+      ?topic a skos:Concept.
+
+      VALUES ?topicParentsAndSelf {
+        <https://data.toevla.org/id/concepts/02ab2a7a-128f-468f-9021-2174181b3e13>
+        <https://data.toevla.org/id/concepts/38e68fe4-4a19-4fae-b4a8-309e8c74fb7c>
+      }
+      ?topicParentsAndSelf a skos:Concept.
+      ?topic skos:broader* ?topicParentsAndSelf.
+    }
+    ?s toevla:scoreSubject ?experience.
+    ?experience toevla:atLocation ?poi.
+  }
+}
