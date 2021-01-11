@@ -32,6 +32,7 @@ defmodule Acl.UserGroups.Config do
                         "http://toevla.org/ns/generic/Experience",
                         "http://toevla.org/ns/generic/Route",
                         "http://toevla.org/ns/generic/ExperienceTreeNodeScore",
+                        "http://toevla.org/ns/generic/Scorable",
                         "http://toevla.org/ns/generic/Path",
                         "http://toevla.org/ns/generic/RouteDescription",
                         "http://toevla.org/ns/generic/TrainStop",

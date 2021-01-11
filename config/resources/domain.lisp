@@ -5,6 +5,7 @@
 (setq *supply-cache-headers-p* t)
 
 (define-resource scorable ()
+  :class (s-prefix "toevla:Scorable")
   :on-path "scorables")
 
 (define-resource widget ()

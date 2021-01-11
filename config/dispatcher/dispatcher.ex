@@ -164,6 +164,7 @@ defmodule Dispatcher do
   match "/@appuniversum/*path", %{ reverse_host: ["entry" | _rest ], layer: :static_with_host } do
     Proxy.forward conn, path, "http://frontend-entry/@appuniversum/"
   end
+
   match "/*path", %{ reverse_host: ["standalone" | _rest], layer: :frontend_fallback_with_host } do
     Proxy.forward conn, path, "http://frontend-standalone/index.html"
   end
