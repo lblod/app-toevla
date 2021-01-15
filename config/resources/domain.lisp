@@ -33,7 +33,6 @@
                 (:score :string ,(s-prefix "toevla:score"))
 
                 (:order :number ,(s-prefix "ext:order"))
-                (:htmlContent :string ,(s-prefix "ext:htmlContent"))
                 (:criterion-type :string ,(s-prefix "toevla:type"))
 
                 (:first-limit :string ,(s-prefix "toevla:firstLimit"))
