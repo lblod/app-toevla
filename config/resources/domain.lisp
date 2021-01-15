@@ -424,9 +424,6 @@
                       :as "tree-node")
              (concept :via ,(s-prefix "toevla:selectedConcept")
                       :as "selected-concept"))
-  :has-many `((file :via ,(s-prefix "toevla:belongsToExperienceTreeNodeScore")
-                    :inverse t
-                    :as "images"))
   :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/experience-tree-node-scores/")
   :on-path "experience-tree-node-scores")
 
