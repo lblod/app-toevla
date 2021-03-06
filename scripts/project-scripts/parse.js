@@ -60,6 +60,7 @@ var infoColumns={
   thirdScore: 50,
   thirdLimit: 51,
   thirdComment: 52,
+  infoForUserEntry: 53,
   uri: 61,  //uri identifier
   tag1URI: 71,
   tag2URI: 72,
@@ -113,6 +114,8 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
           thirdScore: row[infoColumns.thirdScore] || "Info", //Whether this is positive(V)/negative(X)/information(Info)
           thirdLimit: row[infoColumns.thirdLimit],
           thirdComment: row[infoColumns.thirdComment],
+
+          infoForUserEntry: row[infoColumns.infoForUserEntry],
 
           order: 0
         };

@@ -34,6 +34,7 @@
 
                 (:order :number ,(s-prefix "ext:order"))
                 (:criterion-type :string ,(s-prefix "toevla:type"))
+                (:data-entry-comment :string ,(s-prefix "toevla:dataEntryComment"))
 
                 (:first-limit :string ,(s-prefix "toevla:firstLimit"))
                 (:first-label :string ,(s-prefix "toevla:firstComment"))

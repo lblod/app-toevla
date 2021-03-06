@@ -55,7 +55,10 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
   toevla:displayType "${e.displayType}";
   toevla:criteriaType "${e.criteriaType}";
   toevla:type "${e.type}";
-  
+  ${e.infoForUserEntry
+    ? "toevla:dataEntryComment \"\"\"" + e.infoForUserEntry + "\"\"\";"
+    : ""}
+
   toevla:firstLimit "${e.firstLimit}";
   toevla:firstComment "${e.firstComment}";
   toevla:firstScore "${e.firstScore}";
