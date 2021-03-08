@@ -43,7 +43,7 @@ services:
     restart: always
     logging: *default-logging
   frontend-entry:
-    image: lblod/frontend-toevla-data-entry:0.9.1
+    image: lblod/frontend-toevla-data-entry:0.10.0
     links:
       - identifier:backend
     labels:
