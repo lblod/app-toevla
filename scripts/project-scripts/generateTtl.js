@@ -20,6 +20,31 @@ const prefixes = `@prefix cms: <http://mu.semte.ch/vocabulary/cms/>.
 @prefix toevla: <http://toevla.org/ns/generic/>.
 `;
 
+function targetAudienceURIs(node) {
+  const uris = [];
+  if (node.criteriumForMentallyChallenged ) {
+    uris.push("http://data.toevla.org/id/concepts/453e7d14-6ee0-4725-8bd9-1d274d798a2b");
+  }
+  if (node.criteriumForHearingImpaired ) {
+    uris.push("http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505");
+  }
+  if (node.criteriumForDeaf ) {
+    uris.push("http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2");
+  }
+  if (node.criteriumForVisuallyImpaired ) {
+    uris.push("http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7");
+  }
+  if (node.criteriumForBlind ) {
+    uris.push("http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646");
+  }
+  if (node.criteriumForBobilityProblems ) {
+    uris.push("http://data.toevla.org/id/concepts/0f550980-4eb4-4858-951b-b749d5788c46");
+  }
+  if (node.criteriumForWheelchair ) {
+    uris.push("http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9");
+  }
+  return uris;
+}
 
 const museaConceptScheme = `
 tvcs:musea a skos:ConceptScheme;
@@ -59,6 +84,14 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
     ? "toevla:dataEntryComment \"\"\"" + e.infoForUserEntry + "\"\"\";"
     : ""}
 
+  ${targetAudienceURIs(e).length == 0
+    ? ""
+    : "toevla:hasTargetAudience " 
+      + targetAudienceURIs(e)
+        .map( (u) => "<" + u + ">" )
+        .join(", ")
+      + ";"}
+
   toevla:firstLimit "${e.firstLimit}";
   toevla:firstComment "${e.firstComment}";
   toevla:firstScore "${e.firstScore}";
@@ -67,16 +100,7 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
   toevla:secondScore "${e.secondScore}";
   toevla:thirdLimit "${e.thirdLimit}";
   toevla:thirdComment "${e.thirdComment}";
-  toevla:thirdScore "${e.thirdScore}";
-
-  toevla:isCriteriumForMentallyChallenged ${(e.criteriumForMentallyChallenged && "true") || "false"};
-  toevla:isCriteriumForHearingImpaired ${(e.criteriumForHearingImpaired && "true") || "false"};
-  toevla:isCriteriumForDeaf ${(e.criteriumForDeaf && "true") || "false"};
-  toevla:isCriteriumForVisuallyImpaired ${(e.criteriumForVisuallyImpaired && "true") || "false"};
-  toevla:isCriteriumForBlind ${(e.criteriumForBlind && "true") || "false"};
-  toevla:isCriteriumForBobilityProblems ${(e.criteriumForBobilityProblems && "true") || "false"};
-  toevla:isCriteriumForWheelchair ${(e.criteriumForWheelchair && "true") || "false"};
-  toevla:isCriteriumForAutism ${(e.criteriumForAutism && "true") || "false"}.
+  toevla:thirdScore "${e.thirdScore}".
 `;
 
   if( e.conceptScheme ) {

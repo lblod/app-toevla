@@ -1,0 +1,58 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix ext: <http://mu.semte.ch/vocabularies/ext/>.
+@prefix mu: <http://mu.semte.ch/vocabularies/core/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix tvcs: <http://data.toevla.org/concept-schemes/>.
+@prefix toevla: <http://toevla.org/ns/generic/>.
+
+tvcs:targetAudiences a skos:ConceptScheme ;
+  skos:prefLabel "Target Audiences"@en ;
+  skos:prefLabel "Doelpubliek"@nl ;
+  mu:uuid "ed4c046c-a593-412b-980c-c040a1c5b871" ;
+  skos:hasTopConcept
+    <http://data.toevla.org/id/concepts/453e7d14-6ee0-4725-8bd9-1d274d798a2b>,
+    <http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505>,
+    <http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2>,
+    <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>,
+    <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>,
+    <http://data.toevla.org/id/concepts/0f550980-4eb4-4858-951b-b749d5788c46>,
+    <http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9> .
+
+<http://data.toevla.org/id/concepts/453e7d14-6ee0-4725-8bd9-1d274d798a2b> a skos:Concept ;
+  mu:uuid "453e7d14-6ee0-4725-8bd9-1d274d798a2b" ;
+  ext:order "1"^^xsd:integer ;
+  skos:prefLabel "Is criterium for mentally challenged" .
+  
+<http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505> a skos:Concept ;
+  mu:uuid "b9f179a0-c9ca-4d95-ac9e-aa7966dda505" ;
+  ext:order "2"^^xsd:integer ;
+  skos:prefLabel "Is criterium for hearing impaired" .
+  
+<http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2> a skos:Concept ;
+  mu:uuid "7dbd554a-a036-4262-ad7b-bf5ae96008d2" ;
+  ext:order "3"^^xsd:integer ;
+  skos:prefLabel "Is criterium for deaf" .
+  
+<http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7> a skos:Concept ;
+  mu:uuid "8d156887-14d0-4da7-a107-537439c27bf7" ;
+  ext:order "4"^^xsd:integer ;
+  skos:prefLabel "Is criterium for visually impaired" .
+  
+<http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646> a skos:Concept ;
+  mu:uuid "efb78c6f-c197-4828-9862-b132a6210646" ;
+  ext:order "5"^^xsd:integer ;
+  skos:prefLabel "Is criterium for blind" .
+  
+<http://data.toevla.org/id/concepts/0f550980-4eb4-4858-951b-b749d5788c46> a skos:Concept ;
+  mu:uuid "0f550980-4eb4-4858-951b-b749d5788c46" ;
+  ext:order "6"^^xsd:integer ;
+  skos:prefLabel "Is criterium for mobility problems" .
+  
+<http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9> a skos:Concept ;
+  mu:uuid "f41ec9b9-1f94-4796-9e62-6ba1a723aff9" ;
+  ext:order "7"^^xsd:integer ;
+  skos:prefLabel "Is criterium for wheelchair" .

@@ -87,7 +87,8 @@ function extractUuid(uri){
   return match[1];
 }
 //iterate over relevant rows
-for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
+for(var rowIndex=7; rowIndex<Math.min(sheet.length, 10000); rowIndex++){
+  console.log(`Processing row ${rowIndex}`);
   
   var row=sheet[rowIndex];
   if(row[infoColumns.relevant] && row[infoColumns.relevant].toLowerCase().replace(/\s/g, '')=='ja'){
@@ -99,6 +100,7 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
 
       if(cell){
         //init and get info columns
+        // console.log(JSON.stringify(row));
         var node={
           label: cell,
           parent: 'root',
