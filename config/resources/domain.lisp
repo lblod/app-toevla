@@ -44,7 +44,16 @@
                 (:second-score :string ,(s-prefix "toevla:secondScore"))
                 (:third-limit :string ,(s-prefix "toevla:thirdLimit"))
                 (:third-label :string ,(s-prefix "toevla:thirdComment"))
-                (:third-score :string ,(s-prefix "toevla:thirdScore")))
+                (:third-score :string ,(s-prefix "toevla:thirdScore"))
+
+                (:is-criterium-for-mentally-challenged :boolean ,(s-prefix "toevla:isCriteriumForMentallyChallenged"))
+                (:is-criterium-for-hearing-impaired :boolean ,(s-prefix "toevla:isCriteriumForHearingImpaired"))
+                (:is-criterium-for-deaf :boolean ,(s-prefix "toevla:isCriteriumForDeaf"))
+                (:is-criterium-for-visually-impaired :boolean ,(s-prefix "toevla:isCriteriumForVisuallyImpaired"))
+                (:is-criterium-for-blind :boolean ,(s-prefix "toevla:isCriteriumForBlind"))
+                (:is-criterium-for-bobility-problems :boolean ,(s-prefix "toevla:isCriteriumForBobilityProblems"))
+                (:is-criterium-for-wheelchair :boolean ,(s-prefix "toevla:isCriteriumForWheelchair"))
+                (:is-criterium-for-autism :boolean ,(s-prefix "toevla:isCriteriumForAutism")))
   :has-many `((concept :via ,(s-prefix "skos:broader")
                      :inverse t
                      :as "children")

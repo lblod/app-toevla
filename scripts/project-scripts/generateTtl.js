@@ -67,7 +67,16 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
   toevla:secondScore "${e.secondScore}";
   toevla:thirdLimit "${e.thirdLimit}";
   toevla:thirdComment "${e.thirdComment}";
-  toevla:thirdScore "${e.thirdScore}".
+  toevla:thirdScore "${e.thirdScore}";
+
+  toevla:isCriteriumForMentallyChallenged ${(e.criteriumForMentallyChallenged && "true") || "false"};
+  toevla:isCriteriumForHearingImpaired ${(e.criteriumForHearingImpaired && "true") || "false"};
+  toevla:isCriteriumForDeaf ${(e.criteriumForDeaf && "true") || "false"};
+  toevla:isCriteriumForVisuallyImpaired ${(e.criteriumForVisuallyImpaired && "true") || "false"};
+  toevla:isCriteriumForBlind ${(e.criteriumForBlind && "true") || "false"};
+  toevla:isCriteriumForBobilityProblems ${(e.criteriumForBobilityProblems && "true") || "false"};
+  toevla:isCriteriumForWheelchair ${(e.criteriumForWheelchair && "true") || "false"};
+  toevla:isCriteriumForAutism ${(e.criteriumForAutism && "true") || "false"}.
 `;
 
   if( e.conceptScheme ) {

@@ -45,6 +45,14 @@ var nodeColumns=[
 
 //other columns that are relavant
 var infoColumns={
+  criteriumForWheelchair: 5, // relevant for specific group
+  criteriumForBobilityProblems: 6, // relevant for specific group
+  criteriumForBlind: 7, // relevant for specific group
+  criteriumForVisuallyImpaired: 8, // relevant for specific group
+  criteriumForDeaf: 9, // relevant for specific group
+  criteriumForHearingImpaired: 10, // relevant for specific group
+  criteriumForMentallyChallenged: 11, // relevant for specific group
+  criteriumForAutism: 12, // relevant for specific group
   relevant: 15, //relevant for parser
   relevantForScore: 16, //relevant for scoring
   compulsoryCriteria: 17,  //compulsory for scoring
@@ -116,6 +124,15 @@ for(var rowIndex=7; rowIndex<sheet.length; rowIndex++){
           thirdComment: row[infoColumns.thirdComment],
 
           infoForUserEntry: row[infoColumns.infoForUserEntry],
+
+          criteriumForMentallyChallenged: !!row[infoColumns.criteriumForMentallyChallenged],
+          criteriumForHearingImpaired: !!row[infoColumns.criteriumForHearingImpaired],
+          criteriumForDeaf: !!row[infoColumns.criteriumForDeaf],
+          criteriumForVisuallyImpaired: !!row[infoColumns.criteriumForVisuallyImpaired],
+          criteriumForBlind: !!row[infoColumns.criteriumForBlind],
+          criteriumForBobilityProblems: !!row[infoColumns.criteriumForBobilityProblems],
+          criteriumForWheelchair: !!row[infoColumns.criteriumForWheelchair],
+          criteriumForAutism: !!row[infoColumns.criteriumForAutism],
 
           order: 0
         };
