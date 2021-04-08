@@ -406,7 +406,7 @@
                       :as "support-for-autism")
              (concept :via ,(s-prefix "toevla:supportForChildren")
                       :as "support-for-children")
-             (concept :via ,(s-prefix "toevla:availabilityOnQuiteMoments")
+             (concept :via ,(s-prefix "toevla:availabilityOnQuietMoments")
                       :as "availability-on-quiet-moments")
              (concept :via ,(s-prefix "toevla:availabilityOfTailorMadeTours")
                       :as "availability-of-tailor-made-tours"))
