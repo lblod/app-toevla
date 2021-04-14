@@ -3,6 +3,7 @@
 (setq *cache-model-properties-p* t)
 (setq *cache-count-queries-p* t)
 (setq *supply-cache-headers-p* t)
+(setq *include-count-in-paginated-responses* t)
 
 (define-resource scorable ()
   :class (s-prefix "toevla:Scorable")
@@ -83,13 +84,12 @@
                 (:has-visual-visit-preparation-plan :boolean ,(s-prefix "toevla:hasVisualVisitPreparationPlan"))
                 (:extra-attention-given-to-acoustics :boolean ,(s-prefix "toevla:extraAttentionGivenToAcoustics"))
                 (:has-clearly-recognizable-entrance :boolean ,(s-prefix "toevla:hasClearlyRecognizableEntrance"))
-                (:has-alternative-entrance-for-wheelchair :boolean ,(s-prefix "toevla:hasAlternativeEntranceForWheelchair")) 
                 (:has-revolving-door :boolean ,(s-prefix "toevla:hasRevolvingDoor"))
                 (:is-noisy :boolean ,(s-prefix "toevla:isNoisy"))
                 (:has-glass-floor :boolean ,(s-prefix "toevla:hasGlassFloor"))
                 (:has-difficult-staircase-for-dogs :boolean ,(s-prefix "toevla:hasDifficultStaircaseForDogs"))
                 (:has-escalator :boolean ,(s-prefix "toevla:hasEscalator"))
-
+                (:has-wheelchair-accessible-toilet :boolean ,(s-prefix "toevla:hasWheelchairAccessibleToilet"))
                ;; (:has-free-entrance-for-guide :boolean ,(s-prefix "toevla:hasFreeEntranceForGuide"))
                 ;; (:has-free-entrance-for-translator :boolean ,(s-prefix "toevla:hasFreeEntranceForGuide"))
                 ;; (:accepts-museum-pass :boolean ,(s-prefix "toevla:acceptsMuseumPass"))
@@ -245,6 +245,7 @@
 (define-resource toilet ()
   :class (s-url "https://linkedgeodata.org/ontology/Toilets")
   :properties `((:comment :string ,(s-prefix "toevla:comment"))
+                (:wheelchair-toilet-in-building :boolean ,(s-prefix "toevla:isWheelchairAccessibleThroughBuilding"))
                 (:has-simple-and-logical-route :boolean ,(s-prefix "toevla:hasSimpleAndLogicalRoute"))
                 (:has-synthetic-speech-in-elevator :boolean ,(s-prefix "toevla:hasSyntheticSpeechInElevator"))
                 (:has-clear-signalization-in-building :boolean ,(s-prefix "toevla:hasClearSignalizationInBuilding"))
@@ -324,6 +325,8 @@
                 (:has-manned-desk :boolean ,(s-prefix "toevla:hasMannedDesk"))
                 (:has-teleloop-at-counter :boolean ,(s-prefix "toevla:hasTeleloopAtCounter"))
                 (:highest-threshold :number ,(s-prefix "toevla:highestThreshold"))
+                (:comment-on-alternative-entrance-for-wheelchair :string ,(s-prefix "toevla:commentOnAlternativeEntranceForWheelchair"))
+                (:amount-of-thresholds :number ,(s-prefix "toevla:amountOfThresholds"))
                 (:amount-of-stairs :number ,(s-prefix "toevla:amountOfStairs"))
                 (:amount-of-slopes :number ,(s-prefix "toevla:amountOfSlopes"))
                 (:has-entrance-gutters :boolean ,(s-prefix "toevla:hasRamps"))
@@ -462,68 +465,3 @@
   :on-path "experience-tree-node-scores")
 
 
-;;;;
-;; NOTE
-;; docker-compose stop; docker-compose rm; docker-compose up
-;; after altering this file.
-
-;; Describe your resources here
-
-;; The general structure could be described like this:
-;;
-;; (define-resource <name-used-in-this-file> ()
-;;   :class <class-of-resource-in-triplestore>
-;;   :properties `((<json-property-name-one> <type-one> ,<triplestore-relation-one>)
-;;                 (<json-property-name-two> <type-two> ,<triplestore-relation-two>>))
-;;   :has-many `((<name-of-an-object> :via ,<triplestore-relation-to-objects>
-;;                                    :as "<json-relation-property>")
-;;               (<name-of-an-object> :via ,<triplestore-relation-from-objects>
-;;                                    :inverse t ; follow relation in other direction
-;;                                    :as "<json-relation-property>"))
-;;   :has-one `((<name-of-an-object :via ,<triplestore-relation-to-object>
-;;                                  :as "<json-relation-property>")
-;;              (<name-of-an-object :via ,<triplestore-relation-from-object>
-;;                                  :as "<json-relation-property>"))
-;;   :resource-base (s-url "<string-to-which-uuid-will-be-appended-for-uri-of-new-items-in-triplestore>")
-;;   :on-path "<url-path-on-which-this-resource-is-available>")
-
-
-;; An example setup with a catalog, dataset, themes would be:
-;;
-;; (define-resource catalog ()
-;;   :class (s-prefix "dcat:Catalog")
-;;   :properties `((:title :string ,(s-prefix "dct:title")))
-;;   :has-many `((dataset :via ,(s-prefix "dcat:dataset")
-;;                        :as "datasets"))
-;;   :resource-base (s-url "http://webcat.tmp.semte.ch/catalogs/")
-;;   :on-path "catalogs")
-
-;; (define-resource dataset ()
-;;   :class (s-prefix "dcat:Dataset")
-;;   :properties `((:title :string ,(s-prefix "dct:title"))
-;;                 (:description :string ,(s-prefix "dct:description")))
-;;   :has-one `((catalog :via ,(s-prefix "dcat:dataset")
-;;                       :inverse t
-;;                       :as "catalog"))
-;;   :has-many `((theme :via ,(s-prefix "dcat:theme")
-;;                      :as "themes"))
-;;   :resource-base (s-url "http://webcat.tmp.tenforce.com/datasets/")
-;;   :on-path "datasets")
-
-;; (define-resource distribution ()
-;;   :class (s-prefix "dcat:Distribution")
-;;   :properties `((:title :string ,(s-prefix "dct:title"))
-;;                 (:access-url :url ,(s-prefix "dcat:accessURL")))
-;;   :resource-base (s-url "http://webcat.tmp.tenforce.com/distributions/")
-;;   :on-path "distributions")
-
-;; (define-resource theme ()
-;;   :class (s-prefix "tfdcat:Theme")
-;;   :properties `((:pref-label :string ,(s-prefix "skos:prefLabel")))
-;;   :has-many `((dataset :via ,(s-prefix "dcat:theme")
-;;                        :inverse t
-;;                        :as "datasets"))
-;;   :resource-base (s-url "http://webcat.tmp.tenforce.com/themes/")
-;;   :on-path "themes")
-
-;;
