@@ -1,8 +1,8 @@
 const fs = require("fs");
 
-const file=fs.readFileSync('./parsedTree.json');
+const file = fs.readFileSync('./parsedTree.json');
 
-const tree=JSON.parse(file);
+const tree = JSON.parse(file);
 
 const prefixes = `@prefix cms: <http://mu.semte.ch/vocabulary/cms/>.
 @prefix dct: <http://purl.org/dc/terms/>.
@@ -22,26 +22,51 @@ const prefixes = `@prefix cms: <http://mu.semte.ch/vocabulary/cms/>.
 
 function targetAudienceURIs(node) {
   const uris = [];
-  if (node.criteriumForMentallyChallenged ) {
+  if (node.criteriumForMentallyChallenged) {
     uris.push("http://data.toevla.org/id/concepts/453e7d14-6ee0-4725-8bd9-1d274d798a2b");
   }
-  if (node.criteriumForHearingImpaired ) {
+  if (node.criteriumForHearingImpaired) {
     uris.push("http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505");
   }
-  if (node.criteriumForDeaf ) {
+  if (node.criteriumForDeaf) {
     uris.push("http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2");
   }
-  if (node.criteriumForVisuallyImpaired ) {
+  if (node.criteriumForVisuallyImpaired) {
     uris.push("http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7");
   }
-  if (node.criteriumForBlind ) {
+  if (node.criteriumForBlind) {
     uris.push("http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646");
   }
-  if (node.criteriumForBobilityProblems ) {
+  if (node.criteriumForBobilityProblems) {
     uris.push("http://data.toevla.org/id/concepts/0f550980-4eb4-4858-951b-b749d5788c46");
   }
-  if (node.criteriumForWheelchair ) {
+  if (node.criteriumForWheelchair) {
     uris.push("http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9");
+  }
+  return uris;
+}
+
+/**
+ * A codelist which represents a simplified version of the full target
+ * audience.
+ */
+function simplifiedTargetAudienceURIs(node) {
+  const uris = [];
+  // VISUAL
+  if (node.criteriumForBlind || node.criteriumForVisuallyImpaired) {
+    uris.push("http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5");
+  }
+  // AUDITIVE
+  if (node.criteriumForHearingImpaired || node.criteriumForDeaf) {
+    uris.push("http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e");
+  }
+  // MOBILE
+  if (node.criteriumForWheelchair || node.criteriumForMobilityProblems) {
+    uris.push("http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a");
+  }
+  // AUTISM
+  if (node.criteriumForAutism || node.criteriumForMentallyChallenged) {
+    uris.push("http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1");
   }
   return uris;
 }
@@ -56,7 +81,7 @@ let treeContent = "";
 
 tree.forEach(e => {
   // console.log(`Processing row ${e.row}`);
-  if(e.parent == 'root') {
+  if (e.parent == 'root') {
     // We are a top concept
     treeContent += `
 tvcs:musea skos:hasTopConcept <${e.uri}>.`;
@@ -68,7 +93,7 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
   }
 
   // lower-level concept
-  treeContent+=`
+  treeContent += `
 <${e.uri}> a skos:Concept;
   mu:uuid "${e.uuid}";
   skos:prefLabel "${e.label}";
@@ -81,14 +106,22 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
   toevla:criteriaType "${e.criteriaType}";
   toevla:type "${e.type}";
   ${e.infoForUserEntry
-    ? "toevla:dataEntryComment \"\"\"" + e.infoForUserEntry + "\"\"\";"
-    : ""}
+      ? "toevla:dataEntryComment \"\"\"" + e.infoForUserEntry + "\"\"\";"
+      : ""}
 
   ${targetAudienceURIs(e).length == 0
-    ? ""
-    : "toevla:hasTargetAudience " 
+      ? ""
+      : "toevla:hasTargetAudience "
       + targetAudienceURIs(e)
-        .map( (u) => "<" + u + ">" )
+        .map((u) => "<" + u + ">")
+        .join(", ")
+      + ";"}
+
+  ${simplifiedTargetAudienceURIs(e).length == 0
+      ? ""
+      : "toevla:hasSimplifiedTargetAudience "
+      + simplifiedTargetAudienceURIs(e)
+        .map((u) => "<" + u + ">")
         .join(", ")
       + ";"}
 
@@ -103,7 +136,7 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
   toevla:thirdScore "${e.thirdScore}".
 `;
 
-  if( e.conceptScheme ) {
+  if (e.conceptScheme) {
     treeContent += `
 <${e.uri}> toevla:fromConceptScheme <${e.conceptScheme.uri}>.
 <${e.conceptScheme.uri}> a skos:ConceptScheme;

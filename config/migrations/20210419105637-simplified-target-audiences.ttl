@@ -1,0 +1,40 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix ext: <http://mu.semte.ch/vocabularies/ext/>.
+@prefix mu: <http://mu.semte.ch/vocabularies/core/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix tvcs: <http://data.toevla.org/concept-schemes/>.
+@prefix toevla: <http://toevla.org/ns/generic/>.
+
+tvcs:simplifiedTargetAudiences a skos:ConceptScheme ;
+  skos:prefLabel "Simplified target audiences"@en ;
+  skos:prefLabel "Vereenvoudigd doelpubliek"@nl ;
+  mu:uuid "3ef091d2-9288-4002-a64f-dbc827b68a2d" ;
+  skos:hasTopConcept
+    <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5> ,
+    <http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e> ,
+    <http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a> ,
+    <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1> .
+
+<http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5> a skos:Concept ;
+  mu:uuid "a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5" ;
+  ext:order "1"^^xsd:integer ;
+  skos:prefLabel "Visueel"@nl .
+  
+<http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e> a skos:Concept ;
+  mu:uuid "878f5bda-ca55-4497-96ac-31f501ff593e" ;
+  ext:order "2"^^xsd:integer ;
+  skos:prefLabel "Auditief"@nl .
+  
+<http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a> a skos:Concept ;
+  mu:uuid "01e2cb23-94de-4c07-b851-cd2f1a41856a" ;
+  ext:order "3"^^xsd:integer ;
+  skos:prefLabel "Mobiel"@nl .
+  
+<http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1> a skos:Concept ;
+  mu:uuid "75b78030-ac38-42f2-8d71-67129f5e5ff1" ;
+  ext:order "4"^^xsd:integer ;
+  skos:prefLabel "Autisme"@nl .
