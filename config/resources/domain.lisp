@@ -53,7 +53,9 @@
                     :inverse t
                     :as "images")
               (concept :via ,(s-prefix "toevla:hasTargetAudience")
-                       :as "target-audiences"))
+                       :as "target-audiences")
+              (concept :via ,(s-prefix "toevla:hasSimplifiedTargetAudience")
+                       :as "simplified-target-audiences"))
   :has-one `((concept :via ,(s-prefix "skos:broader")
                         :as "parent"))
   :features '(include-uri)
