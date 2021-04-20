@@ -46,7 +46,7 @@ var nodeColumns=[
 //other columns that are relavant
 var infoColumns={
   criteriumForWheelchair: 5, // relevant for specific group
-  criteriumForBobilityProblems: 6, // relevant for specific group
+  criteriumForMobilityProblems: 6, // relevant for specific group
   criteriumForBlind: 7, // relevant for specific group
   criteriumForVisuallyImpaired: 8, // relevant for specific group
   criteriumForDeaf: 9, // relevant for specific group
@@ -132,7 +132,7 @@ for(var rowIndex=7; rowIndex<Math.min(sheet.length, 10000); rowIndex++){
           criteriumForDeaf: !!row[infoColumns.criteriumForDeaf],
           criteriumForVisuallyImpaired: !!row[infoColumns.criteriumForVisuallyImpaired],
           criteriumForBlind: !!row[infoColumns.criteriumForBlind],
-          criteriumForBobilityProblems: !!row[infoColumns.criteriumForBobilityProblems],
+          criteriumForMobilityProblems: !!row[infoColumns.criteriumForMobilityProblems],
           criteriumForWheelchair: !!row[infoColumns.criteriumForWheelchair],
           criteriumForAutism: !!row[infoColumns.criteriumForAutism],
 
