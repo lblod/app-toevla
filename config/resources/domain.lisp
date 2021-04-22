@@ -5,6 +5,9 @@
 (setq *supply-cache-headers-p* t)
 (setq *include-count-in-paginated-responses* t)
 
+(setf *max-optionals-per-query* 8)
+(setf *include-at-least-one-non-optional* t)
+
 (define-resource scorable ()
   :class (s-prefix "toevla:Scorable")
   :on-path "scorables")
@@ -467,3 +470,53 @@
   :on-path "experience-tree-node-scores")
 
 
+;; Accounts and people
+
+(define-resource session ()
+  :class (s-prefix "musession:Session")
+  :resource-base (s-url "http://data.toevla.org/sessions/")
+  :has-one `((account :via ,(s-prefix "ext:hasAccount")
+                      :as "account")
+             (role :via ,(s-prefix "ext:hasRole")
+                   :as "role"))
+  :on-path "sessions")
+
+(define-resource person ()
+  :class (s-prefix "foaf:Person")
+  :properties `((:first-name :string ,(s-prefix "foaf:firstName"))
+                (:last-name :string ,(s-prefix "foaf:familyName")))
+  :has-many `((account :via ,(s-prefix "foaf:account")
+                       :as "accounts"))
+  :resource-base (s-url "http://data.toevla.org/people/")
+  :on-path "people")
+
+(define-resource account ()
+  :class (s-prefix "foaf:OnlineAccount")
+  :properties `((:email :string ,(s-prefix "ext:email")))
+  :has-many `((role :via ,(s-prefix "ext:hasRole")
+                    :as "roles")
+              (session :via ,(s-prefix "ext:hasAccount")
+                       :inverse t
+                       :as "sessions"))
+  :has-one `((person :via ,(s-prefix "foaf:account")
+                     :inverse t
+                     :as "person"))
+  :resource-base (s-url "http://data.toevla.org/accounts/")
+  :on-path "accounts")
+
+(define-resource role ()
+  :class (s-prefix "ext:Role")
+  :resource-base (s-url "http://data.toevla.org/roles/")
+  :on-path "roles")
+
+(define-resource validator-role (role)
+  :class (s-prefix "ext:ValidatorRole")
+  :resource-base (s-url "http://data.toevla.org/validator-roles/")
+  :on-path "validator-roles")
+
+(define-resource data-entry-role (role)
+  :class (s-prefix "ext:DataEntryRole")
+  :has-one `((point-of-interest :via ,(s-prefix "ext:actsOn")
+                                :as "point-of-interest"))
+  :resource-base (s-url "http://data.toevla.org/data-entry-roles/")
+  :on-path "data-entry-roles")

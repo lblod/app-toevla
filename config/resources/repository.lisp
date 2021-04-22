@@ -40,3 +40,6 @@
 (add-prefix "nfo" "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#")
 (add-prefix "nie" "http://www.semanticdesktop.org/ontologies/2007/01/19/nie#")
 (add-prefix "dbpedia" "http://dbpedia.org/resource/")
+(add-prefix "foaf" "http://xmlns.com/foaf/0.1/")
+(add-prefix "muaccount" "http://mu.semte.ch/vocabularies/account/")
+(add-prefix "musession" "http://mu.semte.ch/vocabularies/session/")
