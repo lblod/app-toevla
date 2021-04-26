@@ -137,6 +137,12 @@ services:
     volumes:
       - ./scripts/project-scripts/:/app/scripts/
     restart: "no"
+  switchrole:
+    image: lblod/toevla-switch-role
+    links:
+      - db:database
+    labels:
+      - "logging=true"
   toevlaacmidmloginservice:
     image: lblod/toevla-acmidm-login-service:0.0.2
     links:

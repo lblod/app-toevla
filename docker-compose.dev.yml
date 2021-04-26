@@ -33,3 +33,7 @@ services:
     restart: "no"
     labels:
       - "logging=true"
+  mocklogin:
+    image: lblod/toevla-mock-login
+    links:
+      - db:database
