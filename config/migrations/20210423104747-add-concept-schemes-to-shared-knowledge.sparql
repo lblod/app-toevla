@@ -1,0 +1,13 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/shared> {
+    ?s ?p ?o.
+  }
+} WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    VALUES ?type { skos:Concept skos:ConceptScheme }
+    ?s a ?type;
+       ?p ?o.
+  }
+}
