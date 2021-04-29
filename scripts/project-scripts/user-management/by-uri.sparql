@@ -1,0 +1,12 @@
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+
+INSERT DATA {
+  GRAPH <REPLACE> {
+    <REPLACE> ext:hasRole <http://data.toevla.org/roles/819fde61-e678-4b1b-aaef-281297fdad14>.
+
+    <http://data.toevla.org/roles/819fde61-e678-4b1b-aaef-281297fdad14>
+      a ext:Role, ext:ValidatorRole;
+      mu:uuid "819fde61-e678-4b1b-aaef-281297fdad14".
+  }
+}

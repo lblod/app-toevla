@@ -30,6 +30,22 @@
       "mounts": {
         "app": "/data/app/"
       }
+    },
+    {
+      "documentation": {
+        "command": "add-validator-role-to-account",
+        "description": "Adds inter role to a specified account.\nOperation should be one of by-uri, by-uuid.",
+        "arguments": ["operation", "account-uri"]
+      },
+      "environment": {
+        "image": "curlimages/curl:7.76.1",
+        "interactive": false,
+        "script": "user-management/run-query.sh",
+        "join_networks": true
+      },
+      "mounts": {
+        "app": "/data/app/"
+      }
     }
   ]
 }
