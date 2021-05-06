@@ -281,8 +281,6 @@
   :resource-base (s-url "http://data.toegankelijk.vlaanderen.be/id/toilets/")
   :on-path "toilets")
 
-
-
 (define-resource area ()
   :class (s-prefix "toevla:Area")
   :properties `((:width :number ,(s-prefix "toevla:widthInCm"))
@@ -352,7 +350,6 @@
   :class (s-prefix "toevla:Experience")
   :properties `((:title :string ,(s-prefix "dct:title"))
                 (:comment :string ,(s-prefix "toevla:comment"))
-
                 (:has-multiple-elements-to-drive-under :boolean ,(s-prefix "toevla:hasMultipleElementsToDriveUnder"))
                 (:has-good-lighting :boolean ,(s-prefix "toevla:hasGoodLighting"))
                 (:has-magnifying-glass :boolean ,(s-prefix "toevla:hasMagnifyingGlass"))
