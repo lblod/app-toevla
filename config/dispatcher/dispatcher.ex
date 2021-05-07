@@ -221,6 +221,10 @@ defmodule Dispatcher do
   end
 
 
+  match "/transfer/*path", @json_service do
+    Proxy.forward conn, path, "http://transfer-museum/"
+  end
+
   # FRONTEND FALLBACK WITH HOST
 
   match "/*path", %{ reverse_host: ["widget" | _rest], layer: :frontend_fallback } do

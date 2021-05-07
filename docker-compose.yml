@@ -154,6 +154,10 @@ services:
       - db:database
     labels:
       - "logging=true"
+  transfer-museum:
+    image: lblod/toevla-transfer-museum
+    links:
+      - db:database
   toevlaacmidmloginservice:
     image: lblod/toevla-acmidm-login-service:0.0.2
     links:
