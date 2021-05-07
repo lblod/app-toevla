@@ -94,6 +94,7 @@ services:
       ERROR_ON_UNWRITTEN_DATA: "on"
       DATABASE_COMPATIBILITY: "Virtuoso"
       DATABASE_OVERLOAD_RECOVERY: "on"
+      LOG_OUTGOING_SPARQL_QUERY_ROUNDTRIP: "on"
     volumes:
       - ./config/authorization:/config
     links:
@@ -114,6 +115,10 @@ services:
     labels:
       - "logging=true"
     logging: *default-logging
+  deltanotifier:
+    image: semtech/mu-delta-notifier
+    volumes:
+      - ./config/delta:/config
   cache:
     image: semtech/mu-cache:2.0.1
     links:
@@ -125,6 +130,8 @@ services:
     image: semtech/mu-cl-resources:feature-inheritance
     links:
       - db:database
+    environment:
+      CACHE_CLEAR_PATH: "http://cache/.mu/clear-keys"
     volumes:
       - ./config/resources:/config
     restart: always
