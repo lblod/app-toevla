@@ -98,6 +98,14 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/widgets/"
   end
 
+  match "/people/*path", %{ layer: :api, accept: %{ html: true } } do
+    Proxy.forward conn, [], "http://frontend-entry/index.html"
+  end
+
+  match "/people/*path", %{ layer: :api, accept: %{ json: true } } do
+    Proxy.forward conn, path, "http://cache/people/"
+  end
+
   ## Api Services
   match "/concept-schemes/*path", @json_service do
     Proxy.forward conn, path, "http://cache/concept-schemes/"
@@ -181,10 +189,6 @@ defmodule Dispatcher do
 
   match "/shops/*path", @json_service do
     Proxy.forward conn, path, "http://cache/shops/"
-  end
-
-  match "/people/*path", @json_service do
-    Proxy.forward conn, path, "http://cache/people/"
   end
 
   match "/accounts/*path", @json_service do
