@@ -81,7 +81,7 @@ services:
       - "logging=true"
     logging: *default-logging
   db:
-    image: semtech/mu-authorization
+    image: semtech/mu-authorization:feature-consistency-with-credo
     environment:
       LOG_OUTGOING_SPARQL_QUERIES: "true"
       # INSPECT_OUTGOING_SPARQL_QUERIES: "false"
