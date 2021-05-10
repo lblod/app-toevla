@@ -116,7 +116,7 @@ services:
       - "logging=true"
     logging: *default-logging
   deltanotifier:
-    image: semtech/mu-delta-notifier
+    image: semtech/mu-delta-notifier:0.1.0
     volumes:
       - ./config/delta:/config
   cache:
