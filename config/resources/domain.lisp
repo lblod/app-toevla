@@ -494,12 +494,24 @@
                     :as "roles")
               (session :via ,(s-prefix "ext:hasAccount")
                        :inverse t
-                       :as "sessions"))
+                       :as "sessions")
+              (login-key :via ,(s-prefix "ext:hasKey")
+                         :as "login-keys"))
   :has-one `((person :via ,(s-prefix "foaf:account")
                      :inverse t
                      :as "person"))
   :resource-base (s-url "http://data.toevla.org/accounts/")
   :on-path "accounts")
+
+(define-resource login-key ()
+  :class (s-prefix "ext:LoginKey")
+  :properties `((:key :string ,(s-prefix "ext:key"))
+                (:created-at :datetime ,(s-prefix "ext:createdAt")))
+  :has-one `((account :via ,(s-prefix "ext:hasKey")
+                      :inverse t
+                      :as "account"))
+  :resource-base (s-url "http://data.toevla.org/login-keys/")
+  :on-path "login-keys")
 
 (define-resource role ()
   :class (s-prefix "ext:Role")
