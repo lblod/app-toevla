@@ -1,0 +1,30 @@
+@prefix nmo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nmo#>.
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>.
+@prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#>.
+@prefix mu: <http://mu.semte.ch/vocabularies/core/>.
+
+<http://data.toevla.org/id/mailboxes/1>
+  a nmo:Mailbox ;
+  mu:uuid "6176fbb6-b514-4e01-9392-eab9b801d2a1" ;
+  nie:identifier "toevla-noreply" ;
+  nie:hasPart
+    <http://data.toevla.org/id/mailfolder/outbox>,
+    <http://data.toevla.org/id/mailfolder/sending>,
+    <http://data.toevla.org/id/mailfolder/sentbox> .
+
+<http://data.toevla.org/id/mailfolder/outbox>
+  a nfo:Folder ;
+  nie:title "outbox" ;
+  mu:uuid "f3c7eef4-07b6-4331-a468-dbccf9ce7132" .
+  
+
+<http://data.toevla.org/id/mailfolder/sending>
+  a nfo:Folder ;
+  nie:title "sending" ;
+  mu:uuid "224162dc-08b7-4b04-8e4d-175b03c7d257" .
+  
+
+<http://data.toevla.org/id/mailfolder/sentbox>
+  a nfo:Folder ;
+  nie:title "sentbox" ;
+  mu:uuid "6111b674-fc10-4ae1-8b15-02f34c246e7c" .

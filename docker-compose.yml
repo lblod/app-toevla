@@ -169,3 +169,20 @@ services:
       DEBUG_LOG_TOKENSETS: "true"
       MU_APPLICATION_RESOURCE_BASE_URI: "http://data.toegankelijk.vlaanderen.be/"
       REQUEST_TIMEOUT: 5000
+  deliver-email:
+    image: redpencil/deliver-email-service:0.2.0
+    environment:
+      MAILBOX_URI: 'http://data.toevla.org/id/mailboxes/1'
+      EMAIL_CRON_PATTERN: "* * * * *"
+    links:
+      - db:database
+    labels:
+      - "logging=true"
+    restart: always
+    logging: *default-logging
+  email-login:
+    image: lblod/toevla-email-login:feature-login-support
+    links:
+      - db:database
+    restart: always
+    logging: *default-logging
