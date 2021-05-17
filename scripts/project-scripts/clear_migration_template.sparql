@@ -4,11 +4,11 @@ PREFIX toevla: <http://toevla.org/ns/generic/>
 
 
 DELETE {
-  GRAPH <http://mu.semte.ch/graphs/public> {
+  GRAPH <http://mu.semte.ch/graphs/shared> {
     ?concept ?p ?o.
   }
 } WHERE {
-  GRAPH <http://mu.semte.ch/graphs/public> {
+  GRAPH <http://mu.semte.ch/graphs/shared> {
     {
       tvcs:musea skos:hasTopConcept ?topLevelConcept.
     } UNION {
