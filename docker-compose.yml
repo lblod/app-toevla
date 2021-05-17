@@ -61,6 +61,7 @@ services:
     environment:
       DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
       DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"shared\"},{\"variables\":[],\"name\":\"public\"},{\"variables\":[],\"name\":\"clean\"}]"
+      SESSION_COOKIE_SECURE: "on"
   migrations:
     image: semtech/mu-migrations-service:0.7.0
     links:
