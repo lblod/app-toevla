@@ -8,11 +8,12 @@ INSERT {
 
     <http://data.toevla.org/roles/819fde61-e678-4b1b-aaef-281297fdad14>
       a ext:Role, ext:ValidatorRole;
-      mu:uuid "819fde61-e678-4b1b-aaef-281297fdad14".
+      mu:uuid ?newUuid.
   }
 } WHERE {
   GRAPH ?accountUri {
     ?accountUri a foaf:OnlineAccount;
-      mu:uuid """REPLACE"""
+      mu:uuid """REPLACE""".
+    BIND ( "819fde61-e678-4b1b-aaef-281297fdad14" AS ?newUuid )
   }
 }
