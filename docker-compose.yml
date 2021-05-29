@@ -146,10 +146,6 @@ services:
     volumes:
       - ./scripts/project-scripts/:/app/scripts/
     restart: "no"
-  mocklogin:
-    image: lblod/toevla-mock-login
-    links:
-      - db:database
   switchrole:
     image: lblod/toevla-switch-role:0.0.2
     links:
