@@ -114,6 +114,16 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://email-login/"
   end
 
+  get "/session/roles/*path", %{ layer: :api, accept: %{ html: true } } do
+    Proxy.forward conn, path, "http://frontend-entry/index.html"
+  end
+  get "/session/roles/*path", %{ layer: :api, accept: %{ json: true } } do
+    Proxy.forward conn, [], "http://switchrole/session/roles"
+  end
+  post "/session/role", %{ layer: :api, accept: %{ json: true } } do
+    Proxy.forward conn, [], "http://switchrole/session/role"
+  end
+
   ## Api Services
   match "/concept-schemes/*path", @json_service do
     Proxy.forward conn, path, "http://cache/concept-schemes/"
@@ -211,9 +221,6 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://mocklogin/"
   end
 
-  post "/sessions/role/*path", @json_service do
-    Proxy.forward conn, [], "http://switchrole/sessions/role"
-  end
   match "/sessions/*path", @json_service do
     # We go to resource as we expect this might create race conditions
     # with the delta messages otherwise.

@@ -150,13 +150,13 @@ services:
     links:
       - db:database
   switchrole:
-    image: lblod/toevla-switch-role
+    image: lblod/toevla-switch-role:0.0.2
     links:
       - db:database
     labels:
       - "logging=true"
   transfer-museum:
-    image: lblod/toevla-transfer-museum
+    image: lblod/toevla-transfer-museum:0.5.0
     links:
       - db:database
   toevlaacmidmloginservice:
