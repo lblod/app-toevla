@@ -81,7 +81,7 @@ defmodule Acl.UserGroups.Config do
         name: "account",
         # TODO: remove :write and ensure writing happens through custom
         # service
-        useage: [:read, :read_for_write,:write],
+        useage: [:read],
         access: %AccessByQuery{
           query: "PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
                   PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
