@@ -7,6 +7,7 @@
 
 (setf *max-optionals-per-query* 8)
 (setf *include-at-least-one-non-optional* t)
+(setf sparql:*query-log-types* nil)
 
 (define-resource scorable ()
   :class (s-prefix "toevla:Scorable")

@@ -84,7 +84,7 @@ services:
   db:
     image: semtech/mu-authorization:feature-consistency-with-credo
     environment:
-      LOG_OUTGOING_SPARQL_QUERIES: "true"
+      # LOG_OUTGOING_SPARQL_QUERIES: "true"
       # INSPECT_OUTGOING_SPARQL_QUERIES: "false"
       # LOG_INCOMING_SPARQL_QUERIES: "true"
       # INSPECT_INCOMING_SPARQL_QUERIES: "false"
@@ -95,7 +95,7 @@ services:
       ERROR_ON_UNWRITTEN_DATA: "on"
       DATABASE_COMPATIBILITY: "Virtuoso"
       DATABASE_OVERLOAD_RECOVERY: "on"
-      LOG_OUTGOING_SPARQL_QUERY_ROUNDTRIP: "on"
+      # LOG_OUTGOING_SPARQL_QUERY_ROUNDTRIP: "on"
     volumes:
       - ./config/authorization:/config
     links:
