@@ -15,6 +15,7 @@ const prefixes = `@prefix cms: <http://mu.semte.ch/vocabulary/cms/>.
 @prefix app: <http://mu.semte.ch/app/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix tvcs: <http://data.toevla.org/concept-schemes/>.
 @prefix toevla: <http://toevla.org/ns/generic/>.
@@ -108,7 +109,9 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
   ${e.infoForUserEntry
       ? "toevla:dataEntryComment \"\"\"" + e.infoForUserEntry + "\"\"\";"
       : ""}
-
+  ${e.hyperlinkForUserEntry
+      ? `rdfs:seeAlso <${e.hyperlinkForUserEntry}>;`
+      : ""}
   ${targetAudienceURIs(e).length == 0
       ? ""
       : "toevla:hasTargetAudience "

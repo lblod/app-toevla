@@ -73,7 +73,8 @@ var infoColumns={
   tag1URI: 71,
   tag2URI: 72,
   tag3URI: 73,
-  conceptSchemeURI: 74
+  conceptSchemeURI: 74,
+  manualHyperlink: 76
 };
 
 //utility variables
@@ -126,6 +127,7 @@ for(var rowIndex=7; rowIndex<Math.min(sheet.length, 10000); rowIndex++){
           thirdComment: row[infoColumns.thirdComment],
 
           infoForUserEntry: row[infoColumns.infoForUserEntry],
+          hyperlinkForUserEntry: row[infoColumns.manualHyperlink],
 
           criteriumForMentallyChallenged: !!row[infoColumns.criteriumForMentallyChallenged],
           criteriumForHearingImpaired: !!row[infoColumns.criteriumForHearingImpaired],

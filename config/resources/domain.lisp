@@ -48,7 +48,8 @@
                 (:second-score :string ,(s-prefix "toevla:secondScore"))
                 (:third-limit :string ,(s-prefix "toevla:thirdLimit"))
                 (:third-label :string ,(s-prefix "toevla:thirdComment"))
-                (:third-score :string ,(s-prefix "toevla:thirdScore")))
+                (:third-score :string ,(s-prefix "toevla:thirdScore"))
+                (:manual-hyperlink :url ,(s-prefix "rdfs:seeAlso")))
   :has-many `((concept :via ,(s-prefix "skos:broader")
                      :inverse t
                      :as "children")
