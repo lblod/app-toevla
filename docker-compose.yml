@@ -43,7 +43,7 @@ services:
     restart: always
     logging: *default-logging
   frontend-entry:
-    image: lblod/frontend-toevla-data-entry:0.20.0
+    image: lblod/frontend-toevla-data-entry:0.21.0
     links:
       - identifier:backend
     labels:
@@ -147,7 +147,7 @@ services:
       - ./scripts/project-scripts/:/app/scripts/
     restart: "no"
   switchrole:
-    image: lblod/toevla-switch-role:0.0.2
+    image: lblod/toevla-switch-role:0.0.3
     links:
       - db:database
     labels:
