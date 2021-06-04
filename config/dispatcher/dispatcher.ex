@@ -56,7 +56,7 @@ defmodule Dispatcher do
   ## Normally static resources which we can only fetch through using the
   ## next path because they lack the right Accept Type
 
-  match "/widget.js", %{ reverse_host: ["widget" | _rest], layer: :static } do
+  match "/widget.js", %{ layer: :static } do
     Proxy.forward conn, [], "http://frontend-embed/assets/js/widget.js"
   end
 
