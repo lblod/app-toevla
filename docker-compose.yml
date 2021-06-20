@@ -156,6 +156,10 @@ services:
     image: lblod/toevla-transfer-museum:0.8.0
     links:
       - db:database
+    environment:
+      LOG_SPARQL_ALL: "false"
+      LOG_SPARQL_UPDATES: "true"
+      DEBUG_AUTH_HEADERS: "false"
   toevlaacmidmloginservice:
     image: lblod/toevla-acmidm-login-service:0.0.2
     links:
