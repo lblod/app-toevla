@@ -45,14 +45,14 @@ var nodeColumns=[
 
 //other columns that are relavant
 var infoColumns={
-  criteriumForWheelchair: 5, // relevant for specific group
-  criteriumForMobilityProblems: 6, // relevant for specific group
-  criteriumForBlind: 7, // relevant for specific group
-  criteriumForVisuallyImpaired: 8, // relevant for specific group
-  criteriumForDeaf: 9, // relevant for specific group
-  criteriumForHearingImpaired: 10, // relevant for specific group
-  criteriumForMentallyChallenged: 11, // relevant for specific group
-  criteriumForAutism: 12, // relevant for specific group
+  criteriumForWheelchair: 4, // relevant for specific group
+  criteriumForMobilityProblems: 5, // relevant for specific group
+  criteriumForBlind: 6, // relevant for specific group
+  criteriumForVisuallyImpaired: 7, // relevant for specific group
+  criteriumForDeaf: 8, // relevant for specific group
+  criteriumForHearingImpaired: 9, // relevant for specific group
+  criteriumForMentallyChallenged: 10, // relevant for specific group
+  criteriumForAutism: 11, // relevant for specific group
   relevant: 15, //relevant for parser
   relevantForScore: 16, //relevant for scoring
   compulsoryCriteria: 17,  //compulsory for scoring
