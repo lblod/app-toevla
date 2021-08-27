@@ -121,6 +121,10 @@ services:
     image: semtech/mu-delta-notifier:0.1.0
     volumes:
       - ./config/delta:/config
+    restart: always
+    labels:
+      - "logging=true"
+    logging: *default-logging
   cache:
     image: semtech/mu-cache:2.0.1
     links:
@@ -152,6 +156,8 @@ services:
       - db:database
     labels:
       - "logging=true"
+    restart: always
+    logging: *default-logging
   transfer-museum:
     image: lblod/toevla-transfer-museum:0.8.1
     links:
@@ -160,6 +166,10 @@ services:
       LOG_SPARQL_ALL: "false"
       LOG_SPARQL_UPDATES: "true"
       DEBUG_AUTH_HEADERS: "false"
+    labels:
+      - "logging=true"
+    restart: always
+    logging: *default-logging
   toevlaacmidmloginservice:
     image: lblod/toevla-acmidm-login-service:0.0.2
     links:
@@ -171,6 +181,7 @@ services:
       DEBUG_LOG_TOKENSETS: "true"
       MU_APPLICATION_RESOURCE_BASE_URI: "http://data.toegankelijk.vlaanderen.be/"
       REQUEST_TIMEOUT: 5000
+    restart: 'no'
   deliver-email:
     image: redpencil/deliver-email-service:0.2.0
     environment:
