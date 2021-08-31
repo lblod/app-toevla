@@ -2512,7 +2512,7 @@ toevla:property toevla:signsInLargePrint;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   toevla:dataEntryComment """Een audiogids is een manier om informatie te beluisteren. Deze info kan beschikbaar zijn in één of meerdere talen.""";
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/beluisteren-tekstmateriaal#audiogids-alleen-in-het-nederlands-beschikbaar >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/beluisteren-tekstmateriaal#audiogids-alleen-in-het-nederlands-beschikbaar>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2544,7 +2544,7 @@ toevla:property toevla:audioGuideOnlyInDutch;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   toevla:dataEntryComment """Een audiogids is een manier om informatie te beluisteren. Deze info kan beschikbaar zijn in één of meerdere talen.""";
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/beluisteren-tekstmateriaal#audiogids-alleen-in-het-meerdere-talen-beschikbaar >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/beluisteren-tekstmateriaal#audiogids-alleen-in-het-meerdere-talen-beschikbaar>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2576,7 +2576,7 @@ toevla:property toevla:audioGuideAvailableInMultipleLanguages;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   toevla:dataEntryComment """Via een headset kan je op vaste plaatsen informatie beluisteren.""";
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/beluisteren-tekstmateriaal#via-headsets >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/beluisteren-tekstmateriaal#via-headsets>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2608,7 +2608,7 @@ toevla:property toevla:audioGuideAvailableViaHeatset;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   toevla:dataEntryComment """Via je smartphone kan je de teksten die werden ingesproken beluisteren.""";
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/beluisteren-tekstmateriaal#via-smartphone >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/beluisteren-tekstmateriaal#via-smartphone>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2640,7 +2640,7 @@ toevla:property toevla:audioGuideAvailableViaSmartphone;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/beluisteren-tekstmateriaal#alternatief-beschikbaar >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/beluisteren-tekstmateriaal#alternatief-beschikbaar>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2672,7 +2672,7 @@ toevla:property toevla:audioGuideAvailableViaOtherMeans;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   toevla:dataEntryComment """Een videogids is een film die een deel of de hele tentoonstelling in beeld brengt. Dit kan aan de hand van korte filmpjes op je eigen smartphone of beeldmateriaal dat ter plaatse ter beschikking is. Vb. projecties of … """;
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/videogids >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/videogids>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505>, <http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2>, <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>, <http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e>, <http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2708,7 +2708,7 @@ Augmented Reality (AR) - Werkelijkheid waaraan kunstmatige elementen zijn toegev
 Mixed Reality (MR) - combi van VR en AR
 
 """;
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/virtuele-technologie >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/virtuele-technologie>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505>, <http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2>, <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>, <http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e>, <http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2740,7 +2740,7 @@ toevla:property toevla:hasVirtualTechnology;
   toevla:criteriaType "Titel (CR)";
   toevla:type "Meerkeuzelijst";
   toevla:dataEntryComment """Kan je ook extra dingen beleven of zelf doen? vb. Spelen met voelen, ruiken, horen, zien en misschien zelfs proeven.""";
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/zintuiglijke-beleving >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/zintuiglijke-beleving>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505>, <http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2>, <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>, <http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e>, <http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2771,7 +2771,7 @@ toevla:property toevla:hasVirtualTechnology;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   toevla:dataEntryComment """vb. Reliëftekeningen, replica's, maquette, kunstwerken in reliëf die je kan aanraken of een koffer met voelmateriaal.""";
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/zintuiglijke-beleving#voelelementen >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/zintuiglijke-beleving#voelelementen>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>, <http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2803,7 +2803,7 @@ toevla:property toevla:hasTouchElements;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   toevla:dataEntryComment """Vb. elementen waaraan men kan ruiken om een bepaalde beleving mee te krijgen als men vb. een visuele beperking heeft.""";
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/zintuiglijke-beleving#geurelementen >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/zintuiglijke-beleving#geurelementen>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505>, <http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2>, <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>, <http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e>, <http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2835,7 +2835,7 @@ toevla:property toevla:hasSmellElements;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   toevla:dataEntryComment """vb. spelletjes, puzzels""";
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/zintuiglijke-beleving#doe-elementen >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/zintuiglijke-beleving#doe-elementen>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505>, <http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2>, <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>, <http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e>, <http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2867,7 +2867,7 @@ toevla:property toevla:hasActionableElements;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   toevla:dataEntryComment """vb. audiobelevingstoestellen, luisterhoorn """;
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/zintuiglijke-beleving#luisterelementen >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/zintuiglijke-beleving#luisterelementen>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505>, <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>, <http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e>, <http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2899,7 +2899,7 @@ toevla:property toevla:hasListeningElements;
   toevla:criteriaType "Criterium";
   toevla:type "Ja/Nee";
   toevla:dataEntryComment """Het woord ‘stilte’ betekent niet dat er geen geluid  te horen is, maar staat voor de afwezigheid van storende geluiden. Dit kan een plek zijn die vb. rustiger gelegen is zoals een leeshoek of een zitruimte die afgeschermd is door middel van een gordijn""";
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/stilteplekken >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/stilteplekken>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505>, <http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2>, <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>, <http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e>, <http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;
@@ -2931,7 +2931,7 @@ toevla:property toevla:hasPlacesOfSilence;
   toevla:criteriaType "Criterium";
   toevla:type "Tekst";
   toevla:dataEntryComment """Omschrijf hier die belevingselementen die je hierboven niet kwijt kon. """;
-  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/andere-belevingselementen >;
+  rdfs:seeAlso <https://abb-vlaanderen.gitbook.io/handleiding-toegankelijk-vlaanderen-invoerapp/sectiebeleving/andere-belevingselementen>;
   toevla:hasTargetAudience <http://data.toevla.org/id/concepts/b9f179a0-c9ca-4d95-ac9e-aa7966dda505>, <http://data.toevla.org/id/concepts/7dbd554a-a036-4262-ad7b-bf5ae96008d2>, <http://data.toevla.org/id/concepts/8d156887-14d0-4da7-a107-537439c27bf7>, <http://data.toevla.org/id/concepts/efb78c6f-c197-4828-9862-b132a6210646>, <http://data.toevla.org/id/concepts/f41ec9b9-1f94-4796-9e62-6ba1a723aff9>;
 
   toevla:hasSimplifiedTargetAudience <http://data.toevla.org/id/concepts/a20ef5c0-79e1-48e1-bc49-b6a9d79dfbd5>, <http://data.toevla.org/id/concepts/878f5bda-ca55-4497-96ac-31f501ff593e>, <http://data.toevla.org/id/concepts/01e2cb23-94de-4c07-b851-cd2f1a41856a>, <http://data.toevla.org/id/concepts/75b78030-ac38-42f2-8d71-67129f5e5ff1>;

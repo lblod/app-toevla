@@ -129,7 +129,7 @@ for(var rowIndex=7; rowIndex<Math.min(sheet.length, 10000); rowIndex++){
           thirdComment: row[infoColumns.thirdComment],
 
           infoForUserEntry: row[infoColumns.infoForUserEntry],
-          hyperlinkForUserEntry: row[infoColumns.manualHyperlink],
+          hyperlinkForUserEntry: row[infoColumns.manualHyperlink]?.trim(),
 
           criteriumForMentallyChallenged: !!row[infoColumns.criteriumForMentallyChallenged],
           criteriumForHearingImpaired: !!row[infoColumns.criteriumForHearingImpaired],
