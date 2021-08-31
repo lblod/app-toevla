@@ -74,7 +74,9 @@ var infoColumns={
   tag2URI: 72,
   tag3URI: 73,
   conceptSchemeURI: 74,
-  manualHyperlink: 76
+  manualHyperlink: 76,
+  sourceType: 77,
+  property: 78
 };
 
 //utility variables
@@ -140,6 +142,11 @@ for(var rowIndex=7; rowIndex<Math.min(sheet.length, 10000); rowIndex++){
 
           order: 0
         };
+
+        if(row[infoColumns.sourceType] && row[infoColumns.property]) {
+          node.sourceType = row[infoColumns.sourceType];
+          node.property = row[infoColumns.property];
+        }
 
         // Capture multiple choice concept schemes
         // TODO: why is this embedded in some sort of column index searching mechanism?

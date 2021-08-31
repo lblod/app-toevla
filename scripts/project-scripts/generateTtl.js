@@ -128,6 +128,15 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
         .join(", ")
       + ";"}
 
+  ${e.sourceType
+      ? "toevla:sourceType "
+      + `"${e.sourceType}"`
+      + ";\n"
+      + "toevla:property "
+      + e.property
+      + ";"
+      : ""}
+
   toevla:firstLimit "${e.firstLimit}";
   toevla:firstComment "${e.firstComment}";
   toevla:firstScore "${e.firstScore}";
