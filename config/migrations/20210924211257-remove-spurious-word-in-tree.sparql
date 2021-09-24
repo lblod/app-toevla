@@ -1,0 +1,37 @@
+PREFIX toevla: <http://toevla.org/ns/generic/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+DELETE {
+  GRAPH ?g {
+    <https://data.toevla.org/id/concepts/3dfde9e0-724c-4728-8b16-ec50582038d3>
+    toevla:thirdLimit ?limit;
+    toevla:thirdComment ?comment.
+  }
+  GRAPH ?h {
+    <https://data.toevla.org/id/concepts/2d08db22-7eb5-4671-8b6d-8f9dae46cd2c>
+    skos:prefLabel ?tPrefLabel;
+    toevla:selectableLabel ?tSelectableLabel.
+  }
+} INSERT {
+  GRAPH ?g {
+    <https://data.toevla.org/id/concepts/3dfde9e0-724c-4728-8b16-ec50582038d3>
+    toevla:thirdLimit "Niet alles op gelijkvloers, wel lift";
+    toevla:thirdComment "Niet alles op gelijkvloers: lift aanwezig".
+  }
+  GRAPH ?h {
+    <https://data.toevla.org/id/concepts/2d08db22-7eb5-4671-8b6d-8f9dae46cd2c>
+    skos:prefLabel "Niet alles op gelijkvloers: lift aanwezig";
+    toevla:selectableLabel "Niet alles op gelijkvloers, wel lift".
+  }
+} WHERE {
+  GRAPH ?g {
+    <https://data.toevla.org/id/concepts/3dfde9e0-724c-4728-8b16-ec50582038d3>
+    toevla:thirdLimit ?limit;
+    toevla:thirdComment ?comment.
+  }
+  GRAPH ?h {
+    <https://data.toevla.org/id/concepts/2d08db22-7eb5-4671-8b6d-8f9dae46cd2c>
+    skos:prefLabel ?tPrefLabel;
+    toevla:selectableLabel ?tSelectableLabel.
+  }
+}
