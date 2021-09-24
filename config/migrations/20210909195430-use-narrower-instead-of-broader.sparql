@@ -1,0 +1,14 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+INSERT {
+  GRAPH ?g {
+    ?newS skos:narrowerZ ?newO.
+  }
+}
+WHERE {
+  GRAPH ?g {
+    ?s skos:broader ?o.
+    BIND( ?s AS ?newO )
+    BIND( ?o AS ?newS )
+  }
+}

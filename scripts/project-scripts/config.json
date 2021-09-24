@@ -20,7 +20,7 @@
       "documentation": {
         "command": "generate-ttl",
         "description": "Generates a ttl from an excel sheet. \nAssumes the sheet will be available at /toevla-latest.xlsx and the sheet to import is named IMPORT.\nOutput will be written to ./generated.ttl",
-        "arguments": []
+        "arguments": ["musea|reca"]
       },
       "environment": {
         "image": "semtech/mu-javascript-template",

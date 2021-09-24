@@ -4,6 +4,34 @@ const file = fs.readFileSync('./parsedTree.json');
 
 const tree = JSON.parse(file);
 
+const kind = process.argv[2];
+
+let conceptScheme;
+let conceptSchemeDeclaration;
+switch (kind) {
+  case "musea":
+    conceptScheme = "tvcs:musea";
+    conceptSchemeDeclaration = `
+      ${conceptScheme} a skos:ConceptScheme;
+        skos:prefLabel "Musea";
+        mu:uuid "eed8f203-443b-424c-afa8-0c90bab621e2".
+      `;
+  case "reca":
+    conceptScheme = "tvcs:reca";
+    conceptSchemeDeclaration = `
+      ${conceptScheme} a skos:ConceptScheme;
+        skos:prefLabel "ReCa";
+        mu:uuid "6711e9b7-3cf1-45ec-8769-621a41ef78e1".
+      `;
+}
+
+
+const museaConceptScheme = `
+${conceptScheme} a skos:ConceptScheme;
+  skos:prefLabel "Musea";
+  mu:uuid "eed8f203-443b-424c-afa8-0c90bab621e2".
+`;
+
 const prefixes = `@prefix cms: <http://mu.semte.ch/vocabulary/cms/>.
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
@@ -72,12 +100,6 @@ function simplifiedTargetAudienceURIs(node) {
   return uris;
 }
 
-const museaConceptScheme = `
-tvcs:musea a skos:ConceptScheme;
-  skos:prefLabel "Musea";
-  mu:uuid "eed8f203-443b-424c-afa8-0c90bab621e2".
-`;
-
 let treeContent = "";
 
 tree.forEach(e => {
@@ -85,7 +107,7 @@ tree.forEach(e => {
   if (e.parent == 'root') {
     // We are a top concept
     treeContent += `
-tvcs:musea skos:hasTopConcept <${e.uri}>.`;
+${conceptScheme} skos:hasTopConcept <${e.uri}>.`;
   } else {
     // lower-level concept
     treeContent += `
@@ -181,7 +203,7 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
 });
 
 const ttlOutput = `${prefixes}
-${museaConceptScheme}
+${conceptSchemeDeclaration}
 ${treeContent}`;
 
 fs.writeFileSync('/data/app/generated.ttl', ttlOutput);
