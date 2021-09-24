@@ -159,7 +159,7 @@ services:
     restart: always
     logging: *default-logging
   transfer-museum:
-    image: lblod/toevla-transfer-museum:0.8.1
+    image: lblod/toevla-transfer-museum:feature-reca
     links:
       - db:database
     environment:
