@@ -55,7 +55,7 @@ var infoColumns={
   criteriumForAutism: 11, // relevant for specific group
   relevant: 15, //relevant for parser
   relevantForScore: 16, //relevant for scoring
-  compulsoryCriteria: 17,  //compulsory for scoring
+  compulsoryCriterium: 17,  //compulsory for scoring
   displayType: 18, //how things should be displayed
   criteriaType: 19, //title or criteria
   type: 20, //type of property bool/text... etc
@@ -114,7 +114,7 @@ for(var rowIndex=7; rowIndex<Math.min(sheet.length, 10000); rowIndex++){
 
           relevant: row[infoColumns.relevant], //relevant for parser
           relevantForScore: row[infoColumns.relevantForScore], //relevant for scoring
-          compulsoryCriteria: row[infoColumns.compulsoryCriteria],  //compulsory for scoring
+          compulsoryCriterium: row[infoColumns.compulsoryCriterium],  //compulsory for scoring
           displayType: row[infoColumns.displayType], //how things should be displayed
           criteriaType: row[infoColumns.criteriaType], //title or criteria
           type: row[infoColumns.type], //type of property bool/text... etc

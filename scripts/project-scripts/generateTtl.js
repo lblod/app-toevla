@@ -102,7 +102,7 @@ tvcs:musea skos:hasTopConcept <${e.uri}>.`;
   
   toevla:relevant "${e.relevant}";
   toevla:relevantForScore "${e.relevantForScore}";
-  toevla:compulsoryCriteria "${e.compulsoryCriteria}";
+  toevla:compulsoryCriterium ${(e.compulsoryCriterium || "").trim()[0] === "V" ? "true" : "false"};
   toevla:displayType "${e.displayType}";
   toevla:criteriaType "${e.criteriaType}";
   toevla:type "${e.type}";
