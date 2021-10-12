@@ -1,0 +1,67 @@
+PREFIX cms: <http://mu.semte.ch/vocabulary/cms/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX rm: <http://mu.semte.ch/vocabularies/logical-delete/>
+PREFIX typedLiterals: <http://mu.semte.ch/vocabularies/typed-literals/>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX app: <http://mu.semte.ch/app/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX tvcs: <http://data.toevla.org/concept-schemes/>
+PREFIX toevla: <http://toevla.org/ns/generic/>
+PREFIX svg: <http://www.w3.org/2000/svg/>
+
+DELETE {
+  GRAPH ?g {
+    ?concept skos:prefLabel ?label.
+  }
+} INSERT {
+  GRAPH ?g {
+    <http://data.toevla.org/id/concepts/94e28a63-907c-47a9-ae0c-66587071e4a3>
+        skos:prefLabel "Wifi beschikbaar" .
+
+    <http://data.toevla.org/id/concepts/bec5b304-7b70-4bb4-b21b-020845704b47>
+        skos:prefLabel "Visueel stappenplan beschikbaar om bezoek voor te bereiden" .
+
+    <http://data.toevla.org/id/concepts/346548ca-683b-46e3-953e-9c7d511f012c>
+        skos:prefLabel "Rondleidingen voor verschillende doelgroepen beschikbaar" .
+
+    <http://data.toevla.org/id/concepts/768c07d7-5a43-4601-8e62-735d3eccd915>
+        skos:prefLabel "Beluisteren van tekstmateriaal is mogelijk" .
+
+    <http://data.toevla.org/id/concepts/d8687c66-9a9a-4651-a059-5f1864eadd21>
+        skos:prefLabel "Videogids aanwezig" .
+
+    <http://data.toevla.org/id/concepts/143daf91-6bd7-47a6-906b-6beaf905442d>
+        skos:prefLabel "Zintuiglijke beleving - er zijn elementen beschikbaar die zorgen voor extra beleving vb. voelen, ruiken, proeven enz." .
+
+    <http://data.toevla.org/id/concepts/0c44fe1b-d0c4-4afd-a0ed-08f310a2831b>
+        skos:prefLabel "Stilteplek(ken) - er is minstens 1 rustige plek aanwezig" .
+
+    <http://data.toevla.org/id/concepts/f772129b-0e74-405e-9b61-e46b47f0f246>
+        skos:prefLabel "Ringleiding aanwezig aan de balie" .
+
+    <http://data.toevla.org/id/concepts/ec85b042-96d2-4962-81f6-018c2919fef7>
+        skos:prefLabel "Rolstoelvriendelijke parkeerplaats aanwezig (minimum 1)" .
+
+    <http://data.toevla.org/id/concepts/16ab5cdb-e47e-41c5-8a54-52cf1efd04c5>
+        skos:prefLabel "Rolstoelvriendelijke inkom - er zijn geen drempels aanwezig of treden worden overbrugd door een hellend vlak." .
+
+    <http://data.toevla.org/id/concepts/aa39f176-db9b-44ad-be1d-71af8dda31d2>
+        skos:prefLabel "Rolstoelvriendelijke circulatie -  doorgangen zijn drempelloos en voldoende breed. Eventuele verdiepingen zijn vlot bereikbaar." .
+
+    <http://data.toevla.org/id/concepts/b0512091-37ce-47c9-bfb6-c3d34632a364>
+        skos:prefLabel "Rolstoelvriendelijk toilet - in het toilet is een ruime draaicirkel en zijn 2 steunbeugels aanwezig." .
+
+    <http://data.toevla.org/id/concepts/0b1bbaa2-3df0-4d45-820a-a28f1196c220>
+        skos:prefLabel "Rolstoelvriendelijke eet- en drinkgelegenheid met voldoende ruimte en geen drempels." .
+  }
+} WHERE {
+  GRAPH ?g {
+    tvcs:summaryIcons skos:hasTopConcept ?concept.
+    ?concept skos:prefLabel ?label.
+  }
+}
