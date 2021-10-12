@@ -507,6 +507,7 @@
   :has-one `((person :via ,(s-prefix "foaf:account")
                      :inverse t
                      :as "person"))
+  :features '(include-uri)
   :resource-base (s-url "http://data.toevla.org/accounts/")
   :on-path "accounts")
 
