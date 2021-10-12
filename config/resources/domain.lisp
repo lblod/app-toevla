@@ -70,6 +70,7 @@
 (define-resource point-of-interest (scorable)
   :class (s-url "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject")
   :properties `((:label :string ,(s-prefix "rdfs:label"))
+                (:updated-at :datetime ,(s-prefix "toevla:updatedAt"))
                 (:comment :string ,(s-prefix "toevla:comment"))
                 (:comment-on-public-transport :string ,(s-prefix "toevla:commentOnPublicTransport"))
                 (:comment-on-entrance :string ,(s-prefix "toevla:commentOnEntrance"))
