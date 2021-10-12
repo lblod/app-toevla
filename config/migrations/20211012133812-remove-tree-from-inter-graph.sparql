@@ -1,0 +1,22 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tvcs: <http://data.toevla.org/concept-schemes/>
+PREFIX toevla: <http://toevla.org/ns/generic/>
+
+DELETE {
+  GRAPH <http://data.toevla.org/inter> {
+    ?concept ?p ?o.
+  }
+} WHERE {
+  GRAPH <http://data.toevla.org/inter> {
+    {
+      tvcs:musea skos:hasTopConcept ?topLevelConcept.
+    } UNION {
+      ?something toevla:fromConceptScheme/skos:hasTopConcept ?topLevelConcept.
+    }
+
+    ?concept
+      a skos:Concept;
+      skos:broader* ?topLevelConcept.
+    ?concept ?p ?o.
+  }
+}
