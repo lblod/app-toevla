@@ -170,6 +170,8 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
+    volumes:
+      - ./config/:/usr/src/app/config/
   toevlaacmidmloginservice:
     image: lblod/toevla-acmidm-login-service:0.0.2
     links:
