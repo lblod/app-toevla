@@ -27,7 +27,7 @@ services:
     labels:
       - "logging=true"
   frontend-embed:
-    image: lblod/frontend-toevla:0.18.0
+    image: lblod/frontend-toevla:0.19.0
     links:
       - identifier:backend
     restart: always
@@ -35,7 +35,7 @@ services:
       - "logging=true"
     logging: *default-logging
   frontend-standalone:
-    image: lblod/frontend-toevla:0.18.0
+    image: lblod/frontend-toevla:0.19.0
     links:
       - identifier:backend
     labels:
@@ -43,7 +43,7 @@ services:
     restart: always
     logging: *default-logging
   frontend-entry:
-    image: lblod/frontend-toevla-data-entry:0.25.0
+    image: lblod/frontend-toevla-data-entry:0.26.0
     links:
       - identifier:backend
     labels:
@@ -159,7 +159,7 @@ services:
     restart: always
     logging: *default-logging
   transfer-museum:
-    image: lblod/toevla-transfer-museum:0.8.1
+    image: lblod/toevla-transfer-museum:0.9.1
     links:
       - db:database
     environment:
@@ -171,7 +171,7 @@ services:
     restart: always
     logging: *default-logging
     volumes:
-      - ./config/:/usr/src/app/config/
+      - "./config/transfer-museum/:/usr/src/app/config/"
   toevlaacmidmloginservice:
     image: lblod/toevla-acmidm-login-service:0.0.2
     links:
