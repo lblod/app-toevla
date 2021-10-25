@@ -17,6 +17,7 @@ services:
     restart: always
     labels:
       - "logging=true"
+    logging: *default-logging
   file:
     image: semtech/mu-file-service:3.1.0
     links:
@@ -26,6 +27,7 @@ services:
     restart: always
     labels:
       - "logging=true"
+    logging: *default-logging
   frontend-embed:
     image: lblod/frontend-toevla:0.19.0
     links:
@@ -71,6 +73,7 @@ services:
     restart: always
     labels:
       - "logging=true"
+    logging: *default-logging
   dispatcher:
     image: semtech/mu-dispatcher
     links:
@@ -132,6 +135,7 @@ services:
     restart: always
     labels:
       - "logging=true"
+    logging: *default-logging
   resource:
     image: semtech/mu-cl-resources
     links:
@@ -143,20 +147,22 @@ services:
     restart: always
     labels:
       - "logging=true"
-    restart: always
     logging: *default-logging
   project-scripts:
     image: semtech/mu-scripts:1.0.0
     volumes:
       - ./scripts/project-scripts/:/app/scripts/
     restart: "no"
+    labels:
+      - "logging=true"
+    logging: *default-logging
   switchrole:
     image: lblod/toevla-switch-role:0.0.3
     links:
       - db:database
+    restart: always
     labels:
       - "logging=true"
-    restart: always
     logging: *default-logging
   transfer-museum:
     image: lblod/toevla-transfer-museum:0.9.1
@@ -166,12 +172,12 @@ services:
       LOG_SPARQL_ALL: "false"
       LOG_SPARQL_UPDATES: "true"
       DEBUG_AUTH_HEADERS: "false"
-    labels:
-      - "logging=true"
     restart: always
-    logging: *default-logging
     volumes:
       - "./config/transfer-museum/:/usr/src/app/config/"
+    labels:
+      - "logging=true"
+    logging: *default-logging
   toevlaacmidmloginservice:
     image: lblod/toevla-acmidm-login-service:0.0.2
     links:
@@ -184,6 +190,9 @@ services:
       MU_APPLICATION_RESOURCE_BASE_URI: "http://data.toegankelijk.vlaanderen.be/"
       REQUEST_TIMEOUT: 5000
     restart: 'no'
+    labels:
+      - "logging=true"
+    logging: *default-logging
   deliver-email:
     image: redpencil/deliver-email-service:0.2.0
     environment:
@@ -191,13 +200,15 @@ services:
       EMAIL_CRON_PATTERN: "* * * * *"
     links:
       - db:database
+    restart: always
     labels:
       - "logging=true"
-    restart: always
     logging: *default-logging
   email-login:
     image: lblod/toevla-email-login:0.1.1
     links:
       - db:database
     restart: always
+    labels:
+      - "logging=true"
     logging: *default-logging
