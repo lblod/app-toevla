@@ -53,7 +53,7 @@ services:
     restart: always
     logging: *default-logging
   identifier:
-    image: semtech/mu-identifier:1.9.1
+    image: semtech/mu-identifier:feature-override-vary-header
     links:
       - dispatcher:dispatcher
     labels:
@@ -64,6 +64,7 @@ services:
       DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
       DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"shared\"},{\"variables\":[],\"name\":\"public\"},{\"variables\":[],\"name\":\"clean\"}]"
       SESSION_COOKIE_SECURE: "on"
+      OVERRIDE_VARY_HEADER: "accept, cookie"
   migrations:
     image: semtech/mu-migrations-service:0.7.0
     links:
@@ -75,7 +76,7 @@ services:
       - "logging=true"
     logging: *default-logging
   dispatcher:
-    image: semtech/mu-dispatcher
+    image: semtech/mu-dispatcher:2.1.0-beta.2
     links:
       - resource:resource
     volumes:
