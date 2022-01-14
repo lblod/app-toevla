@@ -1,0 +1,22 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tvcs: <http://data.toevla.org/concept-schemes/>
+PREFIX toevla: <http://toevla.org/ns/generic/>
+
+DELETE {
+  GRAPH ?g {
+    ?tns toevla:score ?score.
+  }
+} WHERE {
+  GRAPH <http://mu.semte.ch/graphs/shared> {
+    tvcs:musea skos:hasTopConcept/^skos:broader* ?concept.
+    FILTER NOT EXISTS {
+      ?otherConcept skos:broader ?concept.
+    }
+    ?concept skos:prefLabel ?label.
+  }
+  GRAPH ?g {
+    ?tns a toevla:TreeNodeScore;
+         toevla:scoreTopic ?concept;
+         toevla:score ?score.
+  }
+}
