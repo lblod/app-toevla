@@ -166,7 +166,7 @@ services:
       - "logging=true"
     logging: *default-logging
   transfer-museum:
-    image: lblod/toevla-transfer-museum:0.9.1
+    image: lblod/toevla-transfer-museum:0.10.0
     links:
       - db:database
     environment:
