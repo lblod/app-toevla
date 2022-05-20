@@ -29,7 +29,7 @@ services:
       - "logging=true"
     logging: *default-logging
   frontend-embed:
-    image: lblod/frontend-toevla:0.26.0
+    image: lblod/frontend-toevla:0.26.1
     links:
       - identifier:backend
     restart: always
@@ -37,7 +37,7 @@ services:
       - "logging=true"
     logging: *default-logging
   frontend-standalone:
-    image: lblod/frontend-toevla:0.26.0
+    image: lblod/frontend-toevla:0.26.1
     links:
       - identifier:backend
     labels:
