@@ -137,7 +137,7 @@ services:
       - "logging=true"
     logging: *default-logging
   resource:
-    image: semtech/mu-cl-resources
+    image: semtech/mu-cl-resources:1.21.1
     links:
       - db:database
     environment:
