@@ -30,8 +30,7 @@ defmodule Acl.UserGroups.Config do
     "http://toevla.org/ns/generic/TramStop",
     "http://toevla.org/ns/generic/Restaurant",
     "http://toevla.org/ns/generic/Shop",
-    "http://toevla.org/ns/generic/Widget",
-    "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
+    "http://toevla.org/ns/generic/Widget"
   ]
 
   @museum_types [
@@ -72,6 +71,10 @@ defmodule Acl.UserGroups.Config do
   @shared_readonly [
     "http://www.w3.org/2004/02/skos/core#ConceptScheme",
     "http://www.w3.org/2004/02/skos/core#Concept"
+  ]
+
+  @file_types [
+    "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
   ]
 
   def user_groups do
@@ -168,7 +171,7 @@ defmodule Acl.UserGroups.Config do
       # OLD PUBLIC
       %GroupSpec{
         name: "public",
-        useage: [:read, :write, :read_for_write],
+        useage: [:read],
         access: %AccessByQuery{
           query: "PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
                   PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
@@ -186,6 +189,31 @@ defmodule Acl.UserGroups.Config do
             graph: "http://mu.semte.ch/graphs/public",
             constraint: %ResourceConstraint{
               resource_types: @known_resource_types
+            }
+          }
+        ]
+      },
+
+      %GroupSpec{
+        name: "thumbnails",
+        useage: [:read, :write, :read_for_write],
+        access: %AccessByQuery{
+          query: "PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+                  PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+                  PREFIX musession: <http://mu.semte.ch/vocabularies/session/>
+                  SELECT ?s WHERE {
+                    ?s ?p ?o.
+                    FILTER NOT EXISTS {
+                      <SESSION_ID> ext:hasAccount ?account.
+                    }
+                  } LIMIT 1",
+          vars: []
+        },
+        graphs: [
+          %GraphSpec{
+            graph: "http://mu.semte.ch/graphs/public",
+            constraint: %ResourceConstraint{
+              resource_types: @file_types
             }
           }
         ]

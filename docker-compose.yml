@@ -62,7 +62,7 @@ services:
     logging: *default-logging
     environment:
       DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
-      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"shared\"},{\"variables\":[],\"name\":\"public\"},{\"variables\":[],\"name\":\"clean\"}]"
+      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"shared\"},{\"variables\":[],\"name\":\"public\"},{\"variables\":[],\"name\":\"thumbnails\"},{\"variables\":[],\"name\":\"clean\"}]"
       SESSION_COOKIE_SECURE: "on"
       OVERRIDE_VARY_HEADER: "accept, cookie"
   migrations:
