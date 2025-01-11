@@ -8,7 +8,7 @@ defmodule Dispatcher do
     any: [ "*/*" ]
   ]
 
-  define_layers [ :cors, :widget_embedding, :static_with_host, :static, :api, :frontend_fallback_with_host, :frontend_fallback, :not_found ]
+  define_layers [ :cors, :widget_embedding, :static, :api, :frontend_fallback_with_host, :frontend_fallback, :not_found ]
 
   @json_service %{ accept: [:json], layer: :api }
   @image %{ accept: [:image] }
