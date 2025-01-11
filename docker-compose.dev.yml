@@ -9,10 +9,6 @@ services:
     restart: "no"
     labels:
       - "logging=true"
-  resource:
-    restart: "no"
-    labels:
-      - "logging=true"
   identifier:
     restart: "no"
     ports:
