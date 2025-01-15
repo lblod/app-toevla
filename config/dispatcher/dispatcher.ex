@@ -72,6 +72,10 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://frontend-entry/assets/"
   end
 
+  match "/resources/*path", %{ layer: :static } do
+    Proxy.forward conn, path, "http://frontend-entry/resources/"
+  end
+
   match "/@appuniversum/*path", %{ layer: :static } do
     Proxy.forward conn, path, "http://frontend-entry/@appuniversum/"
   end
